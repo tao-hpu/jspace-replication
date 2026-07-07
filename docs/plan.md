@@ -17,7 +17,11 @@ hosts 35+ fitted lenses (MIT), including `gpt2-small`, `qwen3-1.7b`,
 needed for non-standard weights (e.g. a self-trained GPT-2). Neuronpedia also
 runs an interactive J-lens playground with live swap/steer on Qwen3.6-27B and
 Gemma-3-12B (https://www.neuronpedia.org/jlens) — useful for quick qualitative
-checks on models too large to run locally.
+checks on models too large to run locally. The playground is driven by an
+undocumented endpoint `POST /api/lens/prompt` (NDJSON stream; standard
+`x-api-key` auth) that accepts chat messages plus an optional steer/swap config
+and returns per-position, per-layer top-k lens readouts alongside the
+completion — verified working 2026-07-07 (see replication log).
 
 ## Milestones
 

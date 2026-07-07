@@ -15,6 +15,23 @@ Template:
 
 ---
 
+## 2026-07-07 API access verified: remote swap intervention works (mini-E1)
+
+- Captured the playground's request schema (`POST
+  https://www.neuronpedia.org/api/lens/prompt`, `x-api-key` auth, NDJSON
+  stream). Body: `modelId`, `chat[]`, `type: ["JACOBIAN_LENS"|"LOGIT_LENS"]`,
+  `topN`, `steerTokens`/`swapToken`/`steerLayers`/`steerStrength`. Response
+  streams per-token lines with per-layer `top_tokens` readouts plus the
+  completion.
+- Mini fact-editing test on Qwen3.6-27B (temperature 0, layers 18–63):
+  - Baseline "What is the capital of France? Answer in one word." → **Paris**
+  - Same prompt with J-space swap ` France`→` China` → **Beijing**
+  - A clean remote causal intervention in ~4 s; large-model qualitative arm of
+    E1 can run entirely over this API.
+- Incidental C5 evidence: on function tokens (e.g. `</think>`) the early-layer
+  readout is vocabulary junk (incl. NSFW web tokens) — a vivid example of the
+  lens producing uninterpretable readouts outside the workspace band.
+
 ## 2026-07-07 Recon: pre-fitted lenses exist; hands-on session on Neuronpedia
 
 - Found `huggingface.co/neuronpedia/jacobian-lens` (MIT): 35+ pre-fitted
