@@ -15,6 +15,40 @@ Template:
 
 ---
 
+## 2026-07-07 E1 first pass (Qwen3-1.7B): fact-editing replicates strongly for associative facts, fails completely for computed ones
+
+- Config: Qwen3-1.7B (bf16, MPS), pre-fitted wikitext lens, band = layers
+  8–26 (28%→end, matching the Neuronpedia demo fraction on 27B). Swap
+  implemented in `src/interventions.py` (upstream ships no intervention code):
+  direction = normalize(J_l^T @ W_U[token]), coordinate transfer
+  h' = h − (h·dA)dA + (h·dA)dB at all prompt positions; hooks active for the
+  prompt forward only, continuation greedy-decoded from the swapped KV cache.
+- Grading: official next-token grading is too brittle at 1.7B (numeric answers
+  arrive after a filler token), so grading is greedy 6-token continuation,
+  prefix-match after stripping punctuation. Strict next-token result kept in
+  the records. Baseline 24/64 overall (the base model is simply weak on many
+  of these completions); headline numbers below are on baseline-correct pairs.
+- Results (192 ordered swap trials; n = baseline-correct pairs):
+
+  | category | swap→new answer | stayed at old | n |
+  |---|---|---|---|
+  | countries | **87.5%** | 4.2% | 24 |
+  | months | 66.7% | 16.7% | 6 |
+  | animals | 25.0% | 0% | 8 |
+  | numbers (double/square) | **0%** | **100%** | 12 |
+
+- Verdict: C1 **replicated** for associative facts at 1.7B — France→China
+  flips capital/language/continent/currency answers with our own independent
+  swap implementation. The clean split is the interesting part: swapping the
+  input representation propagates through associative lookup but not through
+  computed functions (double/square), where the output sticks to the original
+  argument 100% of the time.
+- Agreement with the external review: convergent — Nanda failed to replicate
+  the mental-arithmetic experiments; here the same boundary shows up inside a
+  single experiment as an associative-vs-computed split.
+- Next: repeat on Qwen3-4B (stronger baseline should widen n), band-range
+  sweep, and a bilingual probe rider (candidate-3 scouting).
+
 ## 2026-07-07 E0 complete: the gpt2 anomaly is checkpoint-specific, not scale- or lens-specific
 
 - What was run: completed the 2×2 control. (a) Converted the self-trained

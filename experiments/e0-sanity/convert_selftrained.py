@@ -12,15 +12,22 @@ and a short greedy sample.
 
 from __future__ import annotations
 
+import os
 import pathlib
 
 import torch
 import transformers
 
+_ROOT = pathlib.Path(__file__).resolve().parents[2]
+# The self-trained checkpoint lives in the sibling llm-from-scratch repo;
+# override with SELFTRAINED_CKPT if your layout differs.
 CKPT = pathlib.Path(
-    "/Users/TaoTao/Desktop/Learn/硕士阶段/llm-from-scratch/phase1-124m/ckpt10b/latest.pt"
+    os.environ.get(
+        "SELFTRAINED_CKPT",
+        _ROOT.parent / "llm-from-scratch" / "phase1-124m" / "ckpt10b" / "latest.pt",
+    )
 )
-OUT = pathlib.Path(__file__).resolve().parents[2] / "out" / "selftrained-124m-hf"
+OUT = _ROOT / "out" / "selftrained-124m-hf"
 
 TRANSPOSE_SUFFIXES = (
     "attn.c_attn.weight",
