@@ -1,0 +1,430 @@
+{
+  "model": "gpt2",
+  "device": "mps",
+  "lens_file": "gpt2-small/jlens/Salesforce-wikitext/gpt2_jacobian_lens.pt",
+  "probes": [
+    {
+      "name": "eiffel-paris",
+      "prompt": "The Eiffel Tower is located in the city of",
+      "target": " Paris",
+      "why": "direct fact completion; target should appear early and strengthen",
+      "model_output_rank": 2,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 29227,
+          "logit_rank": 6987,
+          "j_top5": [
+            "ModLoader",
+            " enthusi",
+            "senal",
+            " tremend",
+            " encount"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 19994,
+          "logit_rank": 5486,
+          "j_top5": [
+            "ModLoader",
+            " enthusi",
+            " tremend",
+            " mathemat",
+            " ingred"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 23262,
+          "logit_rank": 2599,
+          "j_top5": [
+            "ModLoader",
+            " tremend",
+            " enthusi",
+            " mathemat",
+            " mosqu"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 11518,
+          "logit_rank": 1068,
+          "j_top5": [
+            " tremend",
+            "ModLoader",
+            " castles",
+            " thous",
+            " neighb"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 8740,
+          "logit_rank": 559,
+          "j_top5": [
+            " castles",
+            " mosqu",
+            " tremend",
+            "ModLoader",
+            " thous"
+          ]
+        },
+        {
+          "layer": 5,
+          "j_rank": 14763,
+          "logit_rank": 299,
+          "j_top5": [
+            " castles",
+            " laun",
+            " towns",
+            " civilization",
+            " neighb"
+          ]
+        },
+        {
+          "layer": 6,
+          "j_rank": 1710,
+          "logit_rank": 173,
+          "j_top5": [
+            "ModLoader",
+            " Gron",
+            " Bohem",
+            " Tulsa",
+            " Constantinople"
+          ]
+        },
+        {
+          "layer": 7,
+          "j_rank": 1042,
+          "logit_rank": 109,
+          "j_top5": [
+            " Constantinople",
+            " Gron",
+            " Buenos",
+            " Herz",
+            " Perth"
+          ]
+        },
+        {
+          "layer": 8,
+          "j_rank": 232,
+          "logit_rank": 11,
+          "j_top5": [
+            " Constantinople",
+            " Zurich",
+            " Cologne",
+            " Buenos",
+            " Calais"
+          ]
+        },
+        {
+          "layer": 9,
+          "j_rank": 38,
+          "logit_rank": 3,
+          "j_top5": [
+            " Cologne",
+            " Zurich",
+            " Amsterdam",
+            " Hamburg",
+            " Naples"
+          ]
+        },
+        {
+          "layer": 10,
+          "j_rank": 18,
+          "logit_rank": 2,
+          "j_top5": [
+            " Cologne",
+            " Amsterdam",
+            " Hamburg",
+            " Zurich",
+            " Istanbul"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "boot-italy",
+      "prompt": "Fact: The currency used in the country shaped like a boot is",
+      "target": " Italy",
+      "why": "latent intermediate: 'Italy' never appears in the prompt (upstream README example)",
+      "model_output_rank": 2108,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 17610,
+          "logit_rank": 25034,
+          "j_top5": [
+            "ModLoader",
+            "RIP",
+            " ingred",
+            " RIP",
+            "ahime"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 18529,
+          "logit_rank": 21636,
+          "j_top5": [
+            "ModLoader",
+            " mathemat",
+            " ingred",
+            " enthusi",
+            "senal"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 25466,
+          "logit_rank": 15184,
+          "j_top5": [
+            " ingred",
+            "ModLoader",
+            "senal",
+            " destro",
+            " mathemat"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 34045,
+          "logit_rank": 10699,
+          "j_top5": [
+            " ingred",
+            " doesnt",
+            "ModLoader",
+            " destro",
+            " confir"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 33545,
+          "logit_rank": 8630,
+          "j_top5": [
+            " ingred",
+            " doesnt",
+            " confir",
+            " spons",
+            " arrang"
+          ]
+        },
+        {
+          "layer": 5,
+          "j_rank": 40379,
+          "logit_rank": 7346,
+          "j_top5": [
+            " ingred",
+            " weap",
+            " scissors",
+            " doesnt",
+            " jars"
+          ]
+        },
+        {
+          "layer": 6,
+          "j_rank": 39481,
+          "logit_rank": 5949,
+          "j_top5": [
+            "senal",
+            "76561",
+            " ingred",
+            " doesnt",
+            "ngth"
+          ]
+        },
+        {
+          "layer": 7,
+          "j_rank": 24359,
+          "logit_rank": 3183,
+          "j_top5": [
+            "senal",
+            "76561",
+            " platinum",
+            " called",
+            " patented"
+          ]
+        },
+        {
+          "layer": 8,
+          "j_rank": 11629,
+          "logit_rank": 1645,
+          "j_top5": [
+            "senal",
+            "\ufffd\ufffd\u6975",
+            " platinum",
+            " slang",
+            "abwe"
+          ]
+        },
+        {
+          "layer": 9,
+          "j_rank": 5393,
+          "logit_rank": 1278,
+          "j_top5": [
+            " Bitcoins",
+            " currency",
+            "Coin",
+            " Currency",
+            " currencies"
+          ]
+        },
+        {
+          "layer": 10,
+          "j_rank": 2241,
+          "logit_rank": 2003,
+          "j_top5": [
+            " currency",
+            " Yen",
+            " Bitcoins",
+            " USD",
+            " pes"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ioi-mary",
+      "prompt": "When Mary and John went to the store, John gave a drink to",
+      "target": " Mary",
+      "why": "indirect-object identification; GPT-2 small is known to resolve this",
+      "model_output_rank": 1,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 9268,
+          "logit_rank": 5565,
+          "j_top5": [
+            "ModLoader",
+            " enthusi",
+            "WAYS",
+            " FANT",
+            " nomine"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 13358,
+          "logit_rank": 4515,
+          "j_top5": [
+            " enthusi",
+            "ModLoader",
+            " ingred",
+            " tremend",
+            " misunder"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 9388,
+          "logit_rank": 2247,
+          "j_top5": [
+            "ModLoader",
+            " lapt",
+            " tremend",
+            " occas",
+            " enthusi"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 6075,
+          "logit_rank": 1811,
+          "j_top5": [
+            " ponies",
+            " colours",
+            " nomine",
+            " ingred",
+            " roses"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 15658,
+          "logit_rank": 2540,
+          "j_top5": [
+            " pouch",
+            " roses",
+            " bottled",
+            " potion",
+            " cig"
+          ]
+        },
+        {
+          "layer": 5,
+          "j_rank": 7747,
+          "logit_rank": 1537,
+          "j_top5": [
+            " enthusi",
+            " supper",
+            " drink",
+            " ingred",
+            " cig"
+          ]
+        },
+        {
+          "layer": 6,
+          "j_rank": 3162,
+          "logit_rank": 1566,
+          "j_top5": [
+            " thanking",
+            " drink",
+            " supper",
+            " drinks",
+            " enthusi"
+          ]
+        },
+        {
+          "layer": 7,
+          "j_rank": 1164,
+          "logit_rank": 277,
+          "j_top5": [
+            " waitress",
+            " Percy",
+            " Sylvia",
+            " waiter",
+            " everybody"
+          ]
+        },
+        {
+          "layer": 8,
+          "j_rank": 139,
+          "logit_rank": 23,
+          "j_top5": [
+            " waitress",
+            " Sylvia",
+            " supper",
+            " waiter",
+            " Percy"
+          ]
+        },
+        {
+          "layer": 9,
+          "j_rank": 1,
+          "logit_rank": 1,
+          "j_top5": [
+            " Mary",
+            "Mary",
+            " Molly",
+            " Martha",
+            " Percy"
+          ]
+        },
+        {
+          "layer": 10,
+          "j_rank": 1,
+          "logit_rank": 1,
+          "j_top5": [
+            " Mary",
+            " them",
+            " Martha",
+            " John",
+            " Jesus"
+          ]
+        }
+      ]
+    }
+  ]
+}

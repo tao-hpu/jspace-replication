@@ -15,6 +15,37 @@ Template:
 
 ---
 
+## 2026-07-07 E0 pipeline works on MPS; J-lens vs logit lens diverges between the two smallest models
+
+- Model / lens config: GPT-2 124M (`gpt2`) and Pythia-70m-deduped, each with its
+  pre-fitted wikitext lens from `neuronpedia/jacobian-lens` (gpt2 lens:
+  layers 0–10, 277 fit prompts). Device: MPS; apply() runs in seconds.
+- What was run: `experiments/e0-sanity/run_e0.py` — 3 probes (eiffel-paris,
+  boot-italy, ioi-mary), target-token rank per layer under J-lens vs logit
+  lens at the final position. Results in `results/e0_gpt2.json`,
+  `results/e0_pythia70m.json`.
+- Results:
+  - **gpt2-small: J-lens does NOT beat the logit lens on target rank at any
+    layer for any probe** (e.g. eiffel-paris L8: J-rank 232 vs logit 11).
+    J-lens late-layer top-5 shows the right semantic *category* (a city
+    cluster: Cologne/Amsterdam/Hamburg) without ranking the target better.
+    Early-layer J readouts are dominated by GPT-2's known glitch tokens
+    (`ModLoader`, ` enthusi`, …).
+  - **pythia-70m: the J-lens advantage is clear.** eiffel-paris from L2 on
+    (J 128 vs logit 3745; L3 J 25 vs 327); ioi-mary hits rank 1 at L3 under
+    the J-lens while the logit lens is at 313, with a coherent drink-scene
+    cluster (laughter/liquor/milk/whiskey) at L2.
+  - boot-italy: both models fail the task itself (output rank 2108 / 1021) —
+    too small for the latent-Italy inference; probe kept for larger models.
+- Verdict: pipeline sanity **passed**; the paper's "J-lens recovers content
+  where the logit lens cannot" claim is **partially replicated** at tiny
+  scale — present on pythia-70m, absent/inverted on gpt2-small over these
+  3 probes.
+- Agreement with the external review: n/a (review did not test tiny models).
+- Next: more probes + a proper aggregate metric before reading anything into
+  the gpt2/pythia divergence; fit a lens on the self-trained 124M; then E1 on
+  qwen3-1.7b.
+
 ## 2026-07-07 API access verified: remote swap intervention works (mini-E1)
 
 - Captured the playground's request schema (`POST

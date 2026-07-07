@@ -1,0 +1,214 @@
+{
+  "model": "EleutherAI/pythia-70m-deduped",
+  "device": "mps",
+  "lens_file": "pythia-70m-deduped/jlens/Salesforce-wikitext/pythia-70m-deduped_jacobian_lens.pt",
+  "probes": [
+    {
+      "name": "eiffel-paris",
+      "prompt": "The Eiffel Tower is located in the city of",
+      "target": " Paris",
+      "why": "direct fact completion; target should appear early and strengthen",
+      "model_output_rank": 2,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 11536,
+          "logit_rank": 1445,
+          "j_top5": [
+            ".\u201d",
+            "\u201d.",
+            "\u2026\u201d",
+            "\u201d).",
+            ",\u201d"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 7705,
+          "logit_rank": 649,
+          "j_top5": [
+            "\u2026\u201d",
+            ".\u201d",
+            "\u201d.",
+            " \u2026",
+            "!\u201d"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 128,
+          "logit_rank": 3745,
+          "j_top5": [
+            "\u2026\u201d",
+            "\u2026",
+            " city",
+            "ropolis",
+            " ,"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 25,
+          "logit_rank": 327,
+          "j_top5": [
+            " Budapest",
+            " Istanbul",
+            " Venice",
+            " Prague",
+            "ships"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 13,
+          "logit_rank": 36,
+          "j_top5": [
+            " Alexandria",
+            " Hamburg",
+            " Athens",
+            " Hyde",
+            " Berlin"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "boot-italy",
+      "prompt": "Fact: The currency used in the country shaped like a boot is",
+      "target": " Italy",
+      "why": "latent intermediate: 'Italy' never appears in the prompt (upstream README example)",
+      "model_output_rank": 1021,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 30031,
+          "logit_rank": 17804,
+          "j_top5": [
+            " is",
+            "\u2026\u201d",
+            "?\u201d",
+            " comes",
+            " does"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 41497,
+          "logit_rank": 25033,
+          "j_top5": [
+            "?\u201d",
+            "rangle",
+            " comes",
+            " ??",
+            "??"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 20296,
+          "logit_rank": 7675,
+          "j_top5": [
+            " patented",
+            " Coin",
+            "?",
+            "yc",
+            " cryptocurrency"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 16696,
+          "logit_rank": 20194,
+          "j_top5": [
+            "oelectric",
+            "ometric",
+            "ufact",
+            " coins",
+            " cheaper"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 7616,
+          "logit_rank": 29435,
+          "j_top5": [
+            "ometric",
+            " called",
+            " cheaper",
+            "oelectric",
+            " used"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ioi-mary",
+      "prompt": "When Mary and John went to the store, John gave a drink to",
+      "target": " Mary",
+      "why": "indirect-object identification; GPT-2 small is known to resolve this",
+      "model_output_rank": 1,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 40568,
+          "logit_rank": 298,
+          "j_top5": [
+            " means",
+            " comes",
+            " purposes",
+            " day",
+            " came"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 19141,
+          "logit_rank": 830,
+          "j_top5": [
+            "\u2026\u201d",
+            " sinks",
+            " being",
+            "gie",
+            " buff"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 107,
+          "logit_rank": 3108,
+          "j_top5": [
+            " laughter",
+            " liquor",
+            " milk",
+            " whiskey",
+            " drink"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 1,
+          "logit_rank": 313,
+          "j_top5": [
+            " Mary",
+            " boys",
+            " dinner",
+            " girls",
+            " girl"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 1,
+          "logit_rank": 2,
+          "j_top5": [
+            " Mary",
+            " Martha",
+            " Mrs",
+            " John",
+            "Mary"
+          ]
+        }
+      ]
+    }
+  ]
+}
