@@ -1,6 +1,8 @@
 # local-only working notes (non-public)
 CLAUDE.md
 docs/_*
+experiments/_*
+results/_*
 _RESUME.md
 .env
 
