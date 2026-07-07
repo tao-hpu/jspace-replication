@@ -1,0 +1,19 @@
+# local-only working notes (non-public)
+CLAUDE.md
+docs/_internal*
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# upstream reference repo lives as a shallow clone, not committed
+# (pinned commit recorded in third_party/PINNED_COMMIT.txt)
+third_party/jacobian-lens/
+
+# large artifacts: lens weights, model caches
+*.pt
+*.safetensors
+out/
+results/**/*.json.gz
