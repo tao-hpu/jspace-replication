@@ -1,0 +1,9976 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "sets": {
+    "multihop": {
+      "summary": {
+        "n": 93,
+        "j": {
+          "1": 0.11827956989247312,
+          "5": 0.3387096774193548,
+          "10": 0.41397849462365593
+        },
+        "j_ctrl": {
+          "1": 0.030465949820788527,
+          "5": 0.06810035842293906,
+          "10": 0.09498207885304658
+        },
+        "logit": {
+          "1": 0.1774193548387097,
+          "5": 0.3548387096774194,
+          "10": 0.40860215053763443
+        },
+        "logit_ctrl": {
+          "1": 0.07347670250896057,
+          "5": 0.10035842293906809,
+          "10": 0.1111111111111111
+        }
+      },
+      "records": [
+        {
+          "name": "carnival-ocean",
+          "j_ranks": [
+            153
+          ],
+          "j_ctrl_ranks": [
+            507
+          ],
+          "l_ranks": [
+            205
+          ],
+          "l_ctrl_ranks": [
+            1873
+          ]
+        },
+        {
+          "name": "amazon-language",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            969
+          ],
+          "l_ranks": [
+            9
+          ],
+          "l_ctrl_ranks": [
+            14418
+          ]
+        },
+        {
+          "name": "mars-color",
+          "j_ranks": [
+            8
+          ],
+          "j_ctrl_ranks": [
+            13
+          ],
+          "l_ranks": [
+            4
+          ],
+          "l_ctrl_ranks": [
+            13
+          ]
+        },
+        {
+          "name": "spider-legs",
+          "j_ranks": [
+            4
+          ],
+          "j_ctrl_ranks": [
+            340
+          ],
+          "l_ranks": [
+            143
+          ],
+          "l_ctrl_ranks": [
+            6092
+          ]
+        },
+        {
+          "name": "basketball-players",
+          "j_ranks": [
+            54
+          ],
+          "j_ctrl_ranks": [
+            1133
+          ],
+          "l_ranks": [
+            254
+          ],
+          "l_ctrl_ranks": [
+            28483
+          ]
+        },
+        {
+          "name": "paper-continent",
+          "j_ranks": [
+            16
+          ],
+          "j_ctrl_ranks": [
+            2165
+          ],
+          "l_ranks": [
+            7
+          ],
+          "l_ctrl_ranks": [
+            8295
+          ]
+        },
+        {
+          "name": "christmas-season",
+          "j_ranks": [
+            29
+          ],
+          "j_ctrl_ranks": [
+            942
+          ],
+          "l_ranks": [
+            37
+          ],
+          "l_ctrl_ranks": [
+            37554
+          ]
+        },
+        {
+          "name": "osu-rival-mascot",
+          "j_ranks": [
+            51
+          ],
+          "j_ctrl_ranks": [
+            6605
+          ],
+          "l_ranks": [
+            60
+          ],
+          "l_ctrl_ranks": [
+            12119
+          ]
+        },
+        {
+          "name": "topeka-west",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            4116
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            5328
+          ]
+        },
+        {
+          "name": "atomic-79-symbol",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            30215
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            27773
+          ]
+        },
+        {
+          "name": "atomic-26-symbol",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            2965
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            6939
+          ]
+        },
+        {
+          "name": "atomic-29-symbol",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            265
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            29
+          ]
+        },
+        {
+          "name": "atomic-80-state",
+          "j_ranks": [
+            20
+          ],
+          "j_ctrl_ranks": [
+            6946
+          ],
+          "l_ranks": [
+            29
+          ],
+          "l_ctrl_ranks": [
+            14643
+          ]
+        },
+        {
+          "name": "atomic-29-flame",
+          "j_ranks": [
+            10
+          ],
+          "j_ctrl_ranks": [
+            733
+          ],
+          "l_ranks": [
+            26
+          ],
+          "l_ctrl_ranks": [
+            1662
+          ]
+        },
+        {
+          "name": "planet-3-moons",
+          "j_ranks": [
+            38
+          ],
+          "j_ctrl_ranks": [
+            748
+          ],
+          "l_ranks": [
+            169
+          ],
+          "l_ctrl_ranks": [
+            901
+          ]
+        },
+        {
+          "name": "month-3-godof",
+          "j_ranks": [
+            541
+          ],
+          "j_ctrl_ranks": [
+            465
+          ],
+          "l_ranks": [
+            62
+          ],
+          "l_ctrl_ranks": [
+            276
+          ]
+        },
+        {
+          "name": "spaceneedle-border",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            892
+          ],
+          "l_ranks": [
+            8
+          ],
+          "l_ctrl_ranks": [
+            2564
+          ]
+        },
+        {
+          "name": "rhyme-rain-neighbor",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            20086
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            10156
+          ]
+        },
+        {
+          "name": "rhyme-door-doubled",
+          "j_ranks": [
+            15
+          ],
+          "j_ctrl_ranks": [
+            1604
+          ],
+          "l_ranks": [
+            14
+          ],
+          "l_ctrl_ranks": [
+            638
+          ]
+        },
+        {
+          "name": "rhyme-chair-flag",
+          "j_ranks": [
+            1442
+          ],
+          "j_ctrl_ranks": [
+            8771
+          ],
+          "l_ranks": [
+            218
+          ],
+          "l_ctrl_ranks": [
+            900
+          ]
+        },
+        {
+          "name": "rhyme-spoon-orbit",
+          "j_ranks": [
+            36
+          ],
+          "j_ctrl_ranks": [
+            16776
+          ],
+          "l_ranks": [
+            15
+          ],
+          "l_ctrl_ranks": [
+            23003
+          ]
+        },
+        {
+          "name": "etym-wargod-month",
+          "j_ranks": [
+            222
+          ],
+          "j_ctrl_ranks": [
+            14535
+          ],
+          "l_ranks": [
+            109
+          ],
+          "l_ctrl_ranks": [
+            910
+          ]
+        },
+        {
+          "name": "etym-frigg-position",
+          "j_ranks": [
+            333
+          ],
+          "j_ctrl_ranks": [
+            21093
+          ],
+          "l_ranks": [
+            776
+          ],
+          "l_ctrl_ranks": [
+            7824
+          ]
+        },
+        {
+          "name": "etym-saturn-position",
+          "j_ranks": [
+            199
+          ],
+          "j_ctrl_ranks": [
+            12550
+          ],
+          "l_ranks": [
+            57
+          ],
+          "l_ctrl_ranks": [
+            3618
+          ]
+        },
+        {
+          "name": "chem-photosynthesis-Z",
+          "j_ranks": [
+            72
+          ],
+          "j_ctrl_ranks": [
+            5209
+          ],
+          "l_ranks": [
+            191
+          ],
+          "l_ctrl_ranks": [
+            18733
+          ]
+        },
+        {
+          "name": "chem-atmosphere-Z",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            0,
+            204,
+            416
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            0,
+            187,
+            338
+          ]
+        },
+        {
+          "name": "chem-organic-Z",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            1,
+            217
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            1,
+            96
+          ]
+        },
+        {
+          "name": "chem-bones-Z",
+          "j_ranks": [
+            3
+          ],
+          "j_ctrl_ranks": [
+            0,
+            157
+          ],
+          "l_ranks": [
+            37
+          ],
+          "l_ctrl_ranks": [
+            0,
+            27
+          ]
+        },
+        {
+          "name": "func-pumps-chambers",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            1,
+            11
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            1,
+            5
+          ]
+        },
+        {
+          "name": "func-filters-count",
+          "j_ranks": [
+            1569
+          ],
+          "j_ctrl_ranks": [
+            4,
+            8
+          ],
+          "l_ranks": [
+            12
+          ],
+          "l_ctrl_ranks": [
+            2,
+            8
+          ]
+        },
+        {
+          "name": "birthstone-emerald-month",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            2
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            0
+          ]
+        },
+        {
+          "name": "violin-strings",
+          "j_ranks": [
+            716
+          ],
+          "j_ctrl_ranks": [
+            23
+          ],
+          "l_ranks": [
+            1242
+          ],
+          "l_ctrl_ranks": [
+            4
+          ]
+        },
+        {
+          "name": "nhop-primary-planet",
+          "j_ranks": [
+            116,
+            241,
+            402
+          ],
+          "j_ctrl_ranks": [
+            116,
+            546
+          ],
+          "l_ranks": [
+            27,
+            58,
+            28
+          ],
+          "l_ctrl_ranks": [
+            27,
+            58
+          ]
+        },
+        {
+          "name": "nhop-rings-planet",
+          "j_ranks": [
+            135,
+            295
+          ],
+          "j_ctrl_ranks": [
+            135
+          ],
+          "l_ranks": [
+            24,
+            154
+          ],
+          "l_ctrl_ranks": [
+            24
+          ]
+        },
+        {
+          "name": "nhop-guitar-planet",
+          "j_ranks": [
+            160,
+            526
+          ],
+          "j_ctrl_ranks": [
+            160
+          ],
+          "l_ranks": [
+            45,
+            98
+          ],
+          "l_ctrl_ranks": [
+            45
+          ]
+        },
+        {
+          "name": "nhop-compass-planet",
+          "j_ranks": [
+            160,
+            261
+          ],
+          "j_ctrl_ranks": [
+            160,
+            511
+          ],
+          "l_ranks": [
+            44,
+            74
+          ],
+          "l_ctrl_ranks": [
+            44,
+            37
+          ]
+        },
+        {
+          "name": "nhop-volleyball-planet",
+          "j_ranks": [
+            123,
+            550
+          ],
+          "j_ctrl_ranks": [
+            123
+          ],
+          "l_ranks": [
+            29,
+            90
+          ],
+          "l_ctrl_ranks": [
+            29
+          ]
+        },
+        {
+          "name": "nhop-alphabet-element",
+          "j_ranks": [
+            380
+          ],
+          "j_ctrl_ranks": [
+            1022
+          ],
+          "l_ranks": [
+            132
+          ],
+          "l_ctrl_ranks": [
+            1169
+          ]
+        },
+        {
+          "name": "nhop-fortnight-element",
+          "j_ranks": [
+            255
+          ],
+          "j_ctrl_ranks": [
+            7621
+          ],
+          "l_ranks": [
+            25
+          ],
+          "l_ctrl_ranks": [
+            4205
+          ]
+        },
+        {
+          "name": "nhop-cube-element",
+          "j_ranks": [
+            345,
+            566
+          ],
+          "j_ctrl_ranks": [
+            143
+          ],
+          "l_ranks": [
+            91,
+            46
+          ],
+          "l_ctrl_ranks": [
+            5886
+          ]
+        },
+        {
+          "name": "nhop-rainbow-element",
+          "j_ranks": [
+            466
+          ],
+          "j_ctrl_ranks": [
+            466
+          ],
+          "l_ranks": [
+            35
+          ],
+          "l_ctrl_ranks": [
+            5193
+          ]
+        },
+        {
+          "name": "nhop-spider-element",
+          "j_ranks": [
+            358
+          ],
+          "j_ctrl_ranks": [
+            523
+          ],
+          "l_ranks": [
+            161
+          ],
+          "l_ctrl_ranks": [
+            10293
+          ]
+        },
+        {
+          "name": "nhop-insect-element",
+          "j_ranks": [
+            371,
+            581
+          ],
+          "j_ctrl_ranks": [
+            148
+          ],
+          "l_ranks": [
+            186,
+            37
+          ],
+          "l_ctrl_ranks": [
+            6783
+          ]
+        },
+        {
+          "name": "nhop-week-element",
+          "j_ranks": [
+            195
+          ],
+          "j_ctrl_ranks": [
+            1364
+          ],
+          "l_ranks": [
+            71
+          ],
+          "l_ctrl_ranks": [
+            130
+          ]
+        },
+        {
+          "name": "super-largest-country-capital",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            1856
+          ],
+          "l_ranks": [
+            4
+          ],
+          "l_ctrl_ranks": [
+            953
+          ]
+        },
+        {
+          "name": "super-smallest-continent",
+          "j_ranks": [
+            847
+          ],
+          "j_ctrl_ranks": [
+            8130
+          ],
+          "l_ranks": [
+            3392
+          ],
+          "l_ctrl_ranks": [
+            10830
+          ]
+        },
+        {
+          "name": "super-populous-capital",
+          "j_ranks": [
+            4
+          ],
+          "j_ctrl_ranks": [
+            4312
+          ],
+          "l_ranks": [
+            20
+          ],
+          "l_ctrl_ranks": [
+            9547
+          ]
+        },
+        {
+          "name": "super-largest-island-nation",
+          "j_ranks": [
+            35
+          ],
+          "j_ctrl_ranks": [
+            5128
+          ],
+          "l_ranks": [
+            795
+          ],
+          "l_ctrl_ranks": [
+            7129
+          ]
+        },
+        {
+          "name": "colosseum-currency",
+          "j_ranks": [
+            7
+          ],
+          "j_ctrl_ranks": [
+            4106
+          ],
+          "l_ranks": [
+            27
+          ],
+          "l_ctrl_ranks": [
+            1665
+          ]
+        },
+        {
+          "name": "greatwall-ocean",
+          "j_ranks": [
+            58
+          ],
+          "j_ctrl_ranks": [
+            19817
+          ],
+          "l_ranks": [
+            32
+          ],
+          "l_ctrl_ranks": [
+            4316
+          ]
+        },
+        {
+          "name": "holiday-independence-monthnum",
+          "j_ranks": [
+            8
+          ],
+          "j_ctrl_ranks": [
+            8
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            0
+          ]
+        },
+        {
+          "name": "holiday-christmas-monthnum",
+          "j_ranks": [
+            6
+          ],
+          "j_ctrl_ranks": [
+            9
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            0
+          ]
+        },
+        {
+          "name": "holiday-halloween-monthnum",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            2
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            0
+          ]
+        },
+        {
+          "name": "holiday-valentines-monthnum",
+          "j_ranks": [
+            19
+          ],
+          "j_ctrl_ranks": [
+            0
+          ],
+          "l_ranks": [
+            4
+          ],
+          "l_ctrl_ranks": [
+            0
+          ]
+        },
+        {
+          "name": "month-1-godof",
+          "j_ranks": [
+            100
+          ],
+          "j_ctrl_ranks": [
+            312
+          ],
+          "l_ranks": [
+            40
+          ],
+          "l_ctrl_ranks": [
+            259
+          ]
+        },
+        {
+          "name": "etym-janus-monthnum",
+          "j_ranks": [
+            54
+          ],
+          "j_ctrl_ranks": [
+            0
+          ],
+          "l_ranks": [
+            39
+          ],
+          "l_ctrl_ranks": [
+            0
+          ]
+        },
+        {
+          "name": "month-7-namedafter",
+          "j_ranks": [
+            394
+          ],
+          "j_ctrl_ranks": [
+            18336
+          ],
+          "l_ranks": [
+            99
+          ],
+          "l_ctrl_ranks": [
+            154
+          ]
+        },
+        {
+          "name": "etym-caesar-monthnum",
+          "j_ranks": [
+            31
+          ],
+          "j_ctrl_ranks": [
+            3559
+          ],
+          "l_ranks": [
+            52
+          ],
+          "l_ctrl_ranks": [
+            1849
+          ]
+        },
+        {
+          "name": "nhop-soccer-element",
+          "j_ranks": [
+            401
+          ],
+          "j_ctrl_ranks": [
+            828
+          ],
+          "l_ranks": [
+            30
+          ],
+          "l_ctrl_ranks": [
+            709
+          ]
+        },
+        {
+          "name": "nhop-chess-element",
+          "j_ranks": [
+            300
+          ],
+          "j_ctrl_ranks": [
+            266
+          ],
+          "l_ranks": [
+            248
+          ],
+          "l_ctrl_ranks": [
+            4819
+          ]
+        },
+        {
+          "name": "nhop-suit-element",
+          "j_ranks": [
+            256
+          ],
+          "j_ctrl_ranks": [
+            220
+          ],
+          "l_ranks": [
+            90
+          ],
+          "l_ctrl_ranks": [
+            317
+          ]
+        },
+        {
+          "name": "nhop-clock-element",
+          "j_ranks": [
+            366
+          ],
+          "j_ctrl_ranks": [
+            261
+          ],
+          "l_ranks": [
+            83
+          ],
+          "l_ctrl_ranks": [
+            274
+          ]
+        },
+        {
+          "name": "nhop-deck-element",
+          "j_ranks": [
+            342
+          ],
+          "j_ctrl_ranks": [
+            576
+          ],
+          "l_ranks": [
+            28
+          ],
+          "l_ctrl_ranks": [
+            201
+          ]
+        },
+        {
+          "name": "inv-sunrise-opposite",
+          "j_ranks": [
+            5
+          ],
+          "j_ctrl_ranks": [
+            182
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            62
+          ]
+        },
+        {
+          "name": "inv-balloon-opposite",
+          "j_ranks": [
+            264
+          ],
+          "j_ctrl_ranks": [
+            32756
+          ],
+          "l_ranks": [
+            50
+          ],
+          "l_ctrl_ranks": [
+            15301
+          ]
+        },
+        {
+          "name": "inv-roots-opposite",
+          "j_ranks": [
+            178
+          ],
+          "j_ctrl_ranks": [
+            96078
+          ],
+          "l_ranks": [
+            47
+          ],
+          "l_ctrl_ranks": [
+            38448
+          ]
+        },
+        {
+          "name": "inv-antarctica-opposite",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            2247
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            1786
+          ]
+        },
+        {
+          "name": "rhyme-tree-squared",
+          "j_ranks": [
+            46
+          ],
+          "j_ctrl_ranks": [
+            660
+          ],
+          "l_ranks": [
+            32
+          ],
+          "l_ctrl_ranks": [
+            932
+          ]
+        },
+        {
+          "name": "rhyme-hive-plusone",
+          "j_ranks": [
+            6
+          ],
+          "j_ctrl_ranks": [
+            1100
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            5523
+          ]
+        },
+        {
+          "name": "rhyme-fix-halved",
+          "j_ranks": [
+            68
+          ],
+          "j_ctrl_ranks": [
+            3568
+          ],
+          "l_ranks": [
+            39
+          ],
+          "l_ctrl_ranks": [
+            5080
+          ]
+        },
+        {
+          "name": "rhyme-shoe-doubled",
+          "j_ranks": [
+            18
+          ],
+          "j_ctrl_ranks": [
+            1194
+          ],
+          "l_ranks": [
+            13
+          ],
+          "l_ctrl_ranks": [
+            5025
+          ]
+        },
+        {
+          "name": "tajmahal-continent",
+          "j_ranks": [
+            7
+          ],
+          "j_ctrl_ranks": [
+            4389
+          ],
+          "l_ranks": [
+            7
+          ],
+          "l_ctrl_ranks": [
+            13343
+          ]
+        },
+        {
+          "name": "louvre-language",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            6731
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            6822
+          ]
+        },
+        {
+          "name": "firstletter-halloween-month",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            25527
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            6871
+          ]
+        },
+        {
+          "name": "firstletter-valentines-month",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            23302
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            4052
+          ]
+        },
+        {
+          "name": "firstletter-populous-country",
+          "j_ranks": [
+            228
+          ],
+          "j_ctrl_ranks": [
+            91,
+            452
+          ],
+          "l_ranks": [
+            258
+          ],
+          "l_ctrl_ranks": [
+            46,
+            71
+          ]
+        },
+        {
+          "name": "firstletter-paris-country",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            116
+          ],
+          "l_ranks": [
+            7
+          ],
+          "l_ctrl_ranks": [
+            32
+          ]
+        },
+        {
+          "name": "firstletter-greatwall-country",
+          "j_ranks": [
+            32
+          ],
+          "j_ctrl_ranks": [
+            71
+          ],
+          "l_ranks": [
+            285
+          ],
+          "l_ctrl_ranks": [
+            46
+          ]
+        },
+        {
+          "name": "succ-halloween-nextmonth",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            81,
+            363
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            31,
+            62
+          ]
+        },
+        {
+          "name": "pred-valentines-prevmonth",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            17851
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            2016
+          ]
+        },
+        {
+          "name": "dual-stars-visible-opposite",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            16207
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            3493
+          ]
+        },
+        {
+          "name": "dual-photosynthesis-opposite",
+          "j_ranks": [
+            78
+          ],
+          "j_ctrl_ranks": [
+            12787
+          ],
+          "l_ranks": [
+            40
+          ],
+          "l_ctrl_ranks": [
+            1871
+          ]
+        },
+        {
+          "name": "roman-rings-olympic",
+          "j_ranks": [
+            37,
+            44
+          ],
+          "j_ctrl_ranks": [
+            1217
+          ],
+          "l_ranks": [
+            11,
+            10
+          ],
+          "l_ctrl_ranks": [
+            199
+          ]
+        },
+        {
+          "name": "roman-states-us",
+          "j_ranks": [
+            76
+          ],
+          "j_ctrl_ranks": [
+            731
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            27199
+          ]
+        },
+        {
+          "name": "half-clock-hours",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            1222
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            3033
+          ]
+        },
+        {
+          "name": "double-dice-faces",
+          "j_ranks": [
+            1,
+            106
+          ],
+          "j_ctrl_ranks": [
+            327
+          ],
+          "l_ranks": [
+            0,
+            3
+          ],
+          "l_ctrl_ranks": [
+            5871
+          ]
+        },
+        {
+          "name": "letterpos-water-symbol",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            2701
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            12927
+          ]
+        },
+        {
+          "name": "letterpos-oxygen-symbol",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            2430
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            13911
+          ]
+        },
+        {
+          "name": "letterpos-carbon-symbol",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            1186
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            652
+          ]
+        },
+        {
+          "name": "letterpos-nitrogen-symbol",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            1672
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            63225
+          ]
+        },
+        {
+          "name": "dbl-armistice-antonym",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            24299
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            31700
+          ]
+        },
+        {
+          "name": "dbl-obituary-antonym",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            8017
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            33087
+          ]
+        },
+        {
+          "name": "dbl-altitude-antonym",
+          "j_ranks": [
+            203
+          ],
+          "j_ctrl_ranks": [
+            6783
+          ],
+          "l_ranks": [
+            20
+          ],
+          "l_ctrl_ranks": [
+            24762
+          ]
+        }
+      ]
+    },
+    "multilingual": {
+      "summary": {
+        "n": 107,
+        "j": {
+          "1": 0.18925233644859812,
+          "5": 0.3107476635514019,
+          "10": 0.3574766355140187
+        },
+        "j_ctrl": {
+          "1": 0.016355140186915886,
+          "5": 0.02336448598130841,
+          "10": 0.037383177570093455
+        },
+        "logit": {
+          "1": 0.19626168224299065,
+          "5": 0.34813084112149534,
+          "10": 0.4439252336448598
+        },
+        "logit_ctrl": {
+          "1": 0.016355140186915886,
+          "5": 0.037383177570093455,
+          "10": 0.0630841121495327
+        }
+      },
+      "records": [
+        {
+          "name": "spanish-opposite-big",
+          "j_ranks": [
+            3134,
+            1029,
+            29,
+            0
+          ],
+          "j_ctrl_ranks": [
+            3753,
+            21184,
+            9032,
+            9279
+          ],
+          "l_ranks": [
+            3495,
+            6,
+            30,
+            0
+          ],
+          "l_ctrl_ranks": [
+            1807,
+            2927,
+            15137,
+            17487
+          ]
+        },
+        {
+          "name": "french-season-summer",
+          "j_ranks": [
+            1,
+            7,
+            7,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2989,
+            7402,
+            20509,
+            17555
+          ],
+          "l_ranks": [
+            45,
+            14,
+            2,
+            0
+          ],
+          "l_ctrl_ranks": [
+            1972,
+            18464,
+            29861,
+            14668
+          ]
+        },
+        {
+          "name": "german-opposite-loud",
+          "j_ranks": [
+            2238,
+            881,
+            12,
+            0
+          ],
+          "j_ctrl_ranks": [
+            34476,
+            881,
+            9773,
+            1200
+          ],
+          "l_ranks": [
+            1041,
+            6,
+            13,
+            0
+          ],
+          "l_ctrl_ranks": [
+            15393,
+            6,
+            43818,
+            6127
+          ]
+        },
+        {
+          "name": "chinese-color-banana",
+          "j_ranks": [
+            4836,
+            7,
+            3,
+            1
+          ],
+          "j_ctrl_ranks": [
+            26077,
+            34906,
+            12274,
+            81620
+          ],
+          "l_ranks": [
+            403,
+            12,
+            9,
+            2
+          ],
+          "l_ctrl_ranks": [
+            49269,
+            8858,
+            16650,
+            47854
+          ]
+        },
+        {
+          "name": "japanese-day-monday",
+          "j_ranks": [
+            112,
+            112,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            30689,
+            34347,
+            2245,
+            7350
+          ],
+          "l_ranks": [
+            12,
+            63,
+            2,
+            0
+          ],
+          "l_ctrl_ranks": [
+            23788,
+            1850,
+            1685,
+            1087
+          ]
+        },
+        {
+          "name": "russian-opposite-heavy",
+          "j_ranks": [
+            320,
+            199,
+            9,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1227,
+            3055,
+            3772,
+            2944
+          ],
+          "l_ranks": [
+            1410,
+            1,
+            25,
+            0
+          ],
+          "l_ctrl_ranks": [
+            14317,
+            905,
+            4749,
+            536
+          ]
+        },
+        {
+          "name": "italian-color-sky",
+          "j_ranks": [
+            1798,
+            2,
+            0,
+            0
+          ],
+          "j_ctrl_ranks": [
+            20951,
+            13269,
+            1188,
+            1286
+          ],
+          "l_ranks": [
+            176,
+            0,
+            0,
+            0
+          ],
+          "l_ctrl_ranks": [
+            831,
+            568,
+            377,
+            6302
+          ]
+        },
+        {
+          "name": "portuguese-season-spring",
+          "j_ranks": [
+            302,
+            8,
+            2,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1697,
+            1949,
+            4143,
+            1029
+          ],
+          "l_ranks": [
+            2065,
+            6,
+            3,
+            0
+          ],
+          "l_ctrl_ranks": [
+            17770,
+            10,
+            1188,
+            105
+          ]
+        },
+        {
+          "name": "arabic-color-blood",
+          "j_ranks": [
+            3,
+            2,
+            15,
+            0
+          ],
+          "j_ctrl_ranks": [
+            4872,
+            4947,
+            1026,
+            93
+          ],
+          "l_ranks": [
+            589,
+            4,
+            55,
+            1
+          ],
+          "l_ctrl_ranks": [
+            852,
+            15346,
+            6557,
+            699
+          ]
+        },
+        {
+          "name": "korean-opposite-hot",
+          "j_ranks": [
+            256,
+            43,
+            2084,
+            1677
+          ],
+          "j_ctrl_ranks": [
+            1835,
+            8240,
+            1772,
+            250
+          ],
+          "l_ranks": [
+            3848,
+            0,
+            7133,
+            6591
+          ],
+          "l_ctrl_ranks": [
+            7969,
+            1984,
+            9737,
+            864
+          ]
+        },
+        {
+          "name": "dutch-opposite-big",
+          "j_ranks": [
+            205,
+            157,
+            21,
+            0
+          ],
+          "j_ctrl_ranks": [
+            12500,
+            18015,
+            774,
+            4321
+          ],
+          "l_ranks": [
+            282,
+            2,
+            102,
+            0
+          ],
+          "l_ctrl_ranks": [
+            13310,
+            11978,
+            6142,
+            2982
+          ]
+        },
+        {
+          "name": "greek-color-sea",
+          "j_ranks": [
+            39,
+            0,
+            12,
+            0
+          ],
+          "j_ctrl_ranks": [
+            3433,
+            0,
+            6,
+            0
+          ],
+          "l_ranks": [
+            82,
+            0,
+            32,
+            0
+          ],
+          "l_ctrl_ranks": [
+            7242,
+            0,
+            89,
+            0
+          ]
+        },
+        {
+          "name": "hindi-color-snow",
+          "j_ranks": [
+            46,
+            0,
+            270,
+            5
+          ],
+          "j_ctrl_ranks": [
+            8876,
+            4389,
+            4841,
+            7394
+          ],
+          "l_ranks": [
+            274,
+            0,
+            509,
+            8
+          ],
+          "l_ctrl_ranks": [
+            9381,
+            243,
+            20868,
+            24879
+          ]
+        },
+        {
+          "name": "polish-opposite-wet",
+          "j_ranks": [
+            138,
+            235,
+            10,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1211,
+            235,
+            6388,
+            4720
+          ],
+          "l_ranks": [
+            1520,
+            6,
+            11,
+            0
+          ],
+          "l_ctrl_ranks": [
+            17545,
+            6,
+            4685,
+            3393
+          ]
+        },
+        {
+          "name": "turkish-opposite-fast",
+          "j_ranks": [
+            229,
+            339,
+            19,
+            0
+          ],
+          "j_ctrl_ranks": [
+            20774,
+            33,
+            12909,
+            16843
+          ],
+          "l_ranks": [
+            4435,
+            1,
+            28,
+            0
+          ],
+          "l_ctrl_ranks": [
+            30677,
+            4448,
+            15130,
+            15136
+          ]
+        },
+        {
+          "name": "swedish-opposite-hard",
+          "j_ranks": [
+            0,
+            1283,
+            27,
+            122
+          ],
+          "j_ctrl_ranks": [
+            5478,
+            1283,
+            508,
+            438
+          ],
+          "l_ranks": [
+            7,
+            1700,
+            12,
+            1989
+          ],
+          "l_ctrl_ranks": [
+            8144,
+            1700,
+            4335,
+            2557
+          ]
+        },
+        {
+          "name": "hebrew-color-moon",
+          "j_ranks": [
+            80,
+            0,
+            12,
+            1
+          ],
+          "j_ctrl_ranks": [
+            4526,
+            0,
+            20261,
+            9
+          ],
+          "l_ranks": [
+            534,
+            4,
+            65,
+            2
+          ],
+          "l_ctrl_ranks": [
+            17505,
+            4,
+            4631,
+            13
+          ]
+        },
+        {
+          "name": "finnish-season-summer",
+          "j_ranks": [
+            17,
+            5,
+            0,
+            0
+          ],
+          "j_ctrl_ranks": [
+            9846,
+            1410,
+            333,
+            417
+          ],
+          "l_ranks": [
+            19,
+            31,
+            101,
+            147
+          ],
+          "l_ctrl_ranks": [
+            18235,
+            485,
+            6561,
+            8080
+          ]
+        },
+        {
+          "name": "danish-color-ocean",
+          "j_ranks": [
+            2,
+            1,
+            12,
+            0
+          ],
+          "j_ctrl_ranks": [
+            11621,
+            1,
+            8,
+            0
+          ],
+          "l_ranks": [
+            11,
+            24,
+            202,
+            5
+          ],
+          "l_ctrl_ranks": [
+            68586,
+            24,
+            18,
+            5
+          ]
+        },
+        {
+          "name": "norwegian-season-spring",
+          "j_ranks": [
+            3,
+            0,
+            1,
+            0
+          ],
+          "j_ctrl_ranks": [
+            4921,
+            2068,
+            1611,
+            1395
+          ],
+          "l_ranks": [
+            22,
+            2,
+            1,
+            0
+          ],
+          "l_ctrl_ranks": [
+            14294,
+            6703,
+            1305,
+            326
+          ]
+        },
+        {
+          "name": "czech-opposite-tall",
+          "j_ranks": [
+            269,
+            360,
+            147,
+            147
+          ],
+          "j_ctrl_ranks": [
+            9119,
+            3516,
+            12121,
+            5747
+          ],
+          "l_ranks": [
+            839,
+            2,
+            130,
+            732
+          ],
+          "l_ctrl_ranks": [
+            5728,
+            407,
+            20856,
+            9662
+          ]
+        },
+        {
+          "name": "thai-color-blood",
+          "j_ranks": [
+            2781,
+            0,
+            13,
+            0
+          ],
+          "j_ctrl_ranks": [
+            26336,
+            21756,
+            28419,
+            44438
+          ],
+          "l_ranks": [
+            5627,
+            4,
+            1,
+            1
+          ],
+          "l_ctrl_ranks": [
+            40549,
+            11325,
+            16012,
+            11721
+          ]
+        },
+        {
+          "name": "vietnamese-opposite-heavy",
+          "j_ranks": [
+            151,
+            782,
+            41,
+            29
+          ],
+          "j_ctrl_ranks": [
+            12583,
+            1476,
+            1786,
+            8715
+          ],
+          "l_ranks": [
+            272,
+            0,
+            39,
+            24
+          ],
+          "l_ctrl_ranks": [
+            2293,
+            1620,
+            2052,
+            6253
+          ]
+        },
+        {
+          "name": "indonesian-color-grass",
+          "j_ranks": [
+            1006,
+            1,
+            194,
+            0
+          ],
+          "j_ctrl_ranks": [
+            18765,
+            2752,
+            1448,
+            1478
+          ],
+          "l_ranks": [
+            4939,
+            0,
+            133,
+            0
+          ],
+          "l_ctrl_ranks": [
+            51610,
+            3670,
+            1056,
+            1192
+          ]
+        },
+        {
+          "name": "romanian-opposite-young",
+          "j_ranks": [
+            1,
+            2140,
+            31,
+            986
+          ],
+          "j_ctrl_ranks": [
+            884,
+            1388,
+            419,
+            631
+          ],
+          "l_ranks": [
+            143,
+            3539,
+            176,
+            2613
+          ],
+          "l_ctrl_ranks": [
+            7713,
+            2764,
+            5674,
+            3233
+          ]
+        },
+        {
+          "name": "hungarian-color-sea",
+          "j_ranks": [
+            391,
+            1,
+            5,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2645,
+            12561,
+            31540,
+            12837
+          ],
+          "l_ranks": [
+            951,
+            7,
+            4,
+            0
+          ],
+          "l_ctrl_ranks": [
+            3,
+            1600,
+            2175,
+            7386
+          ]
+        },
+        {
+          "name": "spanish-number-three",
+          "j_ranks": [
+            90,
+            252,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            10675,
+            5379,
+            2573,
+            4155
+          ],
+          "l_ranks": [
+            531,
+            135,
+            22,
+            0
+          ],
+          "l_ctrl_ranks": [
+            6090,
+            521,
+            1402,
+            5166
+          ]
+        },
+        {
+          "name": "german-number-five",
+          "j_ranks": [
+            189,
+            576,
+            5,
+            0
+          ],
+          "j_ctrl_ranks": [
+            10095,
+            10322,
+            4957,
+            3625
+          ],
+          "l_ranks": [
+            78,
+            25,
+            13,
+            0
+          ],
+          "l_ctrl_ranks": [
+            1834,
+            233,
+            421,
+            1900
+          ]
+        },
+        {
+          "name": "french-number-seven",
+          "j_ranks": [
+            438,
+            881,
+            2,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2273,
+            14441,
+            21787,
+            20275
+          ],
+          "l_ranks": [
+            305,
+            150,
+            0,
+            0
+          ],
+          "l_ctrl_ranks": [
+            370,
+            4444,
+            13650,
+            44723
+          ]
+        },
+        {
+          "name": "italian-number-two",
+          "j_ranks": [
+            49,
+            224,
+            1,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1840,
+            3057,
+            2808,
+            2142
+          ],
+          "l_ranks": [
+            307,
+            75,
+            5,
+            0
+          ],
+          "l_ctrl_ranks": [
+            1414,
+            2288,
+            10148,
+            2921
+          ]
+        },
+        {
+          "name": "russian-number-four",
+          "j_ranks": [
+            388,
+            214,
+            1,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2362,
+            4425,
+            3011,
+            1317
+          ],
+          "l_ranks": [
+            11448,
+            100,
+            10,
+            4
+          ],
+          "l_ctrl_ranks": [
+            36957,
+            1355,
+            25040,
+            1362
+          ]
+        },
+        {
+          "name": "chinese-number-eight",
+          "j_ranks": [
+            3189,
+            12490,
+            114,
+            15
+          ],
+          "j_ctrl_ranks": [
+            53025,
+            8247,
+            6116,
+            37975
+          ],
+          "l_ranks": [
+            4022,
+            2199,
+            15,
+            8
+          ],
+          "l_ctrl_ranks": [
+            10450,
+            3638,
+            13170,
+            28857
+          ]
+        },
+        {
+          "name": "portuguese-direction-up",
+          "j_ranks": [
+            323,
+            677,
+            10985,
+            22
+          ],
+          "j_ctrl_ranks": [
+            5564,
+            8473,
+            6854,
+            10325
+          ],
+          "l_ranks": [
+            1496,
+            4,
+            612,
+            15
+          ],
+          "l_ctrl_ranks": [
+            3832,
+            2608,
+            68,
+            25339
+          ]
+        },
+        {
+          "name": "dutch-direction-left",
+          "j_ranks": [
+            256,
+            417,
+            21,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2311,
+            10528,
+            49060,
+            28229
+          ],
+          "l_ranks": [
+            1371,
+            0,
+            10,
+            3
+          ],
+          "l_ctrl_ranks": [
+            41009,
+            1201,
+            14330,
+            20834
+          ]
+        },
+        {
+          "name": "polish-direction-left",
+          "j_ranks": [
+            273,
+            552,
+            11,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1266,
+            3132,
+            4158,
+            6580
+          ],
+          "l_ranks": [
+            1454,
+            4,
+            6,
+            2
+          ],
+          "l_ctrl_ranks": [
+            13499,
+            2956,
+            21557,
+            16484
+          ]
+        },
+        {
+          "name": "spanish-body-see",
+          "j_ranks": [
+            2959,
+            5960,
+            7718,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2959,
+            527,
+            4930,
+            4825
+          ],
+          "l_ranks": [
+            7689,
+            3423,
+            13586,
+            0
+          ],
+          "l_ctrl_ranks": [
+            7689,
+            3992,
+            11324,
+            1647
+          ]
+        },
+        {
+          "name": "german-body-hear",
+          "j_ranks": [
+            414,
+            2009,
+            28,
+            0
+          ],
+          "j_ctrl_ranks": [
+            414,
+            732,
+            3242,
+            1987
+          ],
+          "l_ranks": [
+            3180,
+            260,
+            35,
+            0
+          ],
+          "l_ctrl_ranks": [
+            3180,
+            3600,
+            4234,
+            1617
+          ]
+        },
+        {
+          "name": "french-body-walk",
+          "j_ranks": [
+            75,
+            1219,
+            254,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1806,
+            8609,
+            516,
+            1996
+          ],
+          "l_ranks": [
+            803,
+            311,
+            156,
+            0
+          ],
+          "l_ctrl_ranks": [
+            13471,
+            2131,
+            3683,
+            10319
+          ]
+        },
+        {
+          "name": "spanish-family-uncle",
+          "j_ranks": [
+            9883,
+            188,
+            0,
+            1
+          ],
+          "j_ctrl_ranks": [
+            15673,
+            41,
+            9489,
+            25609
+          ],
+          "l_ranks": [
+            1053,
+            9,
+            0,
+            2
+          ],
+          "l_ctrl_ranks": [
+            19182,
+            11360,
+            3907,
+            823
+          ]
+        },
+        {
+          "name": "german-family-aunt",
+          "j_ranks": [
+            4133,
+            170,
+            1,
+            1
+          ],
+          "j_ctrl_ranks": [
+            10861,
+            16928,
+            27762,
+            19858
+          ],
+          "l_ranks": [
+            6101,
+            6,
+            0,
+            2
+          ],
+          "l_ctrl_ranks": [
+            19614,
+            225,
+            189,
+            9903
+          ]
+        },
+        {
+          "name": "french-family-nephew",
+          "j_ranks": [
+            5926,
+            121,
+            98,
+            10
+          ],
+          "j_ctrl_ranks": [
+            56231,
+            23480,
+            4839,
+            12589
+          ],
+          "l_ranks": [
+            4084,
+            16,
+            51,
+            16
+          ],
+          "l_ctrl_ranks": [
+            14460,
+            701,
+            1890,
+            2930
+          ]
+        },
+        {
+          "name": "italian-family-grandmother",
+          "j_ranks": [
+            3021,
+            213,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            50911,
+            26336,
+            29730,
+            11706
+          ],
+          "l_ranks": [
+            44,
+            49,
+            2,
+            0
+          ],
+          "l_ctrl_ranks": [
+            23323,
+            1050,
+            3266,
+            1788
+          ]
+        },
+        {
+          "name": "spanish-phase-water",
+          "j_ranks": [
+            26544,
+            2,
+            79,
+            0
+          ],
+          "j_ctrl_ranks": [
+            27127,
+            28721,
+            35915,
+            19693
+          ],
+          "l_ranks": [
+            5519,
+            4,
+            21,
+            0
+          ],
+          "l_ctrl_ranks": [
+            23891,
+            2113,
+            4104,
+            1603
+          ]
+        },
+        {
+          "name": "german-phase-water",
+          "j_ranks": [
+            2336,
+            1,
+            32,
+            0
+          ],
+          "j_ctrl_ranks": [
+            54262,
+            30979,
+            4672,
+            26294
+          ],
+          "l_ranks": [
+            6236,
+            0,
+            11,
+            0
+          ],
+          "l_ctrl_ranks": [
+            12382,
+            4850,
+            13590,
+            880
+          ]
+        },
+        {
+          "name": "ukrainian-opposite-day",
+          "j_ranks": [
+            5304,
+            658,
+            40,
+            0
+          ],
+          "j_ctrl_ranks": [
+            10166,
+            36,
+            6583,
+            6592
+          ],
+          "l_ranks": [
+            13598,
+            5,
+            43,
+            0
+          ],
+          "l_ctrl_ranks": [
+            14129,
+            4052,
+            13052,
+            50346
+          ]
+        },
+        {
+          "name": "bulgarian-color-grass",
+          "j_ranks": [
+            845,
+            1,
+            33,
+            0
+          ],
+          "j_ctrl_ranks": [
+            18862,
+            19145,
+            22789,
+            24243
+          ],
+          "l_ranks": [
+            322,
+            0,
+            24,
+            0
+          ],
+          "l_ctrl_ranks": [
+            11851,
+            362,
+            12143,
+            24464
+          ]
+        },
+        {
+          "name": "serbian-opposite-day",
+          "j_ranks": [
+            143,
+            61,
+            181,
+            421
+          ],
+          "j_ctrl_ranks": [
+            4622,
+            61,
+            395,
+            4652
+          ],
+          "l_ranks": [
+            1093,
+            1,
+            298,
+            2563
+          ],
+          "l_ctrl_ranks": [
+            5108,
+            1,
+            1665,
+            9676
+          ]
+        },
+        {
+          "name": "croatian-opposite-big",
+          "j_ranks": [
+            67,
+            708,
+            69,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1027,
+            9730,
+            11426,
+            21003
+          ],
+          "l_ranks": [
+            2024,
+            6,
+            239,
+            1
+          ],
+          "l_ctrl_ranks": [
+            31343,
+            10286,
+            74366,
+            55825
+          ]
+        },
+        {
+          "name": "slovak-opposite-young",
+          "j_ranks": [
+            277,
+            346,
+            22,
+            1
+          ],
+          "j_ctrl_ranks": [
+            488,
+            13999,
+            12543,
+            3007
+          ],
+          "l_ranks": [
+            567,
+            2,
+            52,
+            3
+          ],
+          "l_ctrl_ranks": [
+            18741,
+            60668,
+            22074,
+            77197
+          ]
+        },
+        {
+          "name": "estonian-opposite-open",
+          "j_ranks": [
+            132,
+            387,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            5820,
+            33713,
+            7493,
+            16586
+          ],
+          "l_ranks": [
+            260,
+            0,
+            3,
+            0
+          ],
+          "l_ctrl_ranks": [
+            19597,
+            44091,
+            51995,
+            57751
+          ]
+        },
+        {
+          "name": "irish-opposite-big",
+          "j_ranks": [
+            8,
+            615,
+            2224,
+            33
+          ],
+          "j_ctrl_ranks": [
+            2115,
+            11921,
+            11823,
+            21249
+          ],
+          "l_ranks": [
+            29,
+            19,
+            24265,
+            195
+          ],
+          "l_ctrl_ranks": [
+            857,
+            14847,
+            89646,
+            66722
+          ]
+        },
+        {
+          "name": "persian-color-blood",
+          "j_ranks": [
+            648,
+            176,
+            2,
+            2409
+          ],
+          "j_ctrl_ranks": [
+            6914,
+            17654,
+            11268,
+            6523
+          ],
+          "l_ranks": [
+            849,
+            12,
+            2,
+            61
+          ],
+          "l_ctrl_ranks": [
+            4456,
+            11538,
+            16403,
+            3969
+          ]
+        },
+        {
+          "name": "bengali-opposite-up",
+          "j_ranks": [
+            527,
+            558,
+            675,
+            5
+          ],
+          "j_ctrl_ranks": [
+            63431,
+            36182,
+            22552,
+            29527
+          ],
+          "l_ranks": [
+            1197,
+            9,
+            462,
+            7
+          ],
+          "l_ctrl_ranks": [
+            49323,
+            33383,
+            53576,
+            36325
+          ]
+        },
+        {
+          "name": "filipino-opposite-up",
+          "j_ranks": [
+            149,
+            935,
+            1236,
+            16
+          ],
+          "j_ctrl_ranks": [
+            1522,
+            2513,
+            7883,
+            6147
+          ],
+          "l_ranks": [
+            271,
+            5,
+            627,
+            22
+          ],
+          "l_ctrl_ranks": [
+            4892,
+            2178,
+            71788,
+            44924
+          ]
+        },
+        {
+          "name": "fr-month-after-jan",
+          "j_ranks": [
+            489,
+            22,
+            2,
+            0
+          ],
+          "j_ctrl_ranks": [
+            4014,
+            22,
+            23,
+            15
+          ],
+          "l_ranks": [
+            1767,
+            7,
+            2,
+            0
+          ],
+          "l_ctrl_ranks": [
+            8283,
+            7,
+            15,
+            17
+          ]
+        },
+        {
+          "name": "fr-month-after-may",
+          "j_ranks": [
+            482,
+            35,
+            9,
+            0
+          ],
+          "j_ctrl_ranks": [
+            4680,
+            35,
+            0,
+            9
+          ],
+          "l_ranks": [
+            1399,
+            8,
+            1,
+            0
+          ],
+          "l_ctrl_ranks": [
+            10521,
+            8,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "fr-month-before-mar",
+          "j_ranks": [
+            701,
+            14,
+            4,
+            0
+          ],
+          "j_ctrl_ranks": [
+            4975,
+            14,
+            10,
+            81
+          ],
+          "l_ranks": [
+            1335,
+            3,
+            2,
+            0
+          ],
+          "l_ctrl_ranks": [
+            4843,
+            3,
+            9,
+            30
+          ]
+        },
+        {
+          "name": "de-month-after-jan",
+          "j_ranks": [
+            2386,
+            43,
+            2,
+            0
+          ],
+          "j_ctrl_ranks": [
+            4071,
+            43,
+            11,
+            6
+          ],
+          "l_ranks": [
+            3379,
+            2,
+            2,
+            0
+          ],
+          "l_ctrl_ranks": [
+            12358,
+            2,
+            16,
+            6
+          ]
+        },
+        {
+          "name": "de-month-after-jul",
+          "j_ranks": [
+            1321,
+            109,
+            5,
+            0
+          ],
+          "j_ctrl_ranks": [
+            4333,
+            109,
+            0,
+            5
+          ],
+          "l_ranks": [
+            2991,
+            5,
+            6,
+            0
+          ],
+          "l_ctrl_ranks": [
+            5608,
+            5,
+            0,
+            6
+          ]
+        },
+        {
+          "name": "de-month-before-dec",
+          "j_ranks": [
+            3772,
+            20,
+            0,
+            0
+          ],
+          "j_ctrl_ranks": [
+            20343,
+            22959,
+            13661,
+            32331
+          ],
+          "l_ranks": [
+            6183,
+            3,
+            0,
+            0
+          ],
+          "l_ctrl_ranks": [
+            31570,
+            292,
+            754,
+            2539
+          ]
+        },
+        {
+          "name": "es-month-after-mar",
+          "j_ranks": [
+            381,
+            73,
+            2,
+            0
+          ],
+          "j_ctrl_ranks": [
+            6860,
+            35656,
+            20375,
+            30171
+          ],
+          "l_ranks": [
+            3469,
+            5,
+            2,
+            0
+          ],
+          "l_ctrl_ranks": [
+            16261,
+            441,
+            6038,
+            1415
+          ]
+        },
+        {
+          "name": "es-month-after-sep",
+          "j_ranks": [
+            225,
+            141,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            50332,
+            16386,
+            20099,
+            31362
+          ],
+          "l_ranks": [
+            3236,
+            12,
+            4,
+            0
+          ],
+          "l_ctrl_ranks": [
+            6727,
+            5528,
+            2575,
+            8105
+          ]
+        },
+        {
+          "name": "es-month-before-jun",
+          "j_ranks": [
+            844,
+            25,
+            7,
+            0
+          ],
+          "j_ctrl_ranks": [
+            56062,
+            31888,
+            15878,
+            20686
+          ],
+          "l_ranks": [
+            3636,
+            6,
+            7,
+            0
+          ],
+          "l_ctrl_ranks": [
+            2092,
+            256,
+            369,
+            714
+          ]
+        },
+        {
+          "name": "pt-month-after-apr",
+          "j_ranks": [
+            2813,
+            48,
+            2,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1227,
+            13002,
+            27608,
+            22774
+          ],
+          "l_ranks": [
+            4402,
+            8,
+            5,
+            0
+          ],
+          "l_ctrl_ranks": [
+            4735,
+            1231,
+            1141,
+            236
+          ]
+        },
+        {
+          "name": "pt-month-after-oct",
+          "j_ranks": [
+            2478,
+            105,
+            1,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1542,
+            35614,
+            30250,
+            19225
+          ],
+          "l_ranks": [
+            2146,
+            10,
+            0,
+            0
+          ],
+          "l_ctrl_ranks": [
+            6514,
+            372,
+            2337,
+            1435
+          ]
+        },
+        {
+          "name": "pt-month-before-aug",
+          "j_ranks": [
+            2471,
+            40,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2471,
+            13131,
+            6527,
+            25688
+          ],
+          "l_ranks": [
+            1906,
+            7,
+            3,
+            0
+          ],
+          "l_ctrl_ranks": [
+            1906,
+            713,
+            1114,
+            3663
+          ]
+        },
+        {
+          "name": "fr-half-six",
+          "j_ranks": [
+            1655,
+            563,
+            8,
+            10
+          ],
+          "j_ctrl_ranks": [
+            9251,
+            248,
+            4,
+            13
+          ],
+          "l_ranks": [
+            1533,
+            35,
+            3,
+            2
+          ],
+          "l_ctrl_ranks": [
+            3778,
+            39,
+            0,
+            4
+          ]
+        },
+        {
+          "name": "fr-double-three",
+          "j_ranks": [
+            2386,
+            70,
+            1,
+            1
+          ],
+          "j_ctrl_ranks": [
+            2386,
+            11534,
+            10,
+            16
+          ],
+          "l_ranks": [
+            450,
+            9,
+            1,
+            0
+          ],
+          "l_ctrl_ranks": [
+            450,
+            179,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "de-half-six",
+          "j_ranks": [
+            9285,
+            452,
+            12,
+            0
+          ],
+          "j_ctrl_ranks": [
+            9285,
+            2854,
+            0,
+            18
+          ],
+          "l_ranks": [
+            647,
+            51,
+            7,
+            0
+          ],
+          "l_ctrl_ranks": [
+            647,
+            64,
+            0,
+            23
+          ]
+        },
+        {
+          "name": "de-double-two",
+          "j_ranks": [
+            1582,
+            67,
+            2,
+            16
+          ],
+          "j_ctrl_ranks": [
+            7892,
+            6309,
+            2,
+            14
+          ],
+          "l_ranks": [
+            1484,
+            4,
+            0,
+            14
+          ],
+          "l_ctrl_ranks": [
+            8505,
+            141,
+            0,
+            27
+          ]
+        },
+        {
+          "name": "es-half-four",
+          "j_ranks": [
+            318,
+            0,
+            27,
+            20
+          ],
+          "j_ctrl_ranks": [
+            5087,
+            4257,
+            40,
+            57
+          ],
+          "l_ranks": [
+            2793,
+            0,
+            8,
+            1
+          ],
+          "l_ctrl_ranks": [
+            4632,
+            104,
+            26,
+            38
+          ]
+        },
+        {
+          "name": "es-double-three",
+          "j_ranks": [
+            543,
+            614,
+            33,
+            0
+          ],
+          "j_ctrl_ranks": [
+            14262,
+            50,
+            26768,
+            6596
+          ],
+          "l_ranks": [
+            379,
+            27,
+            24,
+            0
+          ],
+          "l_ctrl_ranks": [
+            4029,
+            2542,
+            14425,
+            13531
+          ]
+        },
+        {
+          "name": "pt-half-six",
+          "j_ranks": [
+            5083,
+            335,
+            0,
+            1
+          ],
+          "j_ctrl_ranks": [
+            31109,
+            48,
+            25999,
+            6353
+          ],
+          "l_ranks": [
+            5024,
+            19,
+            0,
+            2
+          ],
+          "l_ctrl_ranks": [
+            391,
+            3093,
+            17093,
+            7088
+          ]
+        },
+        {
+          "name": "pt-double-two",
+          "j_ranks": [
+            4558,
+            33,
+            3,
+            11
+          ],
+          "j_ctrl_ranks": [
+            3186,
+            58,
+            26434,
+            6308
+          ],
+          "l_ranks": [
+            2634,
+            0,
+            0,
+            7
+          ],
+          "l_ctrl_ranks": [
+            10730,
+            3170,
+            21474,
+            1841
+          ]
+        },
+        {
+          "name": "fr-number-after-four",
+          "j_ranks": [
+            1300,
+            990,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1300,
+            24058,
+            26727,
+            36701
+          ],
+          "l_ranks": [
+            1500,
+            34,
+            0,
+            0
+          ],
+          "l_ctrl_ranks": [
+            1500,
+            1010,
+            10255,
+            37844
+          ]
+        },
+        {
+          "name": "de-number-after-three",
+          "j_ranks": [
+            454,
+            289,
+            0,
+            12
+          ],
+          "j_ctrl_ranks": [
+            454,
+            23779,
+            30070,
+            34576
+          ],
+          "l_ranks": [
+            653,
+            7,
+            0,
+            6
+          ],
+          "l_ctrl_ranks": [
+            653,
+            1375,
+            22405,
+            26856
+          ]
+        },
+        {
+          "name": "es-number-after-two",
+          "j_ranks": [
+            423,
+            2143,
+            21,
+            0
+          ],
+          "j_ctrl_ranks": [
+            423,
+            21889,
+            31448,
+            26932
+          ],
+          "l_ranks": [
+            2596,
+            283,
+            4,
+            0
+          ],
+          "l_ctrl_ranks": [
+            2596,
+            3613,
+            25211,
+            11705
+          ]
+        },
+        {
+          "name": "pt-number-after-five",
+          "j_ranks": [
+            5559,
+            1367,
+            5,
+            0
+          ],
+          "j_ctrl_ranks": [
+            5559,
+            21942,
+            22549,
+            36778
+          ],
+          "l_ranks": [
+            13131,
+            232,
+            6,
+            0
+          ],
+          "l_ctrl_ranks": [
+            13131,
+            4599,
+            12037,
+            17965
+          ]
+        },
+        {
+          "name": "fr-color-night",
+          "j_ranks": [
+            708,
+            0,
+            32,
+            0
+          ],
+          "j_ctrl_ranks": [
+            708,
+            33766,
+            1899,
+            15729
+          ],
+          "l_ranks": [
+            9771,
+            3,
+            33,
+            0
+          ],
+          "l_ctrl_ranks": [
+            9771,
+            6596,
+            2443,
+            8373
+          ]
+        },
+        {
+          "name": "de-color-night",
+          "j_ranks": [
+            7422,
+            19,
+            11,
+            0
+          ],
+          "j_ctrl_ranks": [
+            7422,
+            37762,
+            5879,
+            20978
+          ],
+          "l_ranks": [
+            3862,
+            4,
+            5,
+            0
+          ],
+          "l_ctrl_ranks": [
+            3862,
+            31962,
+            38526,
+            6601
+          ]
+        },
+        {
+          "name": "es-color-night",
+          "j_ranks": [
+            546,
+            3,
+            3,
+            0
+          ],
+          "j_ctrl_ranks": [
+            546,
+            41681,
+            8082,
+            41157
+          ],
+          "l_ranks": [
+            6256,
+            1,
+            0,
+            0
+          ],
+          "l_ctrl_ranks": [
+            6256,
+            33430,
+            29028,
+            24444
+          ]
+        },
+        {
+          "name": "fr-time-after-night",
+          "j_ranks": [
+            293,
+            331,
+            34,
+            1
+          ],
+          "j_ctrl_ranks": [
+            2870,
+            23777,
+            331,
+            2663
+          ],
+          "l_ranks": [
+            5895,
+            63,
+            14,
+            1
+          ],
+          "l_ctrl_ranks": [
+            841,
+            11135,
+            358,
+            1068
+          ]
+        },
+        {
+          "name": "de-time-after-night",
+          "j_ranks": [
+            265,
+            2150,
+            49,
+            4
+          ],
+          "j_ctrl_ranks": [
+            2731,
+            15439,
+            49055,
+            20882
+          ],
+          "l_ranks": [
+            3123,
+            87,
+            20,
+            1
+          ],
+          "l_ctrl_ranks": [
+            16771,
+            3458,
+            1538,
+            1586
+          ]
+        },
+        {
+          "name": "es-time-after-day",
+          "j_ranks": [
+            3064,
+            482,
+            51,
+            0
+          ],
+          "j_ctrl_ranks": [
+            14772,
+            9105,
+            40500,
+            12892
+          ],
+          "l_ranks": [
+            16913,
+            291,
+            34,
+            0
+          ],
+          "l_ctrl_ranks": [
+            12802,
+            11331,
+            3036,
+            1503
+          ]
+        },
+        {
+          "name": "pt-time-after-night",
+          "j_ranks": [
+            1517,
+            328,
+            21,
+            1
+          ],
+          "j_ctrl_ranks": [
+            5331,
+            7860,
+            10811,
+            8392
+          ],
+          "l_ranks": [
+            522,
+            290,
+            12,
+            1
+          ],
+          "l_ctrl_ranks": [
+            12353,
+            4363,
+            722,
+            1485
+          ]
+        },
+        {
+          "name": "fr-size-big-small",
+          "j_ranks": [
+            908,
+            97,
+            75,
+            0
+          ],
+          "j_ctrl_ranks": [
+            1453,
+            12360,
+            18384,
+            4999
+          ],
+          "l_ranks": [
+            3024,
+            91,
+            96,
+            0
+          ],
+          "l_ctrl_ranks": [
+            686,
+            203,
+            1255,
+            793
+          ]
+        },
+        {
+          "name": "de-size-big-small",
+          "j_ranks": [
+            1632,
+            136,
+            105,
+            0
+          ],
+          "j_ctrl_ranks": [
+            3714,
+            16808,
+            4059,
+            3095
+          ],
+          "l_ranks": [
+            2231,
+            93,
+            414,
+            0
+          ],
+          "l_ctrl_ranks": [
+            36630,
+            404,
+            1203,
+            214
+          ]
+        },
+        {
+          "name": "es-size-big-small",
+          "j_ranks": [
+            764,
+            99,
+            38,
+            0
+          ],
+          "j_ctrl_ranks": [
+            8677,
+            13992,
+            6459,
+            7498
+          ],
+          "l_ranks": [
+            3517,
+            75,
+            36,
+            0
+          ],
+          "l_ctrl_ranks": [
+            2834,
+            373,
+            1075,
+            1242
+          ]
+        },
+        {
+          "name": "pt-size-big-small",
+          "j_ranks": [
+            1310,
+            106,
+            48,
+            0
+          ],
+          "j_ctrl_ranks": [
+            3614,
+            11424,
+            6421,
+            5768
+          ],
+          "l_ranks": [
+            693,
+            110,
+            58,
+            0
+          ],
+          "l_ctrl_ranks": [
+            6141,
+            259,
+            1176,
+            383
+          ]
+        },
+        {
+          "name": "fr-place-up-down",
+          "j_ranks": [
+            1089,
+            5674,
+            11813,
+            56
+          ],
+          "j_ctrl_ranks": [
+            4075,
+            5674,
+            5092,
+            1692
+          ],
+          "l_ranks": [
+            2032,
+            78,
+            539,
+            48
+          ],
+          "l_ctrl_ranks": [
+            3278,
+            78,
+            1482,
+            311
+          ]
+        },
+        {
+          "name": "de-place-up-down",
+          "j_ranks": [
+            1591,
+            6819,
+            10482,
+            51
+          ],
+          "j_ctrl_ranks": [
+            3670,
+            9211,
+            2339,
+            10590
+          ],
+          "l_ranks": [
+            2985,
+            64,
+            874,
+            22
+          ],
+          "l_ctrl_ranks": [
+            53658,
+            4886,
+            8826,
+            18609
+          ]
+        },
+        {
+          "name": "es-place-up-down",
+          "j_ranks": [
+            423,
+            11601,
+            1100,
+            6
+          ],
+          "j_ctrl_ranks": [
+            18857,
+            7638,
+            5217,
+            11146
+          ],
+          "l_ranks": [
+            2846,
+            126,
+            190,
+            6
+          ],
+          "l_ctrl_ranks": [
+            3695,
+            2812,
+            6886,
+            22130
+          ]
+        },
+        {
+          "name": "pt-place-up-down",
+          "j_ranks": [
+            4211,
+            9077,
+            13221,
+            27
+          ],
+          "j_ctrl_ranks": [
+            1312,
+            6744,
+            1696,
+            2808
+          ],
+          "l_ranks": [
+            2744,
+            48,
+            674,
+            20
+          ],
+          "l_ctrl_ranks": [
+            7821,
+            4874,
+            9774,
+            14443
+          ]
+        },
+        {
+          "name": "fr-place-near-far",
+          "j_ranks": [
+            1047,
+            2236,
+            122,
+            5
+          ],
+          "j_ctrl_ranks": [
+            3765,
+            5671,
+            2414,
+            4702
+          ],
+          "l_ranks": [
+            4375,
+            47,
+            77,
+            1
+          ],
+          "l_ctrl_ranks": [
+            1964,
+            2422,
+            1989,
+            21843
+          ]
+        },
+        {
+          "name": "de-place-near-far",
+          "j_ranks": [
+            1106,
+            4378,
+            348,
+            5
+          ],
+          "j_ctrl_ranks": [
+            2772,
+            29136,
+            3269,
+            6131
+          ],
+          "l_ranks": [
+            3029,
+            224,
+            187,
+            3
+          ],
+          "l_ctrl_ranks": [
+            34185,
+            15424,
+            26520,
+            10363
+          ]
+        },
+        {
+          "name": "es-place-near-far",
+          "j_ranks": [
+            611,
+            5129,
+            83,
+            3
+          ],
+          "j_ctrl_ranks": [
+            13222,
+            48808,
+            6600,
+            12767
+          ],
+          "l_ranks": [
+            2514,
+            443,
+            122,
+            1
+          ],
+          "l_ctrl_ranks": [
+            3059,
+            3831,
+            15402,
+            8329
+          ]
+        },
+        {
+          "name": "pt-place-near-far",
+          "j_ranks": [
+            3163,
+            2805,
+            148,
+            3
+          ],
+          "j_ctrl_ranks": [
+            1545,
+            30056,
+            1739,
+            5427
+          ],
+          "l_ranks": [
+            1517,
+            192,
+            199,
+            1
+          ],
+          "l_ctrl_ranks": [
+            2949,
+            1723,
+            11136,
+            9499
+          ]
+        },
+        {
+          "name": "fr-time-old-young",
+          "j_ranks": [
+            959,
+            14205,
+            35,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2971,
+            60808,
+            5017,
+            9245
+          ],
+          "l_ranks": [
+            1182,
+            1826,
+            74,
+            1
+          ],
+          "l_ctrl_ranks": [
+            629,
+            6427,
+            399,
+            1295
+          ]
+        },
+        {
+          "name": "de-time-old-new",
+          "j_ranks": [
+            1716,
+            1821,
+            51,
+            0
+          ],
+          "j_ctrl_ranks": [
+            3976,
+            18872,
+            5988,
+            13662
+          ],
+          "l_ranks": [
+            1482,
+            270,
+            156,
+            0
+          ],
+          "l_ctrl_ranks": [
+            7485,
+            948,
+            50,
+            4501
+          ]
+        },
+        {
+          "name": "es-time-old-new",
+          "j_ranks": [
+            804,
+            12053,
+            67,
+            6
+          ],
+          "j_ctrl_ranks": [
+            2325,
+            36644,
+            4132,
+            7596
+          ],
+          "l_ranks": [
+            1688,
+            824,
+            87,
+            2
+          ],
+          "l_ctrl_ranks": [
+            9885,
+            26342,
+            26133,
+            73785
+          ]
+        },
+        {
+          "name": "pt-time-old-new",
+          "j_ranks": [
+            2873,
+            12851,
+            67,
+            22
+          ],
+          "j_ctrl_ranks": [
+            1840,
+            1242,
+            1785,
+            1910
+          ],
+          "l_ranks": [
+            521,
+            1493,
+            112,
+            12
+          ],
+          "l_ctrl_ranks": [
+            4856,
+            1,
+            6074,
+            2488
+          ]
+        },
+        {
+          "name": "fr-order-first-last",
+          "j_ranks": [
+            837,
+            12069,
+            116,
+            0
+          ],
+          "j_ctrl_ranks": [
+            837,
+            10703,
+            7500,
+            33637
+          ],
+          "l_ranks": [
+            6340,
+            2211,
+            1,
+            0
+          ],
+          "l_ctrl_ranks": [
+            6340,
+            2056,
+            17662,
+            22388
+          ]
+        },
+        {
+          "name": "de-order-first-last",
+          "j_ranks": [
+            2534,
+            4357,
+            17,
+            0
+          ],
+          "j_ctrl_ranks": [
+            2534,
+            931,
+            1210,
+            6246
+          ],
+          "l_ranks": [
+            1595,
+            820,
+            0,
+            0
+          ],
+          "l_ctrl_ranks": [
+            1595,
+            2,
+            2910,
+            17583
+          ]
+        },
+        {
+          "name": "es-order-first-last",
+          "j_ranks": [
+            763,
+            3176,
+            28,
+            0
+          ],
+          "j_ctrl_ranks": [
+            3107,
+            37,
+            6678,
+            7167
+          ],
+          "l_ranks": [
+            3302,
+            405,
+            6,
+            0
+          ],
+          "l_ctrl_ranks": [
+            17409,
+            861,
+            14609,
+            18940
+          ]
+        },
+        {
+          "name": "pt-order-first-last",
+          "j_ranks": [
+            2675,
+            4169,
+            37,
+            0
+          ],
+          "j_ctrl_ranks": [
+            5699,
+            3721,
+            5126,
+            2549
+          ],
+          "l_ranks": [
+            1186,
+            650,
+            1,
+            0
+          ],
+          "l_ctrl_ranks": [
+            12110,
+            3399,
+            25995,
+            22853
+          ]
+        },
+        {
+          "name": "frn-number-after-one",
+          "j_ranks": [
+            337,
+            282,
+            10,
+            286
+          ],
+          "j_ctrl_ranks": [
+            12673,
+            20594,
+            8146,
+            26719
+          ],
+          "l_ranks": [
+            23,
+            7,
+            3,
+            185
+          ],
+          "l_ctrl_ranks": [
+            7917,
+            422,
+            7261,
+            32349
+          ]
+        },
+        {
+          "name": "frn-month-after-jun",
+          "j_ranks": [
+            475,
+            40,
+            4,
+            0
+          ],
+          "j_ctrl_ranks": [
+            10308,
+            53,
+            16312,
+            16482
+          ],
+          "l_ranks": [
+            490,
+            12,
+            5,
+            0
+          ],
+          "l_ctrl_ranks": [
+            648,
+            7836,
+            12907,
+            921
+          ]
+        }
+      ]
+    },
+    "poetry": {
+      "summary": {
+        "n": 98,
+        "j": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        },
+        "j_ctrl": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        },
+        "logit": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        },
+        "logit_ctrl": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        }
+      },
+      "records": [
+        {
+          "name": "couplet-breath-death",
+          "j_ranks": [
+            153
+          ],
+          "j_ctrl_ranks": [
+            1298
+          ],
+          "l_ranks": [
+            341
+          ],
+          "l_ctrl_ranks": [
+            2194
+          ]
+        },
+        {
+          "name": "couplet-stone-bone",
+          "j_ranks": [
+            4678
+          ],
+          "j_ctrl_ranks": [
+            557
+          ],
+          "l_ranks": [
+            13070
+          ],
+          "l_ctrl_ranks": [
+            61
+          ]
+        },
+        {
+          "name": "couplet-divine-wine",
+          "j_ranks": [
+            6389
+          ],
+          "j_ctrl_ranks": [
+            550
+          ],
+          "l_ranks": [
+            9775
+          ],
+          "l_ctrl_ranks": [
+            204
+          ]
+        },
+        {
+          "name": "couplet-flame-name",
+          "j_ranks": [
+            26531
+          ],
+          "j_ctrl_ranks": [
+            8445
+          ],
+          "l_ranks": [
+            14460
+          ],
+          "l_ctrl_ranks": [
+            12006
+          ]
+        },
+        {
+          "name": "couplet-sleep-deep",
+          "j_ranks": [
+            847
+          ],
+          "j_ctrl_ranks": [
+            4429
+          ],
+          "l_ranks": [
+            360
+          ],
+          "l_ctrl_ranks": [
+            969
+          ]
+        },
+        {
+          "name": "couplet-gold-cold",
+          "j_ranks": [
+            1590
+          ],
+          "j_ctrl_ranks": [
+            3578
+          ],
+          "l_ranks": [
+            3499
+          ],
+          "l_ctrl_ranks": [
+            40974
+          ]
+        },
+        {
+          "name": "couplet-flight-night",
+          "j_ranks": [
+            343
+          ],
+          "j_ctrl_ranks": [
+            1619
+          ],
+          "l_ranks": [
+            159
+          ],
+          "l_ctrl_ranks": [
+            5828
+          ]
+        },
+        {
+          "name": "couplet-wave-grave",
+          "j_ranks": [
+            4191
+          ],
+          "j_ctrl_ranks": [
+            1088
+          ],
+          "l_ranks": [
+            3312
+          ],
+          "l_ctrl_ranks": [
+            4582
+          ]
+        },
+        {
+          "name": "couplet-true-through",
+          "j_ranks": [
+            60
+          ],
+          "j_ctrl_ranks": [
+            11461
+          ],
+          "l_ranks": [
+            10
+          ],
+          "l_ctrl_ranks": [
+            3150
+          ]
+        },
+        {
+          "name": "couplet-throne-alone",
+          "j_ranks": [
+            273
+          ],
+          "j_ctrl_ranks": [
+            799
+          ],
+          "l_ranks": [
+            92
+          ],
+          "l_ctrl_ranks": [
+            475
+          ]
+        },
+        {
+          "name": "couplet-divine-wine-to-sign",
+          "j_ranks": [
+            6389
+          ],
+          "j_ctrl_ranks": [
+            1429
+          ],
+          "l_ranks": [
+            9775
+          ],
+          "l_ctrl_ranks": [
+            980
+          ]
+        },
+        {
+          "name": "couplet-dust-trust",
+          "j_ranks": [
+            1530
+          ],
+          "j_ctrl_ranks": [
+            2661
+          ],
+          "l_ranks": [
+            442
+          ],
+          "l_ctrl_ranks": [
+            4433
+          ]
+        },
+        {
+          "name": "couplet-ground-sound",
+          "j_ranks": [
+            3402
+          ],
+          "j_ctrl_ranks": [
+            5409
+          ],
+          "l_ranks": [
+            14697
+          ],
+          "l_ctrl_ranks": [
+            1365
+          ]
+        },
+        {
+          "name": "couplet-bed-dead",
+          "j_ranks": [
+            316
+          ],
+          "j_ctrl_ranks": [
+            1123
+          ],
+          "l_ranks": [
+            293
+          ],
+          "l_ctrl_ranks": [
+            2851
+          ]
+        },
+        {
+          "name": "couplet-fight-light",
+          "j_ranks": [
+            1309
+          ],
+          "j_ctrl_ranks": [
+            21456
+          ],
+          "l_ranks": [
+            14195
+          ],
+          "l_ctrl_ranks": [
+            18805
+          ]
+        },
+        {
+          "name": "couplet-sea-free",
+          "j_ranks": [
+            6612
+          ],
+          "j_ctrl_ranks": [
+            2350
+          ],
+          "l_ranks": [
+            2922
+          ],
+          "l_ctrl_ranks": [
+            29432
+          ]
+        },
+        {
+          "name": "couplet-moon-soon",
+          "j_ranks": [
+            690
+          ],
+          "j_ctrl_ranks": [
+            2602
+          ],
+          "l_ranks": [
+            905
+          ],
+          "l_ctrl_ranks": [
+            242
+          ]
+        },
+        {
+          "name": "couplet-art-heart",
+          "j_ranks": [
+            527
+          ],
+          "j_ctrl_ranks": [
+            5279
+          ],
+          "l_ranks": [
+            343
+          ],
+          "l_ctrl_ranks": [
+            10954
+          ]
+        },
+        {
+          "name": "couplet-rain-pain",
+          "j_ranks": [
+            2366
+          ],
+          "j_ctrl_ranks": [
+            6264
+          ],
+          "l_ranks": [
+            7803
+          ],
+          "l_ctrl_ranks": [
+            13911
+          ]
+        },
+        {
+          "name": "couplet-snow-grow",
+          "j_ranks": [
+            3195
+          ],
+          "j_ctrl_ranks": [
+            22228
+          ],
+          "l_ranks": [
+            517
+          ],
+          "l_ctrl_ranks": [
+            12928
+          ]
+        },
+        {
+          "name": "couplet-shore-more",
+          "j_ranks": [
+            2096
+          ],
+          "j_ctrl_ranks": [
+            18068
+          ],
+          "l_ranks": [
+            2115
+          ],
+          "l_ctrl_ranks": [
+            55925
+          ]
+        },
+        {
+          "name": "couplet-heart-apart",
+          "j_ranks": [
+            26328
+          ],
+          "j_ctrl_ranks": [
+            1194
+          ],
+          "l_ranks": [
+            5234
+          ],
+          "l_ctrl_ranks": [
+            4802
+          ]
+        },
+        {
+          "name": "couplet-miss-kiss",
+          "j_ranks": [
+            1942
+          ],
+          "j_ctrl_ranks": [
+            8300
+          ],
+          "l_ranks": [
+            31206
+          ],
+          "l_ctrl_ranks": [
+            10133
+          ]
+        },
+        {
+          "name": "couplet-eyes-lies",
+          "j_ranks": [
+            4163
+          ],
+          "j_ctrl_ranks": [
+            7974
+          ],
+          "l_ranks": [
+            364
+          ],
+          "l_ctrl_ranks": [
+            7854
+          ]
+        },
+        {
+          "name": "couplet-hold-old",
+          "j_ranks": [
+            1911
+          ],
+          "j_ctrl_ranks": [
+            12836
+          ],
+          "l_ranks": [
+            10703
+          ],
+          "l_ctrl_ranks": [
+            9211
+          ]
+        },
+        {
+          "name": "couplet-fall-wall",
+          "j_ranks": [
+            7531
+          ],
+          "j_ctrl_ranks": [
+            4988
+          ],
+          "l_ranks": [
+            7615
+          ],
+          "l_ctrl_ranks": [
+            14221
+          ]
+        },
+        {
+          "name": "couplet-chase-face",
+          "j_ranks": [
+            18115
+          ],
+          "j_ctrl_ranks": [
+            1135
+          ],
+          "l_ranks": [
+            10439
+          ],
+          "l_ctrl_ranks": [
+            28640
+          ]
+        },
+        {
+          "name": "couplet-trap-map",
+          "j_ranks": [
+            17431
+          ],
+          "j_ctrl_ranks": [
+            5076
+          ],
+          "l_ranks": [
+            63031
+          ],
+          "l_ctrl_ranks": [
+            4539
+          ]
+        },
+        {
+          "name": "couplet-gate-fate",
+          "j_ranks": [
+            878
+          ],
+          "j_ctrl_ranks": [
+            20030
+          ],
+          "l_ranks": [
+            2319
+          ],
+          "l_ctrl_ranks": [
+            10149
+          ]
+        },
+        {
+          "name": "couplet-gun-run",
+          "j_ranks": [
+            12802
+          ],
+          "j_ctrl_ranks": [
+            11026
+          ],
+          "l_ranks": [
+            23176
+          ],
+          "l_ctrl_ranks": [
+            7168
+          ]
+        },
+        {
+          "name": "couplet-told-gold",
+          "j_ranks": [
+            3397
+          ],
+          "j_ctrl_ranks": [
+            9101
+          ],
+          "l_ranks": [
+            3559
+          ],
+          "l_ctrl_ranks": [
+            26529
+          ]
+        },
+        {
+          "name": "couplet-mind-find",
+          "j_ranks": [
+            755
+          ],
+          "j_ctrl_ranks": [
+            22322
+          ],
+          "l_ranks": [
+            182
+          ],
+          "l_ctrl_ranks": [
+            608
+          ]
+        },
+        {
+          "name": "couplet-dream-seem",
+          "j_ranks": [
+            4295
+          ],
+          "j_ctrl_ranks": [
+            6538
+          ],
+          "l_ranks": [
+            5375
+          ],
+          "l_ctrl_ranks": [
+            54096
+          ]
+        },
+        {
+          "name": "couplet-time-climb",
+          "j_ranks": [
+            5636
+          ],
+          "j_ctrl_ranks": [
+            49455
+          ],
+          "l_ranks": [
+            14773
+          ],
+          "l_ctrl_ranks": [
+            93286
+          ]
+        },
+        {
+          "name": "couplet-known-grown",
+          "j_ranks": [
+            3937
+          ],
+          "j_ctrl_ranks": [
+            1348
+          ],
+          "l_ranks": [
+            8510
+          ],
+          "l_ctrl_ranks": [
+            3589
+          ]
+        },
+        {
+          "name": "couplet-war-door",
+          "j_ranks": [
+            32303
+          ],
+          "j_ctrl_ranks": [
+            2091
+          ],
+          "l_ranks": [
+            29338
+          ],
+          "l_ctrl_ranks": [
+            7112
+          ]
+        },
+        {
+          "name": "couplet-smoke-spoke",
+          "j_ranks": [
+            5170
+          ],
+          "j_ctrl_ranks": [
+            2820
+          ],
+          "l_ranks": [
+            17517
+          ],
+          "l_ctrl_ranks": [
+            436
+          ]
+        },
+        {
+          "name": "couplet-head-bed",
+          "j_ranks": [
+            4826
+          ],
+          "j_ctrl_ranks": [
+            617
+          ],
+          "l_ranks": [
+            8656
+          ],
+          "l_ctrl_ranks": [
+            907
+          ]
+        },
+        {
+          "name": "couplet-deep-keep",
+          "j_ranks": [
+            11041
+          ],
+          "j_ctrl_ranks": [
+            16230
+          ],
+          "l_ranks": [
+            413
+          ],
+          "l_ctrl_ranks": [
+            17317
+          ]
+        },
+        {
+          "name": "couplet-cat-mat",
+          "j_ranks": [
+            8388
+          ],
+          "j_ctrl_ranks": [
+            6418
+          ],
+          "l_ranks": [
+            35367
+          ],
+          "l_ctrl_ranks": [
+            15049
+          ]
+        },
+        {
+          "name": "couplet-cake-mistake",
+          "j_ranks": [
+            34450
+          ],
+          "j_ctrl_ranks": [
+            11063
+          ],
+          "l_ranks": [
+            93219
+          ],
+          "l_ctrl_ranks": [
+            5459
+          ]
+        },
+        {
+          "name": "couplet-shoe-blue",
+          "j_ranks": [
+            5695
+          ],
+          "j_ctrl_ranks": [
+            8445
+          ],
+          "l_ranks": [
+            4729
+          ],
+          "l_ctrl_ranks": [
+            3818
+          ]
+        },
+        {
+          "name": "couplet-foam-home",
+          "j_ranks": [
+            2591
+          ],
+          "j_ctrl_ranks": [
+            14055
+          ],
+          "l_ranks": [
+            3814
+          ],
+          "l_ctrl_ranks": [
+            1487
+          ]
+        },
+        {
+          "name": "couplet-song-long",
+          "j_ranks": [
+            3486
+          ],
+          "j_ctrl_ranks": [
+            3901
+          ],
+          "l_ranks": [
+            752
+          ],
+          "l_ctrl_ranks": [
+            2412
+          ]
+        },
+        {
+          "name": "couplet-near-fear",
+          "j_ranks": [
+            344
+          ],
+          "j_ctrl_ranks": [
+            9378
+          ],
+          "l_ranks": [
+            449
+          ],
+          "l_ctrl_ranks": [
+            15154
+          ]
+        },
+        {
+          "name": "couplet-clear-year",
+          "j_ranks": [
+            6964
+          ],
+          "j_ctrl_ranks": [
+            6540
+          ],
+          "l_ranks": [
+            13886
+          ],
+          "l_ctrl_ranks": [
+            2900
+          ]
+        },
+        {
+          "name": "couplet-sky-fly",
+          "j_ranks": [
+            930
+          ],
+          "j_ctrl_ranks": [
+            41990
+          ],
+          "l_ranks": [
+            2150
+          ],
+          "l_ctrl_ranks": [
+            5082
+          ]
+        },
+        {
+          "name": "couplet-high-cry",
+          "j_ranks": [
+            7660
+          ],
+          "j_ctrl_ranks": [
+            4790
+          ],
+          "l_ranks": [
+            2375
+          ],
+          "l_ctrl_ranks": [
+            19221
+          ]
+        },
+        {
+          "name": "couplet-star-far",
+          "j_ranks": [
+            8151
+          ],
+          "j_ctrl_ranks": [
+            8630
+          ],
+          "l_ranks": [
+            2765
+          ],
+          "l_ctrl_ranks": [
+            3354
+          ]
+        },
+        {
+          "name": "couplet-bend-end",
+          "j_ranks": [
+            15709
+          ],
+          "j_ctrl_ranks": [
+            13596
+          ],
+          "l_ranks": [
+            3003
+          ],
+          "l_ctrl_ranks": [
+            6555
+          ]
+        },
+        {
+          "name": "couplet-bright-sight",
+          "j_ranks": [
+            1562
+          ],
+          "j_ctrl_ranks": [
+            9173
+          ],
+          "l_ranks": [
+            908
+          ],
+          "l_ctrl_ranks": [
+            13577
+          ]
+        },
+        {
+          "name": "couplet-white-write",
+          "j_ranks": [
+            2660
+          ],
+          "j_ctrl_ranks": [
+            74583
+          ],
+          "l_ranks": [
+            6648
+          ],
+          "l_ctrl_ranks": [
+            27651
+          ]
+        },
+        {
+          "name": "couplet-gray-day",
+          "j_ranks": [
+            7329
+          ],
+          "j_ctrl_ranks": [
+            83754
+          ],
+          "l_ranks": [
+            4679
+          ],
+          "l_ctrl_ranks": [
+            54479
+          ]
+        },
+        {
+          "name": "couplet-field-play",
+          "j_ranks": [
+            24908
+          ],
+          "j_ctrl_ranks": [
+            6325
+          ],
+          "l_ranks": [
+            2229
+          ],
+          "l_ctrl_ranks": [
+            1502
+          ]
+        },
+        {
+          "name": "couplet-away-way",
+          "j_ranks": [
+            3560
+          ],
+          "j_ctrl_ranks": [
+            1053
+          ],
+          "l_ranks": [
+            25387
+          ],
+          "l_ctrl_ranks": [
+            398
+          ]
+        },
+        {
+          "name": "couplet-stars-space",
+          "j_ranks": [
+            2520
+          ],
+          "j_ctrl_ranks": [
+            71
+          ],
+          "l_ranks": [
+            2929
+          ],
+          "l_ctrl_ranks": [
+            81
+          ]
+        },
+        {
+          "name": "couplet-chase-place",
+          "j_ranks": [
+            9851
+          ],
+          "j_ctrl_ranks": [
+            19862
+          ],
+          "l_ranks": [
+            4382
+          ],
+          "l_ctrl_ranks": [
+            5372
+          ]
+        },
+        {
+          "name": "couplet-pace-race",
+          "j_ranks": [
+            761
+          ],
+          "j_ctrl_ranks": [
+            1075
+          ],
+          "l_ranks": [
+            1142
+          ],
+          "l_ctrl_ranks": [
+            17613
+          ]
+        },
+        {
+          "name": "couplet-base-case",
+          "j_ranks": [
+            19929
+          ],
+          "j_ctrl_ranks": [
+            21195
+          ],
+          "l_ranks": [
+            24792
+          ],
+          "l_ctrl_ranks": [
+            5042
+          ]
+        },
+        {
+          "name": "couplet-blame-game",
+          "j_ranks": [
+            39241
+          ],
+          "j_ctrl_ranks": [
+            56629
+          ],
+          "l_ranks": [
+            8728
+          ],
+          "l_ctrl_ranks": [
+            19953
+          ]
+        },
+        {
+          "name": "couplet-frame-same",
+          "j_ranks": [
+            5583
+          ],
+          "j_ctrl_ranks": [
+            22449
+          ],
+          "l_ranks": [
+            1750
+          ],
+          "l_ctrl_ranks": [
+            40710
+          ]
+        },
+        {
+          "name": "couplet-fear-near",
+          "j_ranks": [
+            787
+          ],
+          "j_ctrl_ranks": [
+            1222
+          ],
+          "l_ranks": [
+            1856
+          ],
+          "l_ctrl_ranks": [
+            2734
+          ]
+        },
+        {
+          "name": "couplet-scar-star",
+          "j_ranks": [
+            98
+          ],
+          "j_ctrl_ranks": [
+            3393
+          ],
+          "l_ranks": [
+            88
+          ],
+          "l_ctrl_ranks": [
+            4514
+          ]
+        },
+        {
+          "name": "couplet-jar-car",
+          "j_ranks": [
+            19715
+          ],
+          "j_ctrl_ranks": [
+            4873
+          ],
+          "l_ranks": [
+            4584
+          ],
+          "l_ctrl_ranks": [
+            33812
+          ]
+        },
+        {
+          "name": "couplet-tree-three",
+          "j_ranks": [
+            663
+          ],
+          "j_ctrl_ranks": [
+            4733
+          ],
+          "l_ranks": [
+            479
+          ],
+          "l_ctrl_ranks": [
+            4957
+          ]
+        },
+        {
+          "name": "couplet-sea-see",
+          "j_ranks": [
+            19505
+          ],
+          "j_ctrl_ranks": [
+            72575
+          ],
+          "l_ranks": [
+            7870
+          ],
+          "l_ctrl_ranks": [
+            68587
+          ]
+        },
+        {
+          "name": "couplet-lock-key",
+          "j_ranks": [
+            12316
+          ],
+          "j_ctrl_ranks": [
+            25995
+          ],
+          "l_ranks": [
+            3433
+          ],
+          "l_ctrl_ranks": [
+            50334
+          ]
+        },
+        {
+          "name": "couplet-crown-town",
+          "j_ranks": [
+            15554
+          ],
+          "j_ctrl_ranks": [
+            5234
+          ],
+          "l_ranks": [
+            28164
+          ],
+          "l_ctrl_ranks": [
+            1762
+          ]
+        },
+        {
+          "name": "couplet-gown-down",
+          "j_ranks": [
+            1667
+          ],
+          "j_ctrl_ranks": [
+            1172
+          ],
+          "l_ranks": [
+            889
+          ],
+          "l_ctrl_ranks": [
+            617
+          ]
+        },
+        {
+          "name": "couplet-sold-told",
+          "j_ranks": [
+            249
+          ],
+          "j_ctrl_ranks": [
+            1220
+          ],
+          "l_ranks": [
+            796
+          ],
+          "l_ctrl_ranks": [
+            10685
+          ]
+        },
+        {
+          "name": "couplet-regret-met",
+          "j_ranks": [
+            3658
+          ],
+          "j_ctrl_ranks": [
+            3796
+          ],
+          "l_ranks": [
+            34955
+          ],
+          "l_ctrl_ranks": [
+            3972
+          ]
+        },
+        {
+          "name": "couplet-threat-set",
+          "j_ranks": [
+            7134
+          ],
+          "j_ctrl_ranks": [
+            5003
+          ],
+          "l_ranks": [
+            5265
+          ],
+          "l_ctrl_ranks": [
+            8310
+          ]
+        },
+        {
+          "name": "couplet-forget-get",
+          "j_ranks": [
+            63695
+          ],
+          "j_ctrl_ranks": [
+            30772
+          ],
+          "l_ranks": [
+            43565
+          ],
+          "l_ctrl_ranks": [
+            62130
+          ]
+        },
+        {
+          "name": "couplet-hook-book",
+          "j_ranks": [
+            31454
+          ],
+          "j_ctrl_ranks": [
+            8868
+          ],
+          "l_ranks": [
+            26908
+          ],
+          "l_ctrl_ranks": [
+            7625
+          ]
+        },
+        {
+          "name": "couplet-brook-look",
+          "j_ranks": [
+            1070
+          ],
+          "j_ctrl_ranks": [
+            3481
+          ],
+          "l_ranks": [
+            288
+          ],
+          "l_ctrl_ranks": [
+            6383
+          ]
+        },
+        {
+          "name": "couplet-shook-took",
+          "j_ranks": [
+            34
+          ],
+          "j_ctrl_ranks": [
+            2105
+          ],
+          "l_ranks": [
+            36
+          ],
+          "l_ctrl_ranks": [
+            7819
+          ]
+        },
+        {
+          "name": "couplet-above-love",
+          "j_ranks": [
+            219
+          ],
+          "j_ctrl_ranks": [
+            27387
+          ],
+          "l_ranks": [
+            346
+          ],
+          "l_ctrl_ranks": [
+            14358
+          ]
+        },
+        {
+          "name": "couplet-heart-art",
+          "j_ranks": [
+            458
+          ],
+          "j_ctrl_ranks": [
+            697
+          ],
+          "l_ranks": [
+            246
+          ],
+          "l_ctrl_ranks": [
+            4975
+          ]
+        },
+        {
+          "name": "couplet-apart-part",
+          "j_ranks": [
+            9306
+          ],
+          "j_ctrl_ranks": [
+            2727
+          ],
+          "l_ranks": [
+            9225
+          ],
+          "l_ctrl_ranks": [
+            10290
+          ]
+        },
+        {
+          "name": "couplet-depart-start",
+          "j_ranks": [
+            38478
+          ],
+          "j_ctrl_ranks": [
+            2505
+          ],
+          "l_ranks": [
+            47046
+          ],
+          "l_ctrl_ranks": [
+            1540
+          ]
+        },
+        {
+          "name": "couplet-hall-call",
+          "j_ranks": [
+            13205
+          ],
+          "j_ctrl_ranks": [
+            1485
+          ],
+          "l_ranks": [
+            16794
+          ],
+          "l_ctrl_ranks": [
+            14641
+          ]
+        },
+        {
+          "name": "couplet-tall-small",
+          "j_ranks": [
+            2897
+          ],
+          "j_ctrl_ranks": [
+            33657
+          ],
+          "l_ranks": [
+            8221
+          ],
+          "l_ctrl_ranks": [
+            4336
+          ]
+        },
+        {
+          "name": "couplet-hand-land",
+          "j_ranks": [
+            1353
+          ],
+          "j_ctrl_ranks": [
+            13128
+          ],
+          "l_ranks": [
+            18266
+          ],
+          "l_ctrl_ranks": [
+            6093
+          ]
+        },
+        {
+          "name": "couplet-attack-back",
+          "j_ranks": [
+            18322
+          ],
+          "j_ctrl_ranks": [
+            19277
+          ],
+          "l_ranks": [
+            12225
+          ],
+          "l_ctrl_ranks": [
+            14733
+          ]
+        },
+        {
+          "name": "couplet-crack-black",
+          "j_ranks": [
+            435
+          ],
+          "j_ctrl_ranks": [
+            15330
+          ],
+          "l_ranks": [
+            1703
+          ],
+          "l_ctrl_ranks": [
+            4765
+          ]
+        },
+        {
+          "name": "couplet-sun-done",
+          "j_ranks": [
+            3358
+          ],
+          "j_ctrl_ranks": [
+            1794
+          ],
+          "l_ranks": [
+            15906
+          ],
+          "l_ctrl_ranks": [
+            9243
+          ]
+        },
+        {
+          "name": "couplet-fun-won",
+          "j_ranks": [
+            4525
+          ],
+          "j_ctrl_ranks": [
+            3581
+          ],
+          "l_ranks": [
+            2070
+          ],
+          "l_ctrl_ranks": [
+            2881
+          ]
+        },
+        {
+          "name": "couplet-lake-break",
+          "j_ranks": [
+            2383
+          ],
+          "j_ctrl_ranks": [
+            1811
+          ],
+          "l_ranks": [
+            11710
+          ],
+          "l_ctrl_ranks": [
+            5242
+          ]
+        },
+        {
+          "name": "couplet-mistake-make",
+          "j_ranks": [
+            10152
+          ],
+          "j_ctrl_ranks": [
+            294
+          ],
+          "l_ranks": [
+            3638
+          ],
+          "l_ctrl_ranks": [
+            1975
+          ]
+        },
+        {
+          "name": "couplet-slow-low",
+          "j_ranks": [
+            9264
+          ],
+          "j_ctrl_ranks": [
+            1093
+          ],
+          "l_ranks": [
+            6052
+          ],
+          "l_ctrl_ranks": [
+            3223
+          ]
+        },
+        {
+          "name": "couplet-grow-show",
+          "j_ranks": [
+            14689
+          ],
+          "j_ctrl_ranks": [
+            5897
+          ],
+          "l_ranks": [
+            5353
+          ],
+          "l_ctrl_ranks": [
+            1856
+          ]
+        },
+        {
+          "name": "couplet-below-know",
+          "j_ranks": [
+            21032
+          ],
+          "j_ctrl_ranks": [
+            4638
+          ],
+          "l_ranks": [
+            1608
+          ],
+          "l_ctrl_ranks": [
+            16247
+          ]
+        },
+        {
+          "name": "couplet-dead-red",
+          "j_ranks": [
+            1982
+          ],
+          "j_ctrl_ranks": [
+            6332
+          ],
+          "l_ranks": [
+            6642
+          ],
+          "l_ctrl_ranks": [
+            11735
+          ]
+        },
+        {
+          "name": "couplet-ahead-head",
+          "j_ranks": [
+            2860
+          ],
+          "j_ctrl_ranks": [
+            12108
+          ],
+          "l_ranks": [
+            792
+          ],
+          "l_ctrl_ranks": [
+            17365
+          ]
+        },
+        {
+          "name": "couplet-wait-late",
+          "j_ranks": [
+            1235
+          ],
+          "j_ctrl_ranks": [
+            32593
+          ],
+          "l_ranks": [
+            2878
+          ],
+          "l_ctrl_ranks": [
+            23335
+          ]
+        },
+        {
+          "name": "couplet-fate-great",
+          "j_ranks": [
+            135
+          ],
+          "j_ctrl_ranks": [
+            351
+          ],
+          "l_ranks": [
+            1444
+          ],
+          "l_ctrl_ranks": [
+            1979
+          ]
+        },
+        {
+          "name": "couplet-ground-round",
+          "j_ranks": [
+            878
+          ],
+          "j_ctrl_ranks": [
+            1555
+          ],
+          "l_ranks": [
+            4585
+          ],
+          "l_ctrl_ranks": [
+            9388
+          ]
+        },
+        {
+          "name": "couplet-sound-found",
+          "j_ranks": [
+            196
+          ],
+          "j_ctrl_ranks": [
+            1957
+          ],
+          "l_ranks": [
+            147
+          ],
+          "l_ctrl_ranks": [
+            989
+          ]
+        }
+      ]
+    },
+    "order-ops": {
+      "summary": {
+        "n": 55,
+        "j": {
+          "1": 0.0,
+          "5": 0.05454545454545454,
+          "10": 0.14545454545454545
+        },
+        "j_ctrl": {
+          "1": 0.0,
+          "5": 0.01818181818181818,
+          "10": 0.08181818181818182
+        },
+        "logit": {
+          "1": 0.01818181818181818,
+          "5": 0.09090909090909091,
+          "10": 0.22727272727272727
+        },
+        "logit_ctrl": {
+          "1": 0.0,
+          "5": 0.05454545454545454,
+          "10": 0.19090909090909092
+        }
+      },
+      "records": [
+        {
+          "name": "parens-add-mult",
+          "j_ranks": [
+            577,
+            16
+          ],
+          "j_ctrl_ranks": [
+            514,
+            22
+          ],
+          "l_ranks": [
+            543,
+            5
+          ],
+          "l_ctrl_ranks": [
+            262,
+            7
+          ]
+        },
+        {
+          "name": "parens-sub-mult",
+          "j_ranks": [
+            220,
+            22
+          ],
+          "j_ctrl_ranks": [
+            172,
+            9
+          ],
+          "l_ranks": [
+            1195,
+            61
+          ],
+          "l_ctrl_ranks": [
+            258,
+            2
+          ]
+        },
+        {
+          "name": "mult-parens-add",
+          "j_ranks": [
+            890,
+            2
+          ],
+          "j_ctrl_ranks": [
+            1525,
+            14
+          ],
+          "l_ranks": [
+            3380,
+            5
+          ],
+          "l_ctrl_ranks": [
+            1361,
+            28
+          ]
+        },
+        {
+          "name": "mult-parens-sub",
+          "j_ranks": [
+            302,
+            10
+          ],
+          "j_ctrl_ranks": [
+            562,
+            24
+          ],
+          "l_ranks": [
+            229,
+            35
+          ],
+          "l_ctrl_ranks": [
+            474,
+            16
+          ]
+        },
+        {
+          "name": "add-mult-right",
+          "j_ranks": [
+            944,
+            16
+          ],
+          "j_ctrl_ranks": [
+            629,
+            16
+          ],
+          "l_ranks": [
+            1332,
+            33
+          ],
+          "l_ctrl_ranks": [
+            1480,
+            30
+          ]
+        },
+        {
+          "name": "mult-add-left",
+          "j_ranks": [
+            800,
+            11
+          ],
+          "j_ctrl_ranks": [
+            800,
+            19
+          ],
+          "l_ranks": [
+            1356,
+            18
+          ],
+          "l_ctrl_ranks": [
+            1356,
+            61
+          ]
+        },
+        {
+          "name": "sub-mult-right",
+          "j_ranks": [
+            692,
+            11
+          ],
+          "j_ctrl_ranks": [
+            515,
+            11
+          ],
+          "l_ranks": [
+            727,
+            7
+          ],
+          "l_ctrl_ranks": [
+            762,
+            7
+          ]
+        },
+        {
+          "name": "mult-sub-left",
+          "j_ranks": [
+            284,
+            13
+          ],
+          "j_ctrl_ranks": [
+            761,
+            16
+          ],
+          "l_ranks": [
+            299,
+            7
+          ],
+          "l_ctrl_ranks": [
+            537,
+            28
+          ]
+        },
+        {
+          "name": "add-sub-left-right",
+          "j_ranks": [
+            249,
+            17
+          ],
+          "j_ctrl_ranks": [
+            501,
+            17
+          ],
+          "l_ranks": [
+            143,
+            6
+          ],
+          "l_ctrl_ranks": [
+            711,
+            6
+          ]
+        },
+        {
+          "name": "sub-add-left-right",
+          "j_ranks": [
+            224,
+            17
+          ],
+          "j_ctrl_ranks": [
+            224,
+            18
+          ],
+          "l_ranks": [
+            984,
+            53
+          ],
+          "l_ctrl_ranks": [
+            958,
+            5
+          ]
+        },
+        {
+          "name": "div-parens-add",
+          "j_ranks": [
+            439,
+            2
+          ],
+          "j_ctrl_ranks": [
+            1204,
+            11
+          ],
+          "l_ranks": [
+            700,
+            3
+          ],
+          "l_ctrl_ranks": [
+            386,
+            5
+          ]
+        },
+        {
+          "name": "parens-add-div",
+          "j_ranks": [
+            976,
+            9
+          ],
+          "j_ctrl_ranks": [
+            2462,
+            9
+          ],
+          "l_ranks": [
+            2115,
+            1
+          ],
+          "l_ctrl_ranks": [
+            3753,
+            1
+          ]
+        },
+        {
+          "name": "parens-sub-div",
+          "j_ranks": [
+            1377,
+            13
+          ],
+          "j_ctrl_ranks": [
+            553,
+            20
+          ],
+          "l_ranks": [
+            1299,
+            6
+          ],
+          "l_ctrl_ranks": [
+            864,
+            49
+          ]
+        },
+        {
+          "name": "div-sub-left",
+          "j_ranks": [
+            377,
+            5
+          ],
+          "j_ctrl_ranks": [
+            1285,
+            9
+          ],
+          "l_ranks": [
+            209,
+            5
+          ],
+          "l_ctrl_ranks": [
+            1945,
+            74
+          ]
+        },
+        {
+          "name": "chain-add-mult-add",
+          "j_ranks": [
+            540,
+            19
+          ],
+          "j_ctrl_ranks": [
+            762,
+            24
+          ],
+          "l_ranks": [
+            747,
+            21
+          ],
+          "l_ctrl_ranks": [
+            1697,
+            9
+          ]
+        },
+        {
+          "name": "chain-mult-sub-add",
+          "j_ranks": [
+            483,
+            18
+          ],
+          "j_ctrl_ranks": [
+            379,
+            17
+          ],
+          "l_ranks": [
+            362,
+            7
+          ],
+          "l_ctrl_ranks": [
+            537,
+            53
+          ]
+        },
+        {
+          "name": "chain-sub-mult-sub",
+          "j_ranks": [
+            517,
+            15
+          ],
+          "j_ctrl_ranks": [
+            461,
+            61
+          ],
+          "l_ranks": [
+            1232,
+            5
+          ],
+          "l_ctrl_ranks": [
+            3097,
+            185
+          ]
+        },
+        {
+          "name": "nested-add-mult-sub",
+          "j_ranks": [
+            1935,
+            18
+          ],
+          "j_ctrl_ranks": [
+            1663,
+            115
+          ],
+          "l_ranks": [
+            502,
+            9
+          ],
+          "l_ctrl_ranks": [
+            818,
+            75
+          ]
+        },
+        {
+          "name": "nested-mult-add-div",
+          "j_ranks": [
+            3503,
+            24
+          ],
+          "j_ctrl_ranks": [
+            272,
+            43
+          ],
+          "l_ranks": [
+            2950,
+            20
+          ],
+          "l_ctrl_ranks": [
+            358,
+            26
+          ]
+        },
+        {
+          "name": "nested-sub-add-mult",
+          "j_ranks": [
+            522,
+            21
+          ],
+          "j_ctrl_ranks": [
+            487,
+            21
+          ],
+          "l_ranks": [
+            462,
+            18
+          ],
+          "l_ctrl_ranks": [
+            591,
+            18
+          ]
+        },
+        {
+          "name": "word-add-mult",
+          "j_ranks": [
+            31,
+            90
+          ],
+          "j_ctrl_ranks": [
+            19,
+            195
+          ],
+          "l_ranks": [
+            38,
+            10
+          ],
+          "l_ctrl_ranks": [
+            8,
+            10
+          ]
+        },
+        {
+          "name": "word-mult-sub",
+          "j_ranks": [
+            36,
+            37
+          ],
+          "j_ctrl_ranks": [
+            13,
+            97
+          ],
+          "l_ranks": [
+            33,
+            2
+          ],
+          "l_ctrl_ranks": [
+            3,
+            14
+          ]
+        },
+        {
+          "name": "word-parens",
+          "j_ranks": [
+            67,
+            295
+          ],
+          "j_ctrl_ranks": [
+            111,
+            295
+          ],
+          "l_ranks": [
+            26,
+            24
+          ],
+          "l_ctrl_ranks": [
+            56,
+            24
+          ]
+        },
+        {
+          "name": "mod-add",
+          "j_ranks": [
+            3223,
+            6
+          ],
+          "j_ctrl_ranks": [
+            5534,
+            21
+          ],
+          "l_ranks": [
+            11810,
+            21
+          ],
+          "l_ctrl_ranks": [
+            3454,
+            55
+          ]
+        },
+        {
+          "name": "mod-mult",
+          "j_ranks": [
+            5452,
+            9
+          ],
+          "j_ctrl_ranks": [
+            482,
+            9
+          ],
+          "l_ranks": [
+            875,
+            27
+          ],
+          "l_ctrl_ranks": [
+            524,
+            63
+          ]
+        },
+        {
+          "name": "square-sub",
+          "j_ranks": [
+            306,
+            18
+          ],
+          "j_ctrl_ranks": [
+            1063,
+            18
+          ],
+          "l_ranks": [
+            278,
+            25
+          ],
+          "l_ctrl_ranks": [
+            2192,
+            4
+          ]
+        },
+        {
+          "name": "mult-mult-left",
+          "j_ranks": [
+            225,
+            3
+          ],
+          "j_ctrl_ranks": [
+            808,
+            17
+          ],
+          "l_ranks": [
+            29,
+            1
+          ],
+          "l_ctrl_ranks": [
+            2482,
+            4
+          ]
+        },
+        {
+          "name": "div-div-left",
+          "j_ranks": [
+            588,
+            7
+          ],
+          "j_ctrl_ranks": [
+            588,
+            9
+          ],
+          "l_ranks": [
+            278,
+            14
+          ],
+          "l_ctrl_ranks": [
+            278,
+            121
+          ]
+        },
+        {
+          "name": "mult-div-left",
+          "j_ranks": [
+            3,
+            9
+          ],
+          "j_ctrl_ranks": [
+            1167,
+            8
+          ],
+          "l_ranks": [
+            1,
+            5
+          ],
+          "l_ctrl_ranks": [
+            427,
+            18
+          ]
+        },
+        {
+          "name": "div-mult-left",
+          "j_ranks": [
+            362,
+            12
+          ],
+          "j_ctrl_ranks": [
+            1255,
+            15
+          ],
+          "l_ranks": [
+            90,
+            18
+          ],
+          "l_ctrl_ranks": [
+            542,
+            121
+          ]
+        },
+        {
+          "name": "mult-div-mult",
+          "j_ranks": [
+            1220,
+            11
+          ],
+          "j_ctrl_ranks": [
+            739,
+            11
+          ],
+          "l_ranks": [
+            1134,
+            14
+          ],
+          "l_ctrl_ranks": [
+            316,
+            7
+          ]
+        },
+        {
+          "name": "add-add-add",
+          "j_ranks": [
+            174,
+            5
+          ],
+          "j_ctrl_ranks": [
+            174,
+            19
+          ],
+          "l_ranks": [
+            67,
+            0
+          ],
+          "l_ctrl_ranks": [
+            67,
+            66
+          ]
+        },
+        {
+          "name": "sub-sub-sub",
+          "j_ranks": [
+            290,
+            9
+          ],
+          "j_ctrl_ranks": [
+            391,
+            60
+          ],
+          "l_ranks": [
+            502,
+            4
+          ],
+          "l_ctrl_ranks": [
+            535,
+            14
+          ]
+        },
+        {
+          "name": "add-sub-add-sub",
+          "j_ranks": [
+            535,
+            15
+          ],
+          "j_ctrl_ranks": [
+            717,
+            15
+          ],
+          "l_ranks": [
+            1266,
+            5
+          ],
+          "l_ctrl_ranks": [
+            945,
+            5
+          ]
+        },
+        {
+          "name": "chain-mult-mult-add",
+          "j_ranks": [
+            667,
+            17
+          ],
+          "j_ctrl_ranks": [
+            667,
+            17
+          ],
+          "l_ranks": [
+            591,
+            17
+          ],
+          "l_ctrl_ranks": [
+            591,
+            17
+          ]
+        },
+        {
+          "name": "nested-add-add-mult",
+          "j_ranks": [
+            1716,
+            18
+          ],
+          "j_ctrl_ranks": [
+            297,
+            19
+          ],
+          "l_ranks": [
+            398,
+            10
+          ],
+          "l_ctrl_ranks": [
+            305,
+            7
+          ]
+        },
+        {
+          "name": "nested-mult-sub-add",
+          "j_ranks": [
+            1030,
+            26
+          ],
+          "j_ctrl_ranks": [
+            507,
+            16
+          ],
+          "l_ranks": [
+            773,
+            49
+          ],
+          "l_ctrl_ranks": [
+            313,
+            8
+          ]
+        },
+        {
+          "name": "nested-div-add-sub",
+          "j_ranks": [
+            584,
+            23
+          ],
+          "j_ctrl_ranks": [
+            1018,
+            55
+          ],
+          "l_ranks": [
+            268,
+            9
+          ],
+          "l_ctrl_ranks": [
+            802,
+            99
+          ]
+        },
+        {
+          "name": "nested-sub-div-mult",
+          "j_ranks": [
+            288,
+            19
+          ],
+          "j_ctrl_ranks": [
+            495,
+            17
+          ],
+          "l_ranks": [
+            523,
+            12
+          ],
+          "l_ctrl_ranks": [
+            647,
+            7
+          ]
+        },
+        {
+          "name": "nested4-add-mult-add-div",
+          "j_ranks": [
+            3820,
+            39
+          ],
+          "j_ctrl_ranks": [
+            3820,
+            32
+          ],
+          "l_ranks": [
+            1996,
+            18
+          ],
+          "l_ctrl_ranks": [
+            1996,
+            39
+          ]
+        },
+        {
+          "name": "nested4-sub-add-mult-sub",
+          "j_ranks": [
+            1273,
+            26
+          ],
+          "j_ctrl_ranks": [
+            609,
+            28
+          ],
+          "l_ranks": [
+            851,
+            10
+          ],
+          "l_ctrl_ranks": [
+            524,
+            66
+          ]
+        },
+        {
+          "name": "redundant-parens-mult",
+          "j_ranks": [
+            447,
+            15
+          ],
+          "j_ctrl_ranks": [
+            593,
+            73
+          ],
+          "l_ranks": [
+            262,
+            20
+          ],
+          "l_ctrl_ranks": [
+            808,
+            91
+          ]
+        },
+        {
+          "name": "redundant-parens-div",
+          "j_ranks": [
+            305,
+            12
+          ],
+          "j_ctrl_ranks": [
+            305,
+            25
+          ],
+          "l_ranks": [
+            210,
+            4
+          ],
+          "l_ctrl_ranks": [
+            210,
+            14
+          ]
+        },
+        {
+          "name": "word-sub-mult",
+          "j_ranks": [
+            23,
+            52
+          ],
+          "j_ctrl_ranks": [
+            25,
+            96
+          ],
+          "l_ranks": [
+            13,
+            7
+          ],
+          "l_ctrl_ranks": [
+            21,
+            35
+          ]
+        },
+        {
+          "name": "word-add-add",
+          "j_ranks": [
+            40,
+            55
+          ],
+          "j_ctrl_ranks": [
+            39,
+            170
+          ],
+          "l_ranks": [
+            11,
+            0
+          ],
+          "l_ctrl_ranks": [
+            5,
+            50
+          ]
+        },
+        {
+          "name": "word-div-sub",
+          "j_ranks": [
+            12,
+            21
+          ],
+          "j_ctrl_ranks": [
+            28,
+            105
+          ],
+          "l_ranks": [
+            10,
+            1
+          ],
+          "l_ctrl_ranks": [
+            28,
+            55
+          ]
+        },
+        {
+          "name": "mixed-mult-add",
+          "j_ranks": [
+            283,
+            129
+          ],
+          "j_ctrl_ranks": [
+            483,
+            217
+          ],
+          "l_ranks": [
+            638,
+            43
+          ],
+          "l_ctrl_ranks": [
+            1204,
+            14
+          ]
+        },
+        {
+          "name": "mixed-parens-mult",
+          "j_ranks": [
+            109,
+            422
+          ],
+          "j_ctrl_ranks": [
+            142,
+            196
+          ],
+          "l_ranks": [
+            110,
+            45
+          ],
+          "l_ctrl_ranks": [
+            80,
+            3
+          ]
+        },
+        {
+          "name": "mod-sub",
+          "j_ranks": [
+            2969,
+            6
+          ],
+          "j_ctrl_ranks": [
+            862,
+            25
+          ],
+          "l_ranks": [
+            1250,
+            26
+          ],
+          "l_ctrl_ranks": [
+            1681,
+            55
+          ]
+        },
+        {
+          "name": "square-div",
+          "j_ranks": [
+            258,
+            14
+          ],
+          "j_ctrl_ranks": [
+            418,
+            12
+          ],
+          "l_ranks": [
+            212,
+            14
+          ],
+          "l_ctrl_ranks": [
+            722,
+            9
+          ]
+        },
+        {
+          "name": "square-mult",
+          "j_ranks": [
+            156,
+            12
+          ],
+          "j_ctrl_ranks": [
+            1009,
+            6
+          ],
+          "l_ranks": [
+            31,
+            22
+          ],
+          "l_ctrl_ranks": [
+            2628,
+            21
+          ]
+        },
+        {
+          "name": "pystar-add",
+          "j_ranks": [
+            23,
+            9
+          ],
+          "j_ctrl_ranks": [
+            23,
+            1
+          ],
+          "l_ranks": [
+            26,
+            7
+          ],
+          "l_ctrl_ranks": [
+            26,
+            11
+          ]
+        },
+        {
+          "name": "pystar-sub",
+          "j_ranks": [
+            111,
+            19
+          ],
+          "j_ctrl_ranks": [
+            688,
+            24
+          ],
+          "l_ranks": [
+            27,
+            20
+          ],
+          "l_ctrl_ranks": [
+            574,
+            41
+          ]
+        },
+        {
+          "name": "floordiv-add",
+          "j_ranks": [
+            834,
+            4
+          ],
+          "j_ctrl_ranks": [
+            2912,
+            3
+          ],
+          "l_ranks": [
+            5143,
+            34
+          ],
+          "l_ctrl_ranks": [
+            3436,
+            39
+          ]
+        },
+        {
+          "name": "floordiv-mult",
+          "j_ranks": [
+            673,
+            3
+          ],
+          "j_ctrl_ranks": [
+            2172,
+            41
+          ],
+          "l_ranks": [
+            685,
+            23
+          ],
+          "l_ctrl_ranks": [
+            3113,
+            8
+          ]
+        }
+      ]
+    },
+    "association": {
+      "summary": {
+        "n": 102,
+        "j": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.00980392156862745
+        },
+        "j_ctrl": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        },
+        "logit": {
+          "1": 0.00980392156862745,
+          "5": 0.00980392156862745,
+          "10": 0.0196078431372549
+        },
+        "logit_ctrl": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        }
+      },
+      "records": [
+        {
+          "name": "grief",
+          "j_ranks": [
+            3021
+          ],
+          "j_ctrl_ranks": [
+            32966
+          ],
+          "l_ranks": [
+            2221
+          ],
+          "l_ctrl_ranks": [
+            4250
+          ]
+        },
+        {
+          "name": "pregnant",
+          "j_ranks": [
+            1093
+          ],
+          "j_ctrl_ranks": [
+            33648
+          ],
+          "l_ranks": [
+            2925
+          ],
+          "l_ctrl_ranks": [
+            9336
+          ]
+        },
+        {
+          "name": "lie",
+          "j_ranks": [
+            2675
+          ],
+          "j_ctrl_ranks": [
+            34313
+          ],
+          "l_ranks": [
+            305
+          ],
+          "l_ctrl_ranks": [
+            5397
+          ]
+        },
+        {
+          "name": "poverty",
+          "j_ranks": [
+            22951
+          ],
+          "j_ctrl_ranks": [
+            29784
+          ],
+          "l_ranks": [
+            8282
+          ],
+          "l_ctrl_ranks": [
+            9998
+          ]
+        },
+        {
+          "name": "proposal",
+          "j_ranks": [
+            57837
+          ],
+          "j_ctrl_ranks": [
+            3907
+          ],
+          "l_ranks": [
+            28443
+          ],
+          "l_ctrl_ranks": [
+            6298
+          ]
+        },
+        {
+          "name": "fired",
+          "j_ranks": [
+            5542
+          ],
+          "j_ctrl_ranks": [
+            5448
+          ],
+          "l_ranks": [
+            7369
+          ],
+          "l_ctrl_ranks": [
+            3190
+          ]
+        },
+        {
+          "name": "divorce",
+          "j_ranks": [
+            532
+          ],
+          "j_ctrl_ranks": [
+            62869
+          ],
+          "l_ranks": [
+            644
+          ],
+          "l_ctrl_ranks": [
+            6344
+          ]
+        },
+        {
+          "name": "relief",
+          "j_ranks": [
+            5962
+          ],
+          "j_ctrl_ranks": [
+            1291
+          ],
+          "l_ranks": [
+            1579
+          ],
+          "l_ctrl_ranks": [
+            1310
+          ]
+        },
+        {
+          "name": "pennsylvania",
+          "j_ranks": [
+            4906
+          ],
+          "j_ctrl_ranks": [
+            25242
+          ],
+          "l_ranks": [
+            1511
+          ],
+          "l_ctrl_ranks": [
+            49246
+          ]
+        },
+        {
+          "name": "prohibition",
+          "j_ranks": [
+            65979
+          ],
+          "j_ctrl_ranks": [
+            49364
+          ],
+          "l_ranks": [
+            1392
+          ],
+          "l_ctrl_ranks": [
+            20749
+          ]
+        },
+        {
+          "name": "nasa",
+          "j_ranks": [
+            398
+          ],
+          "j_ctrl_ranks": [
+            5644
+          ],
+          "l_ranks": [
+            485
+          ],
+          "l_ctrl_ranks": [
+            9162
+          ]
+        },
+        {
+          "name": "einstein",
+          "j_ranks": [
+            6812
+          ],
+          "j_ctrl_ranks": [
+            9479
+          ],
+          "l_ranks": [
+            13426
+          ],
+          "l_ctrl_ranks": [
+            13211
+          ]
+        },
+        {
+          "name": "darwin",
+          "j_ranks": [
+            9709
+          ],
+          "j_ctrl_ranks": [
+            10624
+          ],
+          "l_ranks": [
+            8159
+          ],
+          "l_ctrl_ranks": [
+            14862
+          ]
+        },
+        {
+          "name": "beatles",
+          "j_ranks": [
+            23715
+          ],
+          "j_ctrl_ranks": [
+            2721
+          ],
+          "l_ranks": [
+            9191
+          ],
+          "l_ctrl_ranks": [
+            2462
+          ]
+        },
+        {
+          "name": "lincoln",
+          "j_ranks": [
+            1183
+          ],
+          "j_ctrl_ranks": [
+            12817
+          ],
+          "l_ranks": [
+            1418
+          ],
+          "l_ctrl_ranks": [
+            19752
+          ]
+        },
+        {
+          "name": "obama",
+          "j_ranks": [
+            13490
+          ],
+          "j_ctrl_ranks": [
+            4610
+          ],
+          "l_ranks": [
+            21848
+          ],
+          "l_ctrl_ranks": [
+            8664
+          ]
+        },
+        {
+          "name": "olympics",
+          "j_ranks": [
+            3339
+          ],
+          "j_ctrl_ranks": [
+            23552
+          ],
+          "l_ranks": [
+            6809
+          ],
+          "l_ctrl_ranks": [
+            7235
+          ]
+        },
+        {
+          "name": "churchill",
+          "j_ranks": [
+            733
+          ],
+          "j_ctrl_ranks": [
+            1438
+          ],
+          "l_ranks": [
+            726
+          ],
+          "l_ctrl_ranks": [
+            3426
+          ]
+        },
+        {
+          "name": "newton",
+          "j_ranks": [
+            6514
+          ],
+          "j_ctrl_ranks": [
+            28472
+          ],
+          "l_ranks": [
+            7720
+          ],
+          "l_ctrl_ranks": [
+            17459
+          ]
+        },
+        {
+          "name": "mozart",
+          "j_ranks": [
+            895
+          ],
+          "j_ctrl_ranks": [
+            14474
+          ],
+          "l_ranks": [
+            552
+          ],
+          "l_ctrl_ranks": [
+            14093
+          ]
+        },
+        {
+          "name": "berlin",
+          "j_ranks": [
+            4564
+          ],
+          "j_ctrl_ranks": [
+            1146
+          ],
+          "l_ranks": [
+            4935
+          ],
+          "l_ctrl_ranks": [
+            6081
+          ]
+        },
+        {
+          "name": "armstrong",
+          "j_ranks": [
+            18450
+          ],
+          "j_ctrl_ranks": [
+            7732
+          ],
+          "l_ranks": [
+            15614
+          ],
+          "l_ctrl_ranks": [
+            8453
+          ]
+        },
+        {
+          "name": "wright",
+          "j_ranks": [
+            3181
+          ],
+          "j_ctrl_ranks": [
+            77282
+          ],
+          "l_ranks": [
+            3977
+          ],
+          "l_ctrl_ranks": [
+            23819
+          ]
+        },
+        {
+          "name": "gandhi",
+          "j_ranks": [
+            17946
+          ],
+          "j_ctrl_ranks": [
+            1583
+          ],
+          "l_ranks": [
+            10361
+          ],
+          "l_ctrl_ranks": [
+            3640
+          ]
+        },
+        {
+          "name": "edison",
+          "j_ranks": [
+            1112
+          ],
+          "j_ctrl_ranks": [
+            5548
+          ],
+          "l_ranks": [
+            3510
+          ],
+          "l_ctrl_ranks": [
+            4417
+          ]
+        },
+        {
+          "name": "cia",
+          "j_ranks": [
+            1489
+          ],
+          "j_ctrl_ranks": [
+            1354
+          ],
+          "l_ranks": [
+            3784
+          ],
+          "l_ctrl_ranks": [
+            4269
+          ]
+        },
+        {
+          "name": "vatican",
+          "j_ranks": [
+            12377
+          ],
+          "j_ctrl_ranks": [
+            2390
+          ],
+          "l_ranks": [
+            10958
+          ],
+          "l_ctrl_ranks": [
+            3707
+          ]
+        },
+        {
+          "name": "hollywood",
+          "j_ranks": [
+            1465
+          ],
+          "j_ctrl_ranks": [
+            373
+          ],
+          "l_ranks": [
+            2486
+          ],
+          "l_ctrl_ranks": [
+            1306
+          ]
+        },
+        {
+          "name": "pentagon",
+          "j_ranks": [
+            6825
+          ],
+          "j_ctrl_ranks": [
+            5369
+          ],
+          "l_ranks": [
+            4659
+          ],
+          "l_ctrl_ranks": [
+            3200
+          ]
+        },
+        {
+          "name": "unesco",
+          "j_ranks": [
+            15543
+          ],
+          "j_ctrl_ranks": [
+            30868
+          ],
+          "l_ranks": [
+            15272
+          ],
+          "l_ctrl_ranks": [
+            24447
+          ]
+        },
+        {
+          "name": "anger",
+          "j_ranks": [
+            17910
+          ],
+          "j_ctrl_ranks": [
+            31418
+          ],
+          "l_ranks": [
+            9983
+          ],
+          "l_ctrl_ranks": [
+            2708
+          ]
+        },
+        {
+          "name": "frustrated",
+          "j_ranks": [
+            8324
+          ],
+          "j_ctrl_ranks": [
+            80856
+          ],
+          "l_ranks": [
+            1193
+          ],
+          "l_ctrl_ranks": [
+            20273
+          ]
+        },
+        {
+          "name": "lonely",
+          "j_ranks": [
+            3706
+          ],
+          "j_ctrl_ranks": [
+            16197
+          ],
+          "l_ranks": [
+            4087
+          ],
+          "l_ctrl_ranks": [
+            3184
+          ]
+        },
+        {
+          "name": "shame",
+          "j_ranks": [
+            1500
+          ],
+          "j_ctrl_ranks": [
+            31717
+          ],
+          "l_ranks": [
+            2237
+          ],
+          "l_ctrl_ranks": [
+            26064
+          ]
+        },
+        {
+          "name": "noir",
+          "j_ranks": [
+            728
+          ],
+          "j_ctrl_ranks": [
+            16858
+          ],
+          "l_ranks": [
+            47
+          ],
+          "l_ctrl_ranks": [
+            150
+          ]
+        },
+        {
+          "name": "horror",
+          "j_ranks": [
+            80
+          ],
+          "j_ctrl_ranks": [
+            31171
+          ],
+          "l_ranks": [
+            784
+          ],
+          "l_ctrl_ranks": [
+            58468
+          ]
+        },
+        {
+          "name": "fairy",
+          "j_ranks": [
+            1838
+          ],
+          "j_ctrl_ranks": [
+            10290
+          ],
+          "l_ranks": [
+            3002
+          ],
+          "l_ctrl_ranks": [
+            6709
+          ]
+        },
+        {
+          "name": "siblings",
+          "j_ranks": [
+            10882
+          ],
+          "j_ctrl_ranks": [
+            17762
+          ],
+          "l_ranks": [
+            1052
+          ],
+          "l_ctrl_ranks": [
+            23201
+          ]
+        },
+        {
+          "name": "rivals",
+          "j_ranks": [
+            2867
+          ],
+          "j_ctrl_ranks": [
+            4307
+          ],
+          "l_ranks": [
+            614
+          ],
+          "l_ctrl_ranks": [
+            3265
+          ]
+        },
+        {
+          "name": "mother",
+          "j_ranks": [
+            243
+          ],
+          "j_ctrl_ranks": [
+            30044
+          ],
+          "l_ranks": [
+            131
+          ],
+          "l_ctrl_ranks": [
+            12269
+          ]
+        },
+        {
+          "name": "boss",
+          "j_ranks": [
+            7544
+          ],
+          "j_ctrl_ranks": [
+            5455
+          ],
+          "l_ranks": [
+            8564
+          ],
+          "l_ctrl_ranks": [
+            8059
+          ]
+        },
+        {
+          "name": "neighbors",
+          "j_ranks": [
+            1477
+          ],
+          "j_ctrl_ranks": [
+            11861
+          ],
+          "l_ranks": [
+            57
+          ],
+          "l_ctrl_ranks": [
+            5198
+          ]
+        },
+        {
+          "name": "teacher",
+          "j_ranks": [
+            32991
+          ],
+          "j_ctrl_ranks": [
+            13968
+          ],
+          "l_ranks": [
+            41382
+          ],
+          "l_ctrl_ranks": [
+            15650
+          ]
+        },
+        {
+          "name": "underwater",
+          "j_ranks": [
+            6
+          ],
+          "j_ctrl_ranks": [
+            5082
+          ],
+          "l_ranks": [
+            19
+          ],
+          "l_ctrl_ranks": [
+            839
+          ]
+        },
+        {
+          "name": "desert",
+          "j_ranks": [
+            3646
+          ],
+          "j_ctrl_ranks": [
+            7930
+          ],
+          "l_ranks": [
+            3119
+          ],
+          "l_ctrl_ranks": [
+            4818
+          ]
+        },
+        {
+          "name": "chess",
+          "j_ranks": [
+            12722
+          ],
+          "j_ctrl_ranks": [
+            14771
+          ],
+          "l_ranks": [
+            5023
+          ],
+          "l_ctrl_ranks": [
+            7661
+          ]
+        },
+        {
+          "name": "poker",
+          "j_ranks": [
+            1041
+          ],
+          "j_ctrl_ranks": [
+            4554
+          ],
+          "l_ranks": [
+            2791
+          ],
+          "l_ctrl_ranks": [
+            1674
+          ]
+        },
+        {
+          "name": "interview",
+          "j_ranks": [
+            9849
+          ],
+          "j_ctrl_ranks": [
+            13088
+          ],
+          "l_ranks": [
+            55217
+          ],
+          "l_ctrl_ranks": [
+            1998
+          ]
+        },
+        {
+          "name": "dawn",
+          "j_ranks": [
+            73
+          ],
+          "j_ctrl_ranks": [
+            16649
+          ],
+          "l_ranks": [
+            84
+          ],
+          "l_ctrl_ranks": [
+            5191
+          ]
+        },
+        {
+          "name": "winter",
+          "j_ranks": [
+            378
+          ],
+          "j_ctrl_ranks": [
+            1752
+          ],
+          "l_ranks": [
+            409
+          ],
+          "l_ctrl_ranks": [
+            1418
+          ]
+        },
+        {
+          "name": "death-h",
+          "j_ranks": [
+            22486
+          ],
+          "j_ctrl_ranks": [
+            11635
+          ],
+          "l_ranks": [
+            885
+          ],
+          "l_ctrl_ranks": [
+            6898
+          ]
+        },
+        {
+          "name": "war-h",
+          "j_ranks": [
+            3142
+          ],
+          "j_ctrl_ranks": [
+            24547
+          ],
+          "l_ranks": [
+            1572
+          ],
+          "l_ctrl_ranks": [
+            30313
+          ]
+        },
+        {
+          "name": "love-h",
+          "j_ranks": [
+            461
+          ],
+          "j_ctrl_ranks": [
+            26771
+          ],
+          "l_ranks": [
+            181
+          ],
+          "l_ctrl_ranks": [
+            11628
+          ]
+        },
+        {
+          "name": "home-h",
+          "j_ranks": [
+            7034
+          ],
+          "j_ctrl_ranks": [
+            13174
+          ],
+          "l_ranks": [
+            663
+          ],
+          "l_ctrl_ranks": [
+            1041
+          ]
+        },
+        {
+          "name": "school-h",
+          "j_ranks": [
+            1861
+          ],
+          "j_ctrl_ranks": [
+            1537
+          ],
+          "l_ranks": [
+            582
+          ],
+          "l_ctrl_ranks": [
+            6154
+          ]
+        },
+        {
+          "name": "church-h",
+          "j_ranks": [
+            18163
+          ],
+          "j_ctrl_ranks": [
+            99442
+          ],
+          "l_ranks": [
+            5235
+          ],
+          "l_ctrl_ranks": [
+            59788
+          ]
+        },
+        {
+          "name": "office-h",
+          "j_ranks": [
+            15
+          ],
+          "j_ctrl_ranks": [
+            10594
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            19014
+          ]
+        },
+        {
+          "name": "court-h",
+          "j_ranks": [
+            9260
+          ],
+          "j_ctrl_ranks": [
+            33581
+          ],
+          "l_ranks": [
+            3105
+          ],
+          "l_ctrl_ranks": [
+            2952
+          ]
+        },
+        {
+          "name": "park-h",
+          "j_ranks": [
+            2075
+          ],
+          "j_ctrl_ranks": [
+            20708
+          ],
+          "l_ranks": [
+            1463
+          ],
+          "l_ctrl_ranks": [
+            2912
+          ]
+        },
+        {
+          "name": "city-h",
+          "j_ranks": [
+            1364
+          ],
+          "j_ctrl_ranks": [
+            32959
+          ],
+          "l_ranks": [
+            386
+          ],
+          "l_ctrl_ranks": [
+            12201
+          ]
+        },
+        {
+          "name": "town-h",
+          "j_ranks": [
+            3636
+          ],
+          "j_ctrl_ranks": [
+            27401
+          ],
+          "l_ranks": [
+            659
+          ],
+          "l_ctrl_ranks": [
+            621
+          ]
+        },
+        {
+          "name": "field-h",
+          "j_ranks": [
+            8292
+          ],
+          "j_ctrl_ranks": [
+            11541
+          ],
+          "l_ranks": [
+            5928
+          ],
+          "l_ctrl_ranks": [
+            15032
+          ]
+        },
+        {
+          "name": "store-h",
+          "j_ranks": [
+            56004
+          ],
+          "j_ctrl_ranks": [
+            6785
+          ],
+          "l_ranks": [
+            34835
+          ],
+          "l_ctrl_ranks": [
+            3745
+          ]
+        },
+        {
+          "name": "art-h",
+          "j_ranks": [
+            982
+          ],
+          "j_ctrl_ranks": [
+            21178
+          ],
+          "l_ranks": [
+            97
+          ],
+          "l_ctrl_ranks": [
+            36124
+          ]
+        },
+        {
+          "name": "music-h",
+          "j_ranks": [
+            2349
+          ],
+          "j_ctrl_ranks": [
+            4398
+          ],
+          "l_ranks": [
+            1798
+          ],
+          "l_ctrl_ranks": [
+            1207
+          ]
+        },
+        {
+          "name": "math-h",
+          "j_ranks": [
+            1477
+          ],
+          "j_ctrl_ranks": [
+            20051
+          ],
+          "l_ranks": [
+            749
+          ],
+          "l_ctrl_ranks": [
+            1124
+          ]
+        },
+        {
+          "name": "science-h",
+          "j_ranks": [
+            646
+          ],
+          "j_ctrl_ranks": [
+            13670
+          ],
+          "l_ranks": [
+            492
+          ],
+          "l_ctrl_ranks": [
+            5565
+          ]
+        },
+        {
+          "name": "history-h",
+          "j_ranks": [
+            7789
+          ],
+          "j_ctrl_ranks": [
+            14610
+          ],
+          "l_ranks": [
+            169
+          ],
+          "l_ctrl_ranks": [
+            17031
+          ]
+        },
+        {
+          "name": "law-h",
+          "j_ranks": [
+            9795
+          ],
+          "j_ctrl_ranks": [
+            7671
+          ],
+          "l_ranks": [
+            8239
+          ],
+          "l_ctrl_ranks": [
+            3009
+          ]
+        },
+        {
+          "name": "film-h",
+          "j_ranks": [
+            604
+          ],
+          "j_ctrl_ranks": [
+            1668
+          ],
+          "l_ranks": [
+            2745
+          ],
+          "l_ctrl_ranks": [
+            1955
+          ]
+        },
+        {
+          "name": "code-h",
+          "j_ranks": [
+            4159
+          ],
+          "j_ctrl_ranks": [
+            4991
+          ],
+          "l_ranks": [
+            2713
+          ],
+          "l_ctrl_ranks": [
+            2698
+          ]
+        },
+        {
+          "name": "news-h",
+          "j_ranks": [
+            215
+          ],
+          "j_ctrl_ranks": [
+            15092
+          ],
+          "l_ranks": [
+            30
+          ],
+          "l_ctrl_ranks": [
+            12044
+          ]
+        },
+        {
+          "name": "night-h",
+          "j_ranks": [
+            55
+          ],
+          "j_ctrl_ranks": [
+            3859
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            1266
+          ]
+        },
+        {
+          "name": "past-h",
+          "j_ranks": [
+            1503
+          ],
+          "j_ctrl_ranks": [
+            6162
+          ],
+          "l_ranks": [
+            521
+          ],
+          "l_ctrl_ranks": [
+            359
+          ]
+        },
+        {
+          "name": "future-h",
+          "j_ranks": [
+            9956
+          ],
+          "j_ctrl_ranks": [
+            37762
+          ],
+          "l_ranks": [
+            787
+          ],
+          "l_ctrl_ranks": [
+            10303
+          ]
+        },
+        {
+          "name": "race-h",
+          "j_ranks": [
+            8534
+          ],
+          "j_ctrl_ranks": [
+            25926
+          ],
+          "l_ranks": [
+            2721
+          ],
+          "l_ctrl_ranks": [
+            5958
+          ]
+        },
+        {
+          "name": "game-h",
+          "j_ranks": [
+            836
+          ],
+          "j_ctrl_ranks": [
+            29706
+          ],
+          "l_ranks": [
+            598
+          ],
+          "l_ctrl_ranks": [
+            6558
+          ]
+        },
+        {
+          "name": "test-h",
+          "j_ranks": [
+            14641
+          ],
+          "j_ctrl_ranks": [
+            25057
+          ],
+          "l_ranks": [
+            3176
+          ],
+          "l_ctrl_ranks": [
+            3477
+          ]
+        },
+        {
+          "name": "search-h",
+          "j_ranks": [
+            2776
+          ],
+          "j_ctrl_ranks": [
+            23529
+          ],
+          "l_ranks": [
+            636
+          ],
+          "l_ctrl_ranks": [
+            6151
+          ]
+        },
+        {
+          "name": "free-h",
+          "j_ranks": [
+            2679
+          ],
+          "j_ctrl_ranks": [
+            1458
+          ],
+          "l_ranks": [
+            327
+          ],
+          "l_ctrl_ranks": [
+            90
+          ]
+        },
+        {
+          "name": "found-h",
+          "j_ranks": [
+            9663
+          ],
+          "j_ctrl_ranks": [
+            6148
+          ],
+          "l_ranks": [
+            526
+          ],
+          "l_ctrl_ranks": [
+            8383
+          ]
+        },
+        {
+          "name": "king-h",
+          "j_ranks": [
+            28882
+          ],
+          "j_ctrl_ranks": [
+            17730
+          ],
+          "l_ranks": [
+            10226
+          ],
+          "l_ctrl_ranks": [
+            11770
+          ]
+        },
+        {
+          "name": "father-h",
+          "j_ranks": [
+            8342
+          ],
+          "j_ctrl_ranks": [
+            10769
+          ],
+          "l_ranks": [
+            4463
+          ],
+          "l_ctrl_ranks": [
+            18288
+          ]
+        },
+        {
+          "name": "child-h",
+          "j_ranks": [
+            1779
+          ],
+          "j_ctrl_ranks": [
+            2558
+          ],
+          "l_ranks": [
+            276
+          ],
+          "l_ctrl_ranks": [
+            1912
+          ]
+        },
+        {
+          "name": "water-h",
+          "j_ranks": [
+            6456
+          ],
+          "j_ctrl_ranks": [
+            2936
+          ],
+          "l_ranks": [
+            2900
+          ],
+          "l_ctrl_ranks": [
+            1324
+          ]
+        },
+        {
+          "name": "space-h",
+          "j_ranks": [
+            972
+          ],
+          "j_ctrl_ranks": [
+            2631
+          ],
+          "l_ranks": [
+            164
+          ],
+          "l_ctrl_ranks": [
+            246
+          ]
+        },
+        {
+          "name": "air-h",
+          "j_ranks": [
+            478
+          ],
+          "j_ctrl_ranks": [
+            46910
+          ],
+          "l_ranks": [
+            40
+          ],
+          "l_ctrl_ranks": [
+            4604
+          ]
+        },
+        {
+          "name": "light-h",
+          "j_ranks": [
+            7919
+          ],
+          "j_ctrl_ranks": [
+            37563
+          ],
+          "l_ranks": [
+            7087
+          ],
+          "l_ctrl_ranks": [
+            5783
+          ]
+        },
+        {
+          "name": "france-h",
+          "j_ranks": [
+            6574
+          ],
+          "j_ctrl_ranks": [
+            4014
+          ],
+          "l_ranks": [
+            3299
+          ],
+          "l_ctrl_ranks": [
+            670
+          ]
+        },
+        {
+          "name": "china-h",
+          "j_ranks": [
+            3163
+          ],
+          "j_ctrl_ranks": [
+            81940
+          ],
+          "l_ranks": [
+            1451
+          ],
+          "l_ctrl_ranks": [
+            11909
+          ]
+        },
+        {
+          "name": "london-h",
+          "j_ranks": [
+            932
+          ],
+          "j_ctrl_ranks": [
+            82276
+          ],
+          "l_ranks": [
+            626
+          ],
+          "l_ctrl_ranks": [
+            6908
+          ]
+        },
+        {
+          "name": "book-h",
+          "j_ranks": [
+            1169
+          ],
+          "j_ctrl_ranks": [
+            17107
+          ],
+          "l_ranks": [
+            519
+          ],
+          "l_ctrl_ranks": [
+            1669
+          ]
+        },
+        {
+          "name": "time-h",
+          "j_ranks": [
+            1505
+          ],
+          "j_ctrl_ranks": [
+            11008
+          ],
+          "l_ranks": [
+            92
+          ],
+          "l_ctrl_ranks": [
+            561
+          ]
+        },
+        {
+          "name": "fr-ecole",
+          "j_ranks": [
+            413
+          ],
+          "j_ctrl_ranks": [
+            23952
+          ],
+          "l_ranks": [
+            93
+          ],
+          "l_ctrl_ranks": [
+            27733
+          ]
+        },
+        {
+          "name": "fr-eglise",
+          "j_ranks": [
+            876
+          ],
+          "j_ctrl_ranks": [
+            859
+          ],
+          "l_ranks": [
+            202
+          ],
+          "l_ctrl_ranks": [
+            3303
+          ]
+        },
+        {
+          "name": "fr-pere",
+          "j_ranks": [
+            2704
+          ],
+          "j_ctrl_ranks": [
+            8840
+          ],
+          "l_ranks": [
+            829
+          ],
+          "l_ctrl_ranks": [
+            3157
+          ]
+        },
+        {
+          "name": "fr-cafe",
+          "j_ranks": [
+            3628
+          ],
+          "j_ctrl_ranks": [
+            9256
+          ],
+          "l_ranks": [
+            64
+          ],
+          "l_ctrl_ranks": [
+            818
+          ]
+        },
+        {
+          "name": "de-konig",
+          "j_ranks": [
+            702
+          ],
+          "j_ctrl_ranks": [
+            1577
+          ],
+          "l_ranks": [
+            3980
+          ],
+          "l_ctrl_ranks": [
+            208
+          ]
+        },
+        {
+          "name": "es-dia",
+          "j_ranks": [
+            203
+          ],
+          "j_ctrl_ranks": [
+            5256
+          ],
+          "l_ranks": [
+            731
+          ],
+          "l_ctrl_ranks": [
+            114
+          ]
+        },
+        {
+          "name": "es-rio",
+          "j_ranks": [
+            3436
+          ],
+          "j_ctrl_ranks": [
+            95438
+          ],
+          "l_ranks": [
+            248
+          ],
+          "l_ctrl_ranks": [
+            25848
+          ]
+        },
+        {
+          "name": "pt-agua",
+          "j_ranks": [
+            1066
+          ],
+          "j_ctrl_ranks": [
+            2788
+          ],
+          "l_ranks": [
+            2581
+          ],
+          "l_ctrl_ranks": [
+            2026
+          ]
+        },
+        {
+          "name": "es-musica",
+          "j_ranks": [
+            504
+          ],
+          "j_ctrl_ranks": [
+            86107
+          ],
+          "l_ranks": [
+            864
+          ],
+          "l_ctrl_ranks": [
+            102228
+          ]
+        }
+      ]
+    },
+    "typo": {
+      "summary": {
+        "n": 96,
+        "j": {
+          "1": 0.03125,
+          "5": 0.17708333333333334,
+          "10": 0.2604166666666667
+        },
+        "j_ctrl": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        },
+        "logit": {
+          "1": 0.2916666666666667,
+          "5": 0.4791666666666667,
+          "10": 0.6979166666666666
+        },
+        "logit_ctrl": {
+          "1": 0.0,
+          "5": 0.0,
+          "10": 0.0
+        }
+      },
+      "records": [
+        {
+          "name": "typo-language",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            532
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            347
+          ]
+        },
+        {
+          "name": "typo-government",
+          "j_ranks": [
+            21
+          ],
+          "j_ctrl_ranks": [
+            1443
+          ],
+          "l_ranks": [
+            20
+          ],
+          "l_ctrl_ranks": [
+            963
+          ]
+        },
+        {
+          "name": "typo-across",
+          "j_ranks": [
+            129
+          ],
+          "j_ctrl_ranks": [
+            10016
+          ],
+          "l_ranks": [
+            6
+          ],
+          "l_ctrl_ranks": [
+            2788
+          ]
+        },
+        {
+          "name": "typo-search",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            7016
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            2770
+          ]
+        },
+        {
+          "name": "typo-address",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            2803
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            2593
+          ]
+        },
+        {
+          "name": "typo-because",
+          "j_ranks": [
+            9
+          ],
+          "j_ctrl_ranks": [
+            4193
+          ],
+          "l_ranks": [
+            9
+          ],
+          "l_ctrl_ranks": [
+            1655
+          ]
+        },
+        {
+          "name": "typo-until",
+          "j_ranks": [
+            17
+          ],
+          "j_ctrl_ranks": [
+            3802
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            3454
+          ]
+        },
+        {
+          "name": "typo-people",
+          "j_ranks": [
+            138
+          ],
+          "j_ctrl_ranks": [
+            6369
+          ],
+          "l_ranks": [
+            71
+          ],
+          "l_ctrl_ranks": [
+            3576
+          ]
+        },
+        {
+          "name": "typo-something",
+          "j_ranks": [
+            50
+          ],
+          "j_ctrl_ranks": [
+            25992
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            11067
+          ]
+        },
+        {
+          "name": "typo-business",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            4832
+          ],
+          "l_ranks": [
+            2
+          ],
+          "l_ctrl_ranks": [
+            8598
+          ]
+        },
+        {
+          "name": "typo-different",
+          "j_ranks": [
+            36
+          ],
+          "j_ctrl_ranks": [
+            6196
+          ],
+          "l_ranks": [
+            50
+          ],
+          "l_ctrl_ranks": [
+            15687
+          ]
+        },
+        {
+          "name": "typo-really",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            588
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            1199
+          ]
+        },
+        {
+          "name": "typo-field",
+          "j_ranks": [
+            74
+          ],
+          "j_ctrl_ranks": [
+            23956
+          ],
+          "l_ranks": [
+            21
+          ],
+          "l_ctrl_ranks": [
+            7238
+          ]
+        },
+        {
+          "name": "typo-review",
+          "j_ranks": [
+            0
+          ],
+          "j_ctrl_ranks": [
+            5084
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            2361
+          ]
+        },
+        {
+          "name": "typo-height",
+          "j_ranks": [
+            93
+          ],
+          "j_ctrl_ranks": [
+            127
+          ],
+          "l_ranks": [
+            6
+          ],
+          "l_ctrl_ranks": [
+            59
+          ]
+        },
+        {
+          "name": "typo-science",
+          "j_ranks": [
+            5
+          ],
+          "j_ctrl_ranks": [
+            1474
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            591
+          ]
+        },
+        {
+          "name": "typo-library",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            1706
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            3218
+          ]
+        },
+        {
+          "name": "typo-February",
+          "j_ranks": [
+            14
+          ],
+          "j_ctrl_ranks": [
+            3998
+          ],
+          "l_ranks": [
+            57
+          ],
+          "l_ctrl_ranks": [
+            2476
+          ]
+        },
+        {
+          "name": "typo-together",
+          "j_ranks": [
+            115
+          ],
+          "j_ctrl_ranks": [
+            383
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            31
+          ]
+        },
+        {
+          "name": "typo-account",
+          "j_ranks": [
+            79
+          ],
+          "j_ctrl_ranks": [
+            3119
+          ],
+          "l_ranks": [
+            2
+          ],
+          "l_ctrl_ranks": [
+            1861
+          ]
+        },
+        {
+          "name": "typo-function",
+          "j_ranks": [
+            75
+          ],
+          "j_ctrl_ranks": [
+            42
+          ],
+          "l_ranks": [
+            7
+          ],
+          "l_ctrl_ranks": [
+            40
+          ]
+        },
+        {
+          "name": "typo-against",
+          "j_ranks": [
+            69
+          ],
+          "j_ctrl_ranks": [
+            2123
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            415
+          ]
+        },
+        {
+          "name": "typo-around",
+          "j_ranks": [
+            55
+          ],
+          "j_ctrl_ranks": [
+            9694
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            8681
+          ]
+        },
+        {
+          "name": "typo-important",
+          "j_ranks": [
+            25
+          ],
+          "j_ctrl_ranks": [
+            2092
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            1981
+          ]
+        },
+        {
+          "name": "typo-building",
+          "j_ranks": [
+            165
+          ],
+          "j_ctrl_ranks": [
+            1400
+          ],
+          "l_ranks": [
+            41
+          ],
+          "l_ctrl_ranks": [
+            1494
+          ]
+        },
+        {
+          "name": "typo-without",
+          "j_ranks": [
+            2851
+          ],
+          "j_ctrl_ranks": [
+            12896
+          ],
+          "l_ranks": [
+            162
+          ],
+          "l_ctrl_ranks": [
+            3888
+          ]
+        },
+        {
+          "name": "typo-another",
+          "j_ranks": [
+            1998
+          ],
+          "j_ctrl_ranks": [
+            661
+          ],
+          "l_ranks": [
+            8
+          ],
+          "l_ctrl_ranks": [
+            238
+          ]
+        },
+        {
+          "name": "typo-between",
+          "j_ranks": [
+            38
+          ],
+          "j_ctrl_ranks": [
+            2299
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            1927
+          ]
+        },
+        {
+          "name": "typo-several",
+          "j_ranks": [
+            246
+          ],
+          "j_ctrl_ranks": [
+            2057
+          ],
+          "l_ranks": [
+            22
+          ],
+          "l_ctrl_ranks": [
+            2625
+          ]
+        },
+        {
+          "name": "typo-special",
+          "j_ranks": [
+            23
+          ],
+          "j_ctrl_ranks": [
+            4747
+          ],
+          "l_ranks": [
+            6
+          ],
+          "l_ctrl_ranks": [
+            1484
+          ]
+        },
+        {
+          "name": "typo-country",
+          "j_ranks": [
+            347
+          ],
+          "j_ctrl_ranks": [
+            3086
+          ],
+          "l_ranks": [
+            109
+          ],
+          "l_ctrl_ranks": [
+            1741
+          ]
+        },
+        {
+          "name": "typo-company",
+          "j_ranks": [
+            127
+          ],
+          "j_ctrl_ranks": [
+            9291
+          ],
+          "l_ranks": [
+            16
+          ],
+          "l_ctrl_ranks": [
+            5147
+          ]
+        },
+        {
+          "name": "typo-already",
+          "j_ranks": [
+            108
+          ],
+          "j_ctrl_ranks": [
+            634
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            6262
+          ]
+        },
+        {
+          "name": "typo-which",
+          "j_ranks": [
+            354
+          ],
+          "j_ctrl_ranks": [
+            905
+          ],
+          "l_ranks": [
+            698
+          ],
+          "l_ctrl_ranks": [
+            828
+          ]
+        },
+        {
+          "name": "typo-running",
+          "j_ranks": [
+            919
+          ],
+          "j_ctrl_ranks": [
+            4127
+          ],
+          "l_ranks": [
+            362
+          ],
+          "l_ctrl_ranks": [
+            2418
+          ]
+        },
+        {
+          "name": "typo-college",
+          "j_ranks": [
+            3
+          ],
+          "j_ctrl_ranks": [
+            804
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            219
+          ]
+        },
+        {
+          "name": "typo-million",
+          "j_ranks": [
+            101
+          ],
+          "j_ctrl_ranks": [
+            1175
+          ],
+          "l_ranks": [
+            12
+          ],
+          "l_ctrl_ranks": [
+            735
+          ]
+        },
+        {
+          "name": "typo-village",
+          "j_ranks": [
+            6
+          ],
+          "j_ctrl_ranks": [
+            4830
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            2462
+          ]
+        },
+        {
+          "name": "typo-message",
+          "j_ranks": [
+            6
+          ],
+          "j_ctrl_ranks": [
+            3205
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            3592
+          ]
+        },
+        {
+          "name": "typo-success",
+          "j_ranks": [
+            5
+          ],
+          "j_ctrl_ranks": [
+            313
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            168
+          ]
+        },
+        {
+          "name": "typo-change",
+          "j_ranks": [
+            480
+          ],
+          "j_ctrl_ranks": [
+            797
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            528
+          ]
+        },
+        {
+          "name": "typo-length",
+          "j_ranks": [
+            14
+          ],
+          "j_ctrl_ranks": [
+            162
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            87
+          ]
+        },
+        {
+          "name": "typo-always",
+          "j_ranks": [
+            6
+          ],
+          "j_ctrl_ranks": [
+            3879
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            1968
+          ]
+        },
+        {
+          "name": "typo-island",
+          "j_ranks": [
+            3
+          ],
+          "j_ctrl_ranks": [
+            7785
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            1291
+          ]
+        },
+        {
+          "name": "typo-single",
+          "j_ranks": [
+            258
+          ],
+          "j_ctrl_ranks": [
+            1567
+          ],
+          "l_ranks": [
+            6
+          ],
+          "l_ctrl_ranks": [
+            335
+          ]
+        },
+        {
+          "name": "typo-little",
+          "j_ranks": [
+            2863
+          ],
+          "j_ctrl_ranks": [
+            28147
+          ],
+          "l_ranks": [
+            7
+          ],
+          "l_ctrl_ranks": [
+            8964
+          ]
+        },
+        {
+          "name": "typo-already2",
+          "j_ranks": [
+            439
+          ],
+          "j_ctrl_ranks": [
+            7801
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            3077
+          ]
+        },
+        {
+          "name": "typo-although",
+          "j_ranks": [
+            922
+          ],
+          "j_ctrl_ranks": [
+            2099
+          ],
+          "l_ranks": [
+            413
+          ],
+          "l_ctrl_ranks": [
+            1103
+          ]
+        },
+        {
+          "name": "typo-again",
+          "j_ranks": [
+            183
+          ],
+          "j_ctrl_ranks": [
+            14978
+          ],
+          "l_ranks": [
+            75
+          ],
+          "l_ctrl_ranks": [
+            2817
+          ]
+        },
+        {
+          "name": "typo-program",
+          "j_ranks": [
+            40
+          ],
+          "j_ctrl_ranks": [
+            27696
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            16510
+          ]
+        },
+        {
+          "name": "typo-model",
+          "j_ranks": [
+            22
+          ],
+          "j_ctrl_ranks": [
+            2365
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            87
+          ]
+        },
+        {
+          "name": "typo-family",
+          "j_ranks": [
+            28
+          ],
+          "j_ctrl_ranks": [
+            785
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            362
+          ]
+        },
+        {
+          "name": "typo-future",
+          "j_ranks": [
+            25
+          ],
+          "j_ctrl_ranks": [
+            1710
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            300
+          ]
+        },
+        {
+          "name": "typo-level",
+          "j_ranks": [
+            86
+          ],
+          "j_ctrl_ranks": [
+            7915
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            7592
+          ]
+        },
+        {
+          "name": "typo-local",
+          "j_ranks": [
+            20
+          ],
+          "j_ctrl_ranks": [
+            23695
+          ],
+          "l_ranks": [
+            11
+          ],
+          "l_ctrl_ranks": [
+            8218
+          ]
+        },
+        {
+          "name": "typo-order",
+          "j_ranks": [
+            3
+          ],
+          "j_ctrl_ranks": [
+            294
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            100
+          ]
+        },
+        {
+          "name": "typo-power",
+          "j_ranks": [
+            27
+          ],
+          "j_ctrl_ranks": [
+            34649
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            5852
+          ]
+        },
+        {
+          "name": "typo-study",
+          "j_ranks": [
+            5
+          ],
+          "j_ctrl_ranks": [
+            6935
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            1499
+          ]
+        },
+        {
+          "name": "typo-write",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            2255
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            961
+          ]
+        },
+        {
+          "name": "typo-young",
+          "j_ranks": [
+            34
+          ],
+          "j_ctrl_ranks": [
+            8349
+          ],
+          "l_ranks": [
+            2
+          ],
+          "l_ctrl_ranks": [
+            10082
+          ]
+        },
+        {
+          "name": "typo-human",
+          "j_ranks": [
+            74
+          ],
+          "j_ctrl_ranks": [
+            7674
+          ],
+          "l_ranks": [
+            36
+          ],
+          "l_ctrl_ranks": [
+            271
+          ]
+        },
+        {
+          "name": "typo-major",
+          "j_ranks": [
+            37
+          ],
+          "j_ctrl_ranks": [
+            2839
+          ],
+          "l_ranks": [
+            7
+          ],
+          "l_ctrl_ranks": [
+            620
+          ]
+        },
+        {
+          "name": "typo-often",
+          "j_ranks": [
+            98
+          ],
+          "j_ctrl_ranks": [
+            14657
+          ],
+          "l_ranks": [
+            15
+          ],
+          "l_ctrl_ranks": [
+            10686
+          ]
+        },
+        {
+          "name": "typo-present",
+          "j_ranks": [
+            2684
+          ],
+          "j_ctrl_ranks": [
+            10197
+          ],
+          "l_ranks": [
+            562
+          ],
+          "l_ctrl_ranks": [
+            1030
+          ]
+        },
+        {
+          "name": "typo-product",
+          "j_ranks": [
+            142
+          ],
+          "j_ctrl_ranks": [
+            7107
+          ],
+          "l_ranks": [
+            12
+          ],
+          "l_ctrl_ranks": [
+            8169
+          ]
+        },
+        {
+          "name": "typo-project",
+          "j_ranks": [
+            13
+          ],
+          "j_ctrl_ranks": [
+            7530
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            2815
+          ]
+        },
+        {
+          "name": "typo-support",
+          "j_ranks": [
+            255
+          ],
+          "j_ctrl_ranks": [
+            3311
+          ],
+          "l_ranks": [
+            12
+          ],
+          "l_ctrl_ranks": [
+            1459
+          ]
+        },
+        {
+          "name": "typo-division",
+          "j_ranks": [
+            173
+          ],
+          "j_ctrl_ranks": [
+            3837
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            6087
+          ]
+        },
+        {
+          "name": "typo-original",
+          "j_ranks": [
+            1
+          ],
+          "j_ctrl_ranks": [
+            3838
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            630
+          ]
+        },
+        {
+          "name": "typo-position",
+          "j_ranks": [
+            237
+          ],
+          "j_ctrl_ranks": [
+            6193
+          ],
+          "l_ranks": [
+            9
+          ],
+          "l_ctrl_ranks": [
+            3154
+          ]
+        },
+        {
+          "name": "typo-material",
+          "j_ranks": [
+            69
+          ],
+          "j_ctrl_ranks": [
+            4945
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            2655
+          ]
+        },
+        {
+          "name": "typo-property",
+          "j_ranks": [
+            193
+          ],
+          "j_ctrl_ranks": [
+            20108
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            11708
+          ]
+        },
+        {
+          "name": "typo-security",
+          "j_ranks": [
+            3
+          ],
+          "j_ctrl_ranks": [
+            3601
+          ],
+          "l_ranks": [
+            4
+          ],
+          "l_ctrl_ranks": [
+            2135
+          ]
+        },
+        {
+          "name": "typo-training",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            239
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            99
+          ]
+        },
+        {
+          "name": "typo-football",
+          "j_ranks": [
+            3
+          ],
+          "j_ctrl_ranks": [
+            73409
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            35568
+          ]
+        },
+        {
+          "name": "typo-course",
+          "j_ranks": [
+            97
+          ],
+          "j_ctrl_ranks": [
+            187
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            152
+          ]
+        },
+        {
+          "name": "typo-house",
+          "j_ranks": [
+            318
+          ],
+          "j_ctrl_ranks": [
+            7784
+          ],
+          "l_ranks": [
+            14
+          ],
+          "l_ctrl_ranks": [
+            7317
+          ]
+        },
+        {
+          "name": "typo-great",
+          "j_ranks": [
+            287
+          ],
+          "j_ctrl_ranks": [
+            2628
+          ],
+          "l_ranks": [
+            45
+          ],
+          "l_ctrl_ranks": [
+            2573
+          ]
+        },
+        {
+          "name": "typo-light",
+          "j_ranks": [
+            204
+          ],
+          "j_ctrl_ranks": [
+            8091
+          ],
+          "l_ranks": [
+            6
+          ],
+          "l_ctrl_ranks": [
+            7255
+          ]
+        },
+        {
+          "name": "typo-night",
+          "j_ranks": [
+            2
+          ],
+          "j_ctrl_ranks": [
+            4044
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            3760
+          ]
+        },
+        {
+          "name": "typo-right",
+          "j_ranks": [
+            164
+          ],
+          "j_ctrl_ranks": [
+            784
+          ],
+          "l_ranks": [
+            7
+          ],
+          "l_ctrl_ranks": [
+            365
+          ]
+        },
+        {
+          "name": "typo-control",
+          "j_ranks": [
+            19
+          ],
+          "j_ctrl_ranks": [
+            270
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            223
+          ]
+        },
+        {
+          "name": "typo-would",
+          "j_ranks": [
+            4
+          ],
+          "j_ctrl_ranks": [
+            2606
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            829
+          ]
+        },
+        {
+          "name": "typo-world",
+          "j_ranks": [
+            32
+          ],
+          "j_ctrl_ranks": [
+            15894
+          ],
+          "l_ranks": [
+            157
+          ],
+          "l_ctrl_ranks": [
+            14452
+          ]
+        },
+        {
+          "name": "typo-water",
+          "j_ranks": [
+            7
+          ],
+          "j_ctrl_ranks": [
+            13830
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            3585
+          ]
+        },
+        {
+          "name": "typo-market",
+          "j_ranks": [
+            86
+          ],
+          "j_ctrl_ranks": [
+            860
+          ],
+          "l_ranks": [
+            32
+          ],
+          "l_ctrl_ranks": [
+            290
+          ]
+        },
+        {
+          "name": "typo-person",
+          "j_ranks": [
+            94
+          ],
+          "j_ctrl_ranks": [
+            871
+          ],
+          "l_ranks": [
+            26
+          ],
+          "l_ctrl_ranks": [
+            558
+          ]
+        },
+        {
+          "name": "typo-number",
+          "j_ranks": [
+            436
+          ],
+          "j_ctrl_ranks": [
+            2841
+          ],
+          "l_ranks": [
+            69
+          ],
+          "l_ctrl_ranks": [
+            8239
+          ]
+        },
+        {
+          "name": "typo-within",
+          "j_ranks": [
+            13
+          ],
+          "j_ctrl_ranks": [
+            113
+          ],
+          "l_ranks": [
+            16
+          ],
+          "l_ctrl_ranks": [
+            100
+          ]
+        },
+        {
+          "name": "typo-second",
+          "j_ranks": [
+            185
+          ],
+          "j_ctrl_ranks": [
+            2523
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            2306
+          ]
+        },
+        {
+          "name": "typo-source",
+          "j_ranks": [
+            104
+          ],
+          "j_ctrl_ranks": [
+            2524
+          ],
+          "l_ranks": [
+            3
+          ],
+          "l_ctrl_ranks": [
+            1275
+          ]
+        },
+        {
+          "name": "typo-action",
+          "j_ranks": [
+            111
+          ],
+          "j_ctrl_ranks": [
+            343
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            218
+          ]
+        },
+        {
+          "name": "typo-since",
+          "j_ranks": [
+            145
+          ],
+          "j_ctrl_ranks": [
+            21414
+          ],
+          "l_ranks": [
+            5
+          ],
+          "l_ctrl_ranks": [
+            16636
+          ]
+        },
+        {
+          "name": "typo-first",
+          "j_ranks": [
+            131
+          ],
+          "j_ctrl_ranks": [
+            5599
+          ],
+          "l_ranks": [
+            1
+          ],
+          "l_ctrl_ranks": [
+            2169
+          ]
+        },
+        {
+          "name": "typo-those",
+          "j_ranks": [
+            540
+          ],
+          "j_ctrl_ranks": [
+            4612
+          ],
+          "l_ranks": [
+            74
+          ],
+          "l_ctrl_ranks": [
+            2860
+          ]
+        },
+        {
+          "name": "typo-short",
+          "j_ranks": [
+            48
+          ],
+          "j_ctrl_ranks": [
+            183
+          ],
+          "l_ranks": [
+            0
+          ],
+          "l_ctrl_ranks": [
+            110
+          ]
+        }
+      ]
+    }
+  }
+}

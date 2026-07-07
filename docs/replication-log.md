@@ -15,6 +15,55 @@ Template:
 
 ---
 
+## 2026-07-07 E4 lens quality (C5): low sensitivity, measurable false positives, and no consistent J-lens advantage over the logit lens
+
+- Design: all six official `lens-eval-*.json` sets, at each set's designated
+  readout position (README conventions; single position, min-over-layers
+  rank, pass@k averaged over items; order-ops with the documented synonym
+  expansion). Two additions per item: a **permutation control** (another
+  item's intermediates scored identically at the same position — any hit is
+  a false positive on same-distribution but absent content) and the
+  **vanilla logit lens** on the same footing. Code:
+  `experiments/e4-lens-eval/run_e4.py`.
+- Results, pass@10 (J-lens true / J control / logit true / logit control):
+
+  | set | Qwen3-4B | Qwen3-1.7B |
+  |---|---|---|
+  | multihop | 41.4 / 9.5 / 40.9 / 11.1 | 24.2 / 9.0 / 32.3 / 11.1 |
+  | multilingual | 35.7 / 3.7 / 44.4 / 6.3 | 26.6 / 1.6 / 25.2 / 1.9 |
+  | poetry | 0 / 0 / 0 / 0 | 0 / 0 / 0 / 0 |
+  | order-ops | 14.5 / 8.2 / 22.7 / 19.1 | 7.3 / **7.3** / 13.6 / 9.1 |
+  | association | 1.0 / 0 / 2.0 / 0 | 2.0 / 0 / 0 / 0 |
+  | typo | 26.0 / 0 / **69.8** / 0 | **55.2** / 0 / 43.8 / 0 |
+
+- Four takeaways:
+  1. **Sensitivity is low across the board.** The best set tops out at ~41%
+     pass@10; `association` (the evocative "grief vignette" reading) is ~0
+     at both scales; poetry is 0 (consistent with E3).
+  2. **False positives are real and quantified.** The multihop control hits
+     ~9–11% at rank ≤ 10 — the criterion fires about one time in ten on
+     content that is not there. On order-ops the apparent signal is mostly
+     or entirely base rate: 14.5% vs 8.2% control at 4B, and **7.3% vs
+     7.3% at 1.7B — exactly zero signal above chance** for numbers and
+     operations.
+  3. **No consistent J-lens advantage over the 2020 logit lens.** Multihop:
+     logit wins or ties at both scales. Multilingual: logit wins at 4B,
+     ties at 1.7B. Typo flips with scale (logit dominates at 4B 69.8 vs
+     26.0; J wins at 1.7B). On these open models the headline "J-lens reads
+     concepts the logit lens cannot" does not show up in its own evaluation
+     distributions.
+  4. Our readout is a *single* position. The paper's workspace-band "hit"
+     criterion scans layers × many positions, a much larger
+     multiple-comparison surface — so these control rates are a **lower
+     bound** on that criterion's false-positive rate.
+- Verdict: **C5 concern confirmed with numbers** at this scale. The lens is
+  a usable but noisy instrument: strong only where the target is imminent
+  or surface-aligned, near chance on operations, blind to evoked concepts,
+  and not consistently better than its 2020 baseline.
+- Caveats: neuronpedia lens fits (wikitext prompts) may differ from the
+  paper's internal fits; frontier-model behavior may differ; pass@k on
+  single tokens under-credits multi-token concept readouts.
+
 ## 2026-07-07 E3 rhyme planning: total negative at both scales — the models rhyme without any lens-readable plan
 
 - Design: official 98-couplet `lens-eval-poetry.json`; the planning claim is
