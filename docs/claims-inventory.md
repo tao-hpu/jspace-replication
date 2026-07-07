@@ -29,3 +29,20 @@ Each measured claim is graded **replicated** / **partially replicated**
 (direction agrees, magnitude clearly weaker) / **not replicated** / **not
 tested**. Any disagreement with the external review gets its own note on
 plausible causes (model family, scale, hyperparameters).
+
+## Replication verdicts (graded 2026-07-07)
+
+All experiments on Qwen3-1.7B and Qwen3-4B with neuronpedia pre-fitted
+lenses; every number below is traceable to a dated entry in
+`docs/replication-log.md` and a JSON in `results/`. Standing caveat for
+every row: the paper's results are on a frontier model; these verdicts
+establish what does and does not transfer to small open models.
+
+| # | Our verdict | Evidence | vs. the review |
+|---|-------------|----------|----------------|
+| C1 | **Replicated, and strengthens with scale** | E1: countries swap 97.2% hit / 0% stayed at 4B; early-mid band (4–13 of 28) alone carries the full effect. Boundary mapped: only associative links move; operations on concepts fail with three distinct signatures (stayed / echo / broken) | Agrees, and adds the band localization and the failure taxonomy |
+| C2 | **Not replicated (interpretation unsupported)** | E2: the answer-token control significantly *beats* the intermediate swap (4B 85.4% vs 50.0%, p=0.0005; 1.7B p=0.0074). E2p: probe-family directions do not rescue it. E5: a non-answer source flips the answer as well as the answer itself (77.1% vs 85.4%, p=0.29), and flips are predicted by direction cosine, not source identity | Sharper than the review: not merely "close to" answer substitution — significantly weaker than it, and non-specific |
+| C3 | **Not replicated** | E3: rhyme word never in lens top-10 at the official readout position (pass@10 = 0% both scales; positive sanity checks pass). E3b: no anticipation above the lens false-positive base rate anywhere in line 2 once next-word plausibility is excluded | Agrees, with the emergence-curve decomposition added |
+| C4 | **Not replicated** (lens-readability route; official intervention sets not run) | E4 order-ops: number/operation readout at or near base rate (1.7B: exactly 0 above chance; 4B: 14.5% vs 8.2% control) | Agrees |
+| C5 | **Concern confirmed and quantified** | E4: best-set sensitivity 41% pass@10, association ~0; permutation control fires at 9–11% on multihop; and the J-lens shows **no consistent advantage over the vanilla logit lens** on its own eval sets (typo at 4B: 26.0% vs 69.8%) | Confirms the false-positive concern with numbers; the J-vs-logit null is beyond the review |
+| C6 | **Not tested** (by design) | — | — |
