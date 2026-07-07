@@ -15,6 +15,38 @@ Template:
 
 ---
 
+## 2026-07-07 E0 complete: the gpt2 anomaly is checkpoint-specific, not scale- or lens-specific
+
+- What was run: completed the 2×2 control. (a) Converted the self-trained
+  GPT-2 124M (nanoGPT-style ckpt, fineweb-edu 10B tokens, val 3.02) to HF
+  format (`convert_selftrained.py`; sanity: ppl 8.3 on a fixed paragraph,
+  coherent greedy sample). (b) Fitted lenses with the official wikitext recipe
+  (150 prompts, ~9 min each on MPS — backward pass works fine) on both the
+  self-trained model and the official `gpt2`. (c) Re-ran the 3 probes.
+- Results (target rank, J-lens vs logit lens):
+
+  | model | lens | J-lens advantage? |
+  |---|---|---|
+  | official gpt2 | official (277 prompts) | ✗ inverted at all layers |
+  | official gpt2 | ours (150 prompts) | ✗ same pattern (eiffel L8: 314 vs 11) |
+  | self-trained 124M | ours (150 prompts) | ✓ clear (eiffel L9: **1** vs 28; ioi L9: **5** vs 277) |
+  | pythia-70m | official | ✓ clear (see previous entry) |
+
+- Detail worth keeping: on the self-trained model, ioi-mary's J-lens top-1 at
+  L9 is ` her` — the gender pronoun surfaces one layer before the name
+  ` Mary` (L10 rank 1). Concept-before-surface, at 124M.
+- Verdict: the paper's "J-lens recovers content where the logit lens cannot"
+  is **replicated on 2 of 3 tiny checkpoints**; the exception (openai gpt2)
+  is a property of that checkpoint, not of the lens fit, the architecture, or
+  the 124M scale (the self-trained model shares the architecture and size).
+- Hypotheses for the gpt2 exception (untested): (1) its residual basis is
+  unusually well aligned with output space — the logit lens was originally
+  demonstrated on GPT-2, leaving the J-transport little to correct and its
+  noise net-negative; (2) glitch-token directions (`ModLoader`, ` enthusi`, …)
+  dominate its average Jacobian. Both are checkable later; parked.
+- Next: E1 on qwen3-1.7b (pre-fitted lens, official flexible-generalization
+  set). M1 (pipeline) is effectively closed 6 days early.
+
 ## 2026-07-07 E0 pipeline works on MPS; J-lens vs logit lens diverges between the two smallest models
 
 - Model / lens config: GPT-2 124M (`gpt2`) and Pythia-70m-deduped, each with its

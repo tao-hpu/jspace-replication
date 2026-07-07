@@ -1,0 +1,430 @@
+{
+  "model": "out/selftrained-124m-hf",
+  "device": "mps",
+  "lens_file": "out/selftrained-124m_jacobian_lens.pt",
+  "probes": [
+    {
+      "name": "eiffel-paris",
+      "prompt": "The Eiffel Tower is located in the city of",
+      "target": " Paris",
+      "why": "direct fact completion; target should appear early and strengthen",
+      "model_output_rank": 1,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 4343,
+          "logit_rank": 1037,
+          "j_top5": [
+            " protection",
+            " woods",
+            " vacc",
+            " vaccination",
+            " prevention"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 3211,
+          "logit_rank": 3244,
+          "j_top5": [
+            " pe",
+            " course",
+            " weather",
+            " wind",
+            "\n"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 4559,
+          "logit_rank": 7130,
+          "j_top5": [
+            " which",
+            " course",
+            " his",
+            "\n",
+            " he"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 6862,
+          "logit_rank": 12541,
+          "j_top5": [
+            " course",
+            "\n",
+            " his",
+            " which",
+            " these"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 12909,
+          "logit_rank": 18458,
+          "j_top5": [
+            " his",
+            " buildings",
+            " which",
+            " exercises",
+            " he"
+          ]
+        },
+        {
+          "layer": 5,
+          "j_rank": 5743,
+          "logit_rank": 4528,
+          "j_top5": [
+            " town",
+            " towns",
+            " cart",
+            " villages",
+            " farming"
+          ]
+        },
+        {
+          "layer": 6,
+          "j_rank": 5181,
+          "logit_rank": 4461,
+          "j_top5": [
+            " town",
+            " villages",
+            " towns",
+            " village",
+            " islands"
+          ]
+        },
+        {
+          "layer": 7,
+          "j_rank": 3575,
+          "logit_rank": 2596,
+          "j_top5": [
+            " Manhattan",
+            " Kills",
+            " Rochester",
+            " towns",
+            " Atlantis"
+          ]
+        },
+        {
+          "layer": 8,
+          "j_rank": 16,
+          "logit_rank": 296,
+          "j_top5": [
+            " skysc",
+            " Manhattan",
+            " Los",
+            " cities",
+            " Frankfurt"
+          ]
+        },
+        {
+          "layer": 9,
+          "j_rank": 1,
+          "logit_rank": 28,
+          "j_top5": [
+            " Paris",
+            " Chicago",
+            " London",
+            " Berlin",
+            " Manhattan"
+          ]
+        },
+        {
+          "layer": 10,
+          "j_rank": 1,
+          "logit_rank": 2,
+          "j_top5": [
+            " Paris",
+            " Frankfurt",
+            " Chicago",
+            " Amsterdam",
+            " Madrid"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "boot-italy",
+      "prompt": "Fact: The currency used in the country shaped like a boot is",
+      "target": " Italy",
+      "why": "latent intermediate: 'Italy' never appears in the prompt (upstream README example)",
+      "model_output_rank": 1378,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 11425,
+          "logit_rank": 14403,
+          "j_top5": [
+            " vacc",
+            " frost",
+            " cho",
+            " herd",
+            " heat"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 2953,
+          "logit_rank": 12747,
+          "j_top5": [
+            " said",
+            " number",
+            " frost",
+            " cho",
+            " balance"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 3686,
+          "logit_rank": 15966,
+          "j_top5": [
+            " said",
+            " number",
+            " he",
+            " this",
+            " these"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 5116,
+          "logit_rank": 15161,
+          "j_top5": [
+            " said",
+            " this",
+            " he",
+            " it",
+            " has"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 13140,
+          "logit_rank": 15305,
+          "j_top5": [
+            " there",
+            " now",
+            " you",
+            " said",
+            " he"
+          ]
+        },
+        {
+          "layer": 5,
+          "j_rank": 15745,
+          "logit_rank": 6412,
+          "j_top5": [
+            "?",
+            ".",
+            " soup",
+            " called",
+            " tape"
+          ]
+        },
+        {
+          "layer": 6,
+          "j_rank": 18981,
+          "logit_rank": 11595,
+          "j_top5": [
+            " now",
+            " called",
+            " said",
+            " not",
+            " today"
+          ]
+        },
+        {
+          "layer": 7,
+          "j_rank": 9797,
+          "logit_rank": 7382,
+          "j_top5": [
+            " money",
+            " dollar",
+            " patented",
+            " $",
+            " sold"
+          ]
+        },
+        {
+          "layer": 8,
+          "j_rank": 7423,
+          "logit_rank": 6296,
+          "j_top5": [
+            " currency",
+            " money",
+            " dollar",
+            " inflation",
+            " Currency"
+          ]
+        },
+        {
+          "layer": 9,
+          "j_rank": 2906,
+          "logit_rank": 5095,
+          "j_top5": [
+            " currency",
+            " money",
+            " dollar",
+            " inflation",
+            " Currency"
+          ]
+        },
+        {
+          "layer": 10,
+          "j_rank": 530,
+          "logit_rank": 2717,
+          "j_top5": [
+            " currency",
+            " pegged",
+            " money",
+            " called",
+            " USD"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ioi-mary",
+      "prompt": "When Mary and John went to the store, John gave a drink to",
+      "target": " Mary",
+      "why": "indirect-object identification; GPT-2 small is known to resolve this",
+      "model_output_rank": 2,
+      "layers": [
+        {
+          "layer": 0,
+          "j_rank": 8334,
+          "logit_rank": 3721,
+          "j_top5": [
+            " frost",
+            " herd",
+            " safety",
+            " pasture",
+            " ski"
+          ]
+        },
+        {
+          "layer": 1,
+          "j_rank": 12050,
+          "logit_rank": 3407,
+          "j_top5": [
+            " frost",
+            " wind",
+            " his",
+            " feet",
+            " hear"
+          ]
+        },
+        {
+          "layer": 2,
+          "j_rank": 20736,
+          "logit_rank": 6752,
+          "j_top5": [
+            " his",
+            " him",
+            " see",
+            " he",
+            " be"
+          ]
+        },
+        {
+          "layer": 3,
+          "j_rank": 10254,
+          "logit_rank": 5911,
+          "j_top5": [
+            " him",
+            " his",
+            " he",
+            " see",
+            " help"
+          ]
+        },
+        {
+          "layer": 4,
+          "j_rank": 5096,
+          "logit_rank": 7034,
+          "j_top5": [
+            " his",
+            " children",
+            " him",
+            " farmers",
+            " hear"
+          ]
+        },
+        {
+          "layer": 5,
+          "j_rank": 4973,
+          "logit_rank": 4343,
+          "j_top5": [
+            " him",
+            " drink",
+            " sweet",
+            " soup",
+            " eat"
+          ]
+        },
+        {
+          "layer": 6,
+          "j_rank": 1976,
+          "logit_rank": 5111,
+          "j_top5": [
+            " him",
+            " his",
+            " friends",
+            " himself",
+            " friend"
+          ]
+        },
+        {
+          "layer": 7,
+          "j_rank": 4642,
+          "logit_rank": 3774,
+          "j_top5": [
+            " him",
+            " his",
+            " himself",
+            " friends",
+            " someone"
+          ]
+        },
+        {
+          "layer": 8,
+          "j_rank": 117,
+          "logit_rank": 852,
+          "j_top5": [
+            " him",
+            " his",
+            " eat",
+            " everyone",
+            " refresh"
+          ]
+        },
+        {
+          "layer": 9,
+          "j_rank": 5,
+          "logit_rank": 277,
+          "j_top5": [
+            " her",
+            " him",
+            " everyone",
+            " them",
+            " Mary"
+          ]
+        },
+        {
+          "layer": 10,
+          "j_rank": 1,
+          "logit_rank": 33,
+          "j_top5": [
+            " Mary",
+            " John",
+            " her",
+            " them",
+            " him"
+          ]
+        }
+      ]
+    }
+  ]
+}

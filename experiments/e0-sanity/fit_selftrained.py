@@ -40,10 +40,12 @@ def wikitext_prompts(n: int, min_chars: int = 200, max_chars: int = 2000) -> lis
     return prompts
 
 
-def main(n_prompts: int = 150) -> None:
+def main(n_prompts: int = 150, model_dir: str | pathlib.Path = MODEL_DIR, out_stem: str = "selftrained-124m") -> None:
+    ckpt_path = ROOT / "out" / f"{out_stem}_lens_ckpt.pt"
+    lens_out = ROOT / "out" / f"{out_stem}_jacobian_lens.pt"
     device = "mps" if torch.backends.mps.is_available() else "cpu"
-    hf = transformers.AutoModelForCausalLM.from_pretrained(MODEL_DIR).to(device).eval()
-    tok = transformers.AutoTokenizer.from_pretrained(MODEL_DIR)
+    hf = transformers.AutoModelForCausalLM.from_pretrained(model_dir).to(device).eval()
+    tok = transformers.AutoTokenizer.from_pretrained(model_dir)
     model = jlens.from_hf(hf, tok)
 
     prompts = wikitext_prompts(n_prompts)
@@ -55,13 +57,17 @@ def main(n_prompts: int = 150) -> None:
         prompts,
         dim_batch=32,
         max_seq_len=128,
-        checkpoint_path=str(CKPT),
+        checkpoint_path=str(ckpt_path),
         checkpoint_every=5,
     )
     print(f"fit took {(time.time()-t0)/60:.1f} min")
-    lens.save(str(LENS_OUT))
-    print(f"saved {LENS_OUT}")
+    lens.save(str(lens_out))
+    print(f"saved {lens_out}")
 
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]) if len(sys.argv) > 1 else 150)
+    n = int(sys.argv[1]) if len(sys.argv) > 1 else 150
+    if len(sys.argv) > 3:
+        main(n, sys.argv[2], sys.argv[3])
+    else:
+        main(n)
