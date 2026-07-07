@@ -66,7 +66,10 @@ def main(
     tok = transformers.AutoTokenizer.from_pretrained(model_id)
     model = jlens.from_hf(hf, tok)
 
-    lens = jlens.JacobianLens.from_pretrained(HF_LENS_REPO, filename=lens_file)
+    if pathlib.Path(lens_file).is_file():  # local lens (e.g. self-fitted)
+        lens = jlens.JacobianLens.from_pretrained(lens_file)
+    else:  # path inside the HF lens repo
+        lens = jlens.JacobianLens.from_pretrained(HF_LENS_REPO, filename=lens_file)
     print(f"lens: layers={lens.source_layers}  d_model={lens.d_model}  n_prompts={lens.n_prompts}")
 
     report = {"model": model_id, "device": device, "lens_file": lens_file, "probes": []}
