@@ -15,6 +15,39 @@ Template:
 
 ---
 
+## 2026-07-07 E1 second pass: band sweep + Qwen3-4B; the swap boundary is function type, not category
+
+- **Band sweep (1.7B, countries hit_b / stayed_a)**: all-layers 0–26:
+  91.7%/4.2%; early-mid **4–13 alone: 91.7%/4.2%** (full effect); default
+  8–26: 87.5%; late 14–26: 79.2%; tail 20–26: 70.8%. The editable argument
+  representation lives in the early-mid layers; late-only intervention
+  degrades. The first_letter immunity (below) is 0% under every band.
+- **Qwen3-4B** (band 10–34 by the same fraction, baseline 35/64): countries
+  97.2% hit / 0% stayed (n=36) — the headline effect strengthens with scale.
+- **Per-function aggregation across both models** (baseline-correct pairs):
+  - Associative lookups replicate at or near ceiling at 4B: capital 92%,
+    continent 100%, currency 100%, language 100%, all 0% stayed.
+  - `numbers/first_letter`: 0% hit / **100% stayed** at both scales — the
+    model reports the *original* argument's first letter. Orthographic
+    properties appear to read from the actual token, untouched by the
+    lens-space swap. (This corrects the first-pass entry, which attributed
+    the numbers result to double/square; those mostly failed baseline.)
+  - `months/next_month` (4B): 0% hit / 0% stayed — an *echo* failure mode:
+    swap February→April and the model answers "April", verbalizing the
+    injected concept instead of computing its successor (May).
+  - `animals/legs` (4B): 0% hit.
+- Verdict refinement: the swap rewrites what a concept is associatively
+  linked to, but (a) surface-form-derived properties bypass it entirely
+  (first_letter), and (b) functions that must *operate on* the concept
+  either ignore it or collapse to echoing it (next_month). Three distinct
+  failure signatures — stayed / echo / broken — worth their own figure.
+- Method notes: the zsh no-word-splitting gotcha silently reran the default
+  band five times before the sweep (caught by identical outputs); month
+  names are single tokens in Qwen3, ruling out tokenization as the
+  next_month explanation.
+- Next: E2 (probe-swap + final-token control) — today's function-type split
+  sharpens its stakes: if swap effects are echo-like, the control may win.
+
 ## 2026-07-07 E1 first pass (Qwen3-1.7B): fact-editing replicates strongly for associative facts, fails completely for computed ones
 
 - Config: Qwen3-1.7B (bf16, MPS), pre-fitted wikitext lens, band = layers
@@ -35,7 +68,11 @@ Template:
   | countries | **87.5%** | 4.2% | 24 |
   | months | 66.7% | 16.7% | 6 |
   | animals | 25.0% | 0% | 8 |
-  | numbers (double/square) | **0%** | **100%** | 12 |
+  | numbers | **0%** | **100%** | 12 |
+
+  (Correction, same day: the numbers pairs that survived baseline were the
+  `first_letter` function, not double/square as first written — see the
+  per-function entry above.)
 
 - Verdict: C1 **replicated** for associative facts at 1.7B — France→China
   flips capital/language/continent/currency answers with our own independent

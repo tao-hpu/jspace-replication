@@ -33,6 +33,11 @@ LENS_FILE = "qwen3-1.7b/jlens/Salesforce-wikitext/Qwen3-1.7B_jacobian_lens.pt"
 DATA = ROOT / "third_party/jacobian-lens/data/experiments/flexible-generalization.json"
 BAND_START_FRAC = 18 / 64
 
+MODELS = {
+    "1.7b": ("Qwen/Qwen3-1.7B", "qwen3-1.7b/jlens/Salesforce-wikitext/Qwen3-1.7B_jacobian_lens.pt", "e1_qwen17b.json"),
+    "4b": ("Qwen/Qwen3-4B", "qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_jacobian_lens.pt", "e1_qwen4b.json"),
+}
+
 
 def first_token_id(tok, word: str) -> int:
     """Token id of the leading-space form of a word (answers/args are graded
@@ -77,17 +82,23 @@ def text_match(text: str, answer: str) -> bool:
     return clean.startswith(answer.strip().lower())
 
 
-def main() -> None:
+def main(model_key: str = "1.7b", band_override: tuple[int, int] | None = None) -> None:
+    model_id, lens_file, out_name = MODELS[model_key]
     device = "mps" if torch.backends.mps.is_available() else "cpu"
     dtype = torch.bfloat16 if device == "mps" else torch.float32
-    hf = transformers.AutoModelForCausalLM.from_pretrained(MODEL_ID, dtype=dtype).to(device).eval()
-    tok = transformers.AutoTokenizer.from_pretrained(MODEL_ID)
+    hf = transformers.AutoModelForCausalLM.from_pretrained(model_id, dtype=dtype).to(device).eval()
+    tok = transformers.AutoTokenizer.from_pretrained(model_id)
     model = jlens.from_hf(hf, tok)
-    lens = jlens.JacobianLens.from_pretrained("neuronpedia/jacobian-lens", filename=LENS_FILE)
+    lens = jlens.JacobianLens.from_pretrained("neuronpedia/jacobian-lens", filename=lens_file)
     W = hf.get_output_embeddings().weight
 
     n_layers = model.n_layers
-    band = [l for l in lens.source_layers if l >= round(BAND_START_FRAC * n_layers)]
+    if band_override is not None:
+        lo, hi = band_override
+        band = [l for l in lens.source_layers if lo <= l <= hi]
+        out_name = out_name.replace(".json", f"_band{lo}-{hi}.json")
+    else:
+        band = [l for l in lens.source_layers if l >= round(BAND_START_FRAC * n_layers)]
     print(f"device={device} n_layers={n_layers} band={band[0]}..{band[-1]}")
 
     cats = json.load(open(DATA))["categories"]
@@ -148,11 +159,13 @@ def main() -> None:
         rs = [r for r in ok_r if r["cat"] == cat["name"]]
         print(f"  {cat['name']:>12}: hit_b {rate(rs,'hit_b'):.1%}  stayed_a {rate(rs,'stayed_a'):.1%}  (n={len(rs)})")
 
-    out = ROOT / "results" / "e1_qwen17b.json"
-    out.write_text(json.dumps({"model": MODEL_ID, "band": [band[0], band[-1]],
+    out = ROOT / "results" / out_name
+    out.write_text(json.dumps({"model": model_id, "band": [band[0], band[-1]],
                                "baseline": records, "swaps": swap_records}, indent=2))
     print(f"\nwrote {out}")
 
 
 if __name__ == "__main__":
-    main()
+    key = sys.argv[1] if len(sys.argv) > 1 else "1.7b"
+    band = (int(sys.argv[2]), int(sys.argv[3])) if len(sys.argv) > 3 else None
+    main(key, band)
