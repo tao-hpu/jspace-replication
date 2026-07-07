@@ -1,8 +1,12 @@
 # local-only working notes (non-public)
 CLAUDE.md
-docs/_internal*
+docs/_*
 _RESUME.md
 .env
+
+# writing workspace (article / paper drafts) stays local; the repo ships
+# only the engineering needed to reproduce the experiments
+paper/
 
 .venv/
 __pycache__/
