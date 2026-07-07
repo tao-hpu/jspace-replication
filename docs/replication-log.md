@@ -15,6 +15,41 @@ Template:
 
 ---
 
+## 2026-07-07 E3b planning horizon: the rhyme word's "emergence curve" is next-word plausibility ramping up, not a plan
+
+- Motivation: E3 read only the official end-of-line-1 position. The natural
+  rejoinder is that a plan might emerge later, inside line 2. So: read every
+  line-2 position, align by distance-to-go d (d=1 = the token right before
+  the rhyme word), and decompose each lens hit against the model's *actual
+  next-token distribution* at that position. Code:
+  `experiments/e3-poetry/run_e3_horizon.py`.
+- Decomposition: a lens hit whose word is also in the mouth's top-10
+  ("model" column) is mere local plausibility; a hit outside the mouth's
+  top-10 ("antic") is candidate anticipation; the strict version requires
+  outside the mouth's top-100.
+- Qwen3-4B pass@10 by distance-to-go:
+
+  | d | J-lens | control | mouth | antic (mouth≥10) | strict antic (mouth≥100) |
+  |---|---|---|---|---|---|
+  | 1 | 94.9% | 4.1% | 96.9% | 1.0% | 0.0% |
+  | 2 | 57.1% | 1.0% | 54.1% | 8.2% | 0.0% |
+  | 3 | 36.7% | 4.1% | 19.4% | 18.4% | **3.1%** |
+  | 4–7 | 9–14% | 0% | 4–11% | 3–7% | 0–2.1% |
+  | ≥10 | 0% | 0% | 0% | 0% | 0% |
+
+  Qwen3-1.7B is the same shape (strict antic peaks at 6.1%, control 3.1%).
+- Reading: the graded tail that looks like anticipation at a loose threshold
+  is almost entirely the rhyme word *climbing into the model's own output
+  distribution* as the line converges. Once the mouth's rank-100 band is
+  excluded, genuine "in the lens but not in the mouth" readouts fall to the
+  lens false-positive base rate measured in E4 (~3–4%). E3's 0% at the
+  newline is explained: line 2 is ~10+ tokens and the curve is zero there.
+- Verdict: at this scale the observable picture is **next-word prediction
+  with a soft 2–3 token convergence ramp, and no mid-layer plan
+  distinguishable from lens noise at any distance**. This sharpens E3 from
+  "nothing at the official position" to "nothing anywhere in the line that
+  survives the mouth-exclusion control".
+
 ## 2026-07-07 E4 lens quality (C5): low sensitivity, measurable false positives, and no consistent J-lens advantage over the logit lens
 
 - Design: all six official `lens-eval-*.json` sets, at each set's designated

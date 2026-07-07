@@ -1,0 +1,6679 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "records": [
+    {
+      "name": "couplet-breath-death",
+      "target": "death",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 153,
+          "ctrl_rank": 1298,
+          "l_rank": 341,
+          "m_rank": 4925
+        },
+        {
+          "d": 9,
+          "j_rank": 2,
+          "ctrl_rank": 20,
+          "l_rank": 5,
+          "m_rank": 18
+        },
+        {
+          "d": 8,
+          "j_rank": 29,
+          "ctrl_rank": 160,
+          "l_rank": 7,
+          "m_rank": 266
+        },
+        {
+          "d": 7,
+          "j_rank": 1,
+          "ctrl_rank": 20,
+          "l_rank": 8,
+          "m_rank": 199
+        },
+        {
+          "d": 6,
+          "j_rank": 30,
+          "ctrl_rank": 901,
+          "l_rank": 243,
+          "m_rank": 446
+        },
+        {
+          "d": 5,
+          "j_rank": 0,
+          "ctrl_rank": 246,
+          "l_rank": 2,
+          "m_rank": 9
+        },
+        {
+          "d": 4,
+          "j_rank": 0,
+          "ctrl_rank": 651,
+          "l_rank": 0,
+          "m_rank": 5
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 3,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 2,
+          "j_rank": 57,
+          "ctrl_rank": 1513,
+          "l_rank": 9,
+          "m_rank": 71
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 30,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-stone-bone",
+      "target": "bone",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 4678,
+          "ctrl_rank": 557,
+          "l_rank": 13070,
+          "m_rank": 69731
+        },
+        {
+          "d": 7,
+          "j_rank": 3867,
+          "ctrl_rank": 934,
+          "l_rank": 363,
+          "m_rank": 4577
+        },
+        {
+          "d": 6,
+          "j_rank": 77,
+          "ctrl_rank": 3831,
+          "l_rank": 68,
+          "m_rank": 130
+        },
+        {
+          "d": 5,
+          "j_rank": 472,
+          "ctrl_rank": 279,
+          "l_rank": 326,
+          "m_rank": 719
+        },
+        {
+          "d": 4,
+          "j_rank": 184,
+          "ctrl_rank": 97,
+          "l_rank": 200,
+          "m_rank": 295
+        },
+        {
+          "d": 3,
+          "j_rank": 2,
+          "ctrl_rank": 1818,
+          "l_rank": 2,
+          "m_rank": 5
+        },
+        {
+          "d": 2,
+          "j_rank": 251,
+          "ctrl_rank": 185,
+          "l_rank": 295,
+          "m_rank": 407
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1684,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-divine-wine",
+      "target": "wine",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 6389,
+          "ctrl_rank": 550,
+          "l_rank": 9775,
+          "m_rank": 26951
+        },
+        {
+          "d": 7,
+          "j_rank": 104,
+          "ctrl_rank": 6124,
+          "l_rank": 243,
+          "m_rank": 201
+        },
+        {
+          "d": 6,
+          "j_rank": 2357,
+          "ctrl_rank": 37,
+          "l_rank": 3935,
+          "m_rank": 3762
+        },
+        {
+          "d": 5,
+          "j_rank": 10,
+          "ctrl_rank": 1796,
+          "l_rank": 16,
+          "m_rank": 11
+        },
+        {
+          "d": 4,
+          "j_rank": 111,
+          "ctrl_rank": 179,
+          "l_rank": 211,
+          "m_rank": 261
+        },
+        {
+          "d": 3,
+          "j_rank": 19,
+          "ctrl_rank": 4504,
+          "l_rank": 9,
+          "m_rank": 20
+        },
+        {
+          "d": 2,
+          "j_rank": 112,
+          "ctrl_rank": 1811,
+          "l_rank": 29,
+          "m_rank": 8505
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1834,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-flame-name",
+      "target": "name",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 26531,
+          "ctrl_rank": 8445,
+          "l_rank": 14460,
+          "m_rank": 44052
+        },
+        {
+          "d": 8,
+          "j_rank": 1925,
+          "ctrl_rank": 2627,
+          "l_rank": 903,
+          "m_rank": 837
+        },
+        {
+          "d": 7,
+          "j_rank": 689,
+          "ctrl_rank": 2054,
+          "l_rank": 222,
+          "m_rank": 657
+        },
+        {
+          "d": 6,
+          "j_rank": 1364,
+          "ctrl_rank": 2374,
+          "l_rank": 2121,
+          "m_rank": 2391
+        },
+        {
+          "d": 5,
+          "j_rank": 258,
+          "ctrl_rank": 1120,
+          "l_rank": 158,
+          "m_rank": 148
+        },
+        {
+          "d": 4,
+          "j_rank": 235,
+          "ctrl_rank": 353,
+          "l_rank": 139,
+          "m_rank": 140
+        },
+        {
+          "d": 3,
+          "j_rank": 48,
+          "ctrl_rank": 251,
+          "l_rank": 41,
+          "m_rank": 452
+        },
+        {
+          "d": 2,
+          "j_rank": 2336,
+          "ctrl_rank": 1078,
+          "l_rank": 787,
+          "m_rank": 1342
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1112,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-sleep-deep",
+      "target": "deep",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 847,
+          "ctrl_rank": 4429,
+          "l_rank": 360,
+          "m_rank": 12225
+        },
+        {
+          "d": 9,
+          "j_rank": 316,
+          "ctrl_rank": 151,
+          "l_rank": 18,
+          "m_rank": 210
+        },
+        {
+          "d": 8,
+          "j_rank": 28,
+          "ctrl_rank": 2731,
+          "l_rank": 7,
+          "m_rank": 14
+        },
+        {
+          "d": 7,
+          "j_rank": 185,
+          "ctrl_rank": 9674,
+          "l_rank": 96,
+          "m_rank": 230
+        },
+        {
+          "d": 6,
+          "j_rank": 44,
+          "ctrl_rank": 633,
+          "l_rank": 18,
+          "m_rank": 36
+        },
+        {
+          "d": 5,
+          "j_rank": 366,
+          "ctrl_rank": 507,
+          "l_rank": 7,
+          "m_rank": 227
+        },
+        {
+          "d": 4,
+          "j_rank": 1229,
+          "ctrl_rank": 5265,
+          "l_rank": 132,
+          "m_rank": 742
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 427,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 2,
+          "j_rank": 114,
+          "ctrl_rank": 19462,
+          "l_rank": 25,
+          "m_rank": 58
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 231,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-gold-cold",
+      "target": "cold",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 1590,
+          "ctrl_rank": 3578,
+          "l_rank": 3499,
+          "m_rank": 9891
+        },
+        {
+          "d": 7,
+          "j_rank": 8,
+          "ctrl_rank": 5125,
+          "l_rank": 14,
+          "m_rank": 52
+        },
+        {
+          "d": 6,
+          "j_rank": 212,
+          "ctrl_rank": 2275,
+          "l_rank": 186,
+          "m_rank": 179
+        },
+        {
+          "d": 5,
+          "j_rank": 6,
+          "ctrl_rank": 1350,
+          "l_rank": 11,
+          "m_rank": 24
+        },
+        {
+          "d": 4,
+          "j_rank": 6,
+          "ctrl_rank": 544,
+          "l_rank": 8,
+          "m_rank": 8
+        },
+        {
+          "d": 3,
+          "j_rank": 270,
+          "ctrl_rank": 928,
+          "l_rank": 744,
+          "m_rank": 1099
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 1024,
+          "l_rank": 1,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 187,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-flight-night",
+      "target": "night",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 343,
+          "ctrl_rank": 1619,
+          "l_rank": 159,
+          "m_rank": 3466
+        },
+        {
+          "d": 7,
+          "j_rank": 0,
+          "ctrl_rank": 729,
+          "l_rank": 0,
+          "m_rank": 2
+        },
+        {
+          "d": 6,
+          "j_rank": 0,
+          "ctrl_rank": 1913,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 5,
+          "j_rank": 1,
+          "ctrl_rank": 1546,
+          "l_rank": 0,
+          "m_rank": 35
+        },
+        {
+          "d": 4,
+          "j_rank": 0,
+          "ctrl_rank": 369,
+          "l_rank": 0,
+          "m_rank": 4
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 114,
+          "l_rank": 0,
+          "m_rank": 3
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 580,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 443,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-wave-grave",
+      "target": "grave",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 4191,
+          "ctrl_rank": 1088,
+          "l_rank": 3312,
+          "m_rank": 25582
+        },
+        {
+          "d": 7,
+          "j_rank": 266,
+          "ctrl_rank": 84,
+          "l_rank": 505,
+          "m_rank": 310
+        },
+        {
+          "d": 6,
+          "j_rank": 966,
+          "ctrl_rank": 1054,
+          "l_rank": 969,
+          "m_rank": 999
+        },
+        {
+          "d": 5,
+          "j_rank": 388,
+          "ctrl_rank": 1045,
+          "l_rank": 14366,
+          "m_rank": 6101
+        },
+        {
+          "d": 4,
+          "j_rank": 550,
+          "ctrl_rank": 506,
+          "l_rank": 4484,
+          "m_rank": 2163
+        },
+        {
+          "d": 3,
+          "j_rank": 18,
+          "ctrl_rank": 245,
+          "l_rank": 86,
+          "m_rank": 135
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 906,
+          "l_rank": 1,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 876,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-true-through",
+      "target": "through",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 60,
+          "ctrl_rank": 11461,
+          "l_rank": 10,
+          "m_rank": 660
+        },
+        {
+          "d": 7,
+          "j_rank": 189,
+          "ctrl_rank": 2564,
+          "l_rank": 46,
+          "m_rank": 62
+        },
+        {
+          "d": 6,
+          "j_rank": 20,
+          "ctrl_rank": 1083,
+          "l_rank": 9,
+          "m_rank": 20
+        },
+        {
+          "d": 5,
+          "j_rank": 921,
+          "ctrl_rank": 212,
+          "l_rank": 470,
+          "m_rank": 3298
+        },
+        {
+          "d": 4,
+          "j_rank": 78,
+          "ctrl_rank": 783,
+          "l_rank": 29,
+          "m_rank": 54
+        },
+        {
+          "d": 3,
+          "j_rank": 98,
+          "ctrl_rank": 402,
+          "l_rank": 34,
+          "m_rank": 45
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 267,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 107,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-throne-alone",
+      "target": "alone",
+      "by_d": [
+        {
+          "d": 11,
+          "j_rank": 273,
+          "ctrl_rank": 799,
+          "l_rank": 92,
+          "m_rank": 6755
+        },
+        {
+          "d": 10,
+          "j_rank": 919,
+          "ctrl_rank": 3104,
+          "l_rank": 768,
+          "m_rank": 6016
+        },
+        {
+          "d": 9,
+          "j_rank": 43,
+          "ctrl_rank": 3455,
+          "l_rank": 15,
+          "m_rank": 26
+        },
+        {
+          "d": 8,
+          "j_rank": 573,
+          "ctrl_rank": 7683,
+          "l_rank": 334,
+          "m_rank": 6131
+        },
+        {
+          "d": 7,
+          "j_rank": 76,
+          "ctrl_rank": 368,
+          "l_rank": 18,
+          "m_rank": 100
+        },
+        {
+          "d": 6,
+          "j_rank": 83,
+          "ctrl_rank": 368,
+          "l_rank": 29,
+          "m_rank": 188
+        },
+        {
+          "d": 5,
+          "j_rank": 125,
+          "ctrl_rank": 112,
+          "l_rank": 40,
+          "m_rank": 365
+        },
+        {
+          "d": 4,
+          "j_rank": 582,
+          "ctrl_rank": 197,
+          "l_rank": 341,
+          "m_rank": 2592
+        },
+        {
+          "d": 3,
+          "j_rank": 195,
+          "ctrl_rank": 995,
+          "l_rank": 68,
+          "m_rank": 497
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 407,
+          "l_rank": 1,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 374,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-divine-wine-to-sign",
+      "target": "wine",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 6389,
+          "ctrl_rank": 1429,
+          "l_rank": 9775,
+          "m_rank": 26951
+        },
+        {
+          "d": 7,
+          "j_rank": 104,
+          "ctrl_rank": 64,
+          "l_rank": 243,
+          "m_rank": 201
+        },
+        {
+          "d": 6,
+          "j_rank": 2357,
+          "ctrl_rank": 485,
+          "l_rank": 3935,
+          "m_rank": 3762
+        },
+        {
+          "d": 5,
+          "j_rank": 10,
+          "ctrl_rank": 152,
+          "l_rank": 16,
+          "m_rank": 11
+        },
+        {
+          "d": 4,
+          "j_rank": 111,
+          "ctrl_rank": 62,
+          "l_rank": 211,
+          "m_rank": 261
+        },
+        {
+          "d": 3,
+          "j_rank": 19,
+          "ctrl_rank": 70,
+          "l_rank": 9,
+          "m_rank": 20
+        },
+        {
+          "d": 2,
+          "j_rank": 112,
+          "ctrl_rank": 2048,
+          "l_rank": 29,
+          "m_rank": 8505
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 449,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-dust-trust",
+      "target": "trust",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 1530,
+          "ctrl_rank": 2661,
+          "l_rank": 442,
+          "m_rank": 35537
+        },
+        {
+          "d": 8,
+          "j_rank": 97,
+          "ctrl_rank": 252,
+          "l_rank": 27,
+          "m_rank": 132
+        },
+        {
+          "d": 7,
+          "j_rank": 984,
+          "ctrl_rank": 1310,
+          "l_rank": 143,
+          "m_rank": 6760
+        },
+        {
+          "d": 6,
+          "j_rank": 435,
+          "ctrl_rank": 114,
+          "l_rank": 33,
+          "m_rank": 373
+        },
+        {
+          "d": 5,
+          "j_rank": 28,
+          "ctrl_rank": 335,
+          "l_rank": 9,
+          "m_rank": 36
+        },
+        {
+          "d": 4,
+          "j_rank": 234,
+          "ctrl_rank": 49,
+          "l_rank": 7,
+          "m_rank": 410
+        },
+        {
+          "d": 3,
+          "j_rank": 11,
+          "ctrl_rank": 118,
+          "l_rank": 9,
+          "m_rank": 70
+        },
+        {
+          "d": 2,
+          "j_rank": 72,
+          "ctrl_rank": 224,
+          "l_rank": 11,
+          "m_rank": 110
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 120,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-ground-sound",
+      "target": "sound",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 3402,
+          "ctrl_rank": 5409,
+          "l_rank": 14697,
+          "m_rank": 20400
+        },
+        {
+          "d": 8,
+          "j_rank": 1720,
+          "ctrl_rank": 401,
+          "l_rank": 1360,
+          "m_rank": 2165
+        },
+        {
+          "d": 7,
+          "j_rank": 13,
+          "ctrl_rank": 343,
+          "l_rank": 3,
+          "m_rank": 14
+        },
+        {
+          "d": 6,
+          "j_rank": 272,
+          "ctrl_rank": 760,
+          "l_rank": 163,
+          "m_rank": 1191
+        },
+        {
+          "d": 5,
+          "j_rank": 790,
+          "ctrl_rank": 1194,
+          "l_rank": 209,
+          "m_rank": 1491
+        },
+        {
+          "d": 4,
+          "j_rank": 317,
+          "ctrl_rank": 1972,
+          "l_rank": 168,
+          "m_rank": 419
+        },
+        {
+          "d": 3,
+          "j_rank": 4,
+          "ctrl_rank": 247,
+          "l_rank": 2,
+          "m_rank": 43
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 59,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 82,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-bed-dead",
+      "target": "dead",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 316,
+          "ctrl_rank": 1123,
+          "l_rank": 293,
+          "m_rank": 9435
+        },
+        {
+          "d": 8,
+          "j_rank": 122,
+          "ctrl_rank": 483,
+          "l_rank": 286,
+          "m_rank": 315
+        },
+        {
+          "d": 7,
+          "j_rank": 381,
+          "ctrl_rank": 137,
+          "l_rank": 293,
+          "m_rank": 805
+        },
+        {
+          "d": 6,
+          "j_rank": 1070,
+          "ctrl_rank": 317,
+          "l_rank": 731,
+          "m_rank": 1408
+        },
+        {
+          "d": 5,
+          "j_rank": 394,
+          "ctrl_rank": 921,
+          "l_rank": 349,
+          "m_rank": 472
+        },
+        {
+          "d": 4,
+          "j_rank": 99,
+          "ctrl_rank": 270,
+          "l_rank": 71,
+          "m_rank": 188
+        },
+        {
+          "d": 3,
+          "j_rank": 4,
+          "ctrl_rank": 238,
+          "l_rank": 13,
+          "m_rank": 29
+        },
+        {
+          "d": 2,
+          "j_rank": 7,
+          "ctrl_rank": 687,
+          "l_rank": 7,
+          "m_rank": 68
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 616,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-fight-light",
+      "target": "light",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 1309,
+          "ctrl_rank": 21456,
+          "l_rank": 14195,
+          "m_rank": 38972
+        },
+        {
+          "d": 8,
+          "j_rank": 185,
+          "ctrl_rank": 10942,
+          "l_rank": 136,
+          "m_rank": 282
+        },
+        {
+          "d": 7,
+          "j_rank": 78,
+          "ctrl_rank": 14255,
+          "l_rank": 37,
+          "m_rank": 47
+        },
+        {
+          "d": 6,
+          "j_rank": 1775,
+          "ctrl_rank": 8346,
+          "l_rank": 847,
+          "m_rank": 1217
+        },
+        {
+          "d": 5,
+          "j_rank": 1325,
+          "ctrl_rank": 17893,
+          "l_rank": 672,
+          "m_rank": 846
+        },
+        {
+          "d": 4,
+          "j_rank": 47,
+          "ctrl_rank": 3346,
+          "l_rank": 15,
+          "m_rank": 81
+        },
+        {
+          "d": 3,
+          "j_rank": 3,
+          "ctrl_rank": 4575,
+          "l_rank": 2,
+          "m_rank": 111
+        },
+        {
+          "d": 2,
+          "j_rank": 1,
+          "ctrl_rank": 4899,
+          "l_rank": 1,
+          "m_rank": 6
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 37757,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-sea-free",
+      "target": "free",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 6612,
+          "ctrl_rank": 2350,
+          "l_rank": 2922,
+          "m_rank": 15035
+        },
+        {
+          "d": 7,
+          "j_rank": 309,
+          "ctrl_rank": 109,
+          "l_rank": 80,
+          "m_rank": 134
+        },
+        {
+          "d": 6,
+          "j_rank": 4,
+          "ctrl_rank": 2326,
+          "l_rank": 1,
+          "m_rank": 3
+        },
+        {
+          "d": 5,
+          "j_rank": 467,
+          "ctrl_rank": 497,
+          "l_rank": 126,
+          "m_rank": 213
+        },
+        {
+          "d": 4,
+          "j_rank": 3455,
+          "ctrl_rank": 3188,
+          "l_rank": 1101,
+          "m_rank": 1395
+        },
+        {
+          "d": 3,
+          "j_rank": 51,
+          "ctrl_rank": 1642,
+          "l_rank": 34,
+          "m_rank": 55
+        },
+        {
+          "d": 2,
+          "j_rank": 10,
+          "ctrl_rank": 159,
+          "l_rank": 2,
+          "m_rank": 6
+        },
+        {
+          "d": 1,
+          "j_rank": 2,
+          "ctrl_rank": 6729,
+          "l_rank": 0,
+          "m_rank": 3
+        }
+      ]
+    },
+    {
+      "name": "couplet-moon-soon",
+      "target": "soon",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 690,
+          "ctrl_rank": 2602,
+          "l_rank": 905,
+          "m_rank": 11361
+        },
+        {
+          "d": 9,
+          "j_rank": 51,
+          "ctrl_rank": 1587,
+          "l_rank": 16,
+          "m_rank": 93
+        },
+        {
+          "d": 8,
+          "j_rank": 6,
+          "ctrl_rank": 75,
+          "l_rank": 4,
+          "m_rank": 33
+        },
+        {
+          "d": 7,
+          "j_rank": 0,
+          "ctrl_rank": 1273,
+          "l_rank": 0,
+          "m_rank": 6
+        },
+        {
+          "d": 6,
+          "j_rank": 1,
+          "ctrl_rank": 2850,
+          "l_rank": 0,
+          "m_rank": 24
+        },
+        {
+          "d": 5,
+          "j_rank": 2,
+          "ctrl_rank": 2034,
+          "l_rank": 2,
+          "m_rank": 18
+        },
+        {
+          "d": 4,
+          "j_rank": 39,
+          "ctrl_rank": 2113,
+          "l_rank": 8,
+          "m_rank": 190
+        },
+        {
+          "d": 3,
+          "j_rank": 29,
+          "ctrl_rank": 1339,
+          "l_rank": 2,
+          "m_rank": 5
+        },
+        {
+          "d": 2,
+          "j_rank": 230,
+          "ctrl_rank": 1107,
+          "l_rank": 4,
+          "m_rank": 99
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 8588,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-art-heart",
+      "target": "heart",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 527,
+          "ctrl_rank": 5279,
+          "l_rank": 343,
+          "m_rank": 5159
+        },
+        {
+          "d": 7,
+          "j_rank": 135,
+          "ctrl_rank": 1442,
+          "l_rank": 43,
+          "m_rank": 469
+        },
+        {
+          "d": 6,
+          "j_rank": 66,
+          "ctrl_rank": 84,
+          "l_rank": 12,
+          "m_rank": 252
+        },
+        {
+          "d": 5,
+          "j_rank": 36,
+          "ctrl_rank": 176,
+          "l_rank": 1,
+          "m_rank": 46
+        },
+        {
+          "d": 4,
+          "j_rank": 178,
+          "ctrl_rank": 5046,
+          "l_rank": 32,
+          "m_rank": 249
+        },
+        {
+          "d": 3,
+          "j_rank": 67,
+          "ctrl_rank": 440,
+          "l_rank": 23,
+          "m_rank": 237
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 524,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1329,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-rain-pain",
+      "target": "pain",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 2366,
+          "ctrl_rank": 6264,
+          "l_rank": 7803,
+          "m_rank": 27633
+        },
+        {
+          "d": 8,
+          "j_rank": 923,
+          "ctrl_rank": 2411,
+          "l_rank": 1242,
+          "m_rank": 1988
+        },
+        {
+          "d": 7,
+          "j_rank": 596,
+          "ctrl_rank": 2561,
+          "l_rank": 598,
+          "m_rank": 2300
+        },
+        {
+          "d": 6,
+          "j_rank": 38,
+          "ctrl_rank": 121,
+          "l_rank": 45,
+          "m_rank": 187
+        },
+        {
+          "d": 5,
+          "j_rank": 59,
+          "ctrl_rank": 45,
+          "l_rank": 118,
+          "m_rank": 1038
+        },
+        {
+          "d": 4,
+          "j_rank": 20,
+          "ctrl_rank": 2095,
+          "l_rank": 68,
+          "m_rank": 635
+        },
+        {
+          "d": 3,
+          "j_rank": 27,
+          "ctrl_rank": 5677,
+          "l_rank": 59,
+          "m_rank": 58
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 1681,
+          "l_rank": 0,
+          "m_rank": 5
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 905,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-snow-grow",
+      "target": "grow",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 3195,
+          "ctrl_rank": 22228,
+          "l_rank": 517,
+          "m_rank": 18630
+        },
+        {
+          "d": 8,
+          "j_rank": 590,
+          "ctrl_rank": 1359,
+          "l_rank": 36,
+          "m_rank": 1571
+        },
+        {
+          "d": 7,
+          "j_rank": 856,
+          "ctrl_rank": 13659,
+          "l_rank": 10,
+          "m_rank": 27923
+        },
+        {
+          "d": 6,
+          "j_rank": 56,
+          "ctrl_rank": 486,
+          "l_rank": 0,
+          "m_rank": 691
+        },
+        {
+          "d": 5,
+          "j_rank": 46,
+          "ctrl_rank": 4481,
+          "l_rank": 0,
+          "m_rank": 453
+        },
+        {
+          "d": 4,
+          "j_rank": 113,
+          "ctrl_rank": 3199,
+          "l_rank": 13,
+          "m_rank": 610
+        },
+        {
+          "d": 3,
+          "j_rank": 332,
+          "ctrl_rank": 2334,
+          "l_rank": 10,
+          "m_rank": 922
+        },
+        {
+          "d": 2,
+          "j_rank": 74,
+          "ctrl_rank": 12339,
+          "l_rank": 7,
+          "m_rank": 104
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 338,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-shore-more",
+      "target": "more",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 2096,
+          "ctrl_rank": 18068,
+          "l_rank": 2115,
+          "m_rank": 27380
+        },
+        {
+          "d": 8,
+          "j_rank": 1325,
+          "ctrl_rank": 2960,
+          "l_rank": 574,
+          "m_rank": 559
+        },
+        {
+          "d": 7,
+          "j_rank": 89,
+          "ctrl_rank": 12652,
+          "l_rank": 27,
+          "m_rank": 65
+        },
+        {
+          "d": 6,
+          "j_rank": 607,
+          "ctrl_rank": 995,
+          "l_rank": 469,
+          "m_rank": 823
+        },
+        {
+          "d": 5,
+          "j_rank": 146,
+          "ctrl_rank": 655,
+          "l_rank": 31,
+          "m_rank": 92
+        },
+        {
+          "d": 4,
+          "j_rank": 385,
+          "ctrl_rank": 3108,
+          "l_rank": 21,
+          "m_rank": 204
+        },
+        {
+          "d": 3,
+          "j_rank": 3,
+          "ctrl_rank": 5742,
+          "l_rank": 1,
+          "m_rank": 4
+        },
+        {
+          "d": 2,
+          "j_rank": 3,
+          "ctrl_rank": 6829,
+          "l_rank": 2,
+          "m_rank": 2
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 80713,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-heart-apart",
+      "target": "apart",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 26328,
+          "ctrl_rank": 1194,
+          "l_rank": 5234,
+          "m_rank": 85740
+        },
+        {
+          "d": 8,
+          "j_rank": 3188,
+          "ctrl_rank": 370,
+          "l_rank": 1820,
+          "m_rank": 2567
+        },
+        {
+          "d": 7,
+          "j_rank": 1163,
+          "ctrl_rank": 572,
+          "l_rank": 559,
+          "m_rank": 875
+        },
+        {
+          "d": 6,
+          "j_rank": 3437,
+          "ctrl_rank": 160,
+          "l_rank": 4163,
+          "m_rank": 17676
+        },
+        {
+          "d": 5,
+          "j_rank": 295,
+          "ctrl_rank": 925,
+          "l_rank": 209,
+          "m_rank": 260
+        },
+        {
+          "d": 4,
+          "j_rank": 4621,
+          "ctrl_rank": 175,
+          "l_rank": 432,
+          "m_rank": 5945
+        },
+        {
+          "d": 3,
+          "j_rank": 8,
+          "ctrl_rank": 82,
+          "l_rank": 6,
+          "m_rank": 17
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 19,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 169,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-miss-kiss",
+      "target": "kiss",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 1942,
+          "ctrl_rank": 8300,
+          "l_rank": 31206,
+          "m_rank": 43907
+        },
+        {
+          "d": 8,
+          "j_rank": 2141,
+          "ctrl_rank": 2238,
+          "l_rank": 14673,
+          "m_rank": 4170
+        },
+        {
+          "d": 7,
+          "j_rank": 1338,
+          "ctrl_rank": 1798,
+          "l_rank": 446,
+          "m_rank": 5752
+        },
+        {
+          "d": 6,
+          "j_rank": 102,
+          "ctrl_rank": 802,
+          "l_rank": 674,
+          "m_rank": 123
+        },
+        {
+          "d": 5,
+          "j_rank": 1917,
+          "ctrl_rank": 2287,
+          "l_rank": 3950,
+          "m_rank": 3963
+        },
+        {
+          "d": 4,
+          "j_rank": 911,
+          "ctrl_rank": 1273,
+          "l_rank": 6822,
+          "m_rank": 2890
+        },
+        {
+          "d": 3,
+          "j_rank": 626,
+          "ctrl_rank": 895,
+          "l_rank": 1811,
+          "m_rank": 1580
+        },
+        {
+          "d": 2,
+          "j_rank": 30,
+          "ctrl_rank": 1252,
+          "l_rank": 180,
+          "m_rank": 49
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 249,
+          "l_rank": 5,
+          "m_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "couplet-eyes-lies",
+      "target": "lies",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 4163,
+          "ctrl_rank": 7974,
+          "l_rank": 364,
+          "m_rank": 20053
+        },
+        {
+          "d": 8,
+          "j_rank": 1339,
+          "ctrl_rank": 1905,
+          "l_rank": 445,
+          "m_rank": 1618
+        },
+        {
+          "d": 7,
+          "j_rank": 547,
+          "ctrl_rank": 1437,
+          "l_rank": 319,
+          "m_rank": 685
+        },
+        {
+          "d": 6,
+          "j_rank": 42,
+          "ctrl_rank": 2406,
+          "l_rank": 26,
+          "m_rank": 64
+        },
+        {
+          "d": 5,
+          "j_rank": 76,
+          "ctrl_rank": 429,
+          "l_rank": 9,
+          "m_rank": 94
+        },
+        {
+          "d": 4,
+          "j_rank": 14,
+          "ctrl_rank": 380,
+          "l_rank": 10,
+          "m_rank": 27
+        },
+        {
+          "d": 3,
+          "j_rank": 3,
+          "ctrl_rank": 265,
+          "l_rank": 1,
+          "m_rank": 0
+        },
+        {
+          "d": 2,
+          "j_rank": 37,
+          "ctrl_rank": 4454,
+          "l_rank": 12,
+          "m_rank": 43
+        },
+        {
+          "d": 1,
+          "j_rank": 2,
+          "ctrl_rank": 598,
+          "l_rank": 1,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-hold-old",
+      "target": "old",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 1911,
+          "ctrl_rank": 12836,
+          "l_rank": 10703,
+          "m_rank": 46531
+        },
+        {
+          "d": 8,
+          "j_rank": 1054,
+          "ctrl_rank": 1317,
+          "l_rank": 630,
+          "m_rank": 934
+        },
+        {
+          "d": 7,
+          "j_rank": 326,
+          "ctrl_rank": 3295,
+          "l_rank": 192,
+          "m_rank": 313
+        },
+        {
+          "d": 6,
+          "j_rank": 242,
+          "ctrl_rank": 547,
+          "l_rank": 478,
+          "m_rank": 558
+        },
+        {
+          "d": 5,
+          "j_rank": 447,
+          "ctrl_rank": 1979,
+          "l_rank": 246,
+          "m_rank": 334
+        },
+        {
+          "d": 4,
+          "j_rank": 100,
+          "ctrl_rank": 3301,
+          "l_rank": 55,
+          "m_rank": 110
+        },
+        {
+          "d": 3,
+          "j_rank": 769,
+          "ctrl_rank": 1658,
+          "l_rank": 428,
+          "m_rank": 808
+        },
+        {
+          "d": 2,
+          "j_rank": 44,
+          "ctrl_rank": 3109,
+          "l_rank": 19,
+          "m_rank": 21
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 9396,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-fall-wall",
+      "target": "wall",
+      "by_d": [
+        {
+          "d": 7,
+          "j_rank": 7531,
+          "ctrl_rank": 4988,
+          "l_rank": 7615,
+          "m_rank": 62455
+        },
+        {
+          "d": 6,
+          "j_rank": 1547,
+          "ctrl_rank": 3243,
+          "l_rank": 3239,
+          "m_rank": 2069
+        },
+        {
+          "d": 5,
+          "j_rank": 1066,
+          "ctrl_rank": 1940,
+          "l_rank": 225,
+          "m_rank": 5723
+        },
+        {
+          "d": 4,
+          "j_rank": 107,
+          "ctrl_rank": 3431,
+          "l_rank": 49,
+          "m_rank": 1651
+        },
+        {
+          "d": 3,
+          "j_rank": 23,
+          "ctrl_rank": 9748,
+          "l_rank": 24,
+          "m_rank": 81
+        },
+        {
+          "d": 2,
+          "j_rank": 178,
+          "ctrl_rank": 853,
+          "l_rank": 18,
+          "m_rank": 151
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 3208,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-chase-face",
+      "target": "face",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 18115,
+          "ctrl_rank": 1135,
+          "l_rank": 10439,
+          "m_rank": 50998
+        },
+        {
+          "d": 9,
+          "j_rank": 1220,
+          "ctrl_rank": 1980,
+          "l_rank": 711,
+          "m_rank": 1989
+        },
+        {
+          "d": 8,
+          "j_rank": 84,
+          "ctrl_rank": 5302,
+          "l_rank": 64,
+          "m_rank": 468
+        },
+        {
+          "d": 7,
+          "j_rank": 397,
+          "ctrl_rank": 360,
+          "l_rank": 88,
+          "m_rank": 902
+        },
+        {
+          "d": 6,
+          "j_rank": 44,
+          "ctrl_rank": 1903,
+          "l_rank": 53,
+          "m_rank": 325
+        },
+        {
+          "d": 5,
+          "j_rank": 55,
+          "ctrl_rank": 209,
+          "l_rank": 16,
+          "m_rank": 408
+        },
+        {
+          "d": 4,
+          "j_rank": 2844,
+          "ctrl_rank": 1819,
+          "l_rank": 1126,
+          "m_rank": 2640
+        },
+        {
+          "d": 3,
+          "j_rank": 16,
+          "ctrl_rank": 16,
+          "l_rank": 11,
+          "m_rank": 13
+        },
+        {
+          "d": 2,
+          "j_rank": 17,
+          "ctrl_rank": 2688,
+          "l_rank": 4,
+          "m_rank": 102
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 469,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-trap-map",
+      "target": "map",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 17431,
+          "ctrl_rank": 5076,
+          "l_rank": 63031,
+          "m_rank": 71101
+        },
+        {
+          "d": 8,
+          "j_rank": 74,
+          "ctrl_rank": 1157,
+          "l_rank": 48,
+          "m_rank": 42
+        },
+        {
+          "d": 7,
+          "j_rank": 1837,
+          "ctrl_rank": 3168,
+          "l_rank": 1453,
+          "m_rank": 1920
+        },
+        {
+          "d": 6,
+          "j_rank": 170,
+          "ctrl_rank": 1726,
+          "l_rank": 167,
+          "m_rank": 197
+        },
+        {
+          "d": 5,
+          "j_rank": 2391,
+          "ctrl_rank": 1456,
+          "l_rank": 3954,
+          "m_rank": 5861
+        },
+        {
+          "d": 4,
+          "j_rank": 3328,
+          "ctrl_rank": 28,
+          "l_rank": 3927,
+          "m_rank": 3888
+        },
+        {
+          "d": 3,
+          "j_rank": 2543,
+          "ctrl_rank": 424,
+          "l_rank": 924,
+          "m_rank": 1495
+        },
+        {
+          "d": 2,
+          "j_rank": 4,
+          "ctrl_rank": 704,
+          "l_rank": 2,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 5,
+          "ctrl_rank": 2524,
+          "l_rank": 1,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-gate-fate",
+      "target": "fate",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 878,
+          "ctrl_rank": 20030,
+          "l_rank": 2319,
+          "m_rank": 16949
+        },
+        {
+          "d": 7,
+          "j_rank": 277,
+          "ctrl_rank": 3833,
+          "l_rank": 120,
+          "m_rank": 380
+        },
+        {
+          "d": 6,
+          "j_rank": 335,
+          "ctrl_rank": 139,
+          "l_rank": 59,
+          "m_rank": 1689
+        },
+        {
+          "d": 5,
+          "j_rank": 42,
+          "ctrl_rank": 274,
+          "l_rank": 87,
+          "m_rank": 97
+        },
+        {
+          "d": 4,
+          "j_rank": 0,
+          "ctrl_rank": 1311,
+          "l_rank": 0,
+          "m_rank": 23
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 6806,
+          "l_rank": 0,
+          "m_rank": 2
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 2908,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 719,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-gun-run",
+      "target": "run",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 12802,
+          "ctrl_rank": 11026,
+          "l_rank": 23176,
+          "m_rank": 77044
+        },
+        {
+          "d": 8,
+          "j_rank": 3300,
+          "ctrl_rank": 208,
+          "l_rank": 1534,
+          "m_rank": 3083
+        },
+        {
+          "d": 7,
+          "j_rank": 7750,
+          "ctrl_rank": 5430,
+          "l_rank": 3629,
+          "m_rank": 5583
+        },
+        {
+          "d": 6,
+          "j_rank": 865,
+          "ctrl_rank": 4389,
+          "l_rank": 1319,
+          "m_rank": 2856
+        },
+        {
+          "d": 5,
+          "j_rank": 437,
+          "ctrl_rank": 2182,
+          "l_rank": 1894,
+          "m_rank": 2091
+        },
+        {
+          "d": 4,
+          "j_rank": 1654,
+          "ctrl_rank": 409,
+          "l_rank": 835,
+          "m_rank": 1015
+        },
+        {
+          "d": 3,
+          "j_rank": 2277,
+          "ctrl_rank": 81,
+          "l_rank": 481,
+          "m_rank": 2028
+        },
+        {
+          "d": 2,
+          "j_rank": 179,
+          "ctrl_rank": 1189,
+          "l_rank": 131,
+          "m_rank": 110
+        },
+        {
+          "d": 1,
+          "j_rank": 2,
+          "ctrl_rank": 1886,
+          "l_rank": 2,
+          "m_rank": 2
+        }
+      ]
+    },
+    {
+      "name": "couplet-told-gold",
+      "target": "gold",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 3397,
+          "ctrl_rank": 9101,
+          "l_rank": 3559,
+          "m_rank": 36142
+        },
+        {
+          "d": 7,
+          "j_rank": 119,
+          "ctrl_rank": 613,
+          "l_rank": 224,
+          "m_rank": 160
+        },
+        {
+          "d": 6,
+          "j_rank": 792,
+          "ctrl_rank": 1060,
+          "l_rank": 1205,
+          "m_rank": 702
+        },
+        {
+          "d": 5,
+          "j_rank": 2448,
+          "ctrl_rank": 1480,
+          "l_rank": 2179,
+          "m_rank": 2150
+        },
+        {
+          "d": 4,
+          "j_rank": 761,
+          "ctrl_rank": 1617,
+          "l_rank": 762,
+          "m_rank": 516
+        },
+        {
+          "d": 3,
+          "j_rank": 251,
+          "ctrl_rank": 1715,
+          "l_rank": 257,
+          "m_rank": 183
+        },
+        {
+          "d": 2,
+          "j_rank": 657,
+          "ctrl_rank": 11608,
+          "l_rank": 690,
+          "m_rank": 364
+        },
+        {
+          "d": 1,
+          "j_rank": 1,
+          "ctrl_rank": 58,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-mind-find",
+      "target": "find",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 755,
+          "ctrl_rank": 22322,
+          "l_rank": 182,
+          "m_rank": 28380
+        },
+        {
+          "d": 7,
+          "j_rank": 194,
+          "ctrl_rank": 2244,
+          "l_rank": 3,
+          "m_rank": 1145
+        },
+        {
+          "d": 6,
+          "j_rank": 3232,
+          "ctrl_rank": 2063,
+          "l_rank": 207,
+          "m_rank": 4051
+        },
+        {
+          "d": 5,
+          "j_rank": 866,
+          "ctrl_rank": 1905,
+          "l_rank": 79,
+          "m_rank": 627
+        },
+        {
+          "d": 4,
+          "j_rank": 3633,
+          "ctrl_rank": 1944,
+          "l_rank": 731,
+          "m_rank": 2878
+        },
+        {
+          "d": 3,
+          "j_rank": 222,
+          "ctrl_rank": 2414,
+          "l_rank": 38,
+          "m_rank": 139
+        },
+        {
+          "d": 2,
+          "j_rank": 10,
+          "ctrl_rank": 331,
+          "l_rank": 5,
+          "m_rank": 8
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 48,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-dream-seem",
+      "target": "seem",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 4295,
+          "ctrl_rank": 6538,
+          "l_rank": 5375,
+          "m_rank": 20687
+        },
+        {
+          "d": 8,
+          "j_rank": 1744,
+          "ctrl_rank": 1921,
+          "l_rank": 4208,
+          "m_rank": 3760
+        },
+        {
+          "d": 7,
+          "j_rank": 106,
+          "ctrl_rank": 6725,
+          "l_rank": 43,
+          "m_rank": 362
+        },
+        {
+          "d": 6,
+          "j_rank": 972,
+          "ctrl_rank": 1791,
+          "l_rank": 3139,
+          "m_rank": 5949
+        },
+        {
+          "d": 5,
+          "j_rank": 312,
+          "ctrl_rank": 4382,
+          "l_rank": 103,
+          "m_rank": 342
+        },
+        {
+          "d": 4,
+          "j_rank": 42,
+          "ctrl_rank": 11065,
+          "l_rank": 90,
+          "m_rank": 246
+        },
+        {
+          "d": 3,
+          "j_rank": 56,
+          "ctrl_rank": 8768,
+          "l_rank": 42,
+          "m_rank": 26
+        },
+        {
+          "d": 2,
+          "j_rank": 4,
+          "ctrl_rank": 11878,
+          "l_rank": 3,
+          "m_rank": 7
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 11029,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-time-climb",
+      "target": "climb",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 5636,
+          "ctrl_rank": 49455,
+          "l_rank": 14773,
+          "m_rank": 60275
+        },
+        {
+          "d": 9,
+          "j_rank": 1532,
+          "ctrl_rank": 13750,
+          "l_rank": 4859,
+          "m_rank": 4263
+        },
+        {
+          "d": 8,
+          "j_rank": 3669,
+          "ctrl_rank": 1501,
+          "l_rank": 7940,
+          "m_rank": 12984
+        },
+        {
+          "d": 7,
+          "j_rank": 280,
+          "ctrl_rank": 1062,
+          "l_rank": 1026,
+          "m_rank": 470
+        },
+        {
+          "d": 6,
+          "j_rank": 4,
+          "ctrl_rank": 2734,
+          "l_rank": 36,
+          "m_rank": 133
+        },
+        {
+          "d": 5,
+          "j_rank": 3,
+          "ctrl_rank": 1812,
+          "l_rank": 29,
+          "m_rank": 233
+        },
+        {
+          "d": 4,
+          "j_rank": 0,
+          "ctrl_rank": 2495,
+          "l_rank": 12,
+          "m_rank": 84
+        },
+        {
+          "d": 3,
+          "j_rank": 1,
+          "ctrl_rank": 8208,
+          "l_rank": 6,
+          "m_rank": 15
+        },
+        {
+          "d": 2,
+          "j_rank": 1,
+          "ctrl_rank": 15884,
+          "l_rank": 3,
+          "m_rank": 46
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1866,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-known-grown",
+      "target": "grown",
+      "by_d": [
+        {
+          "d": 11,
+          "j_rank": 3937,
+          "ctrl_rank": 1348,
+          "l_rank": 8510,
+          "m_rank": 31804
+        },
+        {
+          "d": 10,
+          "j_rank": 106,
+          "ctrl_rank": 605,
+          "l_rank": 92,
+          "m_rank": 151
+        },
+        {
+          "d": 9,
+          "j_rank": 1017,
+          "ctrl_rank": 72,
+          "l_rank": 1212,
+          "m_rank": 3273
+        },
+        {
+          "d": 8,
+          "j_rank": 287,
+          "ctrl_rank": 121,
+          "l_rank": 107,
+          "m_rank": 2911
+        },
+        {
+          "d": 7,
+          "j_rank": 52,
+          "ctrl_rank": 854,
+          "l_rank": 56,
+          "m_rank": 107
+        },
+        {
+          "d": 6,
+          "j_rank": 57,
+          "ctrl_rank": 62,
+          "l_rank": 1,
+          "m_rank": 133
+        },
+        {
+          "d": 5,
+          "j_rank": 96,
+          "ctrl_rank": 345,
+          "l_rank": 67,
+          "m_rank": 290
+        },
+        {
+          "d": 4,
+          "j_rank": 308,
+          "ctrl_rank": 373,
+          "l_rank": 280,
+          "m_rank": 367
+        },
+        {
+          "d": 3,
+          "j_rank": 121,
+          "ctrl_rank": 247,
+          "l_rank": 13,
+          "m_rank": 124
+        },
+        {
+          "d": 2,
+          "j_rank": 21,
+          "ctrl_rank": 369,
+          "l_rank": 0,
+          "m_rank": 54
+        },
+        {
+          "d": 1,
+          "j_rank": 2,
+          "ctrl_rank": 619,
+          "l_rank": 0,
+          "m_rank": 72
+        }
+      ]
+    },
+    {
+      "name": "couplet-war-door",
+      "target": "door",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 32303,
+          "ctrl_rank": 2091,
+          "l_rank": 29338,
+          "m_rank": 90302
+        },
+        {
+          "d": 9,
+          "j_rank": 6835,
+          "ctrl_rank": 105,
+          "l_rank": 7050,
+          "m_rank": 10484
+        },
+        {
+          "d": 8,
+          "j_rank": 40329,
+          "ctrl_rank": 4374,
+          "l_rank": 10633,
+          "m_rank": 84521
+        },
+        {
+          "d": 7,
+          "j_rank": 10112,
+          "ctrl_rank": 162,
+          "l_rank": 8638,
+          "m_rank": 20305
+        },
+        {
+          "d": 6,
+          "j_rank": 21069,
+          "ctrl_rank": 313,
+          "l_rank": 24848,
+          "m_rank": 34710
+        },
+        {
+          "d": 5,
+          "j_rank": 586,
+          "ctrl_rank": 159,
+          "l_rank": 294,
+          "m_rank": 1232
+        },
+        {
+          "d": 4,
+          "j_rank": 306,
+          "ctrl_rank": 1535,
+          "l_rank": 108,
+          "m_rank": 387
+        },
+        {
+          "d": 3,
+          "j_rank": 49,
+          "ctrl_rank": 292,
+          "l_rank": 24,
+          "m_rank": 224
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 15,
+          "l_rank": 0,
+          "m_rank": 3
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 4,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-smoke-spoke",
+      "target": "spoke",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 5170,
+          "ctrl_rank": 2820,
+          "l_rank": 17517,
+          "m_rank": 56863
+        },
+        {
+          "d": 7,
+          "j_rank": 392,
+          "ctrl_rank": 222,
+          "l_rank": 215,
+          "m_rank": 381
+        },
+        {
+          "d": 6,
+          "j_rank": 577,
+          "ctrl_rank": 459,
+          "l_rank": 489,
+          "m_rank": 1432
+        },
+        {
+          "d": 5,
+          "j_rank": 1,
+          "ctrl_rank": 585,
+          "l_rank": 1,
+          "m_rank": 2
+        },
+        {
+          "d": 4,
+          "j_rank": 25,
+          "ctrl_rank": 360,
+          "l_rank": 36,
+          "m_rank": 62
+        },
+        {
+          "d": 3,
+          "j_rank": 404,
+          "ctrl_rank": 55,
+          "l_rank": 347,
+          "m_rank": 404
+        },
+        {
+          "d": 2,
+          "j_rank": 387,
+          "ctrl_rank": 82,
+          "l_rank": 364,
+          "m_rank": 412
+        },
+        {
+          "d": 1,
+          "j_rank": 1,
+          "ctrl_rank": 233,
+          "l_rank": 0,
+          "m_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "couplet-head-bed",
+      "target": "bed",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 4826,
+          "ctrl_rank": 617,
+          "l_rank": 8656,
+          "m_rank": 46807
+        },
+        {
+          "d": 9,
+          "j_rank": 220,
+          "ctrl_rank": 40,
+          "l_rank": 11,
+          "m_rank": 1171
+        },
+        {
+          "d": 8,
+          "j_rank": 2583,
+          "ctrl_rank": 1760,
+          "l_rank": 872,
+          "m_rank": 19502
+        },
+        {
+          "d": 7,
+          "j_rank": 51,
+          "ctrl_rank": 181,
+          "l_rank": 19,
+          "m_rank": 254
+        },
+        {
+          "d": 6,
+          "j_rank": 3297,
+          "ctrl_rank": 283,
+          "l_rank": 496,
+          "m_rank": 3202
+        },
+        {
+          "d": 5,
+          "j_rank": 45,
+          "ctrl_rank": 20,
+          "l_rank": 20,
+          "m_rank": 833
+        },
+        {
+          "d": 4,
+          "j_rank": 57,
+          "ctrl_rank": 1233,
+          "l_rank": 12,
+          "m_rank": 125
+        },
+        {
+          "d": 3,
+          "j_rank": 1,
+          "ctrl_rank": 171,
+          "l_rank": 4,
+          "m_rank": 16
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 137,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 187,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-deep-keep",
+      "target": "keep",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 11041,
+          "ctrl_rank": 16230,
+          "l_rank": 413,
+          "m_rank": 51776
+        },
+        {
+          "d": 8,
+          "j_rank": 2569,
+          "ctrl_rank": 1712,
+          "l_rank": 107,
+          "m_rank": 2278
+        },
+        {
+          "d": 7,
+          "j_rank": 3072,
+          "ctrl_rank": 1728,
+          "l_rank": 1457,
+          "m_rank": 2868
+        },
+        {
+          "d": 6,
+          "j_rank": 1845,
+          "ctrl_rank": 348,
+          "l_rank": 438,
+          "m_rank": 3332
+        },
+        {
+          "d": 5,
+          "j_rank": 710,
+          "ctrl_rank": 807,
+          "l_rank": 269,
+          "m_rank": 687
+        },
+        {
+          "d": 4,
+          "j_rank": 79,
+          "ctrl_rank": 1106,
+          "l_rank": 45,
+          "m_rank": 58
+        },
+        {
+          "d": 3,
+          "j_rank": 6,
+          "ctrl_rank": 740,
+          "l_rank": 2,
+          "m_rank": 1
+        },
+        {
+          "d": 2,
+          "j_rank": 58,
+          "ctrl_rank": 2289,
+          "l_rank": 35,
+          "m_rank": 33
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 997,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-cat-mat",
+      "target": "mat",
+      "by_d": [
+        {
+          "d": 7,
+          "j_rank": 8388,
+          "ctrl_rank": 6418,
+          "l_rank": 35367,
+          "m_rank": 35593
+        },
+        {
+          "d": 6,
+          "j_rank": 3502,
+          "ctrl_rank": 1934,
+          "l_rank": 1713,
+          "m_rank": 2813
+        },
+        {
+          "d": 5,
+          "j_rank": 2738,
+          "ctrl_rank": 1829,
+          "l_rank": 774,
+          "m_rank": 1678
+        },
+        {
+          "d": 4,
+          "j_rank": 6900,
+          "ctrl_rank": 7897,
+          "l_rank": 912,
+          "m_rank": 4346
+        },
+        {
+          "d": 3,
+          "j_rank": 1081,
+          "ctrl_rank": 1487,
+          "l_rank": 804,
+          "m_rank": 1133
+        },
+        {
+          "d": 2,
+          "j_rank": 483,
+          "ctrl_rank": 519,
+          "l_rank": 216,
+          "m_rank": 288
+        },
+        {
+          "d": 1,
+          "j_rank": 4,
+          "ctrl_rank": 2756,
+          "l_rank": 1,
+          "m_rank": 3
+        }
+      ]
+    },
+    {
+      "name": "couplet-cake-mistake",
+      "target": "mistake",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 34450,
+          "ctrl_rank": 11063,
+          "l_rank": 93219,
+          "m_rank": 136191
+        },
+        {
+          "d": 8,
+          "j_rank": 9615,
+          "ctrl_rank": 1338,
+          "l_rank": 65093,
+          "m_rank": 46854
+        },
+        {
+          "d": 7,
+          "j_rank": 2190,
+          "ctrl_rank": 7896,
+          "l_rank": 10087,
+          "m_rank": 6087
+        },
+        {
+          "d": 6,
+          "j_rank": 2397,
+          "ctrl_rank": 1946,
+          "l_rank": 8289,
+          "m_rank": 7190
+        },
+        {
+          "d": 5,
+          "j_rank": 854,
+          "ctrl_rank": 4012,
+          "l_rank": 5200,
+          "m_rank": 9081
+        },
+        {
+          "d": 4,
+          "j_rank": 2624,
+          "ctrl_rank": 2498,
+          "l_rank": 18372,
+          "m_rank": 12218
+        },
+        {
+          "d": 3,
+          "j_rank": 485,
+          "ctrl_rank": 868,
+          "l_rank": 5791,
+          "m_rank": 4545
+        },
+        {
+          "d": 2,
+          "j_rank": 51,
+          "ctrl_rank": 1035,
+          "l_rank": 340,
+          "m_rank": 500
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 457,
+          "l_rank": 1,
+          "m_rank": 2
+        }
+      ]
+    },
+    {
+      "name": "couplet-shoe-blue",
+      "target": "blue",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 5695,
+          "ctrl_rank": 8445,
+          "l_rank": 4729,
+          "m_rank": 24189
+        },
+        {
+          "d": 7,
+          "j_rank": 570,
+          "ctrl_rank": 587,
+          "l_rank": 412,
+          "m_rank": 754
+        },
+        {
+          "d": 6,
+          "j_rank": 95,
+          "ctrl_rank": 268,
+          "l_rank": 157,
+          "m_rank": 268
+        },
+        {
+          "d": 5,
+          "j_rank": 354,
+          "ctrl_rank": 91,
+          "l_rank": 288,
+          "m_rank": 551
+        },
+        {
+          "d": 4,
+          "j_rank": 418,
+          "ctrl_rank": 49,
+          "l_rank": 303,
+          "m_rank": 493
+        },
+        {
+          "d": 3,
+          "j_rank": 168,
+          "ctrl_rank": 53,
+          "l_rank": 122,
+          "m_rank": 170
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 161,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 616,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-foam-home",
+      "target": "home",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 2591,
+          "ctrl_rank": 14055,
+          "l_rank": 3814,
+          "m_rank": 14386
+        },
+        {
+          "d": 8,
+          "j_rank": 1681,
+          "ctrl_rank": 2964,
+          "l_rank": 650,
+          "m_rank": 1706
+        },
+        {
+          "d": 7,
+          "j_rank": 456,
+          "ctrl_rank": 813,
+          "l_rank": 161,
+          "m_rank": 317
+        },
+        {
+          "d": 6,
+          "j_rank": 174,
+          "ctrl_rank": 36,
+          "l_rank": 243,
+          "m_rank": 473
+        },
+        {
+          "d": 5,
+          "j_rank": 851,
+          "ctrl_rank": 1944,
+          "l_rank": 1824,
+          "m_rank": 4059
+        },
+        {
+          "d": 4,
+          "j_rank": 230,
+          "ctrl_rank": 90,
+          "l_rank": 691,
+          "m_rank": 1364
+        },
+        {
+          "d": 3,
+          "j_rank": 265,
+          "ctrl_rank": 60,
+          "l_rank": 67,
+          "m_rank": 288
+        },
+        {
+          "d": 2,
+          "j_rank": 2,
+          "ctrl_rank": 206,
+          "l_rank": 1,
+          "m_rank": 2
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1506,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-song-long",
+      "target": "long",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 3486,
+          "ctrl_rank": 3901,
+          "l_rank": 752,
+          "m_rank": 31889
+        },
+        {
+          "d": 9,
+          "j_rank": 292,
+          "ctrl_rank": 1172,
+          "l_rank": 45,
+          "m_rank": 172
+        },
+        {
+          "d": 8,
+          "j_rank": 421,
+          "ctrl_rank": 2013,
+          "l_rank": 66,
+          "m_rank": 311
+        },
+        {
+          "d": 7,
+          "j_rank": 126,
+          "ctrl_rank": 649,
+          "l_rank": 17,
+          "m_rank": 203
+        },
+        {
+          "d": 6,
+          "j_rank": 125,
+          "ctrl_rank": 1185,
+          "l_rank": 35,
+          "m_rank": 81
+        },
+        {
+          "d": 5,
+          "j_rank": 792,
+          "ctrl_rank": 422,
+          "l_rank": 179,
+          "m_rank": 327
+        },
+        {
+          "d": 4,
+          "j_rank": 1,
+          "ctrl_rank": 682,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 3,
+          "j_rank": 2,
+          "ctrl_rank": 652,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 2,
+          "j_rank": 24,
+          "ctrl_rank": 2173,
+          "l_rank": 15,
+          "m_rank": 7
+        },
+        {
+          "d": 1,
+          "j_rank": 1,
+          "ctrl_rank": 2227,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-near-fear",
+      "target": "fear",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 344,
+          "ctrl_rank": 9378,
+          "l_rank": 449,
+          "m_rank": 6069
+        },
+        {
+          "d": 8,
+          "j_rank": 0,
+          "ctrl_rank": 5018,
+          "l_rank": 0,
+          "m_rank": 54
+        },
+        {
+          "d": 7,
+          "j_rank": 3,
+          "ctrl_rank": 10439,
+          "l_rank": 23,
+          "m_rank": 55
+        },
+        {
+          "d": 6,
+          "j_rank": 2,
+          "ctrl_rank": 17733,
+          "l_rank": 39,
+          "m_rank": 25
+        },
+        {
+          "d": 5,
+          "j_rank": 172,
+          "ctrl_rank": 8555,
+          "l_rank": 296,
+          "m_rank": 2586
+        },
+        {
+          "d": 4,
+          "j_rank": 64,
+          "ctrl_rank": 8091,
+          "l_rank": 106,
+          "m_rank": 219
+        },
+        {
+          "d": 3,
+          "j_rank": 26,
+          "ctrl_rank": 12537,
+          "l_rank": 59,
+          "m_rank": 363
+        },
+        {
+          "d": 2,
+          "j_rank": 2,
+          "ctrl_rank": 29615,
+          "l_rank": 2,
+          "m_rank": 5
+        },
+        {
+          "d": 1,
+          "j_rank": 19,
+          "ctrl_rank": 8863,
+          "l_rank": 12,
+          "m_rank": 4
+        }
+      ]
+    },
+    {
+      "name": "couplet-clear-year",
+      "target": "year",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 6964,
+          "ctrl_rank": 6540,
+          "l_rank": 13886,
+          "m_rank": 48187
+        },
+        {
+          "d": 8,
+          "j_rank": 1862,
+          "ctrl_rank": 256,
+          "l_rank": 1068,
+          "m_rank": 1772
+        },
+        {
+          "d": 7,
+          "j_rank": 1225,
+          "ctrl_rank": 3311,
+          "l_rank": 268,
+          "m_rank": 1012
+        },
+        {
+          "d": 6,
+          "j_rank": 573,
+          "ctrl_rank": 220,
+          "l_rank": 324,
+          "m_rank": 649
+        },
+        {
+          "d": 5,
+          "j_rank": 439,
+          "ctrl_rank": 43,
+          "l_rank": 154,
+          "m_rank": 419
+        },
+        {
+          "d": 4,
+          "j_rank": 1177,
+          "ctrl_rank": 73,
+          "l_rank": 2213,
+          "m_rank": 3186
+        },
+        {
+          "d": 3,
+          "j_rank": 817,
+          "ctrl_rank": 267,
+          "l_rank": 440,
+          "m_rank": 1062
+        },
+        {
+          "d": 2,
+          "j_rank": 129,
+          "ctrl_rank": 81,
+          "l_rank": 74,
+          "m_rank": 169
+        },
+        {
+          "d": 1,
+          "j_rank": 2,
+          "ctrl_rank": 1,
+          "l_rank": 3,
+          "m_rank": 3
+        }
+      ]
+    },
+    {
+      "name": "couplet-sky-fly",
+      "target": "fly",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 930,
+          "ctrl_rank": 41990,
+          "l_rank": 2150,
+          "m_rank": 9106
+        },
+        {
+          "d": 8,
+          "j_rank": 13,
+          "ctrl_rank": 670,
+          "l_rank": 4,
+          "m_rank": 104
+        },
+        {
+          "d": 7,
+          "j_rank": 83,
+          "ctrl_rank": 4254,
+          "l_rank": 395,
+          "m_rank": 324
+        },
+        {
+          "d": 6,
+          "j_rank": 107,
+          "ctrl_rank": 1987,
+          "l_rank": 122,
+          "m_rank": 1920
+        },
+        {
+          "d": 5,
+          "j_rank": 31,
+          "ctrl_rank": 3572,
+          "l_rank": 24,
+          "m_rank": 390
+        },
+        {
+          "d": 4,
+          "j_rank": 70,
+          "ctrl_rank": 2337,
+          "l_rank": 76,
+          "m_rank": 390
+        },
+        {
+          "d": 3,
+          "j_rank": 7,
+          "ctrl_rank": 299,
+          "l_rank": 6,
+          "m_rank": 21
+        },
+        {
+          "d": 2,
+          "j_rank": 1,
+          "ctrl_rank": 854,
+          "l_rank": 4,
+          "m_rank": 12
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 39,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-high-cry",
+      "target": "cry",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 7660,
+          "ctrl_rank": 4790,
+          "l_rank": 2375,
+          "m_rank": 7242
+        },
+        {
+          "d": 7,
+          "j_rank": 6,
+          "ctrl_rank": 596,
+          "l_rank": 10,
+          "m_rank": 5
+        },
+        {
+          "d": 6,
+          "j_rank": 182,
+          "ctrl_rank": 1115,
+          "l_rank": 139,
+          "m_rank": 231
+        },
+        {
+          "d": 5,
+          "j_rank": 227,
+          "ctrl_rank": 280,
+          "l_rank": 121,
+          "m_rank": 1111
+        },
+        {
+          "d": 4,
+          "j_rank": 1060,
+          "ctrl_rank": 2347,
+          "l_rank": 407,
+          "m_rank": 3156
+        },
+        {
+          "d": 3,
+          "j_rank": 563,
+          "ctrl_rank": 308,
+          "l_rank": 179,
+          "m_rank": 639
+        },
+        {
+          "d": 2,
+          "j_rank": 5,
+          "ctrl_rank": 224,
+          "l_rank": 9,
+          "m_rank": 5
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 112,
+          "l_rank": 0,
+          "m_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "couplet-star-far",
+      "target": "far",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 8151,
+          "ctrl_rank": 8630,
+          "l_rank": 2765,
+          "m_rank": 39836
+        },
+        {
+          "d": 8,
+          "j_rank": 1027,
+          "ctrl_rank": 547,
+          "l_rank": 383,
+          "m_rank": 505
+        },
+        {
+          "d": 7,
+          "j_rank": 70,
+          "ctrl_rank": 448,
+          "l_rank": 32,
+          "m_rank": 59
+        },
+        {
+          "d": 6,
+          "j_rank": 311,
+          "ctrl_rank": 35,
+          "l_rank": 140,
+          "m_rank": 220
+        },
+        {
+          "d": 5,
+          "j_rank": 2735,
+          "ctrl_rank": 1871,
+          "l_rank": 335,
+          "m_rank": 1313
+        },
+        {
+          "d": 4,
+          "j_rank": 512,
+          "ctrl_rank": 73,
+          "l_rank": 209,
+          "m_rank": 320
+        },
+        {
+          "d": 3,
+          "j_rank": 435,
+          "ctrl_rank": 845,
+          "l_rank": 145,
+          "m_rank": 254
+        },
+        {
+          "d": 2,
+          "j_rank": 4,
+          "ctrl_rank": 33,
+          "l_rank": 3,
+          "m_rank": 6
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 26,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-bend-end",
+      "target": "end",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 15709,
+          "ctrl_rank": 13596,
+          "l_rank": 3003,
+          "m_rank": 54676
+        },
+        {
+          "d": 8,
+          "j_rank": 5074,
+          "ctrl_rank": 954,
+          "l_rank": 2244,
+          "m_rank": 3291
+        },
+        {
+          "d": 7,
+          "j_rank": 800,
+          "ctrl_rank": 1023,
+          "l_rank": 299,
+          "m_rank": 493
+        },
+        {
+          "d": 6,
+          "j_rank": 1,
+          "ctrl_rank": 456,
+          "l_rank": 1,
+          "m_rank": 1
+        },
+        {
+          "d": 5,
+          "j_rank": 43,
+          "ctrl_rank": 32,
+          "l_rank": 43,
+          "m_rank": 148
+        },
+        {
+          "d": 4,
+          "j_rank": 9,
+          "ctrl_rank": 68,
+          "l_rank": 4,
+          "m_rank": 5
+        },
+        {
+          "d": 3,
+          "j_rank": 6,
+          "ctrl_rank": 3,
+          "l_rank": 2,
+          "m_rank": 2
+        },
+        {
+          "d": 2,
+          "j_rank": 2,
+          "ctrl_rank": 49,
+          "l_rank": 1,
+          "m_rank": 2
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 3,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-bright-sight",
+      "target": "sight",
+      "by_d": [
+        {
+          "d": 7,
+          "j_rank": 1562,
+          "ctrl_rank": 9173,
+          "l_rank": 908,
+          "m_rank": 12376
+        },
+        {
+          "d": 6,
+          "j_rank": 280,
+          "ctrl_rank": 1051,
+          "l_rank": 638,
+          "m_rank": 1943
+        },
+        {
+          "d": 5,
+          "j_rank": 419,
+          "ctrl_rank": 1481,
+          "l_rank": 383,
+          "m_rank": 3495
+        },
+        {
+          "d": 4,
+          "j_rank": 300,
+          "ctrl_rank": 2684,
+          "l_rank": 440,
+          "m_rank": 3578
+        },
+        {
+          "d": 3,
+          "j_rank": 104,
+          "ctrl_rank": 933,
+          "l_rank": 91,
+          "m_rank": 1081
+        },
+        {
+          "d": 2,
+          "j_rank": 5,
+          "ctrl_rank": 600,
+          "l_rank": 5,
+          "m_rank": 16
+        },
+        {
+          "d": 1,
+          "j_rank": 1,
+          "ctrl_rank": 900,
+          "l_rank": 1,
+          "m_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "couplet-white-write",
+      "target": "write",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 2660,
+          "ctrl_rank": 74583,
+          "l_rank": 6648,
+          "m_rank": 34888
+        },
+        {
+          "d": 9,
+          "j_rank": 2064,
+          "ctrl_rank": 11394,
+          "l_rank": 1114,
+          "m_rank": 2203
+        },
+        {
+          "d": 8,
+          "j_rank": 2595,
+          "ctrl_rank": 8776,
+          "l_rank": 1120,
+          "m_rank": 1557
+        },
+        {
+          "d": 7,
+          "j_rank": 157,
+          "ctrl_rank": 4852,
+          "l_rank": 58,
+          "m_rank": 152
+        },
+        {
+          "d": 6,
+          "j_rank": 293,
+          "ctrl_rank": 2299,
+          "l_rank": 39,
+          "m_rank": 327
+        },
+        {
+          "d": 5,
+          "j_rank": 6593,
+          "ctrl_rank": 7876,
+          "l_rank": 4521,
+          "m_rank": 9042
+        },
+        {
+          "d": 4,
+          "j_rank": 64,
+          "ctrl_rank": 11752,
+          "l_rank": 206,
+          "m_rank": 1498
+        },
+        {
+          "d": 3,
+          "j_rank": 232,
+          "ctrl_rank": 10973,
+          "l_rank": 131,
+          "m_rank": 207
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 15199,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 10929,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-gray-day",
+      "target": "day",
+      "by_d": [
+        {
+          "d": 7,
+          "j_rank": 7329,
+          "ctrl_rank": 83754,
+          "l_rank": 4679,
+          "m_rank": 17169
+        },
+        {
+          "d": 6,
+          "j_rank": 150,
+          "ctrl_rank": 5851,
+          "l_rank": 116,
+          "m_rank": 161
+        },
+        {
+          "d": 5,
+          "j_rank": 477,
+          "ctrl_rank": 16512,
+          "l_rank": 205,
+          "m_rank": 323
+        },
+        {
+          "d": 4,
+          "j_rank": 17,
+          "ctrl_rank": 9239,
+          "l_rank": 13,
+          "m_rank": 15
+        },
+        {
+          "d": 3,
+          "j_rank": 4,
+          "ctrl_rank": 315,
+          "l_rank": 2,
+          "m_rank": 14
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 416,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 69,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-field-play",
+      "target": "play",
+      "by_d": [
+        {
+          "d": 7,
+          "j_rank": 24908,
+          "ctrl_rank": 6325,
+          "l_rank": 2229,
+          "m_rank": 16693
+        },
+        {
+          "d": 6,
+          "j_rank": 292,
+          "ctrl_rank": 6840,
+          "l_rank": 12,
+          "m_rank": 225
+        },
+        {
+          "d": 5,
+          "j_rank": 217,
+          "ctrl_rank": 8136,
+          "l_rank": 42,
+          "m_rank": 308
+        },
+        {
+          "d": 4,
+          "j_rank": 500,
+          "ctrl_rank": 6692,
+          "l_rank": 195,
+          "m_rank": 482
+        },
+        {
+          "d": 3,
+          "j_rank": 2184,
+          "ctrl_rank": 20799,
+          "l_rank": 33,
+          "m_rank": 3949
+        },
+        {
+          "d": 2,
+          "j_rank": 4,
+          "ctrl_rank": 11969,
+          "l_rank": 1,
+          "m_rank": 7
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 8091,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-away-way",
+      "target": "way",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 3560,
+          "ctrl_rank": 1053,
+          "l_rank": 25387,
+          "m_rank": 46287
+        },
+        {
+          "d": 7,
+          "j_rank": 1054,
+          "ctrl_rank": 81,
+          "l_rank": 887,
+          "m_rank": 1730
+        },
+        {
+          "d": 6,
+          "j_rank": 563,
+          "ctrl_rank": 21,
+          "l_rank": 197,
+          "m_rank": 467
+        },
+        {
+          "d": 5,
+          "j_rank": 5,
+          "ctrl_rank": 403,
+          "l_rank": 1,
+          "m_rank": 77
+        },
+        {
+          "d": 4,
+          "j_rank": 0,
+          "ctrl_rank": 526,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 3,
+          "j_rank": 15,
+          "ctrl_rank": 103,
+          "l_rank": 12,
+          "m_rank": 13
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 585,
+          "l_rank": 0,
+          "m_rank": 8
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 446,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-stars-space",
+      "target": "space",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 2520,
+          "ctrl_rank": 71,
+          "l_rank": 2929,
+          "m_rank": 19341
+        },
+        {
+          "d": 7,
+          "j_rank": 199,
+          "ctrl_rank": 111,
+          "l_rank": 78,
+          "m_rank": 129
+        },
+        {
+          "d": 6,
+          "j_rank": 85,
+          "ctrl_rank": 195,
+          "l_rank": 26,
+          "m_rank": 102
+        },
+        {
+          "d": 5,
+          "j_rank": 5,
+          "ctrl_rank": 32,
+          "l_rank": 2,
+          "m_rank": 29
+        },
+        {
+          "d": 4,
+          "j_rank": 2,
+          "ctrl_rank": 17,
+          "l_rank": 0,
+          "m_rank": 5
+        },
+        {
+          "d": 3,
+          "j_rank": 1,
+          "ctrl_rank": 328,
+          "l_rank": 0,
+          "m_rank": 221
+        },
+        {
+          "d": 2,
+          "j_rank": 12,
+          "ctrl_rank": 23,
+          "l_rank": 20,
+          "m_rank": 2537
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 3,
+          "l_rank": 0,
+          "m_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "couplet-chase-place",
+      "target": "place",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 9851,
+          "ctrl_rank": 19862,
+          "l_rank": 4382,
+          "m_rank": 88488
+        },
+        {
+          "d": 8,
+          "j_rank": 1693,
+          "ctrl_rank": 2200,
+          "l_rank": 821,
+          "m_rank": 1911
+        },
+        {
+          "d": 7,
+          "j_rank": 1288,
+          "ctrl_rank": 1266,
+          "l_rank": 282,
+          "m_rank": 1526
+        },
+        {
+          "d": 6,
+          "j_rank": 139,
+          "ctrl_rank": 353,
+          "l_rank": 31,
+          "m_rank": 120
+        },
+        {
+          "d": 5,
+          "j_rank": 6280,
+          "ctrl_rank": 5686,
+          "l_rank": 893,
+          "m_rank": 5420
+        },
+        {
+          "d": 4,
+          "j_rank": 2861,
+          "ctrl_rank": 2362,
+          "l_rank": 208,
+          "m_rank": 3715
+        },
+        {
+          "d": 3,
+          "j_rank": 457,
+          "ctrl_rank": 1873,
+          "l_rank": 147,
+          "m_rank": 1189
+        },
+        {
+          "d": 2,
+          "j_rank": 5,
+          "ctrl_rank": 1691,
+          "l_rank": 6,
+          "m_rank": 13
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 454,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-pace-race",
+      "target": "race",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 761,
+          "ctrl_rank": 1075,
+          "l_rank": 1142,
+          "m_rank": 4357
+        },
+        {
+          "d": 8,
+          "j_rank": 14,
+          "ctrl_rank": 17477,
+          "l_rank": 29,
+          "m_rank": 8583
+        },
+        {
+          "d": 7,
+          "j_rank": 33,
+          "ctrl_rank": 3086,
+          "l_rank": 24,
+          "m_rank": 79
+        },
+        {
+          "d": 6,
+          "j_rank": 7,
+          "ctrl_rank": 313,
+          "l_rank": 5,
+          "m_rank": 43
+        },
+        {
+          "d": 5,
+          "j_rank": 36,
+          "ctrl_rank": 520,
+          "l_rank": 20,
+          "m_rank": 102
+        },
+        {
+          "d": 4,
+          "j_rank": 2,
+          "ctrl_rank": 1100,
+          "l_rank": 3,
+          "m_rank": 20
+        },
+        {
+          "d": 3,
+          "j_rank": 17,
+          "ctrl_rank": 2156,
+          "l_rank": 10,
+          "m_rank": 14
+        },
+        {
+          "d": 2,
+          "j_rank": 3,
+          "ctrl_rank": 944,
+          "l_rank": 4,
+          "m_rank": 8
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 101,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-base-case",
+      "target": "case",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 19929,
+          "ctrl_rank": 21195,
+          "l_rank": 24792,
+          "m_rank": 75766
+        },
+        {
+          "d": 7,
+          "j_rank": 5862,
+          "ctrl_rank": 3594,
+          "l_rank": 2859,
+          "m_rank": 3703
+        },
+        {
+          "d": 6,
+          "j_rank": 6143,
+          "ctrl_rank": 15879,
+          "l_rank": 2705,
+          "m_rank": 4586
+        },
+        {
+          "d": 5,
+          "j_rank": 1674,
+          "ctrl_rank": 2821,
+          "l_rank": 793,
+          "m_rank": 1157
+        },
+        {
+          "d": 4,
+          "j_rank": 4987,
+          "ctrl_rank": 6865,
+          "l_rank": 2785,
+          "m_rank": 4078
+        },
+        {
+          "d": 3,
+          "j_rank": 600,
+          "ctrl_rank": 6316,
+          "l_rank": 260,
+          "m_rank": 284
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 5225,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 3,
+          "ctrl_rank": 4256,
+          "l_rank": 1,
+          "m_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "couplet-blame-game",
+      "target": "game",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 39241,
+          "ctrl_rank": 56629,
+          "l_rank": 8728,
+          "m_rank": 72977
+        },
+        {
+          "d": 8,
+          "j_rank": 3344,
+          "ctrl_rank": 4943,
+          "l_rank": 999,
+          "m_rank": 2969
+        },
+        {
+          "d": 7,
+          "j_rank": 1035,
+          "ctrl_rank": 3165,
+          "l_rank": 750,
+          "m_rank": 1695
+        },
+        {
+          "d": 6,
+          "j_rank": 160,
+          "ctrl_rank": 320,
+          "l_rank": 281,
+          "m_rank": 636
+        },
+        {
+          "d": 5,
+          "j_rank": 1340,
+          "ctrl_rank": 4783,
+          "l_rank": 631,
+          "m_rank": 1677
+        },
+        {
+          "d": 4,
+          "j_rank": 726,
+          "ctrl_rank": 2907,
+          "l_rank": 283,
+          "m_rank": 621
+        },
+        {
+          "d": 3,
+          "j_rank": 1,
+          "ctrl_rank": 2409,
+          "l_rank": 1,
+          "m_rank": 41
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 372,
+          "l_rank": 1,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1835,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-frame-same",
+      "target": "same",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 5583,
+          "ctrl_rank": 22449,
+          "l_rank": 1750,
+          "m_rank": 49759
+        },
+        {
+          "d": 7,
+          "j_rank": 1389,
+          "ctrl_rank": 1926,
+          "l_rank": 1058,
+          "m_rank": 1057
+        },
+        {
+          "d": 6,
+          "j_rank": 269,
+          "ctrl_rank": 966,
+          "l_rank": 311,
+          "m_rank": 246
+        },
+        {
+          "d": 5,
+          "j_rank": 18,
+          "ctrl_rank": 269,
+          "l_rank": 0,
+          "m_rank": 10
+        },
+        {
+          "d": 4,
+          "j_rank": 73,
+          "ctrl_rank": 2493,
+          "l_rank": 22,
+          "m_rank": 65
+        },
+        {
+          "d": 3,
+          "j_rank": 13,
+          "ctrl_rank": 2928,
+          "l_rank": 26,
+          "m_rank": 153
+        },
+        {
+          "d": 2,
+          "j_rank": 12,
+          "ctrl_rank": 3135,
+          "l_rank": 5,
+          "m_rank": 3
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 913,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-fear-near",
+      "target": "near",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 787,
+          "ctrl_rank": 1222,
+          "l_rank": 1856,
+          "m_rank": 39395
+        },
+        {
+          "d": 8,
+          "j_rank": 119,
+          "ctrl_rank": 85,
+          "l_rank": 70,
+          "m_rank": 131
+        },
+        {
+          "d": 7,
+          "j_rank": 2297,
+          "ctrl_rank": 139,
+          "l_rank": 85,
+          "m_rank": 1275
+        },
+        {
+          "d": 6,
+          "j_rank": 973,
+          "ctrl_rank": 166,
+          "l_rank": 61,
+          "m_rank": 1029
+        },
+        {
+          "d": 5,
+          "j_rank": 28,
+          "ctrl_rank": 13,
+          "l_rank": 9,
+          "m_rank": 61
+        },
+        {
+          "d": 4,
+          "j_rank": 206,
+          "ctrl_rank": 141,
+          "l_rank": 60,
+          "m_rank": 1729
+        },
+        {
+          "d": 3,
+          "j_rank": 7,
+          "ctrl_rank": 647,
+          "l_rank": 3,
+          "m_rank": 10
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 64,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 487,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-scar-star",
+      "target": "star",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 98,
+          "ctrl_rank": 3393,
+          "l_rank": 88,
+          "m_rank": 3466
+        },
+        {
+          "d": 9,
+          "j_rank": 8,
+          "ctrl_rank": 4780,
+          "l_rank": 3,
+          "m_rank": 6
+        },
+        {
+          "d": 8,
+          "j_rank": 1830,
+          "ctrl_rank": 774,
+          "l_rank": 1043,
+          "m_rank": 899
+        },
+        {
+          "d": 7,
+          "j_rank": 2,
+          "ctrl_rank": 3333,
+          "l_rank": 1,
+          "m_rank": 5
+        },
+        {
+          "d": 6,
+          "j_rank": 196,
+          "ctrl_rank": 1621,
+          "l_rank": 5,
+          "m_rank": 2326
+        },
+        {
+          "d": 5,
+          "j_rank": 212,
+          "ctrl_rank": 104,
+          "l_rank": 269,
+          "m_rank": 342
+        },
+        {
+          "d": 4,
+          "j_rank": 611,
+          "ctrl_rank": 261,
+          "l_rank": 838,
+          "m_rank": 715
+        },
+        {
+          "d": 3,
+          "j_rank": 17,
+          "ctrl_rank": 513,
+          "l_rank": 7,
+          "m_rank": 19
+        },
+        {
+          "d": 2,
+          "j_rank": 5,
+          "ctrl_rank": 559,
+          "l_rank": 9,
+          "m_rank": 10
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 7888,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-jar-car",
+      "target": "car",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 19715,
+          "ctrl_rank": 4873,
+          "l_rank": 4584,
+          "m_rank": 24020
+        },
+        {
+          "d": 8,
+          "j_rank": 1417,
+          "ctrl_rank": 202,
+          "l_rank": 421,
+          "m_rank": 1250
+        },
+        {
+          "d": 7,
+          "j_rank": 120,
+          "ctrl_rank": 4735,
+          "l_rank": 15,
+          "m_rank": 912
+        },
+        {
+          "d": 6,
+          "j_rank": 769,
+          "ctrl_rank": 3163,
+          "l_rank": 379,
+          "m_rank": 1148
+        },
+        {
+          "d": 5,
+          "j_rank": 2045,
+          "ctrl_rank": 74,
+          "l_rank": 867,
+          "m_rank": 1838
+        },
+        {
+          "d": 4,
+          "j_rank": 253,
+          "ctrl_rank": 2654,
+          "l_rank": 90,
+          "m_rank": 224
+        },
+        {
+          "d": 3,
+          "j_rank": 80,
+          "ctrl_rank": 4284,
+          "l_rank": 47,
+          "m_rank": 120
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 2111,
+          "l_rank": 0,
+          "m_rank": 4
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1005,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-tree-three",
+      "target": "three",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 663,
+          "ctrl_rank": 4733,
+          "l_rank": 479,
+          "m_rank": 9077
+        },
+        {
+          "d": 7,
+          "j_rank": 1569,
+          "ctrl_rank": 324,
+          "l_rank": 898,
+          "m_rank": 773
+        },
+        {
+          "d": 6,
+          "j_rank": 18,
+          "ctrl_rank": 3316,
+          "l_rank": 20,
+          "m_rank": 25
+        },
+        {
+          "d": 5,
+          "j_rank": 42,
+          "ctrl_rank": 374,
+          "l_rank": 99,
+          "m_rank": 221
+        },
+        {
+          "d": 4,
+          "j_rank": 44,
+          "ctrl_rank": 1449,
+          "l_rank": 25,
+          "m_rank": 20
+        },
+        {
+          "d": 3,
+          "j_rank": 296,
+          "ctrl_rank": 480,
+          "l_rank": 266,
+          "m_rank": 302
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 1806,
+          "l_rank": 1,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 2978,
+          "l_rank": 1,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-sea-see",
+      "target": "see",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 19505,
+          "ctrl_rank": 72575,
+          "l_rank": 7870,
+          "m_rank": 27253
+        },
+        {
+          "d": 7,
+          "j_rank": 4446,
+          "ctrl_rank": 16587,
+          "l_rank": 565,
+          "m_rank": 2602
+        },
+        {
+          "d": 6,
+          "j_rank": 4314,
+          "ctrl_rank": 7234,
+          "l_rank": 492,
+          "m_rank": 3133
+        },
+        {
+          "d": 5,
+          "j_rank": 813,
+          "ctrl_rank": 1011,
+          "l_rank": 240,
+          "m_rank": 575
+        },
+        {
+          "d": 4,
+          "j_rank": 1505,
+          "ctrl_rank": 177,
+          "l_rank": 442,
+          "m_rank": 1076
+        },
+        {
+          "d": 3,
+          "j_rank": 1315,
+          "ctrl_rank": 9954,
+          "l_rank": 252,
+          "m_rank": 506
+        },
+        {
+          "d": 2,
+          "j_rank": 77,
+          "ctrl_rank": 215,
+          "l_rank": 11,
+          "m_rank": 95
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 663,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-lock-key",
+      "target": "key",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 12316,
+          "ctrl_rank": 25995,
+          "l_rank": 3433,
+          "m_rank": 27926
+        },
+        {
+          "d": 7,
+          "j_rank": 52,
+          "ctrl_rank": 16882,
+          "l_rank": 34,
+          "m_rank": 32
+        },
+        {
+          "d": 6,
+          "j_rank": 1260,
+          "ctrl_rank": 4878,
+          "l_rank": 461,
+          "m_rank": 579
+        },
+        {
+          "d": 5,
+          "j_rank": 131,
+          "ctrl_rank": 6027,
+          "l_rank": 72,
+          "m_rank": 72
+        },
+        {
+          "d": 4,
+          "j_rank": 384,
+          "ctrl_rank": 3605,
+          "l_rank": 116,
+          "m_rank": 176
+        },
+        {
+          "d": 3,
+          "j_rank": 15,
+          "ctrl_rank": 763,
+          "l_rank": 10,
+          "m_rank": 23
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 446,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 11,
+          "ctrl_rank": 333,
+          "l_rank": 2,
+          "m_rank": 23
+        }
+      ]
+    },
+    {
+      "name": "couplet-crown-town",
+      "target": "town",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 15554,
+          "ctrl_rank": 5234,
+          "l_rank": 28164,
+          "m_rank": 38467
+        },
+        {
+          "d": 7,
+          "j_rank": 103,
+          "ctrl_rank": 38,
+          "l_rank": 17,
+          "m_rank": 139
+        },
+        {
+          "d": 6,
+          "j_rank": 205,
+          "ctrl_rank": 3841,
+          "l_rank": 297,
+          "m_rank": 266
+        },
+        {
+          "d": 5,
+          "j_rank": 26,
+          "ctrl_rank": 2751,
+          "l_rank": 11,
+          "m_rank": 11
+        },
+        {
+          "d": 4,
+          "j_rank": 90,
+          "ctrl_rank": 2875,
+          "l_rank": 334,
+          "m_rank": 362
+        },
+        {
+          "d": 3,
+          "j_rank": 7,
+          "ctrl_rank": 3039,
+          "l_rank": 16,
+          "m_rank": 20
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 2964,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 2416,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-gown-down",
+      "target": "down",
+      "by_d": [
+        {
+          "d": 11,
+          "j_rank": 1667,
+          "ctrl_rank": 1172,
+          "l_rank": 889,
+          "m_rank": 15872
+        },
+        {
+          "d": 10,
+          "j_rank": 54,
+          "ctrl_rank": 22,
+          "l_rank": 11,
+          "m_rank": 36
+        },
+        {
+          "d": 9,
+          "j_rank": 65,
+          "ctrl_rank": 1822,
+          "l_rank": 29,
+          "m_rank": 53
+        },
+        {
+          "d": 8,
+          "j_rank": 0,
+          "ctrl_rank": 1570,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 7,
+          "j_rank": 162,
+          "ctrl_rank": 3915,
+          "l_rank": 14,
+          "m_rank": 153
+        },
+        {
+          "d": 6,
+          "j_rank": 362,
+          "ctrl_rank": 7063,
+          "l_rank": 151,
+          "m_rank": 939
+        },
+        {
+          "d": 5,
+          "j_rank": 26,
+          "ctrl_rank": 718,
+          "l_rank": 5,
+          "m_rank": 65
+        },
+        {
+          "d": 4,
+          "j_rank": 0,
+          "ctrl_rank": 447,
+          "l_rank": 0,
+          "m_rank": 5
+        },
+        {
+          "d": 3,
+          "j_rank": 42,
+          "ctrl_rank": 7,
+          "l_rank": 15,
+          "m_rank": 18
+        },
+        {
+          "d": 2,
+          "j_rank": 214,
+          "ctrl_rank": 45,
+          "l_rank": 82,
+          "m_rank": 149
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 2339,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-sold-told",
+      "target": "told",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 249,
+          "ctrl_rank": 1220,
+          "l_rank": 796,
+          "m_rank": 9563
+        },
+        {
+          "d": 7,
+          "j_rank": 1015,
+          "ctrl_rank": 80,
+          "l_rank": 807,
+          "m_rank": 4266
+        },
+        {
+          "d": 6,
+          "j_rank": 66,
+          "ctrl_rank": 43,
+          "l_rank": 59,
+          "m_rank": 133
+        },
+        {
+          "d": 5,
+          "j_rank": 58,
+          "ctrl_rank": 849,
+          "l_rank": 225,
+          "m_rank": 203
+        },
+        {
+          "d": 4,
+          "j_rank": 24,
+          "ctrl_rank": 515,
+          "l_rank": 45,
+          "m_rank": 30
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 72,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 2,
+          "j_rank": 18,
+          "ctrl_rank": 870,
+          "l_rank": 22,
+          "m_rank": 36
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 214,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-regret-met",
+      "target": "met",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 3658,
+          "ctrl_rank": 3796,
+          "l_rank": 34955,
+          "m_rank": 82359
+        },
+        {
+          "d": 7,
+          "j_rank": 1607,
+          "ctrl_rank": 431,
+          "l_rank": 1100,
+          "m_rank": 1136
+        },
+        {
+          "d": 6,
+          "j_rank": 781,
+          "ctrl_rank": 1269,
+          "l_rank": 600,
+          "m_rank": 618
+        },
+        {
+          "d": 5,
+          "j_rank": 522,
+          "ctrl_rank": 408,
+          "l_rank": 245,
+          "m_rank": 2268
+        },
+        {
+          "d": 4,
+          "j_rank": 1014,
+          "ctrl_rank": 893,
+          "l_rank": 284,
+          "m_rank": 1505
+        },
+        {
+          "d": 3,
+          "j_rank": 207,
+          "ctrl_rank": 2225,
+          "l_rank": 75,
+          "m_rank": 91
+        },
+        {
+          "d": 2,
+          "j_rank": 1,
+          "ctrl_rank": 2716,
+          "l_rank": 2,
+          "m_rank": 2
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1769,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-threat-set",
+      "target": "set",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 7134,
+          "ctrl_rank": 5003,
+          "l_rank": 5265,
+          "m_rank": 40836
+        },
+        {
+          "d": 7,
+          "j_rank": 125,
+          "ctrl_rank": 2765,
+          "l_rank": 21,
+          "m_rank": 47
+        },
+        {
+          "d": 6,
+          "j_rank": 1553,
+          "ctrl_rank": 1172,
+          "l_rank": 205,
+          "m_rank": 833
+        },
+        {
+          "d": 5,
+          "j_rank": 1458,
+          "ctrl_rank": 139,
+          "l_rank": 429,
+          "m_rank": 835
+        },
+        {
+          "d": 4,
+          "j_rank": 2286,
+          "ctrl_rank": 1158,
+          "l_rank": 792,
+          "m_rank": 830
+        },
+        {
+          "d": 3,
+          "j_rank": 44,
+          "ctrl_rank": 7515,
+          "l_rank": 17,
+          "m_rank": 52
+        },
+        {
+          "d": 2,
+          "j_rank": 1,
+          "ctrl_rank": 2672,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1855,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-forget-get",
+      "target": "get",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 63695,
+          "ctrl_rank": 30773,
+          "l_rank": 43565,
+          "m_rank": 92191
+        },
+        {
+          "d": 9,
+          "j_rank": 7002,
+          "ctrl_rank": 7220,
+          "l_rank": 4128,
+          "m_rank": 3056
+        },
+        {
+          "d": 8,
+          "j_rank": 3782,
+          "ctrl_rank": 1319,
+          "l_rank": 2002,
+          "m_rank": 1352
+        },
+        {
+          "d": 7,
+          "j_rank": 708,
+          "ctrl_rank": 6302,
+          "l_rank": 611,
+          "m_rank": 2555
+        },
+        {
+          "d": 6,
+          "j_rank": 954,
+          "ctrl_rank": 3698,
+          "l_rank": 2909,
+          "m_rank": 2877
+        },
+        {
+          "d": 5,
+          "j_rank": 1462,
+          "ctrl_rank": 11336,
+          "l_rank": 10298,
+          "m_rank": 3937
+        },
+        {
+          "d": 4,
+          "j_rank": 713,
+          "ctrl_rank": 2116,
+          "l_rank": 2166,
+          "m_rank": 1659
+        },
+        {
+          "d": 3,
+          "j_rank": 1659,
+          "ctrl_rank": 961,
+          "l_rank": 1597,
+          "m_rank": 1148
+        },
+        {
+          "d": 2,
+          "j_rank": 4263,
+          "ctrl_rank": 3333,
+          "l_rank": 3611,
+          "m_rank": 2096
+        },
+        {
+          "d": 1,
+          "j_rank": 7,
+          "ctrl_rank": 348,
+          "l_rank": 6,
+          "m_rank": 2
+        }
+      ]
+    },
+    {
+      "name": "couplet-hook-book",
+      "target": "book",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 31454,
+          "ctrl_rank": 8868,
+          "l_rank": 26908,
+          "m_rank": 57436
+        },
+        {
+          "d": 7,
+          "j_rank": 4805,
+          "ctrl_rank": 1985,
+          "l_rank": 1662,
+          "m_rank": 3716
+        },
+        {
+          "d": 6,
+          "j_rank": 2040,
+          "ctrl_rank": 107,
+          "l_rank": 497,
+          "m_rank": 1648
+        },
+        {
+          "d": 5,
+          "j_rank": 2462,
+          "ctrl_rank": 427,
+          "l_rank": 481,
+          "m_rank": 1758
+        },
+        {
+          "d": 4,
+          "j_rank": 280,
+          "ctrl_rank": 1990,
+          "l_rank": 152,
+          "m_rank": 352
+        },
+        {
+          "d": 3,
+          "j_rank": 968,
+          "ctrl_rank": 2037,
+          "l_rank": 335,
+          "m_rank": 847
+        },
+        {
+          "d": 2,
+          "j_rank": 184,
+          "ctrl_rank": 197,
+          "l_rank": 36,
+          "m_rank": 63
+        },
+        {
+          "d": 1,
+          "j_rank": 129,
+          "ctrl_rank": 225,
+          "l_rank": 23,
+          "m_rank": 5
+        }
+      ]
+    },
+    {
+      "name": "couplet-brook-look",
+      "target": "look",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 1070,
+          "ctrl_rank": 3481,
+          "l_rank": 288,
+          "m_rank": 39145
+        },
+        {
+          "d": 7,
+          "j_rank": 317,
+          "ctrl_rank": 1030,
+          "l_rank": 81,
+          "m_rank": 699
+        },
+        {
+          "d": 6,
+          "j_rank": 59,
+          "ctrl_rank": 55,
+          "l_rank": 27,
+          "m_rank": 395
+        },
+        {
+          "d": 5,
+          "j_rank": 533,
+          "ctrl_rank": 114,
+          "l_rank": 51,
+          "m_rank": 673
+        },
+        {
+          "d": 4,
+          "j_rank": 1096,
+          "ctrl_rank": 188,
+          "l_rank": 1114,
+          "m_rank": 2099
+        },
+        {
+          "d": 3,
+          "j_rank": 226,
+          "ctrl_rank": 238,
+          "l_rank": 101,
+          "m_rank": 293
+        },
+        {
+          "d": 2,
+          "j_rank": 5,
+          "ctrl_rank": 16,
+          "l_rank": 0,
+          "m_rank": 22
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1974,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-shook-took",
+      "target": "took",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 34,
+          "ctrl_rank": 2105,
+          "l_rank": 36,
+          "m_rank": 2280
+        },
+        {
+          "d": 7,
+          "j_rank": 1,
+          "ctrl_rank": 13287,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 6,
+          "j_rank": 449,
+          "ctrl_rank": 3670,
+          "l_rank": 8,
+          "m_rank": 514
+        },
+        {
+          "d": 5,
+          "j_rank": 902,
+          "ctrl_rank": 333,
+          "l_rank": 21,
+          "m_rank": 2509
+        },
+        {
+          "d": 4,
+          "j_rank": 389,
+          "ctrl_rank": 27551,
+          "l_rank": 294,
+          "m_rank": 240
+        },
+        {
+          "d": 3,
+          "j_rank": 7,
+          "ctrl_rank": 1143,
+          "l_rank": 3,
+          "m_rank": 10
+        },
+        {
+          "d": 2,
+          "j_rank": 16,
+          "ctrl_rank": 6015,
+          "l_rank": 20,
+          "m_rank": 32
+        },
+        {
+          "d": 1,
+          "j_rank": 1,
+          "ctrl_rank": 2709,
+          "l_rank": 3,
+          "m_rank": 5
+        }
+      ]
+    },
+    {
+      "name": "couplet-above-love",
+      "target": "love",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 219,
+          "ctrl_rank": 27387,
+          "l_rank": 346,
+          "m_rank": 5448
+        },
+        {
+          "d": 9,
+          "j_rank": 17,
+          "ctrl_rank": 1544,
+          "l_rank": 50,
+          "m_rank": 375
+        },
+        {
+          "d": 8,
+          "j_rank": 11,
+          "ctrl_rank": 890,
+          "l_rank": 8,
+          "m_rank": 15
+        },
+        {
+          "d": 7,
+          "j_rank": 8,
+          "ctrl_rank": 230,
+          "l_rank": 486,
+          "m_rank": 514
+        },
+        {
+          "d": 6,
+          "j_rank": 1050,
+          "ctrl_rank": 1693,
+          "l_rank": 2039,
+          "m_rank": 13953
+        },
+        {
+          "d": 5,
+          "j_rank": 81,
+          "ctrl_rank": 3069,
+          "l_rank": 99,
+          "m_rank": 168
+        },
+        {
+          "d": 4,
+          "j_rank": 0,
+          "ctrl_rank": 1636,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 592,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 2,
+          "j_rank": 1,
+          "ctrl_rank": 254,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 874,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-heart-art",
+      "target": "art",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 458,
+          "ctrl_rank": 697,
+          "l_rank": 246,
+          "m_rank": 6019
+        },
+        {
+          "d": 7,
+          "j_rank": 8,
+          "ctrl_rank": 1300,
+          "l_rank": 6,
+          "m_rank": 52
+        },
+        {
+          "d": 6,
+          "j_rank": 1,
+          "ctrl_rank": 469,
+          "l_rank": 0,
+          "m_rank": 8
+        },
+        {
+          "d": 5,
+          "j_rank": 9,
+          "ctrl_rank": 102,
+          "l_rank": 6,
+          "m_rank": 27
+        },
+        {
+          "d": 4,
+          "j_rank": 23,
+          "ctrl_rank": 162,
+          "l_rank": 7,
+          "m_rank": 148
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 78,
+          "l_rank": 0,
+          "m_rank": 8
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 406,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1493,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-apart-part",
+      "target": "part",
+      "by_d": [
+        {
+          "d": 6,
+          "j_rank": 9306,
+          "ctrl_rank": 2727,
+          "l_rank": 9225,
+          "m_rank": 29302
+        },
+        {
+          "d": 5,
+          "j_rank": 1315,
+          "ctrl_rank": 1711,
+          "l_rank": 538,
+          "m_rank": 733
+        },
+        {
+          "d": 4,
+          "j_rank": 21,
+          "ctrl_rank": 410,
+          "l_rank": 14,
+          "m_rank": 31
+        },
+        {
+          "d": 3,
+          "j_rank": 7,
+          "ctrl_rank": 42,
+          "l_rank": 251,
+          "m_rank": 310
+        },
+        {
+          "d": 2,
+          "j_rank": 9,
+          "ctrl_rank": 1045,
+          "l_rank": 7,
+          "m_rank": 13
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 1050,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-depart-start",
+      "target": "start",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 38478,
+          "ctrl_rank": 2505,
+          "l_rank": 47046,
+          "m_rank": 81307
+        },
+        {
+          "d": 7,
+          "j_rank": 850,
+          "ctrl_rank": 337,
+          "l_rank": 208,
+          "m_rank": 619
+        },
+        {
+          "d": 6,
+          "j_rank": 2316,
+          "ctrl_rank": 1733,
+          "l_rank": 936,
+          "m_rank": 1190
+        },
+        {
+          "d": 5,
+          "j_rank": 29,
+          "ctrl_rank": 718,
+          "l_rank": 55,
+          "m_rank": 295
+        },
+        {
+          "d": 4,
+          "j_rank": 3,
+          "ctrl_rank": 578,
+          "l_rank": 0,
+          "m_rank": 2
+        },
+        {
+          "d": 3,
+          "j_rank": 51,
+          "ctrl_rank": 3021,
+          "l_rank": 13,
+          "m_rank": 36
+        },
+        {
+          "d": 2,
+          "j_rank": 38,
+          "ctrl_rank": 914,
+          "l_rank": 56,
+          "m_rank": 43
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 58,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-hall-call",
+      "target": "call",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 13205,
+          "ctrl_rank": 1485,
+          "l_rank": 16794,
+          "m_rank": 23715
+        },
+        {
+          "d": 8,
+          "j_rank": 791,
+          "ctrl_rank": 3145,
+          "l_rank": 378,
+          "m_rank": 487
+        },
+        {
+          "d": 7,
+          "j_rank": 318,
+          "ctrl_rank": 1821,
+          "l_rank": 171,
+          "m_rank": 227
+        },
+        {
+          "d": 6,
+          "j_rank": 4380,
+          "ctrl_rank": 1015,
+          "l_rank": 331,
+          "m_rank": 3951
+        },
+        {
+          "d": 5,
+          "j_rank": 3960,
+          "ctrl_rank": 2955,
+          "l_rank": 321,
+          "m_rank": 7934
+        },
+        {
+          "d": 4,
+          "j_rank": 62,
+          "ctrl_rank": 228,
+          "l_rank": 39,
+          "m_rank": 35
+        },
+        {
+          "d": 3,
+          "j_rank": 9,
+          "ctrl_rank": 919,
+          "l_rank": 7,
+          "m_rank": 25
+        },
+        {
+          "d": 2,
+          "j_rank": 2,
+          "ctrl_rank": 1599,
+          "l_rank": 2,
+          "m_rank": 6
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 2179,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-tall-small",
+      "target": "small",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 2897,
+          "ctrl_rank": 33657,
+          "l_rank": 8221,
+          "m_rank": 39461
+        },
+        {
+          "d": 8,
+          "j_rank": 574,
+          "ctrl_rank": 4674,
+          "l_rank": 244,
+          "m_rank": 535
+        },
+        {
+          "d": 7,
+          "j_rank": 29,
+          "ctrl_rank": 4487,
+          "l_rank": 30,
+          "m_rank": 65
+        },
+        {
+          "d": 6,
+          "j_rank": 0,
+          "ctrl_rank": 683,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 5,
+          "j_rank": 808,
+          "ctrl_rank": 19022,
+          "l_rank": 630,
+          "m_rank": 1845
+        },
+        {
+          "d": 4,
+          "j_rank": 111,
+          "ctrl_rank": 1121,
+          "l_rank": 60,
+          "m_rank": 61
+        },
+        {
+          "d": 3,
+          "j_rank": 888,
+          "ctrl_rank": 268,
+          "l_rank": 218,
+          "m_rank": 475
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 4403,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 11178,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-hand-land",
+      "target": "land",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 1353,
+          "ctrl_rank": 13128,
+          "l_rank": 18266,
+          "m_rank": 69805
+        },
+        {
+          "d": 7,
+          "j_rank": 2600,
+          "ctrl_rank": 814,
+          "l_rank": 1527,
+          "m_rank": 3010
+        },
+        {
+          "d": 6,
+          "j_rank": 274,
+          "ctrl_rank": 75,
+          "l_rank": 236,
+          "m_rank": 460
+        },
+        {
+          "d": 5,
+          "j_rank": 97,
+          "ctrl_rank": 1650,
+          "l_rank": 35,
+          "m_rank": 120
+        },
+        {
+          "d": 4,
+          "j_rank": 269,
+          "ctrl_rank": 2655,
+          "l_rank": 104,
+          "m_rank": 235
+        },
+        {
+          "d": 3,
+          "j_rank": 4,
+          "ctrl_rank": 7,
+          "l_rank": 4,
+          "m_rank": 2
+        },
+        {
+          "d": 2,
+          "j_rank": 8,
+          "ctrl_rank": 48,
+          "l_rank": 10,
+          "m_rank": 5
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 46,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-attack-back",
+      "target": "back",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 18322,
+          "ctrl_rank": 19277,
+          "l_rank": 12225,
+          "m_rank": 59783
+        },
+        {
+          "d": 9,
+          "j_rank": 849,
+          "ctrl_rank": 3403,
+          "l_rank": 337,
+          "m_rank": 514
+        },
+        {
+          "d": 8,
+          "j_rank": 647,
+          "ctrl_rank": 982,
+          "l_rank": 262,
+          "m_rank": 320
+        },
+        {
+          "d": 7,
+          "j_rank": 3,
+          "ctrl_rank": 1800,
+          "l_rank": 8,
+          "m_rank": 29
+        },
+        {
+          "d": 6,
+          "j_rank": 145,
+          "ctrl_rank": 175,
+          "l_rank": 23,
+          "m_rank": 51
+        },
+        {
+          "d": 5,
+          "j_rank": 0,
+          "ctrl_rank": 19186,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 4,
+          "j_rank": 374,
+          "ctrl_rank": 269,
+          "l_rank": 189,
+          "m_rank": 148
+        },
+        {
+          "d": 3,
+          "j_rank": 8,
+          "ctrl_rank": 14845,
+          "l_rank": 3,
+          "m_rank": 16
+        },
+        {
+          "d": 2,
+          "j_rank": 144,
+          "ctrl_rank": 1820,
+          "l_rank": 35,
+          "m_rank": 4
+        },
+        {
+          "d": 1,
+          "j_rank": 207,
+          "ctrl_rank": 1217,
+          "l_rank": 64,
+          "m_rank": 84
+        }
+      ]
+    },
+    {
+      "name": "couplet-crack-black",
+      "target": "black",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 435,
+          "ctrl_rank": 15330,
+          "l_rank": 1703,
+          "m_rank": 18210
+        },
+        {
+          "d": 8,
+          "j_rank": 167,
+          "ctrl_rank": 4969,
+          "l_rank": 128,
+          "m_rank": 160
+        },
+        {
+          "d": 7,
+          "j_rank": 37,
+          "ctrl_rank": 11551,
+          "l_rank": 39,
+          "m_rank": 50
+        },
+        {
+          "d": 6,
+          "j_rank": 68,
+          "ctrl_rank": 4944,
+          "l_rank": 62,
+          "m_rank": 67
+        },
+        {
+          "d": 5,
+          "j_rank": 1277,
+          "ctrl_rank": 32429,
+          "l_rank": 645,
+          "m_rank": 1902
+        },
+        {
+          "d": 4,
+          "j_rank": 402,
+          "ctrl_rank": 3769,
+          "l_rank": 328,
+          "m_rank": 335
+        },
+        {
+          "d": 3,
+          "j_rank": 1,
+          "ctrl_rank": 7533,
+          "l_rank": 2,
+          "m_rank": 4
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 2757,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 3815,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-sun-done",
+      "target": "done",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 3358,
+          "ctrl_rank": 1794,
+          "l_rank": 15906,
+          "m_rank": 34354
+        },
+        {
+          "d": 7,
+          "j_rank": 269,
+          "ctrl_rank": 663,
+          "l_rank": 431,
+          "m_rank": 426
+        },
+        {
+          "d": 6,
+          "j_rank": 552,
+          "ctrl_rank": 916,
+          "l_rank": 1050,
+          "m_rank": 827
+        },
+        {
+          "d": 5,
+          "j_rank": 406,
+          "ctrl_rank": 536,
+          "l_rank": 383,
+          "m_rank": 466
+        },
+        {
+          "d": 4,
+          "j_rank": 58,
+          "ctrl_rank": 232,
+          "l_rank": 44,
+          "m_rank": 35
+        },
+        {
+          "d": 3,
+          "j_rank": 120,
+          "ctrl_rank": 407,
+          "l_rank": 71,
+          "m_rank": 1662
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 1485,
+          "l_rank": 0,
+          "m_rank": 3
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 405,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-fun-won",
+      "target": "won",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 4525,
+          "ctrl_rank": 3581,
+          "l_rank": 2070,
+          "m_rank": 17056
+        },
+        {
+          "d": 9,
+          "j_rank": 432,
+          "ctrl_rank": 822,
+          "l_rank": 87,
+          "m_rank": 508
+        },
+        {
+          "d": 8,
+          "j_rank": 357,
+          "ctrl_rank": 17133,
+          "l_rank": 32,
+          "m_rank": 441
+        },
+        {
+          "d": 7,
+          "j_rank": 8,
+          "ctrl_rank": 282,
+          "l_rank": 6,
+          "m_rank": 15
+        },
+        {
+          "d": 6,
+          "j_rank": 341,
+          "ctrl_rank": 2327,
+          "l_rank": 552,
+          "m_rank": 536
+        },
+        {
+          "d": 5,
+          "j_rank": 93,
+          "ctrl_rank": 1909,
+          "l_rank": 49,
+          "m_rank": 300
+        },
+        {
+          "d": 4,
+          "j_rank": 188,
+          "ctrl_rank": 7388,
+          "l_rank": 206,
+          "m_rank": 311
+        },
+        {
+          "d": 3,
+          "j_rank": 3,
+          "ctrl_rank": 185,
+          "l_rank": 3,
+          "m_rank": 7
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 84,
+          "l_rank": 0,
+          "m_rank": 1
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 160,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-lake-break",
+      "target": "break",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 2383,
+          "ctrl_rank": 1811,
+          "l_rank": 11710,
+          "m_rank": 95120
+        },
+        {
+          "d": 8,
+          "j_rank": 1637,
+          "ctrl_rank": 2771,
+          "l_rank": 454,
+          "m_rank": 2116
+        },
+        {
+          "d": 7,
+          "j_rank": 4783,
+          "ctrl_rank": 9508,
+          "l_rank": 1598,
+          "m_rank": 4175
+        },
+        {
+          "d": 6,
+          "j_rank": 283,
+          "ctrl_rank": 295,
+          "l_rank": 841,
+          "m_rank": 1209
+        },
+        {
+          "d": 5,
+          "j_rank": 1965,
+          "ctrl_rank": 4780,
+          "l_rank": 771,
+          "m_rank": 1557
+        },
+        {
+          "d": 4,
+          "j_rank": 2545,
+          "ctrl_rank": 491,
+          "l_rank": 2968,
+          "m_rank": 3431
+        },
+        {
+          "d": 3,
+          "j_rank": 2,
+          "ctrl_rank": 171,
+          "l_rank": 3,
+          "m_rank": 10
+        },
+        {
+          "d": 2,
+          "j_rank": 85,
+          "ctrl_rank": 2385,
+          "l_rank": 65,
+          "m_rank": 94
+        },
+        {
+          "d": 1,
+          "j_rank": 1,
+          "ctrl_rank": 3727,
+          "l_rank": 1,
+          "m_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "couplet-mistake-make",
+      "target": "make",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 10152,
+          "ctrl_rank": 294,
+          "l_rank": 3638,
+          "m_rank": 26131
+        },
+        {
+          "d": 7,
+          "j_rank": 627,
+          "ctrl_rank": 107,
+          "l_rank": 53,
+          "m_rank": 663
+        },
+        {
+          "d": 6,
+          "j_rank": 395,
+          "ctrl_rank": 222,
+          "l_rank": 303,
+          "m_rank": 368
+        },
+        {
+          "d": 5,
+          "j_rank": 2453,
+          "ctrl_rank": 53,
+          "l_rank": 1871,
+          "m_rank": 1642
+        },
+        {
+          "d": 4,
+          "j_rank": 686,
+          "ctrl_rank": 100,
+          "l_rank": 337,
+          "m_rank": 526
+        },
+        {
+          "d": 3,
+          "j_rank": 177,
+          "ctrl_rank": 650,
+          "l_rank": 58,
+          "m_rank": 227
+        },
+        {
+          "d": 2,
+          "j_rank": 44,
+          "ctrl_rank": 227,
+          "l_rank": 14,
+          "m_rank": 40
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 274,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-slow-low",
+      "target": "low",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 9264,
+          "ctrl_rank": 1093,
+          "l_rank": 6052,
+          "m_rank": 13960
+        },
+        {
+          "d": 7,
+          "j_rank": 33,
+          "ctrl_rank": 286,
+          "l_rank": 26,
+          "m_rank": 27
+        },
+        {
+          "d": 6,
+          "j_rank": 417,
+          "ctrl_rank": 4795,
+          "l_rank": 76,
+          "m_rank": 372
+        },
+        {
+          "d": 5,
+          "j_rank": 443,
+          "ctrl_rank": 1203,
+          "l_rank": 44,
+          "m_rank": 609
+        },
+        {
+          "d": 4,
+          "j_rank": 36,
+          "ctrl_rank": 138,
+          "l_rank": 34,
+          "m_rank": 50
+        },
+        {
+          "d": 3,
+          "j_rank": 24,
+          "ctrl_rank": 576,
+          "l_rank": 10,
+          "m_rank": 30
+        },
+        {
+          "d": 2,
+          "j_rank": 57,
+          "ctrl_rank": 513,
+          "l_rank": 33,
+          "m_rank": 87
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 101,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-grow-show",
+      "target": "show",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 14689,
+          "ctrl_rank": 5897,
+          "l_rank": 5353,
+          "m_rank": 16058
+        },
+        {
+          "d": 7,
+          "j_rank": 243,
+          "ctrl_rank": 1305,
+          "l_rank": 73,
+          "m_rank": 120
+        },
+        {
+          "d": 6,
+          "j_rank": 27,
+          "ctrl_rank": 1622,
+          "l_rank": 9,
+          "m_rank": 14
+        },
+        {
+          "d": 5,
+          "j_rank": 54,
+          "ctrl_rank": 90,
+          "l_rank": 19,
+          "m_rank": 26
+        },
+        {
+          "d": 4,
+          "j_rank": 1376,
+          "ctrl_rank": 2127,
+          "l_rank": 366,
+          "m_rank": 930
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 1244,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 2,
+          "j_rank": 11,
+          "ctrl_rank": 7162,
+          "l_rank": 6,
+          "m_rank": 13
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 3032,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-below-know",
+      "target": "know",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 21032,
+          "ctrl_rank": 4638,
+          "l_rank": 1608,
+          "m_rank": 42344
+        },
+        {
+          "d": 8,
+          "j_rank": 227,
+          "ctrl_rank": 1130,
+          "l_rank": 208,
+          "m_rank": 159
+        },
+        {
+          "d": 7,
+          "j_rank": 2041,
+          "ctrl_rank": 627,
+          "l_rank": 3896,
+          "m_rank": 5508
+        },
+        {
+          "d": 6,
+          "j_rank": 967,
+          "ctrl_rank": 283,
+          "l_rank": 519,
+          "m_rank": 6113
+        },
+        {
+          "d": 5,
+          "j_rank": 2186,
+          "ctrl_rank": 535,
+          "l_rank": 1586,
+          "m_rank": 2103
+        },
+        {
+          "d": 4,
+          "j_rank": 424,
+          "ctrl_rank": 433,
+          "l_rank": 280,
+          "m_rank": 4456
+        },
+        {
+          "d": 3,
+          "j_rank": 734,
+          "ctrl_rank": 70,
+          "l_rank": 227,
+          "m_rank": 568
+        },
+        {
+          "d": 2,
+          "j_rank": 1,
+          "ctrl_rank": 2747,
+          "l_rank": 1,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 385,
+          "l_rank": 1,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-dead-red",
+      "target": "red",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 1982,
+          "ctrl_rank": 6332,
+          "l_rank": 6642,
+          "m_rank": 44056
+        },
+        {
+          "d": 9,
+          "j_rank": 133,
+          "ctrl_rank": 4561,
+          "l_rank": 70,
+          "m_rank": 75
+        },
+        {
+          "d": 8,
+          "j_rank": 161,
+          "ctrl_rank": 9679,
+          "l_rank": 118,
+          "m_rank": 134
+        },
+        {
+          "d": 7,
+          "j_rank": 266,
+          "ctrl_rank": 5434,
+          "l_rank": 179,
+          "m_rank": 200
+        },
+        {
+          "d": 6,
+          "j_rank": 202,
+          "ctrl_rank": 15857,
+          "l_rank": 314,
+          "m_rank": 595
+        },
+        {
+          "d": 5,
+          "j_rank": 21,
+          "ctrl_rank": 3698,
+          "l_rank": 34,
+          "m_rank": 36
+        },
+        {
+          "d": 4,
+          "j_rank": 36,
+          "ctrl_rank": 819,
+          "l_rank": 21,
+          "m_rank": 26
+        },
+        {
+          "d": 3,
+          "j_rank": 0,
+          "ctrl_rank": 5256,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 2,
+          "j_rank": 91,
+          "ctrl_rank": 6083,
+          "l_rank": 5,
+          "m_rank": 24
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 792,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-ahead-head",
+      "target": "led",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 2860,
+          "ctrl_rank": 12108,
+          "l_rank": 792,
+          "m_rank": 14564
+        },
+        {
+          "d": 9,
+          "j_rank": 15,
+          "ctrl_rank": 4001,
+          "l_rank": 11,
+          "m_rank": 11
+        },
+        {
+          "d": 8,
+          "j_rank": 1651,
+          "ctrl_rank": 2134,
+          "l_rank": 126,
+          "m_rank": 1641
+        },
+        {
+          "d": 7,
+          "j_rank": 713,
+          "ctrl_rank": 637,
+          "l_rank": 313,
+          "m_rank": 755
+        },
+        {
+          "d": 6,
+          "j_rank": 1160,
+          "ctrl_rank": 1049,
+          "l_rank": 1058,
+          "m_rank": 679
+        },
+        {
+          "d": 5,
+          "j_rank": 553,
+          "ctrl_rank": 2444,
+          "l_rank": 436,
+          "m_rank": 1273
+        },
+        {
+          "d": 4,
+          "j_rank": 113,
+          "ctrl_rank": 6485,
+          "l_rank": 37,
+          "m_rank": 77
+        },
+        {
+          "d": 3,
+          "j_rank": 16,
+          "ctrl_rank": 499,
+          "l_rank": 15,
+          "m_rank": 19
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 883,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 3582,
+          "l_rank": 1,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-wait-late",
+      "target": "late",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 1235,
+          "ctrl_rank": 32593,
+          "l_rank": 2878,
+          "m_rank": 21038
+        },
+        {
+          "d": 8,
+          "j_rank": 320,
+          "ctrl_rank": 5730,
+          "l_rank": 283,
+          "m_rank": 246
+        },
+        {
+          "d": 7,
+          "j_rank": 272,
+          "ctrl_rank": 10046,
+          "l_rank": 279,
+          "m_rank": 294
+        },
+        {
+          "d": 6,
+          "j_rank": 268,
+          "ctrl_rank": 1758,
+          "l_rank": 157,
+          "m_rank": 300
+        },
+        {
+          "d": 5,
+          "j_rank": 96,
+          "ctrl_rank": 4338,
+          "l_rank": 76,
+          "m_rank": 109
+        },
+        {
+          "d": 4,
+          "j_rank": 157,
+          "ctrl_rank": 2156,
+          "l_rank": 38,
+          "m_rank": 161
+        },
+        {
+          "d": 3,
+          "j_rank": 17,
+          "ctrl_rank": 1273,
+          "l_rank": 7,
+          "m_rank": 42
+        },
+        {
+          "d": 2,
+          "j_rank": 0,
+          "ctrl_rank": 1039,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 10563,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-fate-great",
+      "target": "great",
+      "by_d": [
+        {
+          "d": 8,
+          "j_rank": 135,
+          "ctrl_rank": 351,
+          "l_rank": 1444,
+          "m_rank": 36758
+        },
+        {
+          "d": 7,
+          "j_rank": 145,
+          "ctrl_rank": 524,
+          "l_rank": 253,
+          "m_rank": 1093
+        },
+        {
+          "d": 6,
+          "j_rank": 137,
+          "ctrl_rank": 43,
+          "l_rank": 186,
+          "m_rank": 267
+        },
+        {
+          "d": 5,
+          "j_rank": 139,
+          "ctrl_rank": 221,
+          "l_rank": 119,
+          "m_rank": 173
+        },
+        {
+          "d": 4,
+          "j_rank": 73,
+          "ctrl_rank": 1096,
+          "l_rank": 216,
+          "m_rank": 266
+        },
+        {
+          "d": 3,
+          "j_rank": 187,
+          "ctrl_rank": 254,
+          "l_rank": 36,
+          "m_rank": 455
+        },
+        {
+          "d": 2,
+          "j_rank": 124,
+          "ctrl_rank": 809,
+          "l_rank": 75,
+          "m_rank": 85
+        },
+        {
+          "d": 1,
+          "j_rank": 1,
+          "ctrl_rank": 341,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    },
+    {
+      "name": "couplet-ground-round",
+      "target": "round",
+      "by_d": [
+        {
+          "d": 9,
+          "j_rank": 878,
+          "ctrl_rank": 1555,
+          "l_rank": 4585,
+          "m_rank": 38957
+        },
+        {
+          "d": 8,
+          "j_rank": 143,
+          "ctrl_rank": 534,
+          "l_rank": 58,
+          "m_rank": 143
+        },
+        {
+          "d": 7,
+          "j_rank": 11,
+          "ctrl_rank": 220,
+          "l_rank": 9,
+          "m_rank": 29
+        },
+        {
+          "d": 6,
+          "j_rank": 985,
+          "ctrl_rank": 206,
+          "l_rank": 466,
+          "m_rank": 660
+        },
+        {
+          "d": 5,
+          "j_rank": 586,
+          "ctrl_rank": 548,
+          "l_rank": 176,
+          "m_rank": 1033
+        },
+        {
+          "d": 4,
+          "j_rank": 665,
+          "ctrl_rank": 1382,
+          "l_rank": 43,
+          "m_rank": 900
+        },
+        {
+          "d": 3,
+          "j_rank": 9,
+          "ctrl_rank": 89,
+          "l_rank": 11,
+          "m_rank": 16
+        },
+        {
+          "d": 2,
+          "j_rank": 26,
+          "ctrl_rank": 5,
+          "l_rank": 11,
+          "m_rank": 22
+        },
+        {
+          "d": 1,
+          "j_rank": 27,
+          "ctrl_rank": 299,
+          "l_rank": 7,
+          "m_rank": 8
+        }
+      ]
+    },
+    {
+      "name": "couplet-sound-found",
+      "target": "found",
+      "by_d": [
+        {
+          "d": 10,
+          "j_rank": 196,
+          "ctrl_rank": 1957,
+          "l_rank": 147,
+          "m_rank": 23887
+        },
+        {
+          "d": 9,
+          "j_rank": 1,
+          "ctrl_rank": 107,
+          "l_rank": 0,
+          "m_rank": 0
+        },
+        {
+          "d": 8,
+          "j_rank": 244,
+          "ctrl_rank": 27,
+          "l_rank": 271,
+          "m_rank": 196
+        },
+        {
+          "d": 7,
+          "j_rank": 4,
+          "ctrl_rank": 68,
+          "l_rank": 5,
+          "m_rank": 8
+        },
+        {
+          "d": 6,
+          "j_rank": 1107,
+          "ctrl_rank": 14,
+          "l_rank": 117,
+          "m_rank": 857
+        },
+        {
+          "d": 5,
+          "j_rank": 10,
+          "ctrl_rank": 268,
+          "l_rank": 9,
+          "m_rank": 9
+        },
+        {
+          "d": 4,
+          "j_rank": 1,
+          "ctrl_rank": 75,
+          "l_rank": 1,
+          "m_rank": 3
+        },
+        {
+          "d": 3,
+          "j_rank": 47,
+          "ctrl_rank": 70,
+          "l_rank": 1,
+          "m_rank": 438
+        },
+        {
+          "d": 2,
+          "j_rank": 7,
+          "ctrl_rank": 2077,
+          "l_rank": 1,
+          "m_rank": 3
+        },
+        {
+          "d": 1,
+          "j_rank": 0,
+          "ctrl_rank": 255,
+          "l_rank": 0,
+          "m_rank": 0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "1": {
+      "n": 98,
+      "j_pass10": 0.9489795918367347,
+      "ctrl_pass10": 0.04081632653061224,
+      "l_pass10": 0.9693877551020408,
+      "m_pass10": 0.9693877551020408,
+      "j_anticip10": 0.01020408163265306,
+      "j_median": 0
+    },
+    "2": {
+      "n": 98,
+      "j_pass10": 0.5714285714285714,
+      "ctrl_pass10": 0.01020408163265306,
+      "l_pass10": 0.6632653061224489,
+      "m_pass10": 0.5408163265306123,
+      "j_anticip10": 0.08163265306122448,
+      "j_median": 5
+    },
+    "3": {
+      "n": 98,
+      "j_pass10": 0.3673469387755102,
+      "ctrl_pass10": 0.04081632653061224,
+      "l_pass10": 0.3979591836734694,
+      "m_pass10": 0.19387755102040816,
+      "j_anticip10": 0.1836734693877551,
+      "j_median": 24
+    },
+    "4": {
+      "n": 98,
+      "j_pass10": 0.14285714285714285,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.16326530612244897,
+      "m_pass10": 0.11224489795918367,
+      "j_anticip10": 0.030612244897959183,
+      "j_median": 188
+    },
+    "5": {
+      "n": 98,
+      "j_pass10": 0.10204081632653061,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.17346938775510204,
+      "m_pass10": 0.04081632653061224,
+      "j_anticip10": 0.07142857142857142,
+      "j_median": 354
+    },
+    "6": {
+      "n": 98,
+      "j_pass10": 0.09183673469387756,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.1326530612244898,
+      "m_pass10": 0.05102040816326531,
+      "j_anticip10": 0.04081632653061224,
+      "j_median": 292
+    },
+    "7": {
+      "n": 97,
+      "j_pass10": 0.13402061855670103,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.12371134020618557,
+      "m_pass10": 0.061855670103092786,
+      "j_anticip10": 0.07216494845360824,
+      "j_median": 277
+    },
+    "8": {
+      "n": 92,
+      "j_pass10": 0.03260869565217391,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.07608695652173914,
+      "m_pass10": 0.010869565217391304,
+      "j_anticip10": 0.021739130434782608,
+      "j_median": 1590
+    },
+    "9": {
+      "n": 55,
+      "j_pass10": 0.05454545454545454,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.05454545454545454,
+      "m_pass10": 0.03636363636363636,
+      "j_anticip10": 0.01818181818181818,
+      "j_median": 1911
+    },
+    "10": {
+      "n": 20,
+      "j_pass10": 0.0,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.0,
+      "m_pass10": 0.0,
+      "j_anticip10": 0.0,
+      "j_median": 2660
+    },
+    "11": {
+      "n": 3,
+      "j_pass10": 0.0,
+      "ctrl_pass10": 0.0,
+      "l_pass10": 0.0,
+      "m_pass10": 0.0,
+      "j_anticip10": 0.0,
+      "j_median": 1667
+    }
+  }
+}
