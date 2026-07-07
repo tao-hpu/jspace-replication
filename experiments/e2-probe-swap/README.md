@@ -13,3 +13,16 @@ thought" interpretation does not hold.
 
 Milestones M2/M3. Metrics: swap hit rate vs baseline hit rate, per relation
 category, with paired comparison across the 90 items.
+
+## Runners
+
+- `run_e2.py {1.7b|4b}` — both arms along **Jacobian-lens** directions
+  (`normalize(J_l^T W_U[t])`), the same operator as E1. Known deviation: the
+  official experiment swaps along linear-probe directions.
+- `run_e2_probe.py {1.7b|4b}` — removes that deviation: both arms along
+  **mass-mean probe** directions (`normalize(mean(entity) - grand mean)`,
+  final-token residuals over 12 neutral templates), the closed-form stand-in
+  for a trained linear probe. Everything else (mechanism, band, positions,
+  grading, items) is identical, so a change in the A-vs-B gap is attributable
+  to the direction source alone. Requires the `run_e2.py` results file (reuses
+  its baseline and lens-arm outcomes for paired tests).

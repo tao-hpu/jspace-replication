@@ -15,6 +15,46 @@ Template:
 
 ---
 
+## 2026-07-07 E2p follow-up: probe-family directions do not rescue the intermediate swap — the direction-choice caveat narrows
+
+- Design: rerun both E2 arms with the direction source swapped from
+  Jacobian-lens to **mass-mean probe** directions —
+  `normalize(mean(entity) − grand mean)` over final-token residuals from 12
+  neutral templates (208 entities), the closed-form stand-in for a trained
+  linear probe. Mechanism, band, positions, grading, and items identical to
+  E2; baselines reused from the E2 run (same greedy decoding). Code:
+  `experiments/e2-probe-swap/run_e2_probe.py`.
+- Results (baseline-correct items; lens numbers from E2 for comparison):
+
+  | model | n | A': intermediate | B': answer ctrl | A' vs B' p | A lens→probe p | lens was A / B |
+  |---|---|---|---|---|---|---|
+  | Qwen3-4B | 48 | 20.8% | 29.2% | 0.50 | **0.0043** (4 gained, 18 lost) | 50.0% / 85.4% |
+  | Qwen3-1.7B | 29 | 31.0% | 20.7% | 0.51 | 0.42 (5 gained, 9 lost) | 44.8% / 82.8% |
+
+- Both arms collapse under probe-family directions; the A-vs-B gap vanishes
+  because *both* interventions get weak, not because A catches up. At 4B the
+  intermediate swap is significantly *worse* along probe directions than
+  along lens directions. The mass-mean operator is also visibly cruder: it
+  breaks generation outright (degenerate repetition/garbage) in 18.8% (A') /
+  10.4% (B') of 4B items vs **0% for lens directions in every E2 arm**
+  (1.7B: 0% / 3.4%).
+- Verdict: **the E2 direction-choice caveat narrows substantially.** A's
+  weakness in E2 cannot be attributed to lens directions handicapping the
+  intermediate swap — moving toward the probe family makes A weaker, not
+  stronger. Within every operator we can implement, the lens direction is
+  the cleanest and strongest, and under it the answer-token control still
+  significantly beats the intermediate swap.
+- Remaining gap, stated plainly: the official experiment uses *trained*
+  linear probes, which are likely cleaner than the mass-mean stand-in (the
+  broken-generation rate shows the stand-in carries non-identity context
+  components). A trained-probe rerun could still behave differently; this
+  entry closes the "was the lens direction unfair to A" branch, not the
+  "would official probes do better" branch.
+- Side observation echoing E1: in `amazon-language`, A' continues " the
+  Mexican" — the intermediate did transfer (Brazil→Mexico) but the second
+  hop never ran; the model verbalizes the injected concept instead of
+  computing on it.
+
 ## 2026-07-07 E2 adjudication: the answer-token control significantly BEATS the intermediate swap at both scales
 
 - Design: official 90 two-hop items; per item three greedy continuations —
@@ -45,7 +85,8 @@ Template:
   here are 1.7B/4B; the paper's results are on a frontier model. Scale could
   rescue A.
 - This was the project's central open question (candidate 1): outcome is the
-  sharp-negative branch, pending the probe-direction follow-up.
+  sharp-negative branch, pending the probe-direction follow-up. (Follow-up
+  ran same day — see the E2p entry above; the caveat narrows.)
 
 ## 2026-07-07 E1 second pass: band sweep + Qwen3-4B; the swap boundary is function type, not category
 

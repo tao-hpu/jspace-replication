@@ -15,11 +15,14 @@ code):
   normalization absorbs it.
 - The swap transfers the source coordinate to the target direction at every
   hooked position:  ``h' = h - (h·dA) dA + (h·dA) dB``.
+- ``DirectionSwapHooks`` applies the same transfer along arbitrary
+  precomputed unit directions (e.g. linear-probe / mass-mean directions),
+  so the direction source can be varied while the mechanism stays fixed.
 """
 
 from __future__ import annotations
 
-from collections.abc import Sequence
+from collections.abc import Mapping, Sequence
 
 import torch
 from torch import nn
@@ -33,9 +36,60 @@ def token_direction(lens, unembed_weight: torch.Tensor, token_id: int, layer: in
     return d / d.norm()
 
 
-class SwapHooks:
-    """Context manager: swap token A's direction for token B's at the output
-    of every block in ``layers``, at all positions of the current forward.
+class DirectionSwapHooks:
+    """Context manager: at the output of every block in ``dirs``, transfer
+    the coordinate along direction A to direction B at all positions of the
+    current forward.
+
+    Args:
+        blocks: model.layers (jlens LensModel convention).
+        dirs: {layer index: (d_a, d_b)}, unit float32 vectors on the model
+            device.
+    """
+
+    def __init__(
+        self,
+        blocks: Sequence[nn.Module],
+        dirs: Mapping[int, tuple[torch.Tensor, torch.Tensor]],
+    ) -> None:
+        self._blocks = blocks
+        self._dirs = dict(dirs)
+        self._handles: list[torch.utils.hooks.RemovableHandle] = []
+
+    def _make_hook(self, layer: int):
+        d_a, d_b = self._dirs[layer]
+
+        def hook(module: nn.Module, inputs, output):
+            tensor = output if torch.is_tensor(output) else output[0]
+            h = tensor.float()
+            coeff = h @ d_a  # [batch, seq]
+            h = h - coeff.unsqueeze(-1) * d_a + coeff.unsqueeze(-1) * d_b
+            new = h.to(tensor.dtype)
+            if torch.is_tensor(output):
+                return new
+            return (new, *output[1:])
+
+        return hook
+
+    def __enter__(self) -> "DirectionSwapHooks":
+        try:
+            for layer in self._dirs:
+                self._handles.append(
+                    self._blocks[layer].register_forward_hook(self._make_hook(layer))
+                )
+        except Exception:
+            self.__exit__()
+            raise
+        return self
+
+    def __exit__(self, *exc) -> None:
+        for handle in self._handles:
+            handle.remove()
+        self._handles = []
+
+
+class SwapHooks(DirectionSwapHooks):
+    """Swap token A's lens direction for token B's across ``layers``.
 
     Args:
         blocks: model.layers (jlens LensModel convention).
@@ -57,44 +111,11 @@ class SwapHooks:
         unknown = set(layers) - set(lens.source_layers)
         if unknown:
             raise ValueError(f"layers {sorted(unknown)} not in lens.source_layers")
-        self._blocks = blocks
-        self._layers = list(layers)
-        self._dirs = {
+        dirs = {
             l: (
                 token_direction(lens, unembed_weight, token_a, l),
                 token_direction(lens, unembed_weight, token_b, l),
             )
-            for l in self._layers
+            for l in layers
         }
-        self._handles: list[torch.utils.hooks.RemovableHandle] = []
-
-    def _make_hook(self, layer: int):
-        d_a, d_b = self._dirs[layer]
-
-        def hook(module: nn.Module, inputs, output):
-            tensor = output if torch.is_tensor(output) else output[0]
-            h = tensor.float()
-            coeff = h @ d_a  # [batch, seq]
-            h = h - coeff.unsqueeze(-1) * d_a + coeff.unsqueeze(-1) * d_b
-            new = h.to(tensor.dtype)
-            if torch.is_tensor(output):
-                return new
-            return (new, *output[1:])
-
-        return hook
-
-    def __enter__(self) -> "SwapHooks":
-        try:
-            for layer in self._layers:
-                self._handles.append(
-                    self._blocks[layer].register_forward_hook(self._make_hook(layer))
-                )
-        except Exception:
-            self.__exit__()
-            raise
-        return self
-
-    def __exit__(self, *exc) -> None:
-        for handle in self._handles:
-            handle.remove()
-        self._handles = []
+        super().__init__(blocks, dirs)
