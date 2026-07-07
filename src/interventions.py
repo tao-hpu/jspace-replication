@@ -55,6 +55,9 @@ class DirectionSwapHooks:
         self._blocks = blocks
         self._dirs = dict(dirs)
         self._handles: list[torch.utils.hooks.RemovableHandle] = []
+        # mean |h . d_a| over positions at each hooked layer, refreshed every
+        # forward: the amplitude the swap harvests from the source direction.
+        self.coeff_abs: dict[int, float] = {}
 
     def _make_hook(self, layer: int):
         d_a, d_b = self._dirs[layer]
@@ -63,6 +66,7 @@ class DirectionSwapHooks:
             tensor = output if torch.is_tensor(output) else output[0]
             h = tensor.float()
             coeff = h @ d_a  # [batch, seq]
+            self.coeff_abs[layer] = float(coeff.abs().mean())
             h = h - coeff.unsqueeze(-1) * d_a + coeff.unsqueeze(-1) * d_b
             new = h.to(tensor.dtype)
             if torch.is_tensor(output):

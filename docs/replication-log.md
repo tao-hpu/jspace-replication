@@ -15,6 +15,53 @@ Template:
 
 ---
 
+## 2026-07-07 E5 specificity ablation: the swap is directed steering, not surgery on a designated thought
+
+- Motivation: interactive exploration showed that swapping a *non-answer*
+  workspace candidate into a target flips the final answer just like
+  swapping the answer itself — suggesting the swap's effect does not depend
+  on hitting the concept it claims to edit. The swap harvests amplitude
+  along the source direction and re-injects it along the target; nothing in
+  the operator checks that the harvested amplitude belongs to the source
+  concept. Three arms on the official 90 two-hop items, same target
+  direction (swap_answer), varying only the source. Code:
+  `experiments/e5-specificity/run_e5.py`.
+- Results (baseline-correct items; arm B reused from E2):
+
+  | arm / source | Qwen3-4B hit | Qwen3-1.7B hit |
+  |---|---|---|
+  | B: the answer itself (official) | 85.4% | 82.8% |
+  | C: the intermediate (in context, related, NOT the answer) | **77.1%** (vs B p=0.29) | 58.6% (vs B p=0.039) |
+  | D: an absent word ("piano") | 0.0% | 0.0% |
+
+- The mechanism dissected:
+  - **Arm C flips are predicted by direction overlap, not by harvested
+    amplitude**: at 4B, flipped items have mean cos(d_source, d_answer) =
+    0.755 vs 0.324 for unflipped, while harvested amplitude barely differs
+    (3.65 vs 3.31). Same split at 1.7B (0.591 vs 0.331). The effect travels
+    through the correlation between the source's and the answer's
+    transported directions — the collateral channel, not the advertised one.
+  - **Arm D shows raw amplitude is not the currency**: its mean harvested
+    |h.d| is comparable to C's (4B: 3.96 vs 3.57), yet nothing ever flips
+    and outputs stay intact. What matters is position-coherent signal from
+    a concept actually present in context; an absent word's direction picks
+    up only diffuse background.
+  - **The transported directions live in a narrow cone**: even
+    cos(d_piano, d_answer) averages 0.549 at 4B (0.257 at 1.7B). With
+    off-the-shelf overlaps this large, cross-concept collateral is
+    structural, and it *grows* with scale in this pair.
+- Verdict: at 4B, sourcing the swap from a related non-answer concept is
+  statistically indistinguishable from sourcing it from the answer itself.
+  The official demo's reading ("we rewrote the model's answer
+  representation") is not supported: the same outcome is available without
+  touching the answer's designated representation. The honest description
+  of the operator is **directed steering whose gain is whatever coherent
+  in-context signal the source direction happens to harvest** — including,
+  via direction overlap, the answer's own. Combined with E2 (answer-token
+  control beats intermediate swap) and E2p (probe-family directions do not
+  rescue it), the "surgical thought edit" interpretation has no surviving
+  support at this scale.
+
 ## 2026-07-07 E3b planning horizon: the rhyme word's "emergence curve" is next-word plausibility ramping up, not a plan
 
 - Motivation: E3 read only the official end-of-line-1 position. The natural
