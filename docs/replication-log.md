@@ -15,6 +15,38 @@ Template:
 
 ---
 
+## 2026-07-07 E2 adjudication: the answer-token control significantly BEATS the intermediate swap at both scales
+
+- Design: official 90 two-hop items; per item three greedy continuations —
+  baseline, arm A (swap intermediate→swap_to across all fitted layers at all
+  prompt positions), arm B (control: swap answer→swap_answer, identical
+  mechanism/band/positions). Hit = continuation matches swap_answer. Paired
+  exact McNemar on baseline-correct items. Code:
+  `experiments/e2-probe-swap/run_e2.py`.
+- Results (baseline-correct items):
+
+  | model | n | A: intermediate swap | B: answer control | discordant A:B | p |
+  |---|---|---|---|---|---|
+  | Qwen3-4B | 48 | 50.0% | **85.4%** | 3:20 | 0.0005 |
+  | Qwen3-1.7B | 29 | 44.8% | **82.8%** | 2:13 | 0.0074 |
+
+- Verdict: **the review's critique is confirmed and sharpened** at this
+  scale. The headline "rewrite an intermediate thought" intervention is not
+  merely indistinguishable from trivial answer substitution — it is
+  significantly *weaker* than it. Whatever arm A achieves (≈half the items),
+  a mechanism with direct output leverage does far more reliably; nothing in
+  this data requires the "edited thought propagates through the second hop"
+  interpretation.
+- Honest caveats, prominently: (1) the official experiment swaps along
+  *linear-probe* directions; both our arms use Jacobian-lens directions. The
+  A-vs-B comparison is internally fair, but A's absolute weakness could
+  partly reflect the direction choice — training intermediate-entity probes
+  is the natural follow-up before quoting this against the paper. (2) Models
+  here are 1.7B/4B; the paper's results are on a frontier model. Scale could
+  rescue A.
+- This was the project's central open question (candidate 1): outcome is the
+  sharp-negative branch, pending the probe-direction follow-up.
+
 ## 2026-07-07 E1 second pass: band sweep + Qwen3-4B; the swap boundary is function type, not category
 
 - **Band sweep (1.7B, countries hit_b / stayed_a)**: all-layers 0–26:
