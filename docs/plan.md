@@ -6,13 +6,18 @@ Created 2026-07-07.
 
 | Role | Model | Platform | Rationale |
 |------|-------|----------|-----------|
-| E0 sanity | GPT-2 124M | Mac (MPS) | Cheapest full pipeline check: fit + apply + slice page |
-| Main | Qwen instruct, 1.5–3B | Mac (MPS), cloud GPU if needed | Official examples use Qwen; lowest adaptation cost |
+| E0 sanity | GPT-2 124M | Mac (MPS) | Pre-fitted lens exists (`gpt2-small`); also fit our own on self-trained weights to exercise the fit path |
+| Main | Qwen3 1.7B / 4B | Mac (MPS), cloud GPU if needed | Official examples use Qwen; pre-fitted lenses available for both sizes |
 | Robustness (optional) | Llama-3.2-1B or a second family | cloud GPU | Rule out single-family artifacts; cut if time-boxed |
 
-First check Hugging Face for officially pre-fitted lenses (the upstream README's
-`from_pretrained("org/lens-repo")` placeholder); otherwise fit our own
-(~100 prompts is usable per upstream).
+**Pre-fitted lenses are available** (verified 2026-07-07):
+[`neuronpedia/jacobian-lens`](https://huggingface.co/neuronpedia/jacobian-lens)
+hosts 35+ fitted lenses (MIT), including `gpt2-small`, `qwen3-1.7b`,
+`qwen3-4b`, `gemma-3-1b`, and `pythia-70m-deduped`. Fitting is therefore only
+needed for non-standard weights (e.g. a self-trained GPT-2). Neuronpedia also
+runs an interactive J-lens playground with live swap/steer on Qwen3.6-27B and
+Gemma-3-12B (https://www.neuronpedia.org/jlens) — useful for quick qualitative
+checks on models too large to run locally.
 
 ## Milestones
 
