@@ -1,6 +1,7 @@
 # local-only working notes (non-public)
 CLAUDE.md
 docs/_internal*
+.env
 
 .venv/
 __pycache__/
