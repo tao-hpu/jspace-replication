@@ -92,6 +92,65 @@ class DirectionSwapHooks:
         self._handles = []
 
 
+class DirectionShiftHooks:
+    """Context manager: add a fixed vector to every block output in
+    ``shifts`` at all positions of the current forward.
+
+    The additive analogue of the coordinate transfer for *population-level*
+    directions (e.g. a language-register axis), where the intervention is a
+    translation along the axis by the population gap rather than a
+    per-position reflection: ``h' = h + v``.
+
+    Args:
+        blocks: model.layers (jlens LensModel convention).
+        shifts: {layer index: shift vector}, float32 on the model device.
+    """
+
+    def __init__(
+        self,
+        blocks: Sequence[nn.Module],
+        shifts: Mapping[int, torch.Tensor],
+    ) -> None:
+        self._blocks = blocks
+        self._shifts = dict(shifts)
+        self._handles: list[torch.utils.hooks.RemovableHandle] = []
+        # mean coefficient along the (normalized) shift direction before the
+        # intervention, per layer, refreshed every forward — diagnostic for
+        # how the shift magnitude compares to the ambient coordinate.
+        self.coeff_pre: dict[int, float] = {}
+
+    def _make_hook(self, layer: int):
+        v = self._shifts[layer]
+        d = v / v.norm()
+
+        def hook(module: nn.Module, inputs, output):
+            tensor = output if torch.is_tensor(output) else output[0]
+            h = tensor.float()
+            self.coeff_pre[layer] = float((h @ d).mean())
+            new = (h + v).to(tensor.dtype)
+            if torch.is_tensor(output):
+                return new
+            return (new, *output[1:])
+
+        return hook
+
+    def __enter__(self) -> "DirectionShiftHooks":
+        try:
+            for layer in self._shifts:
+                self._handles.append(
+                    self._blocks[layer].register_forward_hook(self._make_hook(layer))
+                )
+        except Exception:
+            self.__exit__()
+            raise
+        return self
+
+    def __exit__(self, *exc) -> None:
+        for handle in self._handles:
+            handle.remove()
+        self._handles = []
+
+
 class SwapHooks(DirectionSwapHooks):
     """Swap token A's lens direction for token B's across ``layers``.
 

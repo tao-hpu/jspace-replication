@@ -1,0 +1,344 @@
+{
+  "alpha_arm": "register@0.125",
+  "n_half_draws": 1000,
+  "e6": {
+    "4b": {
+      "n_ok": 79,
+      "flip_lang": {
+        "overall": 0.9113924050632911,
+        "half_band_95": [
+          0.8461538461538461,
+          0.9743589743589743
+        ],
+        "by_src": {
+          "en": 0.9743589743589743,
+          "zh": 0.85
+        },
+        "by_category": {
+          "capital": {
+            "n": 26,
+            "rate": 1.0
+          },
+          "other": {
+            "n": 53,
+            "rate": 0.8679245283018868
+          }
+        },
+        "by_src_x_category": {
+          "en/capital": {
+            "n": 13,
+            "rate": 1.0
+          },
+          "en/other": {
+            "n": 26,
+            "rate": 0.9615384615384616
+          },
+          "zh/capital": {
+            "n": 13,
+            "rate": 1.0
+          },
+          "zh/other": {
+            "n": 27,
+            "rate": 0.7777777777777778
+          }
+        }
+      },
+      "flip_full": {
+        "overall": 0.6455696202531646,
+        "half_band_95": [
+          0.5384615384615384,
+          0.7435897435897436
+        ],
+        "by_src": {
+          "en": 0.9230769230769231,
+          "zh": 0.375
+        },
+        "by_category": {
+          "capital": {
+            "n": 26,
+            "rate": 1.0
+          },
+          "other": {
+            "n": 53,
+            "rate": 0.4716981132075472
+          }
+        },
+        "by_src_x_category": {
+          "en/capital": {
+            "n": 13,
+            "rate": 1.0
+          },
+          "en/other": {
+            "n": 26,
+            "rate": 0.8846153846153846
+          },
+          "zh/capital": {
+            "n": 13,
+            "rate": 1.0
+          },
+          "zh/other": {
+            "n": 27,
+            "rate": 0.07407407407407407
+          }
+        }
+      }
+    },
+    "1.7b": {
+      "n_ok": 63,
+      "flip_lang": {
+        "overall": 0.9365079365079365,
+        "half_band_95": [
+          0.8709677419354839,
+          1.0
+        ],
+        "by_src": {
+          "en": 0.967741935483871,
+          "zh": 0.90625
+        },
+        "by_category": {
+          "capital": {
+            "n": 26,
+            "rate": 0.9230769230769231
+          },
+          "other": {
+            "n": 37,
+            "rate": 0.9459459459459459
+          }
+        },
+        "by_src_x_category": {
+          "en/capital": {
+            "n": 13,
+            "rate": 1.0
+          },
+          "en/other": {
+            "n": 18,
+            "rate": 0.9444444444444444
+          },
+          "zh/capital": {
+            "n": 13,
+            "rate": 0.8461538461538461
+          },
+          "zh/other": {
+            "n": 19,
+            "rate": 0.9473684210526315
+          }
+        }
+      },
+      "flip_full": {
+        "overall": 0.5555555555555556,
+        "half_band_95": [
+          0.41935483870967744,
+          0.6774193548387096
+        ],
+        "by_src": {
+          "en": 0.8387096774193549,
+          "zh": 0.28125
+        },
+        "by_category": {
+          "capital": {
+            "n": 26,
+            "rate": 0.7307692307692307
+          },
+          "other": {
+            "n": 37,
+            "rate": 0.43243243243243246
+          }
+        },
+        "by_src_x_category": {
+          "en/capital": {
+            "n": 13,
+            "rate": 0.9230769230769231
+          },
+          "en/other": {
+            "n": 18,
+            "rate": 0.7777777777777778
+          },
+          "zh/capital": {
+            "n": 13,
+            "rate": 0.5384615384615384
+          },
+          "zh/other": {
+            "n": 19,
+            "rate": 0.10526315789473684
+          }
+        }
+      }
+    }
+  },
+  "e7": {
+    "1.7b": {
+      "n_ok": 56,
+      "capture_restate_full": {
+        "overall": 0.7142857142857143,
+        "half_band_95": [
+          0.6071428571428571,
+          0.8214285714285714
+        ]
+      },
+      "margin_delta_full": {
+        "mean": 0.07273816237492221,
+        "jackknife_loo_range": [
+          0.0199616478248076,
+          0.11893188005143945
+        ],
+        "drop_top3_influence": 0.02238901043837925,
+        "n_pos": 30
+      },
+      "margin_delta_randdir": {
+        "mean": -0.256989005154797,
+        "jackknife_loo_range": [
+          -0.29423196397044443,
+          -0.1988180618394505
+        ],
+        "drop_top3_influence": -0.11570813183514576,
+        "n_pos": 25
+      }
+    },
+    "4b": {
+      "n_ok": 56,
+      "capture_restate_full": {
+        "overall": 0.5892857142857143,
+        "half_band_95": [
+          0.4642857142857143,
+          0.7142857142857143
+        ]
+      },
+      "margin_delta_full": {
+        "mean": 1.1705314513695027,
+        "jackknife_loo_range": [
+          1.1273485852236098,
+          1.2217221603474833
+        ],
+        "drop_top3_influence": 1.0395847932207134,
+        "n_pos": 50
+      },
+      "margin_delta_randdir": {
+        "mean": -0.866846005831446,
+        "jackknife_loo_range": [
+          -0.9057388630780306,
+          -0.806608230417425
+        ],
+        "drop_top3_influence": -0.7104004036705449,
+        "n_pos": 12
+      }
+    },
+    "8b": {
+      "n_ok": 56,
+      "capture_restate_full": {
+        "overall": 0.6964285714285714,
+        "half_band_95": [
+          0.5714285714285714,
+          0.8214285714285714
+        ]
+      },
+      "margin_delta_full": {
+        "mean": 0.3662849727884999,
+        "jackknife_loo_range": [
+          0.33462341583587907,
+          0.379416418007829
+        ],
+        "drop_top3_influence": 0.2829055796676087,
+        "n_pos": 46
+      },
+      "margin_delta_randdir": {
+        "mean": 0.35180202399247457,
+        "jackknife_loo_range": [
+          0.3443062037906863,
+          0.3628030284561894
+        ],
+        "drop_top3_influence": 0.3333380182256114,
+        "n_pos": 54
+      }
+    }
+  },
+  "e4b": {
+    "4b": {
+      "multihop": {
+        "covert_strict_rate": 0.02912621359223301,
+        "covert_hits": 3,
+        "items_with_hits": 3,
+        "n_items": 93,
+        "top3_share": 1.0
+      },
+      "multilingual": {
+        "covert_strict_rate": 0.3130841121495327,
+        "covert_hits": 134,
+        "items_with_hits": 90,
+        "n_items": 107,
+        "top3_share": 0.07462686567164178
+      },
+      "poetry": {
+        "covert_strict_rate": 0.0,
+        "covert_hits": 0,
+        "items_with_hits": 0,
+        "n_items": 98,
+        "top3_share": null
+      },
+      "order-ops": {
+        "covert_strict_rate": 0.01818181818181818,
+        "covert_hits": 2,
+        "items_with_hits": 2,
+        "n_items": 55,
+        "top3_share": 1.0
+      },
+      "association": {
+        "covert_strict_rate": 0.00980392156862745,
+        "covert_hits": 1,
+        "items_with_hits": 1,
+        "n_items": 102,
+        "top3_share": 1.0
+      },
+      "typo": {
+        "covert_strict_rate": 0.15625,
+        "covert_hits": 15,
+        "items_with_hits": 15,
+        "n_items": 96,
+        "top3_share": 0.2
+      }
+    },
+    "1.7b": {
+      "multihop": {
+        "covert_strict_rate": 0.04854368932038835,
+        "covert_hits": 5,
+        "items_with_hits": 5,
+        "n_items": 93,
+        "top3_share": 0.6
+      },
+      "multilingual": {
+        "covert_strict_rate": 0.23598130841121495,
+        "covert_hits": 101,
+        "items_with_hits": 72,
+        "n_items": 107,
+        "top3_share": 0.09900990099009901
+      },
+      "poetry": {
+        "covert_strict_rate": 0.0,
+        "covert_hits": 0,
+        "items_with_hits": 0,
+        "n_items": 98,
+        "top3_share": null
+      },
+      "order-ops": {
+        "covert_strict_rate": 0.00909090909090909,
+        "covert_hits": 1,
+        "items_with_hits": 1,
+        "n_items": 55,
+        "top3_share": 1.0
+      },
+      "association": {
+        "covert_strict_rate": 0.0196078431372549,
+        "covert_hits": 2,
+        "items_with_hits": 2,
+        "n_items": 102,
+        "top3_share": 1.0
+      },
+      "typo": {
+        "covert_strict_rate": 0.3645833333333333,
+        "covert_hits": 35,
+        "items_with_hits": 35,
+        "n_items": 96,
+        "top3_share": 0.08571428571428572
+      }
+    }
+  }
+}

@@ -19,6 +19,27 @@ the public review lacked: a direct final-token substitution baseline for the
 probe-swap experiment (see `experiments/e2-probe-swap/`). Negative and partial
 results are reported with the same care as positive ones.
 
+The project grew past replication into an audit and reframing, written up as a
+paper (arXiv link forthcoming). The additions, all in `experiments/` with
+results JSONs in `results/`:
+
+- **Mouth-exclusion audit** (`e4-lens-eval/run_e4_covert.py`): every lens hit
+  scored against the model's own next-token distribution; covert content
+  survives almost exclusively for *context registers* (language identity,
+  intended form of a typo), not content plans.
+- **Causal register control** (`e6-covert-register/`, `e6t-typo-register/`):
+  measured-gap translations of a language axis and a typo axis, with
+  amplitude-matched random controls and dose curves.
+- **Perspectival capture** (`e7-perspectival-capture/`): a mid-band entity
+  swap rewrites the model's restatement of the question itself, stably across
+  a 1.7B-14B ladder, while self-report about the edit changes shape at every
+  scale.
+- **Transport-cone geometry** (`results/cone_*.json`): raw vs J-transported
+  effective dimensionality across the model ladder.
+- **Statistics** (`stats/run_bootstrap.py`, `sensitivity/reanalyze.py`):
+  bootstrap CIs for every headline rate and a prompt-set sensitivity
+  reanalysis.
+
 ## Upstream resources
 
 - Paper: https://transformer-circuits.pub/2026/workspace/index.html
@@ -54,7 +75,7 @@ uv pip install jupyter matplotlib einops
 ```
 
 Target models are small enough for a laptop: GPT-2 124M for pipeline sanity,
-Qwen 1.5–3B instruct for the main experiments (the official examples use Qwen).
+Qwen3 1.7B-4B for the register experiments and up to 14B for the capture ladder (128 GB unified memory covers 14B bf16).
 Per the upstream README, ~100 fitting prompts already give a usable lens
 (the paper uses 1000 × 128 tokens).
 

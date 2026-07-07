@@ -15,6 +15,135 @@ Template:
 
 ---
 
+## 2026-07-08 #17 sensitivity reanalysis: the register/plan split survives the threshold dial; E6 full flips are template-graded
+
+- What was run: zero-model-cost reanalysis of stored artifacts
+  (`experiments/sensitivity/reanalyze.py` -> `results/sensitivity_reanalysis.json`),
+  plus a mouth-rank threshold sweep recomputed from E4b per-row ranks
+  (tables generated into the paper appendix).
+- Threshold sweep (T = 10/50/100/500): register sets decay slowly
+  (multilingual 26.4->19.2% at 1.7B, 35.3->21.7% at 4B; typo 36.5%/15.6% at
+  T=100 on a 0% floor, thinning at T=500), plan sets evaporate (multihop
+  13.6/21.4% at T=10 -> 1.0/1.0% at T=500). The dichotomy is a decay-rate
+  signature, not an artifact of the T=100 cut.
+- E6 template cells: zh->en full flips are 13/13 on the capital template at 4B
+  but 2/27 on one-off facts (1.7B: 7/13 vs 2/19); en->zh high everywhere.
+- E7 influence checks: no detection margin is outlier-driven (4B drop-top-3
+  +1.17 -> +1.04; 8B randdir shift positive on 54/56 items).
+- Verdict: headline numbers robust to item resampling; two disclosed
+  structure findings (template grading, single-domain E7 pool) folded into
+  the paper.
+
+## 2026-07-08 E6t typo-register erasure: the second register is causally load-bearing
+
+- Model / lens config: Qwen3-1.7B and 4B, band as in E6, mass-mean typo axis
+  from 16 clean/corrupted sentence pairs (disjoint from the official typo
+  set's targets), residuals averaged from the first diverging token.
+- What was run: `experiments/e6t-typo-register/run_e6t.py` -- erase the axis
+  (gap translation toward clean) on the official 96 typo items under a
+  one-shot correction elicitation; amplitude-matched random control; yes/no
+  report probe as a secondary readout.
+- Results: baseline corrects 94/96 (4B) and 88/96 (1.7B). Erasure kills
+  correction dose-dependently (4B: 86.2% -> 24.5% -> 0% at alpha = 0.25/0.5/1;
+  1.7B: 92.0% -> 54.5% -> 0%) while the random arm unfixes nothing at
+  alpha <= 0.5 (exact McNemar p < 1e-4 both scales). Failure mode through
+  alpha = 0.5: coherent wrong word, near-zero echo of the corrupted form;
+  alpha = 1 breaks the output (same compounding overdose as E6).
+- Verdict: replicated-and-extended; gives the register family a second
+  causal instance.
+
+## 2026-07-08 E7 scale ladder (8B, 14B): capture is scale-stable, self-report is not
+
+- Model / lens config: Qwen3-8B and 14B with released lenses; same 56-item
+  protocol and arms as the 1.7B/4B runs.
+- Results: capture flat across the ladder (flip 82.1%/80.4%, restate 69.6%/
+  67.9%; randdir behavioral zero everywhere; early/late dose asymmetry
+  present at 8B/14B). Detection channels scramble: 8B margin shift +0.37 is
+  indistinguishable from randdir +0.35 (explicit yes 23.2% vs 19.6%; "Wait"
+  1/56); 14B margin reverses sign (-0.38 vs randdir +0.04) while explicit
+  yes is edit-specific again (21.4% vs 5.4%). 14B detected-x-captured
+  2x2 = 11/1/27/17 (Fisher p = 0.079).
+- Baseline lens false positives: 8B 33.9%, 14B 8.9% (see cone entry).
+- Verdict: capture replicated at both new scales; the 4B "emerging monitor"
+  reading is retired in favor of scale-idiosyncratic report mappings.
+
+## 2026-07-08 Transport-cone geometry ladder: universal collapse, model-specific severity, two usability regimes
+
+- What was run: pairwise cosines and participation-ratio eff-dim of raw
+  W_U vs J-transported directions (~190 entities) across pythia-70m, GPT-2,
+  self-trained 124M, Qwen3 1.7B/4B/8B/14B/32B*, Qwen3.6-27B; per-layer
+  profiles for 4B/14B (`results/cone_geometry.json`, `cone_profile.json`).
+- Results: raw eff-dim grows 75->128 across the family; transported
+  collapses to 2-12 everywhere (11-51x). 27B (converged official-demo lens)
+  is the most collapsed: eff-dim 2.2, cos 0.67. Self-trained 124M is the
+  counterexample (transport more isotropic than raw). Layer profiles rule
+  out the depth confound (4B plateau 1.9-3.4 vs 14B 10-15 at matched depth).
+- Usability cross-check (with the E7 ladder): the two tightest cones
+  (4B cos 0.58, 8B 0.36) both show 33.9% baseline lens false positives; the
+  two loosest (1.7B 0.28, 14B 0.24) show 3.6%/8.9%. Reported as a two-regime
+  split, not a law (n = 4).
+- Verdict: original low-dimensionality observation confirmed and given a
+  baseline, a scale axis, and a behavioral consequence.
+
+## 2026-07-07 E7 perspectival capture (1.7B, 4B, 56 items): the edit rewrites the question, not just the answer
+
+- What was run: `experiments/e7-perspectival-capture/run_e7.py` -- three-stage
+  shared-KV protocol (answer / restatement / self-report), J-lens read over
+  hook-free continuation forwards, arms none/full/half1/half2/randdir.
+- Results (1.7B): flips 78.6%, restatement rewritten 71.4%, lens-behavior
+  item agreement 54/56 (96%), zero captured restatements the lens disagrees
+  with; self-report margin flat (+0.07 [-0.26, +0.41]); dose asymmetry
+  (half1 captures 75.0%, half2 0/56).
+- Results (4B): capture replicates (76.8%/58.9%); baseline lens false
+  positives jump to 33.9%; margin shift +1.17 [+0.88, +1.46] with explicit
+  yes 17.9% and "Wait" self-corrections 30/56, all edit-specific (randdir
+  moves nothing); detected-x-captured 7/3/26/20 (Fisher p = 0.50).
+- Verdict: new phenomenon (no prior demonstration of question-memory rewrite
+  known to us); detection, where present, is not escape.
+
+## 2026-07-07 E6 covert language register (60 pairs): causally load-bearing, and the covert subset dissociates register from content
+
+- What was run: `experiments/e6-covert-register/run_e6.py` -- mass-mean
+  parallel-sentence axis, gap translation at alpha = 0.0625/0.125/0.25,
+  amplitude-matched random control, per-item covert precondition (target
+  form outside clean top-100). Expanded 24 -> 60 pairs same day (covert
+  n = 24 per model); old results kept as *.24items.bak.json.
+- Results at alpha = 0.125: full flips 64.6% (4B, [54.4, 74.7]) / 55.6%
+  (1.7B), language-only flips 91.1%/93.7%, random control 0% (McNemar
+  p < 1e-4). Direction asymmetry: en->zh markedly cleaner (92.3% vs 37.5%
+  at 4B). Covert subset: register still flips language (79-96%) but full
+  flips drop to ~30%, loss entirely on zh->en items.
+- Operator failures recorded: per-position reflection destroys the state
+  (ambient coordinate ~2453 vs ~66 on random); full-gap translation
+  compounds ~band-fold and overdoses.
+- Verdict: register causally confirmed; the register carries the language
+  setting, not the content.
+
+## 2026-07-07 E4b mouth-exclusion audit: covert content is registers, not plans
+
+- What was run: `experiments/e4-lens-eval/run_e4_covert.py` -- every lens hit
+  on the six official sets scored against the model's own next-token
+  distribution (shadow = mouth top-10; covert = rank >= 10; covert-strict =
+  rank >= 100), permutation floors under identical scoring.
+- Results (covert-strict, target vs floor): multilingual 31.3%/23.6% vs
+  3.3%/1.4% (4B/1.7B); typo 15.6%/36.5% vs 0%/0%; poetry 0%; order-ops at or
+  below floor; association 1-2%; multihop 2.9%/4.9% residue vs 0% floor.
+- Verdict: the original paper's one-off ablation filter, promoted to a
+  formal score, splits its own evaluation sets into surviving registers and
+  dead plans.
+
+## 2026-07-07 E2t trained-probe rerun: the answer-token dominance is a property of lens directions, not of the representations
+
+- What was run: official-recipe trained linear probes (multinomial over the
+  entity pool, held-out top-1 = 100% at every band layer) replacing lens /
+  mass-mean directions in the E2 probe-swap arms.
+- Results: trained probes restore the intermediate swap (50.0% at 4B, 65.5%
+  at 1.7B; p = 0.0013/0.0063 vs mass-mean) while the answer-token control
+  falls to 39.6%/41.4%, erasing the E2 asymmetry at 4B (McNemar p = 0.30)
+  and reversing it at 1.7B (paired-difference bootstrap CI [-44.8%, -3.4%]).
+- Verdict: C2 verdict revised to "partially replicated, at 50-65% rather
+  than the original rates"; the deflationary reading of E2 is withdrawn.
+
 ## 2026-07-07 E5 specificity ablation: the swap is directed steering, not surgery on a designated thought
 
 - Motivation: interactive exploration showed that swapping a *non-answer*
