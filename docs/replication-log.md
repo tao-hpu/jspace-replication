@@ -15,6 +15,43 @@ Template:
 
 ---
 
+## 2026-07-07 E3 rhyme planning: total negative at both scales — the models rhyme without any lens-readable plan
+
+- Design: official 98-couplet `lens-eval-poetry.json`; the planning claim is
+  that the line-2 rhyme word is lens-readable at the *end of line 1* (last
+  newline token) before any of line 2 exists. Per item, at that position:
+  J-lens min-over-layers rank of the rhyme word (official pass@k), a
+  permutation control (another item's rhyme word, same position), the
+  logit-lens rank, plus two sanity checks — greedy continuation (does the
+  model rhyme as intended?) and the readout at the final prompt token
+  (imminent word, should be visible). Code: `experiments/e3-poetry/run_e3.py`.
+- Results:
+
+  | model | rhymes as intended | newline pass@10 (J / logit / control) | final-token pass@1 (J) | sign test target<control |
+  |---|---|---|---|---|
+  | Qwen3-4B | 78/98 | **0% / 0% / 0%** | 78.6% | 59/98, p=0.054 |
+  | Qwen3-1.7B | 67/98 | **0% / 0% / 0%** | 64.3% | 56/98, p=0.19 |
+
+  Median newline rank of the target: 3658 (4B) / 6140 (1.7B) — three orders
+  of magnitude from readable. Restricting to items the model actually rhymes
+  as intended changes nothing (pass@10 stays 0%).
+- Both sanity checks pass: the models complete the couplets with the intended
+  rhyme word at 68–80%, and the final-token readout matches that rate almost
+  exactly (78.6% vs 79.6% baseline at 4B), so the pipeline reads what is
+  there. There is simply nothing to read at the newline: even the most
+  charitable paired test finds at best a marginal, non-significant tendency
+  for the target to outrank an arbitrary rhyme word.
+- Verdict: **not replicated at this scale**, in full agreement with the
+  external review. The models rhyme correctly *without* a lens-readable plan
+  — either the plan exists in a non-verbalizable form, or the rhyme word is
+  chosen on the fly at the final position. Note the negative is not
+  lens-specific (logit lens also reads nothing), so this is not a J-lens
+  fitting artifact.
+- Scale caveat as usual: the paper's planning result is on a frontier model;
+  1.7B/4B may genuinely not plan ahead. What this establishes is that the
+  claim does not transfer down to open models even qualitatively.
+- Next: E4 lens false-positive quantification on the six evaluation sets.
+
 ## 2026-07-07 E2p follow-up: probe-family directions do not rescue the intermediate swap — the direction-choice caveat narrows
 
 - Design: rerun both E2 arms with the direction source swapped from
