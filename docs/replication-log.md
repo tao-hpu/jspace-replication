@@ -15,6 +15,23 @@ Template:
 
 ---
 
+## 2026-07-08 E7 cross-domain: perspectival capture is not specific to country capitals
+
+- Model / lens config: Qwen3-1.7B (band 8..26) and 4B (band 10..34), same E7 protocol as the capitals run.
+- What was run: two new domains factored to vary one thing each. `states` keeps the relation ("capital of") and swaps the entity type (37 US states); `currency` keeps the entity set (countries) and swaps the relation ("currency of", 29 countries). Full/half1/half2/randdir arms, fresh-forward J-lens readout, self-report stage, all as in capitals.
+- Results (full-band restatement rewritten to the swapped question):
+  - states: 1.7B 80.6% (n_ok 36/37), 4B 58.8% (34/37)
+  - currency: 1.7B 77.8% (27/29), 4B 79.3% (29/29)
+  - capitals baseline for comparison: 1.7B 71.4%, 4B 58.9% -> new domains bracket it.
+  - randdir control at behavioral zero in all four runs (0% flips, 0% captured restatements).
+  - fresh-forward lens: swapped entity outranks original in full arm 31/36 (states 1.7B), 26/34 (states 4B), 23/27 (currency 1.7B), 26/29 (currency 4B), vs 5/36, 13/34, 0/27, 8/29 in none arm.
+  - dose asymmetry (half1 > half2 restatement) present in 3/4 runs; e.g. states 1.7B 77.8% vs 2.8%, currency 1.7B 66.7% vs 14.8%. Absent only in currency 4B.
+- Verdict: replicated across a new entity type and a new relation, at both scales.
+- Addresses: review W6 (single-domain concern). Now in main.tex §6 (`Capture is not specific to country capitals`) + Limitations rewritten (cross-domain done at 1.7B/4B; 8B/14B ladder still capitals-only).
+- Next: none for v1; extending 8B/14B to the new domains is a v2 nicety, not a gap.
+
+---
+
 ## 2026-07-08 #17 sensitivity reanalysis: the register/plan split survives the threshold dial; E6 full flips are template-graded
 
 - What was run: zero-model-cost reanalysis of stored artifacts
