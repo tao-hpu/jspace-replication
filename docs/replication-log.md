@@ -15,6 +15,89 @@ Template:
 
 ---
 
+## 2026-07-09 Cone geometry robustness: the self-trained 124M counterexample survives an n=1000 refit (not an under-fit artifact)
+
+- Trigger: the self-trained 124M is the load-bearing counterexample in the cone
+  geometry section (raw 23.4 -> transported 31.2, i.e. it does NOT collapse,
+  proving the collapse is a property of the fitted lens, not of the transport
+  operation). It is also the only cone point where both the model AND the lens
+  are ours; the published lens was fit at n_prompts=150, vs the 27B reference at
+  n=1000. Reviewer attack surface: "your 31.2 is an under-fit artifact."
+- What was run: refit the self-trained lens from scratch to n=1000 on an RTX 4090
+  (CUDA 12.4, torch 2.6.0+cu124), same recipe (dim_batch=32, max_seq_len=128),
+  prompts from the cached wikitext-103 first-1000. Recomputed the participation
+  ratio with a check script verified to reproduce n=150 (raw 23.39 / J 31.21).
+- Results: n=1000 gives raw 23.39 (unchanged, lens-independent) / **J transported
+  eff_dim 31.08**, mean_cos 0.111. Vs published n=150: J 31.21. Fit took 13.6 min
+  on the 4090 (vs ~5 h projected on MPS).
+- De-confound (backend vs fit-scale, since the above changed both at once): also
+  fit CUDA at n=150 (2.1 min). Three points: MPS-150 **31.21**, CUDA-150 **31.21**
+  (identical -> backend effect ~0), CUDA-1000 **31.08** (150->1000 -> fit-scale
+  effect ~0). Robust to each variable independently. Artifacts:
+  out/selftrained-124m_jacobian_lens_{n150_cuda,n1000_cuda}.pt.
+- Verdict: counterexample confirmed robust. The "does-not-collapse" result is not
+  a fit artifact. KEEP the self-trained point.
+- Artifacts: out/selftrained-124m_jacobian_lens_n1000_cuda.pt (the refit),
+  out/*.n150.bak.pt (published n=150 preserved). Published live lens/ckpt left at
+  n=150 so results/cone_geometry.json stays reproducible.
+- Done: Table 5 footnote now states the self-trained fit n and this robustness
+  (both main.tex); README documents the control's provenance and links the public
+  GPT-2 124M model it comes from; the fitted lenses (n150 mps, n1000 cuda) are
+  published as a GitHub release asset.
+
+---
+
+## 2026-07-09 E7 mechanism: coordinate drift explains *where* the capture band lives, and reconciles Gemma's late-band capture with the Qwen dose asymmetry
+
+- Trigger: the cross-family check (2026-07-08) left an apparent tension. On the
+  Qwen ladder early-band swaps capture the restatement and late-band swaps do
+  not (half1 vs half2 restate: 75.0% vs 0.0% at 1.7B), an asymmetry the paper
+  uses against a "global content-blind logit shift" reading. But Gemma-2-2B's
+  late half captures about as well as its full band (half2 restate 80.4%
+  [69.6, 89.3] bootstrap, flip 83.9% [73.2, 92.9]; vs Qwen-1.7B half2 0.0% /
+  16.1%). Read naively this looks like the asymmetry is a Qwen-only artifact.
+- What was run: a generation-free coordinate-drift probe (run_e7_drift.py).
+  The swap direction at band layer l is d_l(t) = normalize(J_l^T W_U[t]); the
+  pure output coordinate of token t is its unembedding row W_U[t]. Define
+  drift_l(t) = cos(J_l^T W_U[t], W_U[t]), averaged over the 56 entity tokens.
+  High drift => the swap direction has rotated into logit space, so a swap
+  there is an output nudge, not a workspace rewrite. Computed per band layer
+  for gemma-2-2b, qwen17b, qwen4b, qwen8b. Also started a single-layer capture
+  profile (run_e7_profile.py) to overlay capture vs depth on drift vs depth.
+- Results (concrete numbers): drift rises with depth in every model, but the
+  *rate* is family-/scale-specific. At matched fractional depth 0.8: Gemma-2-2B
+  0.53, Qwen-4B 0.66, Qwen-1.7B 0.83. This rank-orders late-band capture
+  inversely and monotonically: Gemma-2-2B (lowest drift) late-restate 80%,
+  Qwen-4B (mid) 25%, Qwen-1.7B (highest) 0%. The metric also predicts the
+  previously-unexplained Qwen-4B exception (4B is the one Qwen scale that keeps
+  partial late capture; it also has the lowest Qwen drift). So "late band does
+  not capture" is really "high-drift layers do not capture" — a family-agnostic
+  law with an architecture-dependent onset; Gemma's late band sits at a drift
+  level where Qwen still captures.
+- Three-way separation:
+  - Official paper: uses the early/late dose asymmetry (present at 1.7B/8B/14B,
+    absent at 4B) as one argument that capture is not a global logit shift.
+    Does not measure coordinate drift on the swap direction or test a 2nd family.
+  - Nanda review: n/a (did not run E7 dose arms or a cross-family capture test).
+  - This project: the asymmetry is not primitive; it is downstream of a
+    measurable per-layer geometric quantity (drift) that predicts capture
+    across two families and across the Qwen scale ladder including the 4B
+    anomaly. This strengthens, not weakens, the anti-global-shift argument: a
+    content-blind output shift cannot explain why capture tracks how far the
+    swap direction has rotated toward the unembedding.
+- Verdict: partially replicated + extended. The dose asymmetry replicates as a
+  special case of a drift law; the law is new (not in the paper) and cross-family.
+- Artifacts: results/e7_drift_{gemma2-2b,qwen17b,qwen4b,qwen8b}.json;
+  scripts run_e7_drift.py + run_e7_profile.py; figure fig_e7_mechanism (capture
+  vs depth | drift vs depth, Gemma-2-2B vs Qwen-1.7B at matched depth); Gemma
+  late-band (SKY) star added to the E7 capture figure; gemma2-2b added to the
+  bootstrap E7 block.
+- Next: finish the single-layer capture profiles (gemma-2-2b running, qwen-1.7b
+  queued) to overlay onset; Gemma-2-9B E7 (downloading) to confirm the drift/
+  capture relation is architecture- not depth-driven within the Gemma family.
+
+---
+
 ## 2026-07-08 Second model family (Gemma-2-2B): capture and typo-register replicate cross-family; language-register is causal but modulated by target-language ability
 
 - Model / lens config: google/gemma-2-2b (26 layers, band 7..24, read_layers [11,16,20]), pre-fitted J-lens from the same neuronpedia/jacobian-lens repo (gemma-2-2b_jacobian_lens.pt). No self-fit needed. Local Mac / MPS, bf16.

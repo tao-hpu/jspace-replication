@@ -40,6 +40,27 @@ results JSONs in `results/`:
   bootstrap CIs for every headline rate and a prompt-set sensitivity
   reanalysis.
 
+## The self-trained 124M control
+
+The transport-cone ladder includes one model we trained ourselves: a 124M
+GPT-2 reproduction (standard nanoGPT recipe), the same checkpoint released at
+[tao-hpu/llm-from-scratch](https://github.com/tao-hpu/llm-from-scratch)
+(weights on Hugging Face). It was trained for that unrelated reproduction, not
+for this paper, so it is a pre-existing, publicly checkable artifact rather than
+a hand-picked point.
+
+It is the load-bearing counterexample in the geometry section: unlike every
+other model, its transported directions are *more* isotropic than its raw ones
+(effective dimensionality 23.4 → 31.2), which is what proves the collapse
+elsewhere is a property of the fitted lens, not a mathematical necessity of the
+transport. Its Jacobian lens is the only one we fit ourselves; it can be refit
+from the public weights with `experiments/e0-sanity/fit_selftrained.py`, and the
+fitted lenses are also downloadable directly from the
+[`selftrained-124m-lens-v1` release](https://github.com/tao-hpu/jspace-replication/releases/tag/selftrained-124m-lens-v1)
+(both the published `n150_mps` lens and a converged `n1000_cuda` refit).
+The non-collapse is robust: transported effective dimensionality stays ~31
+(31.2 → 31.1) across fit scale (150 → 1000 prompts) and backend (MPS → CUDA).
+
 ## Upstream resources
 
 - Paper: https://transformer-circuits.pub/2026/workspace/index.html
