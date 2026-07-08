@@ -51,7 +51,9 @@ Run:  HF_HUB_DISABLE_XET=1 .venv/bin/python experiments/e6-covert-register/run_e
 from __future__ import annotations
 
 import json
+import os
 import pathlib
+import random
 import re
 import sys
 
@@ -176,20 +178,26 @@ def lang_of(text: str) -> str:
 
 
 @torch.no_grad()
-def register_axis(hf, tok, band: list[int], device):
+def register_axis(hf, tok, band: list[int], device, pairs=None):
     """Per band layer: unit contrast axis d = normalize(mean_zh - mean_en)
     and the population gap g = mean_zh·d - mean_en·d along it. Residuals
     averaged over token positions 1: (position 0 is the attention-sink
-    outlier and is excluded)."""
+    outlier and is excluded).
+
+    ``pairs`` defaults to the full REGISTER_PAIRS (the canonical axis); the
+    multi-seed hardening passes a bootstrap resample of the pairs so we can
+    report the flip rates' sensitivity to *which* parallel sentences estimate
+    the axis, not just to item sampling."""
+    pairs = pairs if pairs is not None else REGISTER_PAIRS
     means = {"en": None, "zh": None}
-    for en, zh in REGISTER_PAIRS:
+    for en, zh in pairs:
         for key, sent in (("en", en), ("zh", zh)):
             ids = tok(sent, return_tensors="pt").to(device)
             hs = hf(**ids, output_hidden_states=True).hidden_states
             act = torch.stack([hs[l + 1][0, 1:].float().mean(0) for l in band])
             means[key] = act if means[key] is None else means[key] + act
-    mu_en = means["en"] / len(REGISTER_PAIRS)
-    mu_zh = means["zh"] / len(REGISTER_PAIRS)
+    mu_en = means["en"] / len(pairs)
+    mu_zh = means["zh"] / len(pairs)
     axis, gap = {}, {}
     for j, l in enumerate(band):
         diff = mu_zh[j] - mu_en[j]
@@ -217,8 +225,22 @@ def main(model_key: str = "1.7b", alphas: list[float] | None = None) -> None:
     band = list(range(round(BAND_START_FRAC * model.n_layers), model.n_layers - 1))
     print(f"model={model_id} band={band[0]}..{band[-1]} alphas={alphas}")
 
-    axis, gap = register_axis(hf, tok, band, device)
-    gen = torch.Generator().manual_seed(0)
+    # multi-seed hardening (env-driven so the canonical positional interface
+    # is untouched): E6_SEED reseeds the amplitude-matched random control and,
+    # when E6_RESAMPLE=1, a bootstrap resample of the estimation pairs.
+    seed = int(os.environ.get("E6_SEED", "0"))
+    resample = os.environ.get("E6_RESAMPLE", "0") == "1"
+    if resample:
+        rnd_pairs = random.Random(seed)
+        pairs = rnd_pairs.choices(REGISTER_PAIRS, k=len(REGISTER_PAIRS))
+        print(f"[multi-seed] E6_SEED={seed} resampled estimation pairs (bootstrap)")
+    else:
+        pairs = REGISTER_PAIRS
+        if seed != 0:
+            print(f"[multi-seed] E6_SEED={seed} (random control only; axis = full set)")
+
+    axis, gap = register_axis(hf, tok, band, device, pairs=pairs)
+    gen = torch.Generator().manual_seed(seed)
     d_model = axis[band[0]].numel()
     rand = {}
     for l in band:
@@ -299,9 +321,11 @@ def main(model_key: str = "1.7b", alphas: list[float] | None = None) -> None:
             "p_register_vs_random": p,
         }
 
-    out = ROOT / "results" / f"e6_covert_register_{family(model_id)}{model_key.replace('.', '')}.json"
+    tag = "" if (seed == 0 and not resample) else f"_seed{seed}{'r' if resample else ''}"
+    out = ROOT / "results" / f"e6_covert_register_{family(model_id)}{model_key.replace('.', '')}{tag}.json"
     out.write_text(json.dumps({
         "model": model_id, "band": [band[0], band[-1]], "alphas": alphas,
+        "seed": seed, "resample_pairs": resample,
         "n_register_pairs": len(REGISTER_PAIRS), "covert_rank": COVERT_RANK,
         "gap": {str(l): gap[l] for l in band},
         "records": records, "summary": summary,

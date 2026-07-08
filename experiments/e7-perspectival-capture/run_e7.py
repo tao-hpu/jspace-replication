@@ -36,6 +36,7 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import pathlib
 import sys
 
@@ -223,7 +224,13 @@ def main(model_key: str = "1.7b", domain: str = "capitals") -> None:
     half = len(band) // 2
     arms = {"none": None, "full": band, "half1": band[:half], "half2": band[half:],
             "randdir": "randdir"}
-    gen = torch.Generator().manual_seed(1)
+    # multi-seed hardening: E7_SEED varies only the randdir specificity
+    # control's two random directions. The none/full/half arms are
+    # deterministic under greedy decoding, so the headline capture rates carry
+    # no seed variance; what these runs harden is that the randdir null
+    # (0% flips, ~0% captured restatements) is not a lucky draw.
+    seed = int(os.environ.get("E7_SEED", "1"))
+    gen = torch.Generator().manual_seed(seed)
     d_model = hf.config.hidden_size
     rand_dirs = {}
     for l in band:
@@ -318,10 +325,11 @@ def main(model_key: str = "1.7b", domain: str = "capitals") -> None:
           f"yes&free {tab['yes_free']}, no&cap {tab['no_captured']}, "
           f"no&free {tab['no_free']}; Fisher two-sided p = {p_fisher:.4f}")
 
-    out = ROOT / "results" / f"e7_perspectival_{out_tag}{family(model_id)}{model_key.replace('.', '')}.json"
+    stag = "" if seed == 1 else f"_seed{seed}"
+    out = ROOT / "results" / f"e7_perspectival_{out_tag}{family(model_id)}{model_key.replace('.', '')}{stag}.json"
     out.write_text(json.dumps({
         "model": model_id, "domain": domain, "band": [band[0], band[-1]],
-        "read_layers": read_layers, "records": records, "summary": summary,
+        "seed": seed, "read_layers": read_layers, "records": records, "summary": summary,
     }, ensure_ascii=False, indent=2))
     print(f"wrote {out}")
 
