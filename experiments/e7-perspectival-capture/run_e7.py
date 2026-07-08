@@ -49,7 +49,7 @@ sys.path.insert(0, str(ROOT))
 from src.interventions import DirectionSwapHooks, SwapHooks  # noqa: E402
 
 sys.path.insert(0, str(ROOT / "experiments" / "e1-flexible-generalization"))
-from run_e1 import BAND_START_FRAC, MODELS, text_match  # noqa: E402
+from run_e1 import BAND_START_FRAC, MODELS, family, text_match  # noqa: E402
 
 # scale-ladder additions for the introspection-emergence curve; registered
 # here (not in run_e1) so the public MODELS table stays untouched
@@ -318,7 +318,7 @@ def main(model_key: str = "1.7b", domain: str = "capitals") -> None:
           f"yes&free {tab['yes_free']}, no&cap {tab['no_captured']}, "
           f"no&free {tab['no_free']}; Fisher two-sided p = {p_fisher:.4f}")
 
-    out = ROOT / "results" / f"e7_perspectival_{out_tag}qwen{model_key.replace('.', '')}.json"
+    out = ROOT / "results" / f"e7_perspectival_{out_tag}{family(model_id)}{model_key.replace('.', '')}.json"
     out.write_text(json.dumps({
         "model": model_id, "domain": domain, "band": [band[0], band[-1]],
         "read_layers": read_layers, "records": records, "summary": summary,

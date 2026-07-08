@@ -54,7 +54,7 @@ sys.path.insert(0, str(ROOT))
 from src.interventions import DirectionShiftHooks  # noqa: E402
 
 sys.path.insert(0, str(ROOT / "experiments" / "e1-flexible-generalization"))
-from run_e1 import BAND_START_FRAC, MODELS, greedy_gen, text_match  # noqa: E402
+from run_e1 import BAND_START_FRAC, MODELS, family, greedy_gen, text_match  # noqa: E402
 
 sys.path.insert(0, str(ROOT / "experiments" / "e2-probe-swap"))
 from run_e2 import mcnemar_exact_p  # noqa: E402
@@ -268,7 +268,7 @@ def main(model_key: str = "1.7b", alphas: list[float] | None = None) -> None:
             "report_clean_inject_delta": d_clean, "report_clean_random_delta": d_clean_r,
         }
 
-    out = ROOT / "results" / f"e6t_typo_register_qwen{model_key.replace('.', '')}.json"
+    out = ROOT / "results" / f"e6t_typo_register_{family(model_id)}{model_key.replace('.', '')}.json"
     out.write_text(json.dumps({
         "model": model_id, "band": [band[0], band[-1]], "alphas": alphas,
         "n_pairs": len(TYPO_PAIRS), "covert_rank": COVERT_RANK,

@@ -15,6 +15,19 @@ Template:
 
 ---
 
+## 2026-07-08 Second model family (Gemma-2-2B): capture and typo-register replicate cross-family; language-register is causal but modulated by target-language ability
+
+- Model / lens config: google/gemma-2-2b (26 layers, band 7..24, read_layers [11,16,20]), pre-fitted J-lens from the same neuronpedia/jacobian-lens repo (gemma-2-2b_jacobian_lens.pt). No self-fit needed. Local Mac / MPS, bf16.
+- Engineering: added a `family()` helper + Gemma entry to run_e1 MODELS; output filenames now `{family}{key}` so Qwen files are untouched and Gemma writes `*_gemma2-2b.json`.
+- E7 (perspectival capture): replicates and is *stronger* than any Qwen scale. Full-band swap flips 94.6%, restatement rewritten 83.9% (Qwen 1.7B/4B/8B/14B: 71.4/58.9/69.6/67.9%); randdir at floor (flip 0%, restate 3.6%); fresh-forward lens none 23.2% FP -> full 98.2%; n_ok 56/56. Self-report again non-specific, in a new shape: full-arm yes 8.9% is *below* randdir yes 25.0% and none 16.1%, 2x2 Fisher p=1.000. Dose asymmetry weak (half2 restate 80.4%), like Qwen-4B.
+- E6t (typo register, English): clean replication. Correction survival erased dose-dependently (a=0.5: 79.6% vs random 100%, p=3.8e-6; a=1: 0%); random control unfixes nothing at a<=0.5. Dose-response sits slightly later than Qwen (Qwen-4B already at 24.5% by a=0.5).
+- E6 (language register, zh/en): METHOD LESSON + nuanced result. First run used the script default a=1, but Qwen E6 is evaluated at a<=0.25 (alphas 0.0625/0.125/0.25); a=1 is 4-16x over the measured gap and shattered the output (zh->en degenerated to "the the the", en->zh produced fact-scrambled Chinese with French token leakage), giving a spurious 1.4%. Re-ran with comparable doses. True dose curve is an inverted-U peaking at a=0.125 (flip_full 25.0%, preserved 41.7%, random 0%, p=7.6e-6), same shape and peak location as Qwen (Qwen peak also a=0.125: flip_full 55.6%/64.6% at 17B/4B). So the language-register axis IS causally load-bearing on Gemma (significant, random control zeroed) but at ~40% of Qwen's efficacy — consistent with the axis's causal strength being coupled to the model's target-language content ability (Gemma's Chinese is weaker; the axis still moves it but into lower-quality/looser Chinese).
+- Verdict: register/capture mechanism holds across model families (capture stronger, typo clean, language-register causal-but-modulated); self-report unreliability also holds cross-family, in yet another idiosyncratic shape. Direct evidence that the register/capture findings generalize beyond the Qwen family.
+- Takeaway logged for method: when porting to a new family, align experiment hyperparameters (intervention doses), not just the model id — the script default nearly wrote a false "Gemma register fails" into the results.
+- Next: fold Gemma results into the paper's cross-family analysis.
+
+---
+
 ## 2026-07-08 E7 cross-domain: perspectival capture is not specific to country capitals
 
 - Model / lens config: Qwen3-1.7B (band 8..26) and 4B (band 10..34), same E7 protocol as the capitals run.

@@ -36,7 +36,21 @@ BAND_START_FRAC = 18 / 64
 MODELS = {
     "1.7b": ("Qwen/Qwen3-1.7B", "qwen3-1.7b/jlens/Salesforce-wikitext/Qwen3-1.7B_jacobian_lens.pt", "e1_qwen17b.json"),
     "4b": ("Qwen/Qwen3-4B", "qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_jacobian_lens.pt", "e1_qwen4b.json"),
+    # second model family (Gemma) for cross-family replication; pre-fitted lens
+    # ships in the same neuronpedia/jacobian-lens repo, so no self-fit is needed.
+    "2-2b": ("google/gemma-2-2b", "gemma-2-2b/jlens/Salesforce-wikitext/gemma-2-2b_jacobian_lens.pt", "e1_gemma2-2b.json"),
 }
+
+
+def family(model_id: str) -> str:
+    """Output-filename family prefix, so cross-family results are not mislabeled.
+    Qwen keeps the historical ``qwen`` stem; new families get their own."""
+    m = model_id.lower()
+    if "qwen" in m:
+        return "qwen"
+    if "gemma" in m:
+        return "gemma"
+    return m.split("/")[-1]
 
 
 def first_token_id(tok, word: str) -> int:
