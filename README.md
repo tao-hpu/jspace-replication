@@ -106,3 +106,10 @@ Per the upstream README, ~100 fitting prompts already give a usable lens
   review's verdict, and our measurement. They are never blended.
 - Every experiment gets a log entry the day it runs, including failures.
 - `third_party/` is never modified; adaptations live in `src/`.
+
+## License
+
+Our own code and result files are released under the MIT License (see `LICENSE`).
+Upstream artifacts keep their own terms: the official jacobian-lens code is Apache
+2.0, Qwen3 weights are Apache 2.0, and Gemma-2 weights are under the Gemma Terms of
+Use.
