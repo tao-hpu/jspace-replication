@@ -1,0 +1,162 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "n_layers": 36,
+  "band": [
+    10,
+    34
+  ],
+  "n_entity_tokens": 56,
+  "vocab_step": 37,
+  "profile": [
+    {
+      "layer": 10,
+      "frac_depth": 0.2777777777777778,
+      "drift_entity": 0.09347642958164215,
+      "drift_vocab": 0.07223863899707794
+    },
+    {
+      "layer": 11,
+      "frac_depth": 0.3055555555555556,
+      "drift_entity": 0.10233107954263687,
+      "drift_vocab": 0.07709861546754837
+    },
+    {
+      "layer": 12,
+      "frac_depth": 0.3333333333333333,
+      "drift_entity": 0.11371620744466782,
+      "drift_vocab": 0.0927361473441124
+    },
+    {
+      "layer": 13,
+      "frac_depth": 0.3611111111111111,
+      "drift_entity": 0.11973761022090912,
+      "drift_vocab": 0.09788393974304199
+    },
+    {
+      "layer": 14,
+      "frac_depth": 0.3888888888888889,
+      "drift_entity": 0.11536414176225662,
+      "drift_vocab": 0.09946224093437195
+    },
+    {
+      "layer": 15,
+      "frac_depth": 0.4166666666666667,
+      "drift_entity": 0.09314488619565964,
+      "drift_vocab": 0.09408605843782425
+    },
+    {
+      "layer": 16,
+      "frac_depth": 0.4444444444444444,
+      "drift_entity": 0.1163766011595726,
+      "drift_vocab": 0.11560436338186264
+    },
+    {
+      "layer": 17,
+      "frac_depth": 0.4722222222222222,
+      "drift_entity": 0.13045836985111237,
+      "drift_vocab": 0.1368747055530548
+    },
+    {
+      "layer": 18,
+      "frac_depth": 0.5,
+      "drift_entity": 0.15226642787456512,
+      "drift_vocab": 0.16465243697166443
+    },
+    {
+      "layer": 19,
+      "frac_depth": 0.5277777777777778,
+      "drift_entity": 0.20413561165332794,
+      "drift_vocab": 0.2102670669555664
+    },
+    {
+      "layer": 20,
+      "frac_depth": 0.5555555555555556,
+      "drift_entity": 0.21159669756889343,
+      "drift_vocab": 0.2275690734386444
+    },
+    {
+      "layer": 21,
+      "frac_depth": 0.5833333333333334,
+      "drift_entity": 0.23650451004505157,
+      "drift_vocab": 0.25423210859298706
+    },
+    {
+      "layer": 22,
+      "frac_depth": 0.6111111111111112,
+      "drift_entity": 0.3760821521282196,
+      "drift_vocab": 0.3777187168598175
+    },
+    {
+      "layer": 23,
+      "frac_depth": 0.6388888888888888,
+      "drift_entity": 0.46207448840141296,
+      "drift_vocab": 0.46276602149009705
+    },
+    {
+      "layer": 24,
+      "frac_depth": 0.6666666666666666,
+      "drift_entity": 0.521101176738739,
+      "drift_vocab": 0.5254537463188171
+    },
+    {
+      "layer": 25,
+      "frac_depth": 0.6944444444444444,
+      "drift_entity": 0.5596465468406677,
+      "drift_vocab": 0.5621156096458435
+    },
+    {
+      "layer": 26,
+      "frac_depth": 0.7222222222222222,
+      "drift_entity": 0.5839866995811462,
+      "drift_vocab": 0.5877220034599304
+    },
+    {
+      "layer": 27,
+      "frac_depth": 0.75,
+      "drift_entity": 0.6113837957382202,
+      "drift_vocab": 0.6189553737640381
+    },
+    {
+      "layer": 28,
+      "frac_depth": 0.7777777777777778,
+      "drift_entity": 0.6411064863204956,
+      "drift_vocab": 0.6473783254623413
+    },
+    {
+      "layer": 29,
+      "frac_depth": 0.8055555555555556,
+      "drift_entity": 0.6557628512382507,
+      "drift_vocab": 0.6638695001602173
+    },
+    {
+      "layer": 30,
+      "frac_depth": 0.8333333333333334,
+      "drift_entity": 0.6804037094116211,
+      "drift_vocab": 0.689354419708252
+    },
+    {
+      "layer": 31,
+      "frac_depth": 0.8611111111111112,
+      "drift_entity": 0.680621325969696,
+      "drift_vocab": 0.6983434557914734
+    },
+    {
+      "layer": 32,
+      "frac_depth": 0.8888888888888888,
+      "drift_entity": 0.6996721029281616,
+      "drift_vocab": 0.7186103463172913
+    },
+    {
+      "layer": 33,
+      "frac_depth": 0.9166666666666666,
+      "drift_entity": 0.723930299282074,
+      "drift_vocab": 0.7393612861633301
+    },
+    {
+      "layer": 34,
+      "frac_depth": 0.9444444444444444,
+      "drift_entity": 0.7497771382331848,
+      "drift_vocab": 0.7663769125938416
+    }
+  ]
+}

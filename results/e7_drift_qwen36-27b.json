@@ -1,0 +1,283 @@
+{
+  "model": "Qwen/Qwen3.6-27B",
+  "domain": "capitals",
+  "n_layers": 64,
+  "band": [
+    18,
+    62
+  ],
+  "n_entity_tokens": 56,
+  "vocab_step": 62,
+  "profile": [
+    {
+      "layer": 18,
+      "frac_depth": 0.28125,
+      "drift_entity": 0.10303185135126114,
+      "drift_vocab": 0.09456387162208557
+    },
+    {
+      "layer": 19,
+      "frac_depth": 0.296875,
+      "drift_entity": 0.10090161859989166,
+      "drift_vocab": 0.09349671751260757
+    },
+    {
+      "layer": 20,
+      "frac_depth": 0.3125,
+      "drift_entity": 0.10316018015146255,
+      "drift_vocab": 0.09637373685836792
+    },
+    {
+      "layer": 21,
+      "frac_depth": 0.328125,
+      "drift_entity": 0.10902873426675797,
+      "drift_vocab": 0.09991836547851562
+    },
+    {
+      "layer": 22,
+      "frac_depth": 0.34375,
+      "drift_entity": 0.11161528527736664,
+      "drift_vocab": 0.1018020510673523
+    },
+    {
+      "layer": 23,
+      "frac_depth": 0.359375,
+      "drift_entity": 0.1253521740436554,
+      "drift_vocab": 0.10812577605247498
+    },
+    {
+      "layer": 24,
+      "frac_depth": 0.375,
+      "drift_entity": 0.13986225426197052,
+      "drift_vocab": 0.11517573893070221
+    },
+    {
+      "layer": 25,
+      "frac_depth": 0.390625,
+      "drift_entity": 0.14467792212963104,
+      "drift_vocab": 0.12022895365953445
+    },
+    {
+      "layer": 26,
+      "frac_depth": 0.40625,
+      "drift_entity": 0.14986804127693176,
+      "drift_vocab": 0.12573128938674927
+    },
+    {
+      "layer": 27,
+      "frac_depth": 0.421875,
+      "drift_entity": 0.15064610540866852,
+      "drift_vocab": 0.1310093104839325
+    },
+    {
+      "layer": 28,
+      "frac_depth": 0.4375,
+      "drift_entity": 0.15565404295921326,
+      "drift_vocab": 0.13309001922607422
+    },
+    {
+      "layer": 29,
+      "frac_depth": 0.453125,
+      "drift_entity": 0.1553177833557129,
+      "drift_vocab": 0.13444429636001587
+    },
+    {
+      "layer": 30,
+      "frac_depth": 0.46875,
+      "drift_entity": 0.15748202800750732,
+      "drift_vocab": 0.13880552351474762
+    },
+    {
+      "layer": 31,
+      "frac_depth": 0.484375,
+      "drift_entity": 0.1615229696035385,
+      "drift_vocab": 0.14265654981136322
+    },
+    {
+      "layer": 32,
+      "frac_depth": 0.5,
+      "drift_entity": 0.17289206385612488,
+      "drift_vocab": 0.15477882325649261
+    },
+    {
+      "layer": 33,
+      "frac_depth": 0.515625,
+      "drift_entity": 0.20597286522388458,
+      "drift_vocab": 0.19120679795742035
+    },
+    {
+      "layer": 34,
+      "frac_depth": 0.53125,
+      "drift_entity": 0.226169615983963,
+      "drift_vocab": 0.21864500641822815
+    },
+    {
+      "layer": 35,
+      "frac_depth": 0.546875,
+      "drift_entity": 0.24489261209964752,
+      "drift_vocab": 0.23906870186328888
+    },
+    {
+      "layer": 36,
+      "frac_depth": 0.5625,
+      "drift_entity": 0.2628094255924225,
+      "drift_vocab": 0.25808194279670715
+    },
+    {
+      "layer": 37,
+      "frac_depth": 0.578125,
+      "drift_entity": 0.27658429741859436,
+      "drift_vocab": 0.2732294201850891
+    },
+    {
+      "layer": 38,
+      "frac_depth": 0.59375,
+      "drift_entity": 0.2921551764011383,
+      "drift_vocab": 0.2905571162700653
+    },
+    {
+      "layer": 39,
+      "frac_depth": 0.609375,
+      "drift_entity": 0.3083769679069519,
+      "drift_vocab": 0.3090035319328308
+    },
+    {
+      "layer": 40,
+      "frac_depth": 0.625,
+      "drift_entity": 0.327806681394577,
+      "drift_vocab": 0.32945525646209717
+    },
+    {
+      "layer": 41,
+      "frac_depth": 0.640625,
+      "drift_entity": 0.3433268964290619,
+      "drift_vocab": 0.3499653935432434
+    },
+    {
+      "layer": 42,
+      "frac_depth": 0.65625,
+      "drift_entity": 0.35837945342063904,
+      "drift_vocab": 0.36803919076919556
+    },
+    {
+      "layer": 43,
+      "frac_depth": 0.671875,
+      "drift_entity": 0.3755168616771698,
+      "drift_vocab": 0.3884274661540985
+    },
+    {
+      "layer": 44,
+      "frac_depth": 0.6875,
+      "drift_entity": 0.3899877369403839,
+      "drift_vocab": 0.40470194816589355
+    },
+    {
+      "layer": 45,
+      "frac_depth": 0.703125,
+      "drift_entity": 0.4111028015613556,
+      "drift_vocab": 0.42982229590415955
+    },
+    {
+      "layer": 46,
+      "frac_depth": 0.71875,
+      "drift_entity": 0.43590888381004333,
+      "drift_vocab": 0.4594702422618866
+    },
+    {
+      "layer": 47,
+      "frac_depth": 0.734375,
+      "drift_entity": 0.45705991983413696,
+      "drift_vocab": 0.479367733001709
+    },
+    {
+      "layer": 48,
+      "frac_depth": 0.75,
+      "drift_entity": 0.4870132505893707,
+      "drift_vocab": 0.5127922892570496
+    },
+    {
+      "layer": 49,
+      "frac_depth": 0.765625,
+      "drift_entity": 0.5199761390686035,
+      "drift_vocab": 0.5457634925842285
+    },
+    {
+      "layer": 50,
+      "frac_depth": 0.78125,
+      "drift_entity": 0.5655585527420044,
+      "drift_vocab": 0.5976222157478333
+    },
+    {
+      "layer": 51,
+      "frac_depth": 0.796875,
+      "drift_entity": 0.6201172471046448,
+      "drift_vocab": 0.6481161117553711
+    },
+    {
+      "layer": 52,
+      "frac_depth": 0.8125,
+      "drift_entity": 0.6566920280456543,
+      "drift_vocab": 0.6811752915382385
+    },
+    {
+      "layer": 53,
+      "frac_depth": 0.828125,
+      "drift_entity": 0.6790347099304199,
+      "drift_vocab": 0.7039881348609924
+    },
+    {
+      "layer": 54,
+      "frac_depth": 0.84375,
+      "drift_entity": 0.7007451057434082,
+      "drift_vocab": 0.7248681783676147
+    },
+    {
+      "layer": 55,
+      "frac_depth": 0.859375,
+      "drift_entity": 0.7278794646263123,
+      "drift_vocab": 0.742412269115448
+    },
+    {
+      "layer": 56,
+      "frac_depth": 0.875,
+      "drift_entity": 0.744326651096344,
+      "drift_vocab": 0.7566218972206116
+    },
+    {
+      "layer": 57,
+      "frac_depth": 0.890625,
+      "drift_entity": 0.7518399357795715,
+      "drift_vocab": 0.7641316056251526
+    },
+    {
+      "layer": 58,
+      "frac_depth": 0.90625,
+      "drift_entity": 0.7605762481689453,
+      "drift_vocab": 0.7718217372894287
+    },
+    {
+      "layer": 59,
+      "frac_depth": 0.921875,
+      "drift_entity": 0.7691749930381775,
+      "drift_vocab": 0.7801387310028076
+    },
+    {
+      "layer": 60,
+      "frac_depth": 0.9375,
+      "drift_entity": 0.7787765860557556,
+      "drift_vocab": 0.7821420431137085
+    },
+    {
+      "layer": 61,
+      "frac_depth": 0.953125,
+      "drift_entity": 0.7881678938865662,
+      "drift_vocab": 0.7783101797103882
+    },
+    {
+      "layer": 62,
+      "frac_depth": 0.96875,
+      "drift_entity": 0.8220488429069519,
+      "drift_vocab": 0.7939545512199402
+    }
+  ]
+}

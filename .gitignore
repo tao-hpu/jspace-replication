@@ -20,6 +20,9 @@ __pycache__/
 # (pinned commit recorded in third_party/PINNED_COMMIT.txt)
 third_party/jacobian-lens/
 
+# scratch experiment logs (local-only, not for the public repo)
+scratch_logs/
+
 # large artifacts: lens weights, model caches
 *.pt
 *.safetensors

@@ -13,6 +13,11 @@ Method notes:
   row bootstrap would understate the interval.
 - E4b covert-strict row rule (verified against stored stats): lens rank < 10
   and mouth rank >= 100 (missing mouth rank counts as covert).
+- E7 zone maps (slide6) and consumption deadlines carry item-level records
+  and get ordinary item bootstraps. Deadline domain pools are different fact
+  sets, so cross-domain gaps are reported per domain, never as paired
+  differences. Healing curves store per-layer aggregates only (no item
+  records) and are not bootstrappable from the result files.
 
 Run:  .venv/bin/python experiments/stats/run_bootstrap.py
 """
@@ -27,8 +32,13 @@ RESULTS = ROOT / "results"
 B = 10_000
 SEED = 0
 MODELS = ["qwen17b", "qwen4b"]
-# the E7 scale ladder extends beyond the models that ran the full suite
-E7_MODELS = ["qwen17b", "qwen4b", "qwen8b", "qwen14b"]
+# the E7 scale ladder extends beyond the models that ran the full suite; the
+# Gemma cross-family points are included only once their run has landed, so a
+# partially-run ladder never crashes the bootstrap.
+E7_MODELS = [m for m in ["qwen17b", "qwen4b", "qwen8b", "qwen14b",
+                         "gemma2-2b", "gemma2-9b", "gemma2-27b",
+                         "qwen36-27b", "qwen35-9b"]
+             if (RESULTS / f"e7_perspectival_{m}.json").exists()]
 
 rng = np.random.default_rng(SEED)
 
@@ -98,7 +108,7 @@ def e6_block(model: str) -> dict:
 
 def e7_block(model: str) -> dict:
     d = load(f"e7_perspectival_{model}.json")
-    recs = d["records"]
+    recs = [r for r in d["records"] if r["baseline_ok"]]
     mid = str(d["read_layers"][1])
     out = {}
     for arm in recs[0]["arms"]:
@@ -163,6 +173,62 @@ def e4b_block(model: str) -> dict:
     return out
 
 
+def slide6_block(fname: str) -> dict:
+    """Width-6 zone map: per-window flip / restate CIs over items."""
+    d = load(fname)
+    recs = [r for r in d["records"] if r["baseline_ok"]]
+    out = {}
+    for arm in recs[0]["arms"]:
+        a = [r["arms"][arm] for r in recs]
+        out[arm] = {
+            "flip": ci(np.array([x["ans_b"] for x in a], float)),
+            "restate_swapped": ci(np.array([x["restate_b"] for x in a], float)),
+        }
+    return out
+
+
+def phrasing_block(model: str) -> dict:
+    """Report-phrasing robustness: paired margin deltas (full / randdir vs
+    none) per phrasing, decision-token grading (run_e7_phrasing.py)."""
+    d = load(f"e7_phrasing_{model}.json")
+    recs = [r for r in d["records"] if r["baseline_ok"]]
+    out = {}
+    for ph in d["phrasings"]:
+        blk = {}
+        for arm in ("full", "randdir"):
+            blk[f"yes_margin_delta_{arm}_vs_none"] = ci(
+                np.array(
+                    [
+                        r["arms"][arm]["reports"][ph]["yes_margin"]
+                        - r["arms"]["none"]["reports"][ph]["yes_margin"]
+                        for r in recs
+                    ]
+                )
+            )
+        for arm in ("none", "full", "randdir"):
+            blk[f"says_yes_{arm}"] = ci(
+                np.array([r["arms"][arm]["reports"][ph]["says_yes"] for r in recs], float)
+            )
+        out[ph] = blk
+    return out
+
+
+def deadline_block(model: str) -> dict:
+    """Consumption deadline: CI over per-item commit layers, per domain."""
+    d = load(f"e7_deadline_{model}.json")
+    n_layers = d["n_layers"]
+    out = {}
+    for dom, blk in d["domains"].items():
+        if not blk["n_used"]:
+            out[dom] = {"n": 0, "n_skipped": blk["n_skipped"]}
+            continue
+        c = ci(np.array(blk["commit_layers"], float))
+        c["n_skipped"] = blk["n_skipped"]
+        c["frac"] = {k: c[k] / n_layers for k in ("est", "lo", "hi")}
+        out[dom] = c
+    return out
+
+
 def paired_hits_block(name: str, model: str, arms: list[str]) -> dict:
     d = load(f"{name}_{model}.json")
     recs = [r for r in d["records"] if r["baseline_ok"]]
@@ -203,6 +269,25 @@ def main() -> None:
             # E5: b = answer source, c = intermediate source, d = absent word
             "e5": paired_hits_block("e5", model, ["c", "b", "d"]),
         })
+    # E7 follow-up families, appended AFTER every pre-existing block so the
+    # shared rng sequence (seed=0) reproduces the earlier CIs bit for bit.
+    # Zone maps: e7_slide6_{model}.json (capitals) and
+    # e7_slide6_{states|currency}_{model}.json; discovered by glob so a
+    # partially-run ladder never crashes the bootstrap.
+    for p in sorted(RESULTS.glob("e7_slide6_*.json")):
+        parts = p.stem.split("_")  # e7, slide6, [domain,] model
+        domain, model = (parts[2], parts[3]) if len(parts) == 4 else ("capitals", parts[2])
+        report["models"].setdefault(model, {})[f"e7_slide6_{domain}"] = slide6_block(p.name)
+    for p in sorted(RESULTS.glob("e7_deadline_*.json")):
+        model = p.stem.split("e7_deadline_")[1]
+        report["models"].setdefault(model, {})["e7_deadline"] = deadline_block(model)
+    # Report-phrasing robustness runs (run_e7_phrasing.py); seed/smoke-tagged
+    # files are working artifacts and stay out of the headline CIs.
+    for p in sorted(RESULTS.glob("e7_phrasing_*.json")):
+        model = p.stem.split("e7_phrasing_")[1]
+        if "_seed" in model or "_smoke" in model:
+            continue
+        report["models"].setdefault(model, {})["e7_phrasing"] = phrasing_block(model)
     out_path = RESULTS / "bootstrap_ci.json"
     json.dump(report, open(out_path, "w"), indent=1)
     print(f"wrote {out_path}")

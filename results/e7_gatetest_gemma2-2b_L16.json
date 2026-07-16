@@ -1,0 +1,3143 @@
+{
+ "model": "google/gemma-2-2b",
+ "domain": "capitals",
+ "band": [
+  7,
+  24
+ ],
+ "n_layers": 26,
+ "records": [
+  {
+   "a": "France",
+   "b": "Japan",
+   "arms": {
+    "none": {
+     "answer": " Paris\n\nQ: What is the capital of the United States",
+     "restate": "\nWhat is the capital of the United States?\nA: Washington",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Paris\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Tokyo\n\nQ: What is the capital of Japan?\n",
+     "restate": "\nWhat is the capital of Japan?\nA: Tokyo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Tokyo\n\nQ: What is the capital of Japan?\n",
+     "restate": "\nWhat is the capital of Japan?\nA: Tokyo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Tokyo\n\nQ: What is the capital of Japan?\n",
+     "restate": "\nWhat is the capital of Japan?\nA: Tokyo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": "Tokyo\n\nQ: What is the capital of Japan?\n",
+     "restate": "\nWhat is the capital of Japan?\nA: Tokyo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Japan",
+   "b": "Russia",
+   "arms": {
+    "none": {
+     "answer": " Tokyo\n\nQ: What is the capital of China?\n",
+     "restate": "\nA: Beijing\n\nQ: What is the capital of South Korea",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Tokyo\n\nQ: What is the capital of China?\n",
+     "restate": "\nA: Beijing\n\nQ: What is the capital of South Korea",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Moscow\n\nQ: What is the capital of Russia?\n",
+     "restate": "\nWhat is the capital of Russia?\nA: Moscow\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Moscow\n\nQ: What is the capital of Russia?\n",
+     "restate": "\nWhat is the capital of Russia?\nA: Moscow\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Moscow\n\nQ: What is the capital of Russia?\n",
+     "restate": "\nWhat is the capital of Russia?\nA: Moscow\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Moscow\n\nQ: What is the capital of Russia?\n",
+     "restate": "\nWhat is the capital of Russia?\nA: Moscow\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Russia",
+   "b": "Germany",
+   "arms": {
+    "none": {
+     "answer": " Moscow\n\nQ: What is the capital of Ukraine?\n",
+     "restate": " \"What is the capital of Ukraine?\"\nA: Kiev\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Moscow\n\nQ: What is the capital of the United States",
+     "restate": "\nWhat is the capital of the United States?\nA: Washington",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Berlin\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Berlin\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Berlin\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Germany\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Germany",
+   "b": "Italy",
+   "arms": {
+    "none": {
+     "answer": " Berlin\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Berlin\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Rome\n\nQ: What is the capital of Italy?\n",
+     "restate": "\nWhat is the capital of Italy?\nA: Rome\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Rome\n\nQ: What is the capital of Italy?\n",
+     "restate": "\nWhat is the capital of Italy?\nA: Rome\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Rome\n\nQ: What is the capital of Italy?\n",
+     "restate": "\nWhat is the capital of Italy?\nA: Rome\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Rome\n\nQ: What is the capital of the United States",
+     "restate": " What is the capital of the United States?\nA: Washington D",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Italy",
+   "b": "Spain",
+   "arms": {
+    "none": {
+     "answer": " Rome\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Rome\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Rome\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Madrid\n\nQ: What is the capital of Spain?\n",
+     "restate": "\nWhat is the capital of Spain?\nA: Madrid\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Madrid\n\nQ: What is the capital of Spain?\n",
+     "restate": "\nWhat is the capital of Spain?\nA: Madrid\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Madrid\n\nQ: What is the capital of Spain?\n",
+     "restate": "\nWhat is the capital of Spain?\nA: Madrid\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Spain",
+   "b": "England",
+   "arms": {
+    "none": {
+     "answer": " Madrid\n\nQ: What is the capital of Portugal?\n",
+     "restate": "\nWhat is the capital of Portugal?\nA: Lisbon\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Madrid\n\nQ: What is the capital of Portugal?\n",
+     "restate": "\nWhat is the capital of Portugal?\nA: Lisbon\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " London\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " London\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " London\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " England\n\nQ: What is the capital of England?\n",
+     "restate": "\nWhat is the capital of England?\nA: London\n\nQ",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "England",
+   "b": "China",
+   "arms": {
+    "none": {
+     "answer": " London\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " London\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Beijing\n\nQ: What is the capital of China?\n",
+     "restate": "\nWhat is the capital of China?\nA: Beijing\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Beijing\n\nQ: What is the capital of the United States",
+     "restate": "\nWhat is the capital of the United States?\nA: Washington",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " Beijing\n\nQ: What is the capital of the United States",
+     "restate": " What is the capital of the United States?\nA: Washington D",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " China\n\nQ: What is the capital of the United States",
+     "restate": " \"What is the capital of the United States?\"\nA: Washington",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "China",
+   "b": "Egypt",
+   "arms": {
+    "none": {
+     "answer": " Beijing\n\nQ: What is the capital of Japan?\n",
+     "restate": "\nWhat is the capital of Japan?\nA: Tokyo\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Beijing\n\nQ: What is the capital of Japan?\n",
+     "restate": "\nWhat is the capital of Japan?\nA: Tokyo\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Cairo\n\nQ: What is the capital of Egypt?\n",
+     "restate": "\nWhat is the capital of Egypt?\nA: Cairo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Cairo\n\nQ: What is the capital of Egypt?\n",
+     "restate": "\nWhat is the capital of Egypt?\nA: Cairo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Kairo\n\nQ: What is the capital of Egypt?",
+     "restate": "\nA: Kairo\n\nQ: What is the capital of the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " <strong><em><u>Cairo</u></em></strong>\n\nQ: What",
+     "restate": " \"What is the capital of Egypt?\"\nA: <strong><em>",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Egypt",
+   "b": "Greece",
+   "arms": {
+    "none": {
+     "answer": " Cairo\n\nQ: What is the capital of Sudan?\n",
+     "restate": "\nWhat is the capital of Sudan?\nA: Khartoum\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Cairo\n\nQ: What is the capital of Sudan?\n",
+     "restate": "\nWhat is the capital of Sudan?\nA: Khartoum\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Athens\n\nQ: What is the capital of Greece?\n",
+     "restate": "\nWhat is the capital of Greece?\nA: Athens\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Athens\n\nQ: What is the capital of Greece?\n",
+     "restate": "\nWhat is the capital of Greece?\nA: Athens\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Athens\n\nQ: What is the capital of Greece?\n",
+     "restate": "\nWhat is the capital of Greece?\nA: Athens\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Athens\n\nQ: What is the capital of Greece?\n",
+     "restate": "\nWhat is the capital of Greece?\nA: Athens\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Greece",
+   "b": "Thailand",
+   "arms": {
+    "none": {
+     "answer": " Athens\n\nQ: What is the capital of Italy?\n",
+     "restate": "\nWhat is the capital of Italy?\nA: Rome\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Athens\n\nQ: What is the capital of Italy?\n",
+     "restate": "\nWhat is the capital of Italy?\nA: Rome\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Athens\n\nQ: What is the capital of Italy?\n",
+     "restate": "\nWhat is the capital of Italy?\nA: Rome\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Bangkok\n\nQ: What is the capital of Thailand?\n",
+     "restate": "\nWhat is the capital of Thailand?\nA: Bangkok\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Bangkok\n\nQ: What is the capital of Thailand?\n",
+     "restate": "\nWhat is the capital of Thailand?\nA: Bangkok\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Bangkok\n\nQ: What is the capital of Thailand?\n",
+     "restate": "\nWhat is the capital of Thailand?\nA: Bangkok\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Thailand",
+   "b": "Peru",
+   "arms": {
+    "none": {
+     "answer": " Bangkok\n\nQ: What is the capital of Vietnam?\n",
+     "restate": "\nWhat is the capital of Vietnam?\nA: Hanoi\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Bangkok\n\nQ: What is the capital of Vietnam?\n",
+     "restate": "\nWhat is the capital of Vietnam?\nA: Hanoi\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Bangkok\n\nQ: What is the capital of the Philippines?",
+     "restate": " \"What is the capital of the Philippines?\"\nA: Manila\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Lima\n\nQ: What is the capital of Peru?\n",
+     "restate": "\nWhat is the capital of Peru?\nA: Lima\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Lima\n\nQ: What is the capital of Peru?\n",
+     "restate": "\nWhat is the capital of Peru?\nA: Lima\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Lima\n\nQ: What is the capital of Peru?\n",
+     "restate": "\nWhat is the capital of Peru?\nA: Lima\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Peru",
+   "b": "Chile",
+   "arms": {
+    "none": {
+     "answer": " Lima\n\nQ: What is the capital of Bolivia?\n",
+     "restate": "\nWhat is the capital of Bolivia?\nA: La Paz\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Lima\n\nQ: What is the capital of Bolivia?\n",
+     "restate": "\nWhat is the capital of Bolivia?\nA: La Paz\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Lima\n\nQ: What is the capital of Chile?\n",
+     "restate": " \"What is the capital of Chile?\"\nA: Santiago\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Santiago\n\nQ: What is the capital of Chile?\n",
+     "restate": " \"What is the capital of Chile?\"\nA: Santiago\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Santiago\n\nQ: What is the capital of Chile?\n",
+     "restate": " \"What is the capital of Chile?\"\nA: Santiago\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Santiago\n\nQ: What is the capital of Chile?\n",
+     "restate": " \"What is the capital of Chile?\"\nA: Santiago\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Chile",
+   "b": "Kenya",
+   "arms": {
+    "none": {
+     "answer": " Santiago\n\nQ: What is the capital of Peru?\n",
+     "restate": " \"What is the capital of Peru?\"\nA: Lima\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Santiago\n\nQ: What is the capital of Peru?\n",
+     "restate": " \"What is the capital of Peru?\"\nA: Lima\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Santiago\n\nQ: What is the capital of Peru?\n",
+     "restate": " \"What is the capital of Peru?\"\nA: Lima\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Nairobi\n\nQ: What is the capital of Kenya?\n",
+     "restate": "\nWhat is the capital of Kenya?\nA: Nairobi\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Nairobi\n\nQ: What is the capital of Kenya?\n",
+     "restate": "\nWhat is the capital of Kenya?\nA: Nairobi\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Nairobi\n\nQ: What is the capital of Kenya?\n",
+     "restate": "\nWhat is the capital of Kenya?\nA: Nairobi\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Kenya",
+   "b": "Canada",
+   "arms": {
+    "none": {
+     "answer": " Nairobi\n\nQ: What is the capital of Tanzania?\n",
+     "restate": "\nWhat is the capital of Tanzania?\nA: Dodoma\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Nairobi\n\nQ: What is the capital of Tanzania?\n",
+     "restate": "\nWhat is the capital of Tanzania?\nA: Dodoma\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Ottawa\n\nQ: What is the capital of Canada?\n",
+     "restate": "\nWhat is the capital of Canada?\nA: Ottawa\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Ottawa\n\nQ: What is the capital of Canada?\n",
+     "restate": "\nWhat is the capital of Canada?\nA: Ottawa\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Ottawa\n\nQ: What is the capital of Canada?\n",
+     "restate": "\nWhat is the capital of Canada?\nA: Ottawa\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": "Canada\n\nQ: What is the capital of Canada?\n",
+     "restate": "\nWhat is the capital of Canada?\nA: Ottawa\n\nQ",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Canada",
+   "b": "India",
+   "arms": {
+    "none": {
+     "answer": " Ottawa\n\nQ: What is the capital of the United States",
+     "restate": " What is the capital of the United States?\nA: Washington D",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Ottawa\n\nQ: What is the capital of the United States",
+     "restate": " What is the capital of the United States?\nA: Washington D",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " New Delhi\n\nQ: What is the capital of India?",
+     "restate": "\nA: New Delhi\n\nQ: What is the capital of the",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " New Delhi\n\nQ: What is the capital of India?",
+     "restate": "\nA: New Delhi\n\nQ: What is the capital of the",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " New Delhi\n\nQ: What is the capital of India?",
+     "restate": "\nA: New Delhi\n\nQ: What is the capital of the",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of India is New Delhi.\n\nQ: What",
+     "restate": " \"What is the capital of India?\"\nA: The exact question",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "India",
+   "b": "Portugal",
+   "arms": {
+    "none": {
+     "answer": " New Delhi\n\nQ: What is the capital of Pakistan?",
+     "restate": "\nA: Islamabad\n\nQ: What is the capital of Bangladesh?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " New Delhi\n\nQ: What is the capital of Pakistan?",
+     "restate": "\nA: Islamabad\n\nQ: What is the capital of Bangladesh?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Lisbon\n\nQ: What is the capital of Portugal?\n",
+     "restate": "\nWhat is the capital of Portugal?\nA: Lisbon\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Lisbon\n\nQ: What is the capital of Portugal?\n",
+     "restate": "\nWhat is the capital of Portugal?\nA: Lisbon\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " lisbon\n\nQ: What is the capital of Portugal?",
+     "restate": "\nWhat is the capital of Portugal?\nA: lisbon\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " PORTO\n(Porto is the Portuguese name for the city",
+     "restate": "\n\"What is the capital of Portugal?\"\nI answered: \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Portugal",
+   "b": "Austria",
+   "arms": {
+    "none": {
+     "answer": " Lisbon\n\nQ: What is the capital of Spain?\n",
+     "restate": "\nWhat is the capital of Spain?\nA: Madrid\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Lisbon\n\nQ: What is the capital of Spain?\n",
+     "restate": "\nWhat is the capital of Spain?\nA: Madrid\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Lisbon\n\nQ: What is the capital of Spain?\n",
+     "restate": "\nWhat is the capital of Spain?\nA: Madrid\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Vienna\n\nQ: What is the capital of Austria?\n",
+     "restate": "\nWhat is the capital of Austria?\nA: Vienna\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Vienna\n\nQ: What is the capital of Austria?\n",
+     "restate": "\nWhat is the capital of Austria?\nA: Vienna\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Vienna\n\nQ: What is the capital of Austria?\n",
+     "restate": "\nWhat is the capital of Austria?\nA: Vienna\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Austria",
+   "b": "Poland",
+   "arms": {
+    "none": {
+     "answer": " Vienna\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Vienna\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Vienna\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Warsaw\n\nQ: What is the capital of Poland?\n",
+     "restate": "\nWhat is the capital of Poland?\nA: Warsaw\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Warsaw\n\nQ: What is the capital of Poland?\n",
+     "restate": "\nWhat is the capital of Poland?\nA: Warsaw\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Warsaw\n\n<h2>What is the capital of Poland?</h2>\n\n",
+     "restate": " “What is the capital of Poland?”\n\n<h2>What is the capital",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Poland",
+   "b": "Norway",
+   "arms": {
+    "none": {
+     "answer": " Warsaw\n\nQ: What is the capital of the Czech Republic",
+     "restate": " \"What is the capital of the Czech Republic?\"\nA: Prague",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Warsaw\n\nQ: What is the capital of the Czech Republic",
+     "restate": " What is the capital of the Czech Republic?\nA: Prague\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Warsaw\n\nQ: What is the capital of the Czech Republic",
+     "restate": " What is the capital of the Czech Republic?\nA: Prague\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Oslo\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nWhat is the capital of Norway?\nA: Oslo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Oslo\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nWhat is the capital of Norway?\nA: Oslo\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Oslo\n\nNorway\n\nNorway\n\nNorway\n\nNorway\n\nNorway\n\n",
+     "restate": " \"What is the capital of Norway?\"\n\nNorway\n\nNorway\n\nNorway",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Norway",
+   "b": "Sweden",
+   "arms": {
+    "none": {
+     "answer": " Oslo\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\nA: Stockholm\n\nQ: What is the capital of Denmark?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Oslo\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\nA: Stockholm\n\nQ: What is the capital of Denmark?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Oslo\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\nA: Stockholm\n\nQ: What is the capital of Finland?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Stockholm\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\nWhat is the capital of Sweden?\nA: Stockholm\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Stockholm\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\n\"What is the capital of Sweden?\"\nA: Stockholm\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Stockholm\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\n\"What is the capital of Sweden?\"\nA: Stockholm\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Sweden",
+   "b": "Finland",
+   "arms": {
+    "none": {
+     "answer": " Stockholm\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nWhat is the capital of Norway?\nA: Oslo\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Stockholm\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nA: Oslo\n\nQ: What is the capital of Finland?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a2.0": {
+     "answer": " Stockholm\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nA: Oslo\n\nQ: What is the capital of Finland?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Helsinki\n\nQ: What is the capital of Finland?\n",
+     "restate": "\nA: Helsinki\n\nQ: What is the capital of Norway?",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " Helsinki\n\nQ: What is the capital of Finland?\n",
+     "restate": "\nWhat is the capital of Finland?\nA: Helsinki\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Helsinki\n\nQ: What is the capital of Finland?\n",
+     "restate": "\nWhat is the capital of Finland?\nA: Helsinki\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Finland",
+   "b": "Denmark",
+   "arms": {
+    "none": {
+     "answer": " Helsinki\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\nA: Stockholm\n\nQ: What is the capital of Norway?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Helsinki\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\nA: Stockholm\n\nQ: What is the capital of Norway?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Helsinki\n\nQ: What is the capital of Sweden?\n",
+     "restate": "\nA: Stockholm\n\nQ: What is the capital of Norway?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Copenhagen\n\nQ: What is the capital of Denmark?\n",
+     "restate": "\nWhat is the capital of Denmark?\nA: Copenhagen\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Copenhagen\n\nQ: What is the capital of Denmark?\n",
+     "restate": "\nWhat is the capital of Denmark?\nA: Copenhagen\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Copenhagen\n\nQ: What is the capital of Denmark?\n",
+     "restate": "\n\"What is the capital of Denmark?\"\nA: Copenhagen\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Denmark",
+   "b": "Ireland",
+   "arms": {
+    "none": {
+     "answer": " Copenhagen\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nA: Oslo\n\nQ: What is the capital of Sweden?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Copenhagen\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nWhat is the capital of Norway?\nA: Oslo\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Copenhagen\n\nQ: What is the capital of Norway?\n",
+     "restate": "\nWhat is the capital of Norway?\nA: Oslo\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Dublin\n\nQ: What is the capital of Ireland?\n",
+     "restate": "\nWhat is the capital of Ireland?\nA: Dublin\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Dublin\n\nQ: What is the capital of Ireland?\n",
+     "restate": "\nWhat is the capital of Ireland?\nA: Dublin\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Dublin\n\nQ: What is the capital of Ireland?\n",
+     "restate": "\nWhat is the capital of Ireland?\nA: Dublin\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Ireland",
+   "b": "Belgium",
+   "arms": {
+    "none": {
+     "answer": " Dublin\n\nQ: What is the capital of Scotland?\n",
+     "restate": "\nA: Edinburgh\n\nQ: What is the capital of Wales?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Dublin\n\nQ: What is the capital of Scotland?\n",
+     "restate": "\nWhat is the capital of Scotland?\nA: Edinburgh\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Brussels\n\nQ: What is the capital of Belgium?\n",
+     "restate": "\nWhat is the capital of Belgium?\nA: Brussels\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Brussels\n\nQ: What is the capital of Belgium?\n",
+     "restate": "\nWhat is the capital of Belgium?\nA: Brussels\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Brussels\n\nQ: What is the capital of Belgium?\n",
+     "restate": "\nWhat is the capital of Belgium?\nA: Brussels\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " - Brussels\n- Brussels is the capital of the European Union",
+     "restate": "\n\"What is the capital of the European Union?\"\nI answered",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Belgium",
+   "b": "Switzerland",
+   "arms": {
+    "none": {
+     "answer": " Brussels\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Brussels\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Brussels\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Bern\n\nQ: What is the capital of Switzerland?\n",
+     "restate": "\nWhat is the capital of Switzerland?\nA: Bern\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Bern\n\nQ: What is the capital of Switzerland?\n",
+     "restate": "\nWhat is the capital of Switzerland?\nA: Bern\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Bern\n\n<h2>Switzerland</h2>\n\nSwitzerland is a country in Europe",
+     "restate": "\n\"What is the capital of Switzerland?\"\n\n<h2>Switzerland</h2>\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Switzerland",
+   "b": "Hungary",
+   "arms": {
+    "none": {
+     "answer": " Bern\n\nQ: What is the capital of the United States",
+     "restate": " What is the capital of the United States?\nA: Washington D",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Bern\n\nQ: What is the capital of the United States",
+     "restate": " \"What is the capital of the United States?\"\nA: Washington",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Bern\n\nQ: What is the capital of Germany?\n",
+     "restate": "\nWhat is the capital of Germany?\nA: Berlin\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Budapest\n\nQ: What is the capital of Hungary?\n",
+     "restate": "\nWhat is the capital of Hungary?\nA: Budapest\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Budapest\n\nQ: What is the capital of Hungary?\n",
+     "restate": "\nWhat is the capital of Hungary?\nA: Budapest\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Budapest\n\nQ: What is the capital of Hungary?\n",
+     "restate": "\nWhat is the capital of Hungary?\nA: Budapest\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Hungary",
+   "b": "Romania",
+   "arms": {
+    "none": {
+     "answer": " Budapest\n\nQ: What is the capital of the Czech Republic",
+     "restate": "\nWhat is the capital of the Czech Republic?\nA: Prague",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Budapest\n\nQ: What is the capital of Romania?\n",
+     "restate": " \"What is the capital of Romania?\"\nA: Bucharest\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a2.0": {
+     "answer": " Budapest\n\nQ: What is the capital of Romania?\n",
+     "restate": " \"What is the capital of Romania?\"\nA: Bucharest\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Budapest\n\nQ: What is the capital of Romania?\n",
+     "restate": " What is the capital of Romania?\nA: Bucharest\n\nQ:",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Bucharest\n\nQ: What is the capital of Romania?\n",
+     "restate": "\nWhat is the capital of Romania?\nA: Bucharest\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Bucharest\n\nQ: What is the capital of Romania?\n",
+     "restate": " What is the capital of Romania?\nA: Bucharest\n\nQ:",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Romania",
+   "b": "Bulgaria",
+   "arms": {
+    "none": {
+     "answer": " Bucharest\n\nQ: What is the capital of Bulgaria?\n",
+     "restate": "\nWhat is the capital of Bulgaria?\nA: Sofia\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a1.0": {
+     "answer": " Bucharest\n\nQ: What is the capital of Bulgaria?\n",
+     "restate": "\nWhat is the capital of Bulgaria?\nA: Sofia\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a2.0": {
+     "answer": " Bucharest\n\nQ: What is the capital of Bulgaria?\n",
+     "restate": "\nWhat is the capital of Bulgaria?\nA: Sofia\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Bucharest\n\nQ: What is the capital of Bulgaria?\n",
+     "restate": "\nWhat is the capital of Bulgaria?\nA: Sofia\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Sofia\n\nQ: What is the capital of Bulgaria?\n",
+     "restate": "\nWhat is the capital of Bulgaria?\nA: Sofia\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Sofia\n\nQ: What is the capital of Bulgaria?\n",
+     "restate": "\nWhat is the capital of Bulgaria?\nA: Sofia\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Bulgaria",
+   "b": "Serbia",
+   "arms": {
+    "none": {
+     "answer": " Sofia\n\nQ: What is the capital of Romania?\n",
+     "restate": "\nWhat is the capital of Romania?\nA: Bucharest\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Sofia\n\nQ: What is the capital of Romania?\n",
+     "restate": "\nWhat is the capital of Romania?\nA: Bucharest\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Sofia\n\nQ: What is the capital of Romania?\n",
+     "restate": "\nWhat is the capital of Romania?\nA: Bucharest\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Sofia\n\nQ: What is the capital of Serbia?\n",
+     "restate": "\nWhat is the capital of Serbia?\nA: Belgrade\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Belgrade\n\nQ: What is the capital of Serbia?\n",
+     "restate": "\nWhat is the capital of Serbia?\nA: Belgrade\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Belgrade\n\nQ: What is the capital of Serbia?\n",
+     "restate": " \"What is the capital of Serbia?\"\nA: Belgrade\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Serbia",
+   "b": "Croatia",
+   "arms": {
+    "none": {
+     "answer": " Belgrade\n\nQ: What is the capital of Montenegro?\n",
+     "restate": " \"What is the capital of Montenegro?\"\nA: Podgorica",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Belgrade\n\nQ: What is the capital of Croatia?\n",
+     "restate": " \"What is the capital of Croatia?\"\nA: Zagreb\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a2.0": {
+     "answer": " Belgrade\n\nQ: What is the capital of Croatia?\n",
+     "restate": " \"What is the capital of Croatia?\"\nA: Zagreb\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Belgrade\n\nQ: What is the capital of Croatia?\n",
+     "restate": " \"What is the capital of Croatia?\"\nA: Zagreb\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Zagreb\n\nQ: What is the capital of Croatia?\n",
+     "restate": "\nWhat is the capital of Croatia?\nA: Zagreb\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Zagreb\n\nQ: What is the capital of Croatia?\n",
+     "restate": "\nWhat is the capital of Croatia?\nA: Zagreb\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Croatia",
+   "b": "Turkey",
+   "arms": {
+    "none": {
+     "answer": " Zagreb\n\nQ: What is the capital of Slovenia?\n",
+     "restate": "\nWhat is the capital of Slovenia?\nA: Ljubljana\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Zagreb\n\nQ: What is the capital of Slovenia?\n",
+     "restate": "\nWhat is the capital of Slovenia?\nA: Ljubljana\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Zagreb\n\nQ: What is the capital of Slovenia?\n",
+     "restate": "\nWhat is the capital of Slovenia?\nA: Ljubljana\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Ankara\n\nQ: What is the capital of Turkey?\n",
+     "restate": "\nWhat is the capital of Turkey?\nA: Ankara\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Ankara\n\nQ: What is the capital of Turkey?\n",
+     "restate": "\nWhat is the capital of Turkey?\nA: Ankara\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Ankara\n\nQ: What is the capital of Turkey?\n",
+     "restate": "\nWhat is the capital of Turkey?\nA: Ankara\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Turkey",
+   "b": "Iran",
+   "arms": {
+    "none": {
+     "answer": " Ankara\n\nQ: What is the capital of the United States",
+     "restate": "\nWhat is the capital of the United States?\nA: Washington",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Ankara\n\nQ: What is the capital of the United States",
+     "restate": "\nWhat is the capital of the United States?\nA: Washington",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Ankara\n\nQ: What is the capital of Iran?\n",
+     "restate": " \"What is the capital of Iran?\"\nA: Tehran\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Tehran\n\nQ: What is the capital of Iran?\n",
+     "restate": "\nWhat is the capital of Iran?\nA: Tehran\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Tehran\n\nQ: What is the capital of Iran?\n",
+     "restate": "\nWhat is the capital of Iran?\nA: Tehran\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Tehran\n\nQ: What is the capital of Iran?\n",
+     "restate": "\nWhat is the capital of Iran?\nA: Tehran\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Iran",
+   "b": "Iraq",
+   "arms": {
+    "none": {
+     "answer": " Tehran\n\nQ: What is the capital of Iraq?\n",
+     "restate": "\n\"What is the capital of Iraq?\"\nA: Baghdad\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a1.0": {
+     "answer": " Tehran\n\nQ: What is the capital of Iraq?\n",
+     "restate": " \"What is the capital of Iraq?\"\nA: Baghdad\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a2.0": {
+     "answer": " Tehran\n\nQ: What is the capital of Iraq?\n",
+     "restate": " \"What is the capital of Iraq?\"\nA: Baghdad\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Baghdad\n\nQ: What is the capital of Iraq?\n",
+     "restate": "\n\"What is the capital of Iraq?\"\nA: Baghdad\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Baghdad\n\nQ: What is the capital of Iraq?\n",
+     "restate": " \"What is the capital of Iraq?\"\nA: Baghdad\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Baghdad\n\nQ: What is the capital of Iraq?\n",
+     "restate": " \"What is the capital of Iraq?\"\nA: Baghdad\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Iraq",
+   "b": "Jordan",
+   "arms": {
+    "none": {
+     "answer": " Baghdad\n\nQ: What is the capital of Iran?\n",
+     "restate": "\nWhat is the capital of Iran?\nA: Tehran\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Baghdad\n\nQ: What is the capital of Jordan?\n",
+     "restate": "\nWhat is the capital of Jordan?\nA: Amman\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a2.0": {
+     "answer": " Baghdad\n\nQ: What is the capital of Jordan?\n",
+     "restate": "\nWhat is the capital of Jordan?\nA: Amman\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Amman\n\nQ: What is the capital of Jordan?\n",
+     "restate": "\nWhat is the capital of Jordan?\nA: Amman\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Jordan\n\nQ: What is the capital of Jordan?\n",
+     "restate": "\nWhat is the capital of Jordan?\nA: Amman\n\nQ",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Jordan\n\nQ: What is the capital of Jordan?\n",
+     "restate": "\nWhat is the capital of Jordan?\nA: Jordan\n\nQ",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Jordan",
+   "b": "Lebanon",
+   "arms": {
+    "none": {
+     "answer": " Amman\n\nQ: What is the capital of Israel?\n",
+     "restate": "\nA: Jerusalem\n\nQ: What is the capital of Palestine?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Amman\n\nQ: What is the capital of Iraq?\n",
+     "restate": "\nWhat is the capital of Iraq?\nA: Baghdad\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Amman\n\nQ: What is the capital of Israel?\n",
+     "restate": "\nA: Jerusalem\n\nQ: What is the capital of Palestine?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Beirut\n\nQ: What is the capital of Lebanon?\n",
+     "restate": "\nWhat is the capital of Lebanon?\nA: Beirut\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Beirut\n\nQ: What is the capital of Lebanon?\n",
+     "restate": "\nWhat is the capital of Lebanon?\nA: Beirut\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Beirut\n\nLebanon\n\nLebanon\n\nLebanon\n\nLebanon\n\nLebanon\n\n",
+     "restate": "\nWhat is the capital of Lebanon?\n\nLebanon\n\nLebanon\n\nLebanon",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Lebanon",
+   "b": "Qatar",
+   "arms": {
+    "none": {
+     "answer": " Beirut\n\nQ: What is the capital of Syria?\n",
+     "restate": "\nA: Damascus\n\nQ: What is the capital of Jordan?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Beirut\n\nQ: What is the capital of Syria?\n",
+     "restate": "\nWhat is the capital of Syria?\nA: Damascus\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Beirut\n\nQ: What is the capital of Syria?\n",
+     "restate": "\nWhat is the capital of Syria?\nA: Damascus\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Doha\n\nQ: What is the capital of Qatar?\n",
+     "restate": "\nWhat is the capital of Qatar?\nA: Doha\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Doha\n\nQ: What is the capital of Qatar?\n",
+     "restate": "\nWhat is the capital of Qatar?\nA: Doha\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Doha\n\nQ: What is the capital of Qatar?\n",
+     "restate": "\nWhat is the capital of Qatar?\nA: Doha\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Qatar",
+   "b": "Vietnam",
+   "arms": {
+    "none": {
+     "answer": " Doha\n\nQ: What is the capital of the United Arab",
+     "restate": " \"What is the capital of the United Arab Emirates?\"\nA:",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Doha\n\nQ: What is the capital of the United Arab",
+     "restate": " \"What is the capital of the United Arab Emirates?\"\nA:",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Doha\n\nQ: What is the capital of the United Arab",
+     "restate": " \"What is the capital of the United Arab Emirates?\"\nA:",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Hanoi\n\nQ: What is the capital of Vietnam?\n",
+     "restate": "\nWhat is the capital of Vietnam?\nA: Hanoi\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Hanoi\n\nQ: What is the capital of Vietnam?\n",
+     "restate": "\nWhat is the capital of Vietnam?\nA: Hanoi\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Vietnam\n\nVietnam is the capital of Vietnam.\n\nVietnam is",
+     "restate": " \"What is the capital of Vietnam?\"\n\nVietnam is the capital of",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Vietnam",
+   "b": "Indonesia",
+   "arms": {
+    "none": {
+     "answer": " Hanoi\n\nQ: What is the capital of Laos?\n",
+     "restate": "\nWhat is the capital of Laos?\nA: Vientiane",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Hanoi\n\nQ: What is the capital of Laos?\n",
+     "restate": "\nWhat is the capital of Laos?\nA: Vientiane",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Hanoi\n\nQ: What is the capital of Laos?\n",
+     "restate": "\nWhat is the capital of Laos?\nA: Vientiane",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Jakarta\n\nQ: What is the capital of Indonesia?\n",
+     "restate": "\nWhat is the capital of Indonesia?\nA: Jakarta\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Jakarta\n\nQ: What is the capital of Indonesia?\n",
+     "restate": "\nWhat is the capital of Indonesia?\nA: Jakarta\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Jakarta\n\nQ: What is the capital of Indonesia?\n",
+     "restate": "\nWhat is the capital of Indonesia?\nA: Jakarta\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Indonesia",
+   "b": "Malaysia",
+   "arms": {
+    "none": {
+     "answer": " Jakarta\n\nQ: What is the capital of the Philippines?",
+     "restate": " \"What is the capital of the Philippines?\"\nA: Manila\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Jakarta\n\nQ: What is the capital of the Philippines?",
+     "restate": " \"What is the capital of the Philippines?\"\nA: Manila\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Jakarta\n\nQ: What is the capital of Malaysia?\n",
+     "restate": "\nWhat is the capital of Malaysia?\nA: Kuala Lumpur\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Kuala Lumpur\n\nQ: What is the capital of Malaysia?",
+     "restate": "\nWhat is the capital of Malaysia?\nA: Kuala Lumpur\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Kuala Lumpur\n\nQ: What is the capital of Malaysia?",
+     "restate": "\nWhat is the capital of Malaysia?\nA: Kuala Lumpur\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Kuala Lumpur\n\nQ: What is the capital of Malaysia?",
+     "restate": "\nWhat is the capital of Malaysia?\nA: Kuala Lumpur\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Malaysia",
+   "b": "Pakistan",
+   "arms": {
+    "none": {
+     "answer": " Kuala Lumpur\n\nQ: What is the capital of Singapore?",
+     "restate": "\nA: Singapore\n\nQ: What is the capital of Indonesia?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Kuala Lumpur\n\nQ: What is the capital of Singapore?",
+     "restate": "\nA: Singapore\n\nQ: What is the capital of Indonesia?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Islamabad\n\nQ: What is the capital of Pakistan?\n",
+     "restate": "\nA: Islamabad\n\nQ: What is the capital of India?",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Islamabad\n\nQ: What is the capital of Pakistan?\n",
+     "restate": "\nWhat is the capital of Pakistan?\nA: Islamabad\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Islamabad\n\nQ: What is the capital of Pakistan?\n",
+     "restate": "\nWhat is the capital of Pakistan?\nA: Islamabad\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Islamabad\n\nQ: What is the capital of Pakistan?\n",
+     "restate": "\nWhat is the capital of Pakistan?\nA: Islamabad\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Pakistan",
+   "b": "Bangladesh",
+   "arms": {
+    "none": {
+     "answer": " Islamabad\n\nQ: What is the capital of India?\n",
+     "restate": "\nA: New Delhi\n\nQ: What is the capital of Bangladesh",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a1.0": {
+     "answer": " Islamabad\n\nQ: What is the capital of India?\n",
+     "restate": "\nA: New Delhi\n\nQ: What is the capital of Bangladesh",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a2.0": {
+     "answer": " Islamabad\n\nQ: What is the capital of India?\n",
+     "restate": "\nA: New Delhi\n\nQ: What is the capital of Bangladesh",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Dhaka\n\nQ: What is the capital of Bangladesh?\n",
+     "restate": "\nA: Dhaka\n\nQ: What is the capital of India?",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " Dhaka\n\nQ: What is the capital of Bangladesh?\n",
+     "restate": "\n\"What is the capital of Bangladesh?\"\nA: Dhaka\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": "\n\nDhaka\n\nQ: What is the capital of Bangladesh",
+     "restate": "\n\nWhat is the capital of Bangladesh?\nA:\n\nDhaka",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Bangladesh",
+   "b": "Nepal",
+   "arms": {
+    "none": {
+     "answer": " Dhaka\n\nQ: What is the capital of India?\n",
+     "restate": "\nWhat is the capital of India?\nA: New Delhi\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Dhaka\n\nQ: What is the capital of India?\n",
+     "restate": "\nWhat is the capital of India?\nA: New Delhi\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Dhaka\n\nQ: What is the capital of India?\n",
+     "restate": "\nWhat is the capital of India?\nA: New Delhi\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Kathmandu\n\nQ: What is the capital of Nepal?\n",
+     "restate": "\nWhat is the capital of Nepal?\nA: Kathmandu\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Kathmandu\n\nQ: What is the capital of Nepal?\n",
+     "restate": "\nWhat is the capital of Nepal?\nA: Kathmandu\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Kathmandu\n\nQ: What is the capital of Nepal?\n",
+     "restate": "\nWhat is the capital of Nepal?\nA: Kathmandu\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Nepal",
+   "b": "Australia",
+   "arms": {
+    "none": {
+     "answer": " Kathmandu\n\nQ: What is the capital of India?\n",
+     "restate": "\nWhat is the capital of India?\nA: New Delhi\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Kathmandu\n\nQ: What is the capital of India?\n",
+     "restate": "\nWhat is the capital of India?\nA: New Delhi\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Kathmandu\n\nQ: What is the capital of India?\n",
+     "restate": "\nWhat is the capital of India?\nA: New Delhi\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Canberra\n\nQ: What is the capital of Australia?\n",
+     "restate": "\nWhat is the capital of Australia?\nA: Canberra\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Australia\n\nQ: What is the capital of Australia?\n",
+     "restate": "\nWhat is the capital of Australia?\nA: Sydney\n\nQ",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Australia\n\nAustralia\n\nAustralia\n\nAustralia\n\nAustralia\n\nAustralia\n\n",
+     "restate": "\n\nWhat is the capital of Australia?\n\nI was asked this question",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Australia",
+   "b": "Argentina",
+   "arms": {
+    "none": {
+     "answer": " Canberra\n\nQ: What is the capital of New Zealand?",
+     "restate": "\nA: Wellington\n\nQ: What is the capital of Canada?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Canberra\n\nQ: What is the capital of New Zealand?",
+     "restate": "\nA: Wellington\n\nQ: What is the capital of Canada?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Buenos Aires\n\nQ: What is the capital of Argentina?",
+     "restate": "\nA: Buenos Aires\n\nQ: What is the capital of Chile",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Buenos Aires\n\nQ: What is the capital of Argentina?",
+     "restate": "\nA: Buenos Aires\n\nQ: What is the capital of Chile",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " Buenos Aires\n\nQ: What is the capital of Argentina?",
+     "restate": "\nWhat is the capital of Argentina?\nA: Buenos Aires\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": "\n\n- The capital of Argentina is Buenos Aires.\n\n-",
+     "restate": "\n\n- What is the capital of Argentina?\n\n-\n\n-\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Argentina",
+   "b": "Cuba",
+   "arms": {
+    "none": {
+     "answer": " Buenos Aires\n\nQ: What is the capital of Brazil?",
+     "restate": " \"What is the capital of Brazil?\"\nA: Brasilia\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Buenos Aires\n\nQ: What is the capital of Brazil?",
+     "restate": " \"What is the capital of Brazil?\"\nA: Brasilia\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Buenos Aires\n\nQ: What is the capital of Brazil?",
+     "restate": " \"What is the capital of Brazil?\"\nA: Brasilia\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Havana\n\nQ: What is the capital of Cuba?\n",
+     "restate": " \"What is the capital of Cuba?\"\nA: Havana\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Havana\n\nQ: What is the capital of Cuba?\n",
+     "restate": " \"What is the capital of Cuba?\"\nA: Havana\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Havana\n\nQ: What is the capital of Cuba?\n",
+     "restate": " \"What is the capital of Cuba?\"\nA: Havana\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Cuba",
+   "b": "Morocco",
+   "arms": {
+    "none": {
+     "answer": " Havana\n\nQ: What is the capital of the Dominican Republic",
+     "restate": " \"What is the capital of the Dominican Republic?\"\nA: Santo",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Havana\n\nQ: What is the capital of the Dominican Republic",
+     "restate": " What is the capital of the Dominican Republic?\nA: Santo Domingo",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Havana\n\nQ: What is the capital of the Dominican Republic",
+     "restate": " What is the capital of the Dominican Republic?\nA: Santo Domingo",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Rabat\n\nQ: What is the capital of Morocco?\n",
+     "restate": "\nWhat is the capital of Morocco?\nA: Rabat\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Rabat\n\nQ: What is the capital of Morocco?\n",
+     "restate": "\nWhat is the capital of Morocco?\nA: Rabat\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Rabat\n\nQ: What is the capital of Morocco?\n",
+     "restate": "\nWhat is the capital of Morocco?\nA: Rabat\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Morocco",
+   "b": "Nigeria",
+   "arms": {
+    "none": {
+     "answer": " Rabat\n\nQ: What is the capital of Algeria?\n",
+     "restate": " \"What is the capital of Algeria?\"\nA: Algiers\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Rabat\n\nQ: What is the capital of Algeria?\n",
+     "restate": "\nWhat is the capital of Algeria?\nA: Algiers\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Rabat\n\nQ: What is the capital of Nigeria?\n",
+     "restate": "\nWhat is the capital of Nigeria?\nA: Abuja\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Abuja\n\nQ: What is the capital of Nigeria?\n",
+     "restate": "\nWhat is the capital of Nigeria?\nA: Abuja\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Abuja\n\nQ: What is the capital of Nigeria?\n",
+     "restate": "\nWhat is the capital of Nigeria?\nA: Abuja\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Nigeria\n\nNigeria is the most populous country in Africa.\n\n",
+     "restate": "\n\nWhat is the capital of Nigeria?\n\nI was asked this question",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Nigeria",
+   "b": "Ethiopia",
+   "arms": {
+    "none": {
+     "answer": " Abuja\n\nQ: What is the capital of Ghana?\n",
+     "restate": "\nWhat is the capital of Ghana?\nA: Accra\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Abuja\n\nQ: What is the capital of Ghana?\n",
+     "restate": "\nWhat is the capital of Ghana?\nA: Accra\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Abuja\n\nQ: What is the capital of Ghana?\n",
+     "restate": "\nWhat is the capital of Ghana?\nA: Accra\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Addis Ababa\n\nQ: What is the capital of Ethiopia?",
+     "restate": "\nWhat is the capital of Ethiopia?\nA: Addis Ababa\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Addis Ababa\n\nQ: What is the capital of Ethiopia?",
+     "restate": "\nWhat is the capital of Ethiopia?\nA: Addis Ababa\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": "\n- The capital of Ethiopia is Addis Ababa.\n-",
+     "restate": "\n- What is the capital of Ethiopia?\n-\nThe answer",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Ghana",
+   "arms": {
+    "none": {
+     "answer": " Addis Ababa\n\nQ: What is the capital of Kenya?",
+     "restate": " \"What is the capital of Kenya?\"\nA: Nairobi\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Addis Ababa\n\nQ: What is the capital of Kenya?",
+     "restate": " \"What is the capital of Kenya?\"\nA: Nairobi\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Addis Ababa\n\nQ: What is the capital of Kenya?",
+     "restate": " \"What is the capital of Kenya?\"\nA: Nairobi\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Accra\n\nQ: What is the capital of Ghana?\n",
+     "restate": "\nWhat is the capital of Ghana?\nA: Accra\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Accra\n\nQ: What is the capital of Ghana?\n",
+     "restate": "\nWhat is the capital of Ghana?\nA: Accra\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Accra\n\nQ: What is the capital of Ghana?\n",
+     "restate": "\nWhat is the capital of Ghana?\nA: Accra\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Ghana",
+   "b": "Algeria",
+   "arms": {
+    "none": {
+     "answer": " Accra\n\nQ: What is the capital of Nigeria?\n",
+     "restate": "\nWhat is the capital of Nigeria?\nA: Abuja\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Accra\n\nQ: What is the capital of Nigeria?\n",
+     "restate": "\nWhat is the capital of Nigeria?\nA: Abuja\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Accra\n\nQ: What is the capital of Nigeria?\n",
+     "restate": "\nWhat is the capital of Nigeria?\nA: Abuja\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Algiers\n\nQ: What is the capital of Algeria?\n",
+     "restate": "\nWhat is the capital of Algeria?\nA: Algiers\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Algiers\n\nQ: What is the capital of Algeria?\n",
+     "restate": "\nWhat is the capital of Algeria?\nA: Algiers\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " ALGER\n\nQ: What is the capital of Algeria?",
+     "restate": "\nWhat is the capital of Algeria?\nA: ALGER\n\n",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Algeria",
+   "b": "Tunisia",
+   "arms": {
+    "none": {
+     "answer": " Algiers\n\nQ: What is the capital of Morocco?\n",
+     "restate": " \"What is the capital of Morocco?\"\nA: Rabat\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Algiers\n\nQ: What is the capital of Egypt?\n",
+     "restate": " \"What is the capital of Egypt?\"\nA: Cairo\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Algiers\n\nQ: What is the capital of Tunisia?\n",
+     "restate": " \"What is the capital of Tunisia?\"\nA: Tunis\n\nQ",
+     "ans_a": true,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Algiers\n\nQ: What is the capital of Tunisia?\n",
+     "restate": " \"What is the capital of Tunisia?\"\nA: Tunis\n\nQ",
+     "ans_a": true,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Tunis\n\nQ: What is the capital of Tunisia?\n",
+     "restate": "\nWhat is the capital of Tunisia?\nA: Tunis\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Tunis\n\nQ: What is the capital of Tunisia?\n",
+     "restate": "\nWhat is the capital of Tunisia?\nA: Tunis\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Tunisia",
+   "b": "Afghanistan",
+   "arms": {
+    "none": {
+     "answer": " Tunis\n\nQ: What is the capital of Algeria?\n",
+     "restate": "\nWhat is the capital of Algeria?\nA: Algiers\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Tunis\n\nQ: What is the capital of Algeria?\n",
+     "restate": " \"What is the capital of Algeria?\"\nA: Algiers\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Tunis\n\nQ: What is the capital of Algeria?\n",
+     "restate": " \"What is the capital of Algeria?\"\nA: Algiers\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Kabul\n\nQ: What is the capital of Afghanistan?\n",
+     "restate": "\nWhat is the capital of Afghanistan?\nA: Kabul\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Kabul\n\nQ: What is the capital of Afghanistan?\n",
+     "restate": "\nWhat is the capital of Afghanistan?\nA: Kabul\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Kabul\n\n<b><u>Afghanistan</u></b>\n\n<b><u>Afghanistan</u>",
+     "restate": " \"What is the capital of Afghanistan?\"</b>\n\n<b><u>Afghanistan</u>",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Afghanistan",
+   "b": "Syria",
+   "arms": {
+    "none": {
+     "answer": " Kabul\n\nQ: What is the capital of Pakistan?\n",
+     "restate": "\nA: Islamabad\n\nQ: What is the capital of India?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Kabul\n\nQ: What is the capital of Pakistan?\n",
+     "restate": "\nA: Islamabad\n\nQ: What is the capital of India?",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Kabul\n\nQ: What is the capital of Iran?\n",
+     "restate": " \"What is the capital of Iran?\"\nA: Tehran\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Damascus\n\nQ: What is the capital of Syria?\n",
+     "restate": "\nWhat is the capital of Syria?\nA: Damascus\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Damascus\n\nQ: What is the capital of Syria?\n",
+     "restate": "\nWhat is the capital of Syria?\nA: Damascus\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Damascus\n\nQ: What is the capital of Syria?\n",
+     "restate": "\nWhat is the capital of Syria?\nA: Damascus\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Syria",
+   "b": "Uzbekistan",
+   "arms": {
+    "none": {
+     "answer": " Damascus\n\nQ: What is the capital of Iraq?\n",
+     "restate": "\nWhat is the capital of Iraq?\nA: Baghdad\n\nQ",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Damascus\n\nQ: What is the capital of Iraq?\n",
+     "restate": "\n\"What is the capital of Iraq?\"\nA: Baghdad\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Damascus\n\nQ: What is the capital of Iraq?\n",
+     "restate": "\n\"What is the capital of Iraq?\"\nA: Baghdad\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Tashkent\n\nQ: What is the capital of Uzbekistan?",
+     "restate": " \"What is the capital of Uzbekistan?\"\nA: Tashkent\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Tashkent\n\nQ: What is the capital of Uzbekistan?",
+     "restate": " \"What is the capital of Uzbekistan?\"\nA: Tashkent\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Tashkent\n\nQ: What is the capital of Uzbekistan?",
+     "restate": " \"What is the capital of Uzbekistan?\"\nA: Tashkent\n\n",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Uzbekistan",
+   "b": "Cambodia",
+   "arms": {
+    "none": {
+     "answer": " Tashkent\n\nQ: What is the capital of Kazakhstan?",
+     "restate": " \"What is the capital of Kazakhstan?\"\nA: Astana\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Tashkent\n\nQ: What is the capital of Kazakhstan?",
+     "restate": " \"What is the capital of Kazakhstan?\"\nA: Astana\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Tashkent\n\nQ: What is the capital of Kazakhstan?",
+     "restate": " \"What is the capital of Kazakhstan?\"\nA: Astana\n\n",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " Tashkent\n\nQ: What is the capital of Tajikistan?",
+     "restate": " \"What is the capital of Tajikistan?\"\nA: Dushanbe",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " Phnom Penh\n\nCambodia\n\nCambodia\n\nCambodia\n\nCambodia\n\nCambodia",
+     "restate": " \"What is the capital of Cambodia?\"\n\nQ: What is the",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " Phnom Penh\n\nCambodia\n\nCambodia\n\nCambodia\n\nCambodia\n\nCambodia",
+     "restate": " \"What is the capital of Cambodia?\"\n\nCambodia\n\nCambodia\n\nCambodia",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Cambodia",
+   "b": "France",
+   "arms": {
+    "none": {
+     "answer": " Phnom Penh\n\nQ: What is the capital of Laos?",
+     "restate": " \"What is the capital of Laos?\"\nA: Vientiane",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Phnom Penh\n\nQ: What is the capital of Laos?",
+     "restate": " \"What is the capital of Laos?\"\nA: Vientiane",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Paris\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " Paris\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " Paris\n\nQ: What is the capital of France?\n",
+     "restate": "\nWhat is the capital of France?\nA: Paris\n\nQ",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " France\n\n<h2>France</h2>\n<h2>France</h2>\n<h2>France",
+     "restate": "\n\"What is the capital of France?\"\nI answered:\n",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  }
+ ],
+ "summary": {
+  "n": 56,
+  "n_ok": 56,
+  "inject_layer": 16,
+  "frac_depth": 0.6153846153846154,
+  "alphas": [
+   1.0,
+   2.0,
+   4.0,
+   8.0,
+   16.0
+  ],
+  "arms": {
+   "none": {
+    "flip": 0.0,
+    "capture": 0.05357142857142857,
+    "restate_orig": 0.0,
+    "ans_orig": 1.0
+   },
+   "a1.0": {
+    "flip": 0.0,
+    "capture": 0.125,
+    "restate_orig": 0.0,
+    "ans_orig": 1.0
+   },
+   "a2.0": {
+    "flip": 0.2857142857142857,
+    "capture": 0.4107142857142857,
+    "restate_orig": 0.0,
+    "ans_orig": 0.7321428571428571
+   },
+   "a4.0": {
+    "flip": 0.9107142857142857,
+    "capture": 0.875,
+    "restate_orig": 0.0,
+    "ans_orig": 0.10714285714285714
+   },
+   "a8.0": {
+    "flip": 0.9464285714285714,
+    "capture": 0.9285714285714286,
+    "restate_orig": 0.0,
+    "ans_orig": 0.0
+   },
+   "a16.0": {
+    "flip": 0.8035714285714286,
+    "capture": 0.9464285714285714,
+    "restate_orig": 0.0,
+    "ans_orig": 0.0
+   }
+  },
+  "verdict": "QUANTITATIVE: capture recovers with amplitude (peak 94.6% at a16.0)"
+ }
+}

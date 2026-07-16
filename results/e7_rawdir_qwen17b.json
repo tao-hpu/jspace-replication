@@ -1,0 +1,1089 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "domain": "capitals",
+  "records": [
+    {
+      "a": "France",
+      "b": "Japan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Japan",
+      "b": "Russia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Russia",
+      "b": "Germany",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Germany",
+      "b": "Italy",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Italy",
+      "b": "Spain",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Spain",
+      "b": "England",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "England",
+      "b": "China",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "China",
+      "b": "Egypt",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Egypt",
+      "b": "Greece",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Greece",
+      "b": "Thailand",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Thailand",
+      "b": "Peru",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Peru",
+      "b": "Chile",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Chile",
+      "b": "Kenya",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Kenya",
+      "b": "Canada",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Canada",
+      "b": "India",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "India",
+      "b": "Portugal",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Portugal",
+      "b": "Austria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Austria",
+      "b": "Poland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Poland",
+      "b": "Norway",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Norway",
+      "b": "Sweden",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Sweden",
+      "b": "Finland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Finland",
+      "b": "Denmark",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Denmark",
+      "b": "Ireland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Ireland",
+      "b": "Belgium",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Belgium",
+      "b": "Switzerland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Switzerland",
+      "b": "Hungary",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Hungary",
+      "b": "Romania",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Romania",
+      "b": "Bulgaria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Bulgaria",
+      "b": "Serbia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Serbia",
+      "b": "Croatia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Croatia",
+      "b": "Turkey",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Turkey",
+      "b": "Iran",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Iran",
+      "b": "Iraq",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Iraq",
+      "b": "Jordan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Jordan",
+      "b": "Lebanon",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Lebanon",
+      "b": "Qatar",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Qatar",
+      "b": "Vietnam",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Vietnam",
+      "b": "Indonesia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Indonesia",
+      "b": "Malaysia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Malaysia",
+      "b": "Pakistan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Pakistan",
+      "b": "Bangladesh",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Bangladesh",
+      "b": "Nepal",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Nepal",
+      "b": "Australia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Australia",
+      "b": "Argentina",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Argentina",
+      "b": "Cuba",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Cuba",
+      "b": "Morocco",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Morocco",
+      "b": "Nigeria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Nigeria",
+      "b": "Ethiopia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Ethiopia",
+      "b": "Ghana",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Ghana",
+      "b": "Algeria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Algeria",
+      "b": "Tunisia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Tunisia",
+      "b": "Afghanistan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Afghanistan",
+      "b": "Syria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Syria",
+      "b": "Uzbekistan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Uzbekistan",
+      "b": "Cambodia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Cambodia",
+      "b": "France",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    }
+  ],
+  "summary": {
+    "n": 56,
+    "n_ok": 56,
+    "n_layers": 28,
+    "band": [
+      8,
+      26
+    ],
+    "direction": "raw_wu",
+    "full": {
+      "flip": 0.017857142857142856,
+      "restate_swapped": 0.017857142857142856
+    },
+    "none": {
+      "flip": 0.0,
+      "restate_swapped": 0.0
+    },
+    "profile": []
+  }
+}

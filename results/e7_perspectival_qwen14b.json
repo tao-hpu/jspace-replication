@@ -1,9 +1,11 @@
 {
   "model": "Qwen/Qwen3-14B",
+  "domain": "capitals",
   "band": [
     11,
     38
   ],
+  "seed": 1,
   "read_layers": [
     18,
     25,
@@ -25,7 +27,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.49584442377090454,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2218871116638184,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.49584442377090454,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7,
@@ -248,7 +256,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7064750790596008,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1741421222686768,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7064750790596008,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1,
@@ -471,7 +485,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6104493141174316,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2269227504730225,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6104493141174316,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1,
@@ -694,7 +714,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.49523457884788513,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2842328548431396,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.49523457884788513,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7,
@@ -917,7 +943,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6573104858398438,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.541544198989868,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6573104858398438,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 10,
@@ -1149,7 +1181,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6482744812965393,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.523797035217285,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6482744812965393,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 115,
@@ -1372,7 +1410,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.40191400051116943,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.867255449295044,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.40191400051116943,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 103,
@@ -1595,7 +1639,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.37840700149536133,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.9089395999908447,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.37840700149536133,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 103,
@@ -1818,7 +1868,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6648772358894348,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5238938331604004,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6648772358894348,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 115,
@@ -2041,7 +2097,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5874450206756592,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.611901044845581,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5874450206756592,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 117,
@@ -2273,7 +2335,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7291333079338074,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3728973865509033,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7291333079338074,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -2496,7 +2564,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 1.068854808807373,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 1.068854808807373,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 289,
@@ -2719,7 +2793,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.8177680373191833,
+          "decision_index": 0,
+          "decision_text": " yes/no\n",
+          "yes_margin_pos0": 0.8177680373191833,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 275,
@@ -2942,7 +3022,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6489618420600891,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.268010377883911,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6489618420600891,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -3165,7 +3251,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7975113987922668,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.61942195892334,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7975113987922668,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 24,
@@ -3397,7 +3489,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5925728678703308,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.316844940185547,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5925728678703308,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 21,
@@ -3620,7 +3718,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.6470699906349182,
+          "decision_index": 0,
+          "decision_text": " yes/no\n",
+          "yes_margin_pos0": 0.6470699906349182,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 467,
@@ -3843,7 +3947,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.44039469957351685,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7893226146698,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.44039469957351685,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 16,
@@ -4066,7 +4176,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5925034284591675,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.304621934890747,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5925034284591675,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 21,
@@ -4289,7 +4405,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6737027764320374,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.510774850845337,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6737027764320374,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 24,
@@ -4521,7 +4643,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5684607625007629,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.408843755722046,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5684607625007629,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 109,
@@ -4744,7 +4872,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.774730920791626,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.151193618774414,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.774730920791626,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 529,
@@ -4967,7 +5101,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.7482201457023621,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.211042642593384,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7482201457023621,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 529,
@@ -5190,7 +5330,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7879762053489685,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.498115062713623,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7879762053489685,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 109,
@@ -5413,7 +5559,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5928853750228882,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6276323795318604,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5928853750228882,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 119,
@@ -5645,7 +5797,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6084153652191162,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2751224040985107,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6084153652191162,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 55,
@@ -5868,7 +6026,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.507560133934021,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.507560133934021,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 3312,
@@ -6091,7 +6255,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.3592070937156677,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": -0.3592070937156677,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 3428,
@@ -6314,7 +6484,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6072396636009216,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2124578952789307,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6072396636009216,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 55,
@@ -6537,7 +6713,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5966145992279053,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5327000617980957,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5966145992279053,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 57,
@@ -6769,7 +6951,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6978941559791565,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4854860305786133,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6978941559791565,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 37,
@@ -6992,7 +7180,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.3395482897758484,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4967050552368164,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.3395482897758484,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 16,
@@ -7215,7 +7409,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.44073307514190674,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.454050302505493,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.44073307514190674,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 16,
@@ -7438,7 +7638,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6115824580192566,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4448723793029785,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6115824580192566,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 37,
@@ -7661,7 +7867,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6310543417930603,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6072897911071777,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6310543417930603,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 40,
@@ -7893,7 +8105,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6302236318588257,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.622851610183716,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6302236318588257,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 67,
@@ -8116,7 +8334,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.1896795779466629,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.051689624786377,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.1896795779466629,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 45,
@@ -8339,7 +8563,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6414545178413391,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4493489265441895,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6414545178413391,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 61,
@@ -8562,7 +8792,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6868414878845215,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.530231475830078,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6868414878845215,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 67,
@@ -8785,7 +9021,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7030097842216492,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.810162305831909,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7030097842216492,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 68,
@@ -9017,7 +9259,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.628462553024292,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.412226915359497,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.628462553024292,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 9,
@@ -9240,7 +9488,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.7064065337181091,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8333630561828613,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7064065337181091,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 144,
@@ -9463,7 +9717,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.5134142637252808,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.902683973312378,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5134142637252808,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 129,
@@ -9686,7 +9946,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6846998929977417,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.486490249633789,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6846998929977417,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 9,
@@ -9909,7 +10175,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6592414975166321,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6428401470184326,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6592414975166321,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 10,
@@ -10141,7 +10413,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7526106834411621,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.519059181213379,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7526106834411621,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 110,
@@ -10364,7 +10642,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": -0.3774797022342682,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5720813274383545,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.3774797022342682,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -10587,7 +10871,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": -0.2866387367248535,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.637500762939453,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.2866387367248535,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -10810,7 +11100,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7728061676025391,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5818235874176025,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7728061676025391,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 110,
@@ -11033,7 +11329,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7301033139228821,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.677602767944336,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7301033139228821,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 117,
@@ -11265,7 +11567,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6500208973884583,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5462121963500977,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6500208973884583,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 423,
@@ -11488,7 +11796,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.4672853350639343,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.0882012844085693,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.4672853350639343,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 4294,
@@ -11711,7 +12025,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.4036771059036255,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.03371000289917,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.4036771059036255,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 4294,
@@ -11934,7 +12254,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6685724854469299,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6090195178985596,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6685724854469299,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 423,
@@ -12157,7 +12483,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6368054747581482,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7032203674316406,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6368054747581482,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 423,
@@ -12389,7 +12721,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7722905278205872,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5481693744659424,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7722905278205872,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 185,
@@ -12612,7 +12950,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.7424152493476868,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.298780918121338,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7424152493476868,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1477,
@@ -12835,7 +13179,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.7033067345619202,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.326526641845703,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7033067345619202,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1477,
@@ -13058,7 +13408,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7017446756362915,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3761773109436035,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7017446756362915,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 185,
@@ -13281,7 +13637,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
+          "says_no": false,
+          "answered": false,
           "yes_margin": 0.7476938366889954,
+          "decision_index": 0,
+          "decision_text": " \\boxed{",
+          "yes_margin_pos0": 0.7476938366889954,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 194,
@@ -13513,7 +13875,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6185557842254639,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2109034061431885,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6185557842254639,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 163,
@@ -13736,7 +14104,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.384943425655365,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.3871080875396729,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.384943425655365,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 6463,
@@ -13959,7 +14333,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.6021171808242798,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.019460678100586,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6021171808242798,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 5027,
@@ -14182,7 +14562,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6651663780212402,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.246384620666504,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6651663780212402,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 163,
@@ -14405,7 +14791,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6834087371826172,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.616997241973877,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6834087371826172,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 155,
@@ -14637,7 +15029,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6287882328033447,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.654879570007324,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6287882328033447,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 47,
@@ -14860,7 +15258,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": false,
+          "answered": false,
           "yes_margin": 0.25675514340400696,
+          "decision_index": 0,
+          "decision_text": " \\boxed{",
+          "yes_margin_pos0": 0.25675514340400696,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 550,
@@ -15083,7 +15487,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": false,
+          "answered": false,
           "yes_margin": 0.21691280603408813,
+          "decision_index": 0,
+          "decision_text": " \\boxed{}\n",
+          "yes_margin_pos0": 0.21691280603408813,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 552,
@@ -15306,7 +15716,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.752453625202179,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.653681993484497,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.752453625202179,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 47,
@@ -15529,7 +15945,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7341359853744507,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8311522006988525,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7341359853744507,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 48,
@@ -15761,7 +16183,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6287655830383301,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2463467121124268,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6287655830383301,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 13,
@@ -15984,7 +16412,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6317960023880005,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.549022674560547,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6317960023880005,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -16207,7 +16641,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7390711307525635,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.549203872680664,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7390711307525635,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -16430,7 +16870,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6466922163963318,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2460579872131348,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6466922163963318,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 13,
@@ -16653,7 +17099,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5616924166679382,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.423798084259033,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5616924166679382,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 15,
@@ -16885,7 +17337,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7191249132156372,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6586432456970215,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7191249132156372,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 23,
@@ -17108,7 +17566,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7190255522727966,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.62223482131958,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7190255522727966,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 15,
@@ -17331,7 +17795,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7952717542648315,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5889055728912354,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7952717542648315,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 15,
@@ -17554,7 +18024,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7368177175521851,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6933541297912598,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7368177175521851,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 23,
@@ -17777,7 +18253,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8013659119606018,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7125043869018555,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8013659119606018,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 27,
@@ -18009,7 +18491,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7526680827140808,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.389378786087036,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7526680827140808,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -18232,7 +18720,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.3426707684993744,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.075169563293457,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.3426707684993744,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 746,
@@ -18455,7 +18949,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.3100026249885559,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.0563080310821533,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.3100026249885559,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 746,
@@ -18678,7 +19178,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7515007257461548,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3307015895843506,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7515007257461548,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -18901,7 +19407,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7479225993156433,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.644760847091675,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7479225993156433,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 23,
@@ -19133,7 +19645,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7514954209327698,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1804518699645996,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7514954209327698,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 11,
@@ -19356,7 +19874,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.1313730627298355,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.0402848720550537,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.1313730627298355,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 15,
@@ -19579,7 +20103,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.2848086357116699,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.0535216331481934,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.2848086357116699,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 15,
@@ -19802,7 +20332,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5748858451843262,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1151530742645264,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5748858451843262,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 11,
@@ -20025,7 +20561,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7285323143005371,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.442305564880371,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7285323143005371,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 12,
@@ -20257,7 +20799,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6091221570968628,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.150606870651245,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6091221570968628,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 3,
@@ -20480,7 +21028,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.30687856674194336,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2242631912231445,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.30687856674194336,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2,
@@ -20703,7 +21257,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.33375284075737,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.259664297103882,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.33375284075737,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2,
@@ -20926,7 +21486,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.542064905166626,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.0208630561828613,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.542064905166626,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -21149,7 +21715,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5928767919540405,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3430423736572266,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5928767919540405,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 3,
@@ -21381,7 +21953,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8207985162734985,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.327697515487671,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8207985162734985,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 21,
@@ -21604,7 +22182,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.26279476284980774,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4693610668182373,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.26279476284980774,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 64,
@@ -21827,7 +22411,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.4648883640766144,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.812721014022827,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.4648883640766144,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 64,
@@ -22050,7 +22640,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7169091701507568,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2130680084228516,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7169091701507568,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 21,
@@ -22273,7 +22869,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8170263171195984,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4871346950531006,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8170263171195984,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 22,
@@ -22505,7 +23107,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.734027624130249,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.370432138442993,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.734027624130249,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 13,
@@ -22728,7 +23336,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.7182756662368774,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.390136957168579,
+          "decision_index": 1,
+          "decision_text": "A:",
+          "yes_margin_pos0": 0.7182756662368774,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 39,
@@ -22951,7 +23565,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.454792857170105,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.0583558082580566,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.454792857170105,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7,
@@ -23174,7 +23794,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.716517448425293,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3484175205230713,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.716517448425293,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 13,
@@ -23397,7 +24023,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6819062232971191,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6315174102783203,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6819062232971191,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 13,
@@ -23629,7 +24261,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5003249049186707,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.349959373474121,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5003249049186707,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 10,
@@ -23852,7 +24490,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.25238528847694397,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.385123610496521,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.25238528847694397,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 47,
@@ -24075,7 +24719,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.13847103714942932,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.3790889978408813,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.13847103714942932,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 47,
@@ -24298,7 +24948,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6269679069519043,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3406503200531006,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6269679069519043,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 10,
@@ -24521,7 +25177,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7006941437721252,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.514396905899048,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7006941437721252,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 11,
@@ -24753,7 +25415,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7740986347198486,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4799106121063232,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7740986347198486,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 59,
@@ -24976,7 +25644,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.42755648493766785,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.42755648493766785,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 774,
@@ -25199,7 +25873,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.4380410611629486,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.4380410611629486,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 774,
@@ -25422,7 +26102,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7947908043861389,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3528175354003906,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7947908043861389,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 76,
@@ -25645,7 +26331,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7939165234565735,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.781690835952759,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7939165234565735,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 67,
@@ -25877,7 +26569,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5730859637260437,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4116439819335938,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5730859637260437,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 3,
@@ -26100,7 +26798,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.3627018332481384,
+          "decision_index": 0,
+          "decision_text": " No\nOkay",
+          "yes_margin_pos0": -0.3627018332481384,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 67,
@@ -26323,7 +27027,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.2920588254928589,
+          "decision_index": 0,
+          "decision_text": " No\nOkay",
+          "yes_margin_pos0": -0.2920588254928589,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 67,
@@ -26546,7 +27256,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8242027163505554,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.8277873992919922,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8242027163505554,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 4,
@@ -26769,7 +27485,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6548420786857605,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.590616226196289,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6548420786857605,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 3,
@@ -27001,7 +27723,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5257160067558289,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1141557693481445,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5257160067558289,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -27224,7 +27952,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.48952898383140564,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1748807430267334,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.48952898383140564,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 47,
@@ -27447,7 +28181,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.47036322951316833,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.285728931427002,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.47036322951316833,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 4,
@@ -27670,7 +28410,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.4442691206932068,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.0051326751708984,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.4442691206932068,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2,
@@ -27893,7 +28639,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5604280829429626,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3116960525512695,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5604280829429626,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 21,
@@ -28125,7 +28877,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5886708498001099,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.7158594131469727,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5886708498001099,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 5,
@@ -28348,7 +29106,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.31127992272377014,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.372786521911621,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.31127992272377014,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 107,
@@ -28571,7 +29335,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.1680336892604828,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.4731329679489136,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.1680336892604828,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 110,
@@ -28794,7 +29564,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.5697880983352661,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.4486151933670044,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.5697880983352661,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1,
@@ -29017,7 +29793,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7009127736091614,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5804755687713623,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7009127736091614,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 6,
@@ -29249,7 +30031,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6940491795539856,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2949600219726562,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6940491795539856,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 22,
@@ -29472,7 +30260,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.22768662869930267,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8974545001983643,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.22768662869930267,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 189,
@@ -29695,7 +30489,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.8953242301940918,
+          "decision_index": 0,
+          "decision_text": " yes/no\n",
+          "yes_margin_pos0": 0.8953242301940918,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 189,
@@ -29918,7 +30718,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": -0.178011953830719,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.487748384475708,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.178011953830719,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2,
@@ -30141,7 +30947,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6463881731033325,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3546042442321777,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6463881731033325,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 23,
@@ -30373,7 +31185,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7499339580535889,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.447411060333252,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7499339580535889,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 162,
@@ -30596,7 +31414,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6080024838447571,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8784656524658203,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6080024838447571,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 153,
@@ -30819,7 +31643,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5284343361854553,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8384134769439697,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5284343361854553,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 153,
@@ -31042,7 +31872,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5019891262054443,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.69344425201416,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5019891262054443,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 70,
@@ -31265,7 +32101,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8137431144714355,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6583480834960938,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8137431144714355,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 171,
@@ -31497,7 +32339,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.807500958442688,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.355466842651367,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.807500958442688,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 210,
@@ -31720,7 +32568,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.7201577425003052,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.7201577425003052,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 4235,
@@ -31943,7 +32797,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.21201005578041077,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": -0.21201005578041077,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2779,
@@ -32166,7 +33026,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.3466111719608307,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1086621284484863,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.3466111719608307,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 39,
@@ -32389,7 +33255,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.910064697265625,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5805211067199707,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.910064697265625,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 225,
@@ -32621,7 +33493,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6985916495323181,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.44510817527771,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6985916495323181,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 40,
@@ -32844,7 +33722,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.22843746840953827,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.2856720685958862,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.22843746840953827,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 274,
@@ -33067,7 +33951,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.3456249237060547,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.375678777694702,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.3456249237060547,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 501,
@@ -33290,7 +34180,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.13756440579891205,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2320985794067383,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.13756440579891205,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 11,
@@ -33513,7 +34409,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8510551452636719,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.67807674407959,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8510551452636719,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 45,
@@ -33745,7 +34647,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7167456746101379,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2485387325286865,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7167456746101379,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 44,
@@ -33968,7 +34876,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 1.111519694328308,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.138728618621826,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 1.111519694328308,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1933,
@@ -34191,7 +35105,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.7050453424453735,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.7050453424453735,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 1674,
@@ -34414,7 +35334,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7501949667930603,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.250127077102661,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7501949667930603,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 44,
@@ -34637,7 +35563,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8884001970291138,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6319637298583984,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8884001970291138,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 44,
@@ -34869,7 +35801,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7354058027267456,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.385977029800415,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7354058027267456,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 116,
@@ -35092,7 +36030,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.2682807147502899,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.9344652891159058,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.2682807147502899,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 17,
@@ -35315,7 +36259,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.4679463505744934,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4623982906341553,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.4679463505744934,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 104,
@@ -35538,7 +36488,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.3725801706314087,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.8434065580368042,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.3725801706314087,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 35,
@@ -35761,7 +36717,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7495089173316956,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6477885246276855,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7495089173316956,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 127,
@@ -35993,7 +36955,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.566508948802948,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.463031530380249,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.566508948802948,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 140,
@@ -36216,7 +37184,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 1.0042823553085327,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 1.0042823553085327,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 1295,
@@ -36439,7 +37413,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 1.0003228187561035,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 1.0003228187561035,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 1295,
@@ -36662,7 +37642,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6698248982429504,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.509330987930298,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6698248982429504,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 140,
@@ -36885,7 +37871,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7340017557144165,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7116308212280273,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7340017557144165,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 139,
@@ -37117,7 +38109,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 1.0244247913360596,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1446683406829834,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 1.0244247913360596,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 70,
@@ -37340,7 +38338,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8606141209602356,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1625442504882812,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8606141209602356,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 57,
@@ -37563,7 +38567,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8601077198982239,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.113696813583374,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8601077198982239,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 57,
@@ -37786,7 +38796,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6156768798828125,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.194610118865967,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6156768798828125,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 17,
@@ -38009,7 +39025,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.9026370048522949,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.9026370048522949,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 72,
@@ -38241,7 +39263,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7023524641990662,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.446925163269043,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7023524641990662,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1813,
@@ -38464,7 +39492,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.777884304523468,
+          "decision_index": 0,
+          "decision_text": " yes/no\n",
+          "yes_margin_pos0": 0.777884304523468,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 2038,
@@ -38687,7 +39721,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.8388374447822571,
+          "decision_index": 0,
+          "decision_text": " yes/no\n",
+          "yes_margin_pos0": 0.8388374447822571,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 2038,
@@ -38910,7 +39950,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.23146596550941467,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.9317349195480347,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.23146596550941467,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 521,
@@ -39133,7 +40179,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7298849821090698,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.621305465698242,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7298849821090698,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1851,
@@ -39365,7 +40417,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7344084978103638,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3632521629333496,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7344084978103638,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 200,
@@ -39588,7 +40646,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.5293726325035095,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.4078434705734253,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5293726325035095,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7,
@@ -39811,7 +40875,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7520343661308289,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.486449956893921,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7520343661308289,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 162,
@@ -40034,7 +41104,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.06260965764522552,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4442286491394043,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.06260965764522552,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 21,
@@ -40257,7 +41333,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7355806827545166,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.685703754425049,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7355806827545166,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 207,
@@ -40489,7 +41571,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7689858675003052,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4357855319976807,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7689858675003052,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 15,
@@ -40712,7 +41800,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.3935319185256958,
+          "decision_index": 0,
+          "decision_text": " Yes\nOkay",
+          "yes_margin_pos0": 0.3935319185256958,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 467,
@@ -40935,7 +42029,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.3743401765823364,
+          "decision_index": 0,
+          "decision_text": " Yes\nOkay",
+          "yes_margin_pos0": 0.3743401765823364,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 467,
@@ -41158,7 +42258,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.18319272994995117,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.9407378435134888,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.18319272994995117,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -41381,7 +42487,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8590213656425476,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6196413040161133,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8590213656425476,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 15,
@@ -41613,7 +42725,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6516883373260498,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7067997455596924,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6516883373260498,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 149,
@@ -41836,7 +42954,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -1.7288973331451416,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": -1.7288973331451416,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 206,
@@ -42059,7 +43183,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.22834071516990662,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4212646484375,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.22834071516990662,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 36,
@@ -42282,7 +43412,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7174584865570068,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6647186279296875,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7174584865570068,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 149,
@@ -42505,7 +43641,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7020066976547241,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.880537748336792,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7020066976547241,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 154,
@@ -42737,7 +43879,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5938621163368225,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3099451065063477,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5938621163368225,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 14,
@@ -42960,7 +44108,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7727653980255127,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.9424285888671875,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7727653980255127,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -43183,7 +44337,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6118934154510498,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.0849721431732178,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6118934154510498,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7,
@@ -43406,7 +44566,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.522800862789154,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2473952770233154,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.522800862789154,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 14,
@@ -43629,7 +44795,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6128350496292114,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.3971376419067383,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6128350496292114,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 17,
@@ -43861,7 +45033,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6644561290740967,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4942944049835205,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6644561290740967,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2,
@@ -44084,7 +45262,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": -1.832687258720398,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.1674784421920776,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -1.832687258720398,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -44307,7 +45491,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": -0.48123398423194885,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.5346428155899048,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.48123398423194885,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -44530,7 +45720,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6052330136299133,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.7109118700027466,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6052330136299133,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2,
@@ -44753,7 +45949,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6937082409858704,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6307427883148193,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6937082409858704,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2,
@@ -44985,7 +46187,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7129696607589722,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.1838855743408203,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7129696607589722,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 24,
@@ -45208,7 +46416,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.23083484172821045,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.23083484172821045,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 170,
@@ -45431,7 +46645,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.27348363399505615,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.27348363399505615,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 170,
@@ -45654,7 +46874,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7123265266418457,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.174224615097046,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7123265266418457,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 24,
@@ -45877,7 +47103,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5880337953567505,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2761175632476807,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5880337953567505,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 23,
@@ -46109,7 +47341,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7035441398620605,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.446100950241089,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7035441398620605,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 53,
@@ -46332,7 +47570,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.06513798236846924,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7554409503936768,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.06513798236846924,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 8,
@@ -46555,7 +47799,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.21205544471740723,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4781694412231445,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.21205544471740723,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 12,
@@ -46778,7 +48028,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.1263790726661682,
+          "decision_index": 0,
+          "decision_text": " Yes\nOkay",
+          "yes_margin_pos0": 0.1263790726661682,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 8,
@@ -47001,7 +48257,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.754734456539154,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7380895614624023,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.754734456539154,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 55,
@@ -47233,7 +48495,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9485642910003662,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6002840995788574,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.9485642910003662,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 58,
@@ -47456,7 +48724,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": -0.1368323266506195,
+          "decision_index": 0,
+          "decision_text": " Yes\nOkay",
+          "yes_margin_pos0": -0.1368323266506195,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 5305,
@@ -47679,7 +48953,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": -0.09235720336437225,
+          "decision_index": 0,
+          "decision_text": " Yes\nOkay",
+          "yes_margin_pos0": -0.09235720336437225,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 5305,
@@ -47902,7 +49182,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8095715641975403,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5999770164489746,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8095715641975403,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 58,
@@ -48125,7 +49411,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9428741931915283,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6579883098602295,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.9428741931915283,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 50,
@@ -48357,7 +49649,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7544241547584534,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.410735607147217,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7544241547584534,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -48580,7 +49878,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": -0.10087477415800095,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.330589771270752,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.10087477415800095,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 3,
@@ -48803,7 +50107,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.750552773475647,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.0023441314697266,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.750552773475647,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 27,
@@ -49026,7 +50336,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7551358342170715,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.386518955230713,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7551358342170715,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -49249,7 +50565,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7100285291671753,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5416369438171387,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7100285291671753,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 19,
@@ -49481,7 +50803,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.41016748547554016,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2867822647094727,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.41016748547554016,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 206,
@@ -49704,7 +51032,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.8278696537017822,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.8278696537017822,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 1354,
@@ -49927,7 +51261,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.8743219971656799,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.8743219971656799,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 24,
@@ -50150,7 +51490,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.014067772775888443,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.216136932373047,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.014067772775888443,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 35,
@@ -50373,7 +51719,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.45112720131874084,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6304683685302734,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.45112720131874084,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 204,
@@ -50605,7 +51957,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6853756308555603,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.2705509662628174,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6853756308555603,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 18,
@@ -50828,7 +52186,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.491440087556839,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.515354633331299,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.491440087556839,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 596,
@@ -51051,7 +52415,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6690257787704468,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.260744094848633,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6690257787704468,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -51274,7 +52644,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.3119155168533325,
+          "decision_index": 0,
+          "decision_text": " Yes\nOkay",
+          "yes_margin_pos0": 0.3119155168533325,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 0,
@@ -51497,7 +52873,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.6959850788116455,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.6959850788116455,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 29,
@@ -51729,7 +53111,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7018262147903442,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.663900136947632,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7018262147903442,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 53,
@@ -51952,7 +53340,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.04108776897192001,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.9490013122558594,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.04108776897192001,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 16,
@@ -52175,7 +53569,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.06231562793254852,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8456435203552246,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.06231562793254852,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 16,
@@ -52398,7 +53798,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7183550596237183,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7247467041015625,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7183550596237183,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 53,
@@ -52621,7 +54027,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7534867525100708,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.036921977996826,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7534867525100708,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 53,
@@ -52853,7 +54265,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7168335914611816,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.395528554916382,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7168335914611816,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 32,
@@ -53076,7 +54494,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.4152158498764038,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.4152158498764038,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 250,
@@ -53299,7 +54723,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.44673752784729004,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.44673752784729004,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 250,
@@ -53522,7 +54952,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8575968146324158,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.38138747215271,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8575968146324158,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 32,
@@ -53745,7 +55181,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.7563806772232056,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.505795955657959,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.7563806772232056,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 34,
@@ -53977,7 +55419,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8203632831573486,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7260451316833496,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8203632831573486,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 54,
@@ -54200,7 +55648,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.14150728285312653,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.8322110176086426,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.14150728285312653,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 399,
@@ -54423,7 +55877,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.1285240203142166,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.8263612985610962,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.1285240203142166,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 399,
@@ -54646,7 +56106,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9626197814941406,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8014965057373047,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.9626197814941406,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 54,
@@ -54869,7 +56335,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 1.0998163223266602,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.1655471324920654,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 1.0998163223266602,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 58,
@@ -55101,7 +56573,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.522537887096405,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.5189340114593506,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.522537887096405,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7,
@@ -55324,7 +56802,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.7479661703109741,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": -0.7479661703109741,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 947,
@@ -55547,7 +57031,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.7158554196357727,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": -0.7158554196357727,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 947,
@@ -55770,7 +57260,13 @@
           "restate_a": true,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": -0.37749674916267395,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.140901803970337,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": -0.37749674916267395,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 0,
@@ -55993,7 +57489,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5759522318840027,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7551050186157227,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5759522318840027,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7,
@@ -56225,7 +57727,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5756503939628601,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.2451043128967285,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5756503939628601,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 306,
@@ -56448,7 +57956,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6869447231292725,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8613357543945312,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6869447231292725,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 140,
@@ -56671,7 +58185,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6379707455635071,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.9362642765045166,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6379707455635071,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 140,
@@ -56894,7 +58414,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.40279626846313477,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7006869316101074,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.40279626846313477,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 94,
@@ -57117,7 +58643,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.6650674939155579,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6310763359069824,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.6650674939155579,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 315,
@@ -57349,7 +58881,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5768749713897705,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.389537811279297,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5768749713897705,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 480,
@@ -57572,7 +59110,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.20693111419677734,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": -0.20693111419677734,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7607,
@@ -57795,7 +59339,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": -0.21969495713710785,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": -0.21969495713710785,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 7607,
@@ -58018,7 +59568,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5053397417068481,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.422524929046631,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5053397417068481,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 480,
@@ -58241,7 +59797,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.5245373249053955,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.7527928352355957,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5245373249053955,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 477,
@@ -58473,7 +60035,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8782182335853577,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.64998459815979,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8782182335853577,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -58696,7 +60264,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8546242713928223,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4716556072235107,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8546242713928223,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 12,
@@ -58919,7 +60493,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.8104553818702698,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.4171957969665527,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.8104553818702698,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 12,
@@ -59142,7 +60722,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 1.0422025918960571,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6836652755737305,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 1.0422025918960571,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -59365,7 +60951,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9592171907424927,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.9202802181243896,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.9592171907424927,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 20,
@@ -59597,7 +61189,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9808268547058105,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.518423318862915,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.9808268547058105,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 122,
@@ -59820,7 +61418,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9387667775154114,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.712484121322632,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.9387667775154114,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 96,
@@ -60043,7 +61647,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.9662448763847351,
+          "decision_index": 0,
+          "decision_text": " yes/no\n",
+          "yes_margin_pos0": 0.9662448763847351,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 96,
@@ -60266,7 +61876,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.94488525390625,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.6118738651275635,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.94488525390625,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 122,
@@ -60489,7 +62105,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": true,
+          "says_no": false,
+          "answered": true,
           "yes_margin": 0.9381110072135925,
+          "decision_index": 0,
+          "decision_text": " Yes/No",
+          "yes_margin_pos0": 0.9381110072135925,
+          "says_yes_pos0": true,
           "lens_best": {
             "18": {
               "a": 174,
@@ -60721,7 +62343,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
+          "says_no": false,
+          "answered": false,
           "yes_margin": 1.2456908226013184,
+          "decision_index": 0,
+          "decision_text": " \".\n\nI",
+          "yes_margin_pos0": 1.2456908226013184,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1,
@@ -60944,7 +62572,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.4687402844429016,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.3653972148895264,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.4687402844429016,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2687,
@@ -61167,7 +62801,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.5923036336898804,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.2404963970184326,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.5923036336898804,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 2687,
@@ -61390,7 +63030,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
+          "says_no": false,
+          "answered": false,
           "yes_margin": 1.30899178981781,
+          "decision_index": 0,
+          "decision_text": " \".\n\nI",
+          "yes_margin_pos0": 1.30899178981781,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1,
@@ -61613,7 +63259,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
+          "says_no": false,
+          "answered": false,
           "yes_margin": 1.3749200105667114,
+          "decision_index": 0,
+          "decision_text": "\"\n\nI answered",
+          "yes_margin_pos0": 1.3749200105667114,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 1,
@@ -61845,7 +63497,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9236201643943787,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8041326999664307,
+          "decision_index": 1,
+          "decision_text": "A:",
+          "yes_margin_pos0": 0.9236201643943787,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 134,
@@ -62068,7 +63726,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
-          "yes_margin": 0.15768368542194366,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 1.2696828842163086,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 0.15768368542194366,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 4848,
@@ -62291,7 +63955,13 @@
           "restate_a": false,
           "restate_b": true,
           "says_yes": false,
+          "says_no": true,
+          "answered": true,
           "yes_margin": 0.15373970568180084,
+          "decision_index": 0,
+          "decision_text": " no\nOkay",
+          "yes_margin_pos0": 0.15373970568180084,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 4848,
@@ -62514,7 +64184,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 0.9433140158653259,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 2.8074281215667725,
+          "decision_index": 1,
+          "decision_text": "A:",
+          "yes_margin_pos0": 0.9433140158653259,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 134,
@@ -62737,7 +64413,13 @@
           "restate_a": true,
           "restate_b": false,
           "says_yes": false,
-          "yes_margin": 1.1049903631210327,
+          "says_no": false,
+          "answered": false,
+          "yes_margin": 3.0663397312164307,
+          "decision_index": 1,
+          "decision_text": "Okay,",
+          "yes_margin_pos0": 1.1049903631210327,
+          "says_yes_pos0": false,
           "lens_best": {
             "18": {
               "a": 134,
@@ -62963,33 +64645,43 @@
         "flip": 0.0,
         "restate_swapped": 0.0,
         "says_yes": 0.0,
-        "yes_margin_mean": 0.7011758658502784,
+        "says_no": 0.0,
+        "answered": 0.0,
+        "yes_margin_mean": 2.400215212787901,
         "lens_swap_outranks_mid": 0.08928571428571429
       },
       "full": {
         "flip": 0.8035714285714286,
         "restate_swapped": 0.6785714285714286,
         "says_yes": 0.21428571428571427,
-        "yes_margin_mean": 0.3180138112178871,
+        "says_no": 0.07142857142857142,
+        "answered": 0.2857142857142857,
+        "yes_margin_mean": 1.6820761279336043,
         "lens_swap_outranks_mid": 0.7142857142857143
       },
       "half1": {
         "flip": 0.7321428571428571,
         "restate_swapped": 0.5178571428571429,
         "says_yes": 0.21428571428571427,
-        "yes_margin_mean": 0.38373804172234877
+        "says_no": 0.10714285714285714,
+        "answered": 0.32142857142857145,
+        "yes_margin_mean": 1.7126930715250117
       },
       "half2": {
         "flip": 0.17857142857142858,
         "restate_swapped": 0.16071428571428573,
         "says_yes": 0.03571428571428571,
-        "yes_margin_mean": 0.5373211296142212
+        "says_no": 0.0,
+        "answered": 0.03571428571428571,
+        "yes_margin_mean": 2.2075114707861627
       },
       "randdir": {
         "flip": 0.0,
         "restate_swapped": 0.0,
         "says_yes": 0.05357142857142857,
-        "yes_margin_mean": 0.7410203117345061
+        "says_no": 0.0,
+        "answered": 0.05357142857142857,
+        "yes_margin_mean": 2.4862979842083797
       }
     },
     "full_detected_x_captured": {

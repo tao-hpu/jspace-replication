@@ -1,0 +1,2366 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "domain": "states",
+  "records": [
+    {
+      "a": "Texas",
+      "b": "California",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "California",
+      "b": "Florida",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Florida",
+      "b": "Ohio",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Ohio",
+      "b": "Georgia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Georgia",
+      "b": "Utah",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": false
+    },
+    {
+      "a": "Utah",
+      "b": "Iowa",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Iowa",
+      "b": "Maine",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Maine",
+      "b": "Idaho",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Idaho",
+      "b": "Kansas",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Kansas",
+      "b": "Oregon",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Oregon",
+      "b": "Nevada",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Nevada",
+      "b": "Arizona",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Arizona",
+      "b": "Montana",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Montana",
+      "b": "Colorado",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Colorado",
+      "b": "Alabama",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Alabama",
+      "b": "Alaska",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Alaska",
+      "b": "Hawaii",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Hawaii",
+      "b": "Kentucky",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Kentucky",
+      "b": "Louisiana",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Louisiana",
+      "b": "Michigan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Michigan",
+      "b": "Minnesota",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Minnesota",
+      "b": "Missouri",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Missouri",
+      "b": "Nebraska",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Nebraska",
+      "b": "Tennessee",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Tennessee",
+      "b": "Vermont",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Vermont",
+      "b": "Wisconsin",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Wisconsin",
+      "b": "Wyoming",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Wyoming",
+      "b": "Illinois",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Illinois",
+      "b": "Arkansas",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Arkansas",
+      "b": "Delaware",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Delaware",
+      "b": "Maryland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Maryland",
+      "b": "Connecticut",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Connecticut",
+      "b": "Pennsylvania",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Pennsylvania",
+      "b": "Massachusetts",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s14": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Massachusetts",
+      "b": "Virginia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Virginia",
+      "b": "Mississippi",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s10": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Mississippi",
+      "b": "Texas",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s8": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s10": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s12": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s14": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s16": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    }
+  ],
+  "summary": {
+    "n": 37,
+    "n_ok": 36,
+    "n_layers": 28,
+    "band": [
+      8,
+      26
+    ],
+    "none": {
+      "flip": 0.0,
+      "restate_swapped": 0.0
+    },
+    "windows": [
+      {
+        "arm": "full",
+        "layers": [
+          8,
+          26
+        ],
+        "k": 19,
+        "anchor": "full",
+        "flip": 0.7777777777777778,
+        "restate_swapped": 0.8055555555555556
+      },
+      {
+        "arm": "s8",
+        "layers": [
+          8,
+          13
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.6666666666666666,
+        "restate_swapped": 0.7222222222222222
+      },
+      {
+        "arm": "s10",
+        "layers": [
+          10,
+          15
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.6388888888888888,
+        "restate_swapped": 0.6388888888888888
+      },
+      {
+        "arm": "s12",
+        "layers": [
+          12,
+          17
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.3055555555555556,
+        "restate_swapped": 0.3055555555555556
+      },
+      {
+        "arm": "s14",
+        "layers": [
+          14,
+          19
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.2777777777777778,
+        "restate_swapped": 0.3333333333333333
+      },
+      {
+        "arm": "s16",
+        "layers": [
+          16,
+          21
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.08333333333333333,
+        "restate_swapped": 0.0
+      },
+      {
+        "arm": "s18",
+        "layers": [
+          18,
+          23
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.027777777777777776,
+        "restate_swapped": 0.027777777777777776
+      },
+      {
+        "arm": "s20",
+        "layers": [
+          20,
+          25
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.0,
+        "restate_swapped": 0.05555555555555555
+      }
+    ]
+  }
+}

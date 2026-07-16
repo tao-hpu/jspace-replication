@@ -108,6 +108,14 @@ def fig_cone() -> None:
     ax.plot([], [], color=pu.VERMILLION, marker="s", linestyle="-",
             label=r"$J_\ell^\top W_U$ (transported)")
     for i, m in enumerate(order):
+        if m == "pythia-70m":
+            # 1.0 sits on the y=1 baseline and collides with the tick line;
+            # pull the label up-right with a thin leader line
+            ax.annotate(f"{jl[i]:.1f}", (xs[i], jl[i]), xytext=(xs[i] + 0.45, 1.75),
+                        ha="center", fontsize=6.5, color=pu.VERMILLION,
+                        arrowprops=dict(arrowstyle="-", color=pu.VERMILLION,
+                                        linewidth=0.5, shrinkA=0, shrinkB=2))
+            continue
         dy = 8 if m == "selftrained-124m" else -11
         ax.annotate(f"{jl[i]:.1f}", (xs[i], jl[i]), textcoords="offset points",
                     xytext=(0, dy), ha="center", fontsize=6.5, color=pu.VERMILLION)
@@ -218,6 +226,23 @@ def fig_e7() -> None:
     series(ax, "full", "restate_swapped", "question restated as edited (full)", pu.BLUE, "s")
     series(ax, "half2", "restate_swapped", "restated as edited (late half-band)", pu.SKY, "D")
     series(ax, "randdir", "flip", "random-direction control", pu.GREY, "x")
+    # cross-family reference: Gemma-2-2B (point estimates; not on the Qwen
+    # scale ladder, so drawn as off-line stars rather than a connected series).
+    gem = load("e7_perspectival_gemma2-2b.json")["summary"]["arms"]
+    gx = 2.6  # Gemma-2-2B parameter count (B)
+    star = dict(marker="*", linestyle="none", markeredgecolor=pu.BLACK,
+                markeredgewidth=0.5, zorder=5)
+    ax.plot(gx, gem["full"]["flip"] * 100, color=pu.VERMILLION, markersize=12, **star)
+    ax.plot(gx, gem["full"]["restate_swapped"] * 100, color=pu.BLUE, markersize=12, **star)
+    # late half-band (sky): in Gemma the late band captures ~as well as full
+    # (80.4% vs 83.9%), unlike the Qwen ladder where the sky line collapses —
+    # the early/late dose asymmetry is family-contingent, not universal.
+    ax.plot(gx, gem["half2"]["restate_swapped"] * 100, color=pu.SKY, markersize=12, **star)
+    ax.plot(gx, gem["randdir"]["flip"] * 100, color=pu.GREY, markersize=10, **star)
+    ax.annotate("Gemma-2-2B\n(2nd family, ★)", xy=(gx, gem["full"]["flip"] * 100),
+                xytext=(6.6, 99), fontsize=6, ha="center", va="top", color=pu.BLACK,
+                arrowprops=dict(arrowstyle="-", color=pu.GREY, lw=0.5,
+                                shrinkA=2, shrinkB=4))
     ax.set_xscale("log")
     ax.set_xticks(params)
     ax.set_xticklabels(["1.7B", "4B", "8B", "14B"])
@@ -244,6 +269,64 @@ def fig_e7() -> None:
     plt.close(fig)
 
 
+def fig_e7_mechanism() -> None:
+    """Coordinate drift accounts for where late-band capture survives. Left:
+    drift = cos(J_l^T W_U[t], W_U[t]) vs fractional depth, per model; the swap
+    direction rotates into output (logit) coordinates faster on the Qwen
+    family than on Gemma at matched depth. Right: across models, the late-half
+    mean drift inversely tracks late-half restatement capture -- the Gemma
+    late band captures because it is still in pre-output coordinates where
+    Qwen's has already drifted. Reads only e7_drift_*.json + e7 capture
+    summaries, so it renders from whatever models are present."""
+    # (drift key, capture key, label, family color)
+    CAND = [("gemma2-2b", "gemma2-2b", "Gemma-2-2B", pu.VERMILLION),
+            ("gemma2-9b", "gemma2-9b", "Gemma-2-9B", "#d98a3d"),
+            ("gemma2-27b", "gemma2-27b", "Gemma-2-27B", "#8c4a17"),
+            ("qwen17b", "qwen17b", "Qwen3-1.7B", pu.BLUE),
+            ("qwen4b", "qwen4b", "Qwen3-4B", pu.SKY),
+            ("qwen8b", "qwen8b", "Qwen3-8B", "#2b5a8c"),
+            ("qwen14b", "qwen14b", "Qwen3-14B", "#5c7fa8"),
+            ("qwen35-9b", "qwen35-9b", "Qwen3.5-9B", "#7b52a8"),
+            ("qwen36-27b", "qwen36-27b", "Qwen3.6-27B", "#4a2d7a")]
+    rows = []
+    for dk, ck, label, color in CAND:
+        df, cf = RES / f"e7_drift_{dk}.json", RES / f"e7_perspectival_{ck}.json"
+        if df.exists() and cf.exists():
+            rows.append((dk, ck, label, color))
+    if len(rows) < 2:
+        print("  e7_mechanism: <2 models with drift+capture, skipping figure")
+        return
+    fig, (ax, bx) = plt.subplots(1, 2, figsize=(pu.FULL_W, 2.5),
+                                 gridspec_kw={"width_ratios": [1.25, 1]})
+    for dk, ck, label, color in rows:
+        drift = load(f"e7_drift_{dk}.json")["profile"]
+        fam_marker = "o" if "gemma" in dk else "s"
+        dfp = np.array([p["frac_depth"] for p in drift])
+        den = np.array([p["drift_entity"] for p in drift])
+        ax.plot(dfp, den, color=color, marker=fam_marker, markersize=3, linewidth=1.0, label=label)
+        # scatter: late-half mean drift vs late-half restatement capture
+        late = [p["drift_entity"] for p in drift if p["frac_depth"] >= np.median(dfp)]
+        late_drift = float(np.mean(late))
+        cap = load(f"e7_perspectival_{ck}.json")["summary"]["arms"]["half2"]["restate_swapped"] * 100
+        bx.scatter(late_drift, cap, color=color, marker=fam_marker, s=42,
+                   edgecolor=pu.BLACK, linewidth=0.4, zorder=3)
+        bx.annotate(label.replace("Qwen3.5-", "3.5-").replace("Qwen3.6-", "3.6-")
+                         .replace("Qwen3-", "").replace("Gemma-2-", "G"),
+                    (late_drift, cap), textcoords="offset points", xytext=(4, 3),
+                    fontsize=5.5, color=color)
+    ax.set_ylim(0, 1)
+    ax.set_xlabel("fractional depth")
+    ax.set_ylabel(r"coordinate drift  cos$(J_\ell^{\top}W_U[t],\,W_U[t])$")
+    ax.set_title("Swap direction drifts to output coords")
+    ax.legend(loc="upper left", fontsize=5.5, framealpha=0.9)
+    bx.set_xlabel("late-half mean coordinate drift")
+    bx.set_ylabel("% late-half restated as edited")
+    bx.set_ylim(-4, 104)
+    bx.set_title("Drift orders late-band capture, coarsely")
+    pu.save(fig, RES, "e7_mechanism")
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     pu.setup()
     print("generating figures into results/figures/")
@@ -251,3 +334,4 @@ if __name__ == "__main__":
     fig_cone()
     fig_e4b()
     fig_e7()
+    fig_e7_mechanism()

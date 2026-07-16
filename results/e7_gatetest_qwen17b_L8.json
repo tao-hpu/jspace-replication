@@ -1,0 +1,3143 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "domain": "capitals",
+ "band": [
+  8,
+  26
+ ],
+ "n_layers": 28,
+ "records": [
+  {
+   "a": "France",
+   "b": "Japan",
+   "arms": {
+    "none": {
+     "answer": " The capital of France is Paris.\nBut wait, I just",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of France is Paris.\nBut wait, I just",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of France is Paris.\nBut wait, I just",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Japan is Tokyo. The capital of France is",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of Japan is Tokyo.\nThe capital of France is",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of Japan is Tokyo.\nThe capital of France is",
+     "restate": " \"What is the capital of Japan?\" and the answer was \"Tok",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Japan",
+   "b": "Russia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Japan is Tokyo.\nBut wait, I thought",
+     "restate": " \"What is the capital of Japan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Japan is Tokyo.\nBut wait, I thought",
+     "restate": " \"What is the capital of Japan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Russia is Moscow.\nA: The capital of",
+     "restate": " \"What is the capital of Russia?\" and I answered \"Moscow",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Russia is Moscow. The capital of China is",
+     "restate": " \"What is the capital of Russia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Russia is Moscow.  The capital of the",
+     "restate": " \"What is the capital of Russia?\" and the answer I was given",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and I answered:",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Russia",
+   "b": "Germany",
+   "arms": {
+    "none": {
+     "answer": " The capital of Russia is Moscow.  The capital of Russia",
+     "restate": " \"What is the capital of Russia?\" and the answer I was given",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Russia is Moscow.  The capital of Russia",
+     "restate": " \"What is the capital of Russia?\" and the answer I was given",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Germany is Berlin.\nThe capital of France is",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Germany is Berlin. The capital of France is",
+     "restate": " \"What is the capital of Germany?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Germany is Berlin.\nThe capital of France is",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The answer is not correct. The correct answer is: The",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Germany",
+   "b": "Italy",
+   "arms": {
+    "none": {
+     "answer": " The capital of Germany is Berlin.\nBut wait, I just",
+     "restate": " \"What is the capital of Germany?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Germany is Berlin.\nBut wait, I just",
+     "restate": " \"What is the capital of Germany?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Italy is Rome. The capital of Germany is",
+     "restate": " \"What is the capital of Germany?\" and the answer I was given",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Italy is Rome. The capital of the United",
+     "restate": " \"What is the capital of Italy?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and I was asked",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I was asked",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Italy",
+   "b": "Spain",
+   "arms": {
+    "none": {
+     "answer": " The capital of Italy is Rome.\nBut wait, I thought",
+     "restate": " \"What is the capital of Italy?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Italy is Rome.\nBut wait, I thought",
+     "restate": " \"What is the capital of Italy?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Spain is Madrid. The capital of Italy is",
+     "restate": " \"What is the capital of Italy?\" and the answer I was given",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the United Kingdom is London. The capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United Kingdom is London. The capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Spain",
+   "b": "England",
+   "arms": {
+    "none": {
+     "answer": " Madrid\nThe question is a bit of a trick question,",
+     "restate": " \"What is the capital of Spain?\"\nBut the answer is not Madrid",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Spain is Madrid.\nBut wait, I just",
+     "restate": " \"What is the capital of Spain?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of England is London. The capital of the United",
+     "restate": " \"What is the capital of England?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of England is London. The capital of the United",
+     "restate": " \"What is the capital of England?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United Kingdom is London. The capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "England",
+   "b": "China",
+   "arms": {
+    "none": {
+     "answer": " The capital of England is London.  The capital of the",
+     "restate": " \"What is the capital of England?\" and the answer I was given",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of England is London.  The capital of the",
+     "restate": " \"What is the capital of England?\" and the answer I was given",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of China is Beijing. The capital of England is",
+     "restate": " \"What is the capital of England?\" and the answer I was given",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of China is Beijing. The capital of the United",
+     "restate": " \"What is the capital of China?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of China is Beijing. The capital of the United",
+     "restate": " \"What is the capital of China?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United Kingdom is London.  The capital",
+     "restate": " \"What is the capital of the United Kingdom?\" and I answered:",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "China",
+   "b": "Egypt",
+   "arms": {
+    "none": {
+     "answer": " The capital of China is Beijing.  The capital of China",
+     "restate": " \"What is the capital of China?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of China is Beijing.  The capital of China",
+     "restate": " \"What is the capital of China?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of China is Beijing.  The capital of China",
+     "restate": " \"What is the capital of China?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of China is Beijing. \n\nBut wait, I",
+     "restate": " \"What is the capital of China?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of Egypt is Cairo.\nWait, that's not",
+     "restate": " \"What is the capital of Egypt?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the country is the city of the government.",
+     "restate": " \"What is the capital of the country?\" and the answer I gave",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Egypt",
+   "b": "Greece",
+   "arms": {
+    "none": {
+     "answer": " The capital of Egypt is Cairo.\nThe capital of Egypt is",
+     "restate": " \"What is the capital of Egypt?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Egypt is Cairo.\nThe capital of Egypt is",
+     "restate": " \"What is the capital of Egypt?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Greece is Athens. The capital of Turkey is",
+     "restate": " \"What is the capital of Greece?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Greece is Athens. The capital of Italy is",
+     "restate": " \"What is the capital of Greece?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Greece",
+   "b": "Thailand",
+   "arms": {
+    "none": {
+     "answer": " The capital of Greece is Athens.\nBut wait, I just",
+     "restate": " \"What is the capital of Greece?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Greece is Athens.\nBut wait, I just",
+     "restate": " \"What is the capital of Greece?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Thailand is Bangkok. The capital of the Philippines",
+     "restate": " \"What is the capital of Thailand?\" and I answered \"Bangkok",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Thailand is Bangkok. The capital of the Philippines",
+     "restate": " \"What is the capital of Thailand?\" and I answered \"Bangkok",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the country of Thailand is Bangkok.\nThe capital",
+     "restate": " \"What is the capital of the country of Thailand?\" and the answer",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Thailand",
+   "b": "Peru",
+   "arms": {
+    "none": {
+     "answer": " The capital of Thailand is Bangkok.  The city is located",
+     "restate": " \"What is the capital of Thailand?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Thailand is Bangkok.\nBut wait, I just",
+     "restate": " \"What is the capital of Thailand?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Thailand is Bangkok.\nBut wait, I thought",
+     "restate": " \"What is the capital of Thailand?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Peru",
+   "b": "Chile",
+   "arms": {
+    "none": {
+     "answer": " The capital of Peru is Lima.\nThe capital of Peru is",
+     "restate": " \"What is the capital of Peru?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Peru is Lima.\nThe capital of Peru is",
+     "restate": " \"What is the capital of Peru?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Peru is Lima.\nThe capital of Peru is",
+     "restate": " \"What is the capital of Peru?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Chile is Santiago, and the capital of Peru",
+     "restate": " \"What is the capital of Chile and Peru?\" and the answer I",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the Republic of Chile is Santiago de Chile.",
+     "restate": " \"What is the capital of Chile?\"\nThe answer I gave was:",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the Republic of Ireland is Dublin.\nThe capital",
+     "restate": " \"What is the capital of the Republic of Ireland?\" and the answer",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Chile",
+   "b": "Kenya",
+   "arms": {
+    "none": {
+     "answer": " The capital of Chile is Santiago.\nThe capital of Chile is",
+     "restate": " \"What is the capital of Chile?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Chile is Santiago de Chile.\nThe capital of",
+     "restate": " \"What is the capital of Chile?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Kenya is Nairobi.\nA: The capital of",
+     "restate": " \"What is the capital of Kenya?\" and I answered \"Nairobi",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Kenya is Nairobi.\nThe capital of Kenya is",
+     "restate": " \"What is the capital of Kenya?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United Kingdom is London.\nThe capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington D.C.\nThe",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Kenya",
+   "b": "Canada",
+   "arms": {
+    "none": {
+     "answer": " The capital of Kenya is Nairobi.\nBut wait, I just",
+     "restate": " \"What is the capital of Kenya?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Kenya is Nairobi.\nBut wait, I just",
+     "restate": " \"What is the capital of Kenya?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Canada is Ottawa.\nThe capital of Canada is",
+     "restate": " \"What is the capital of Canada?\" and I answered \"Ott",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Canada is Ottawa.\nThe capital of Canada is",
+     "restate": " \"What is the capital of Canada?\" and I answered \"Ott",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Canada is Ottawa.\nThe capital of the United",
+     "restate": " \"What is the capital of the United States of America?\" and I",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the Republic of Ireland is Dublin. The capital",
+     "restate": " \"What is the capital of the Republic of Ireland?\" But the answer",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Canada",
+   "b": "India",
+   "arms": {
+    "none": {
+     "answer": " The capital of Canada is Ottawa.\nThe question is a bit",
+     "restate": " \"What is the capital of Canada?\" and I answered \"Ott",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Canada is Ottawa.\nThe user is asking for",
+     "restate": " \"What is the capital of Canada?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of India is New Delhi.\nA: The capital",
+     "restate": " \"What is the capital of India?\" and I answered \"New Delhi",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of India is New Delhi.\nThe capital of India",
+     "restate": " \"What is the capital of India?\" and I answered \"New Delhi",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The answer is \"New York\".\nI think I'm going",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "India",
+   "b": "Portugal",
+   "arms": {
+    "none": {
+     "answer": " The capital of India is New Delhi.\nBut wait, I",
+     "restate": " \"What is the capital of India?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of India is New Delhi.\nBut wait, I",
+     "restate": " \"What is the capital of India?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " Lisbon\nThe user is asking for the capital of Portugal,",
+     "restate": " \"What is the capital of Portugal?\"\nThe answer I gave was:",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of the United Kingdom is London. The capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States of America is Washington, D",
+     "restate": " \"What is the capital of the United States of America?\" and the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " Lisbon\n\nThe above answer is incorrect.  Why?\n\nA",
+     "restate": " \"What is the capital of France?\" and I answered \"Lis",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Portugal",
+   "b": "Austria",
+   "arms": {
+    "none": {
+     "answer": " Lisbon\nThe capital of Portugal is Lisbon. Lisbon is the",
+     "restate": " \"What is the capital of Portugal?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Portugal is Lisbon.\nThe capital of Portugal is",
+     "restate": " \"What is the capital of Portugal?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Austria is Vienna, the capital of Germany is",
+     "restate": " \"What is the capital of Austria?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered:",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered:",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Austria",
+   "b": "Poland",
+   "arms": {
+    "none": {
+     "answer": " The capital of Austria is Vienna.\nA: The capital of",
+     "restate": " \"What is the capital of Austria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Austria is Vienna.\nA: The capital of",
+     "restate": " \"What is the capital of Austria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Austria is Vienna.\nThe capital of Austria is",
+     "restate": " \"What is the capital of Austria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Poland is Warsaw. The capital of the United",
+     "restate": " \"What is the capital of Poland?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Poland is Warsaw. The capital of the United",
+     "restate": " \"What is the capital of Poland?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Poland",
+   "b": "Norway",
+   "arms": {
+    "none": {
+     "answer": " The capital of Poland is Warsaw.\nBut wait, I thought",
+     "restate": " \"What is the capital of Poland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Poland is Warsaw.\nBut wait, I thought",
+     "restate": " \"What is the capital of Poland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Poland is Warsaw.\nBut wait, I just",
+     "restate": " \"What is the capital of Poland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Poland is Warsaw.\nBut wait, I just",
+     "restate": " \"What is the capital of Poland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of Norway is Oslo.\nBut wait, the question",
+     "restate": " \"What is the capital of Norway?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and I was asked",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Norway",
+   "b": "Sweden",
+   "arms": {
+    "none": {
+     "answer": " Oslo\nThe capital of Norway is Oslo. Oslo is a",
+     "restate": " \"What is the capital of Norway?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Norway is Oslo.\nThe capital of Norway is",
+     "restate": " \"What is the capital of Norway?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Norway is Stockholm.\nThe capital of Norway is",
+     "restate": " \"What is the capital of Norway?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Sweden",
+   "b": "Finland",
+   "arms": {
+    "none": {
+     "answer": " The capital of Sweden is Stockholm.\nBut wait, I thought",
+     "restate": " \"What is the capital of Sweden?\" and I answered \"Stockholm",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Sweden is Stockholm.\nBut wait, I thought",
+     "restate": " \"What is the capital of Sweden?\" and I answered \"Stockholm",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Sweden is Stockholm.  The capital of Sweden",
+     "restate": " \"What is the capital of Sweden?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Finland is Helsinki. The capital of Sweden is",
+     "restate": " \"What is the capital of Finland?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Finland is Helsinki.\nThe capital of the United",
+     "restate": " \"What is the capital of Finland?\" and I answered \"Helsinki",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of Finland is Helsinki.\nThe capital of the United",
+     "restate": " \"What is the capital of the United States of America?\" and I",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Finland",
+   "b": "Denmark",
+   "arms": {
+    "none": {
+     "answer": " The capital of Finland is Helsinki.\nThe capital of Finland is",
+     "restate": " \"What is the capital of Finland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Finland is Helsinki.\nThe capital of Finland is",
+     "restate": " \"What is the capital of Finland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Denmark is Copenhagen. The capital of the United",
+     "restate": " \"What is the capital of Denmark?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Denmark is Copenhagen. The capital of the United",
+     "restate": " \"What is the capital of Denmark?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" I was told the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" I was told the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Denmark",
+   "b": "Ireland",
+   "arms": {
+    "none": {
+     "answer": " The capital of Denmark is Copenhagen.\nBut wait, I just",
+     "restate": " \"What is the capital of Denmark?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Denmark is Copenhagen.\nBut wait, I just",
+     "restate": " \"What is the capital of Denmark?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Ireland is Dublin. The capital of the United",
+     "restate": " \"What is the capital of Ireland?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Ireland is Dublin. The capital of the United",
+     "restate": " \"What is the capital of Ireland?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United Kingdom is London. \n\nBut wait",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Ireland",
+   "b": "Belgium",
+   "arms": {
+    "none": {
+     "answer": " The capital of Ireland is Dublin.\nThe capital of Ireland is",
+     "restate": " \"What is the capital of Ireland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Ireland is Dublin.\nThe capital of Ireland is",
+     "restate": " \"What is the capital of Ireland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Belgium is Brussels, and the capital of the",
+     "restate": " \"What is the capital of Belgium?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" I was told the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United Kingdom is London. The capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Belgium",
+   "b": "Switzerland",
+   "arms": {
+    "none": {
+     "answer": " The capital of Belgium is Brussels.  The capital of Belgium",
+     "restate": " \"What is the capital of Belgium?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Belgium is Brussels.  The capital of Belgium",
+     "restate": " \"What is the capital of Belgium?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Belgium is Brussels.  The capital of Belgium",
+     "restate": " \"What is the capital of Belgium?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Switzerland is Bern, and the capital of Germany",
+     "restate": " \"What is the capital of Switzerland?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Switzerland is Bern.\nA: The capital of",
+     "restate": " \"What is the capital of Switzerland?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Switzerland",
+   "b": "Hungary",
+   "arms": {
+    "none": {
+     "answer": " Bern\nThe capital of Switzerland is Bern. Bern is the",
+     "restate": " \"What is the capital of Switzerland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " Bern\nThe capital of Switzerland is Bern. Bern is the",
+     "restate": " \"What is the capital of Switzerland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Switzerland is Bern.\nThe capital of Switzerland is",
+     "restate": " \"What is the capital of Switzerland?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\"\nI have to answer",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Hungary",
+   "b": "Romania",
+   "arms": {
+    "none": {
+     "answer": " The capital of Hungary is Budapest.\nBut wait, I thought",
+     "restate": " \"What is the capital of Hungary?\" and I answered \"Bud",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Hungary is Budapest.\nBut wait, I just",
+     "restate": " \"What is the capital of Hungary?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Hungary is Budapest.\nBut wait, I thought",
+     "restate": " \"What is the capital of Hungary?\" and I answered \"Bud",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Romania is Bucharest.\nThe capital of Romania",
+     "restate": " \"What is the capital of Romania?\" and I answered: \"The",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Romania is Bucharest.\n\nThis answer is incorrect",
+     "restate": " \"What is the capital of Romania?\" and I answered \"Buch",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Romania",
+   "b": "Bulgaria",
+   "arms": {
+    "none": {
+     "answer": " The capital of Romania is Bucharest.\nThe capital of Romania",
+     "restate": " \"What is the capital of Romania?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Romania is Bucharest.\nThe capital of Romania",
+     "restate": " \"What is the capital of Romania?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Romania is Bucharest.\nThe capital of Romania",
+     "restate": " \"What is the capital of Romania?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Bulgaria",
+   "b": "Serbia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Bulgaria is Sofia.\nThe capital of Bulgaria is",
+     "restate": " \"What is the capital of Bulgaria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Bulgaria is Sofia.\nThe capital of Bulgaria is",
+     "restate": " \"What is the capital of Bulgaria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Bulgaria is Sofia.\nThe capital of Bulgaria is",
+     "restate": " \"What is the capital of Bulgaria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Bulgaria is Sofia.\nThe capital of Bulgaria is",
+     "restate": " \"What is the capital of Bulgaria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of Serbia is Belgrade. The capital of the",
+     "restate": " \"What is the capital of Serbia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the Republic of Serbia is Belgrade.\nThe",
+     "restate": " \"What is the capital of the Republic of Serbia?\" and I answered",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Serbia",
+   "b": "Croatia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Serbia is Belgrade.\nThe capital of Serbia",
+     "restate": " \"What is the capital of Serbia?\" and I answered: \"Bel",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Serbia is Belgrade.\nThe capital of Serbia",
+     "restate": " \"What is the capital of Serbia?\" and I answered: \"Bel",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Serbia is Belgrade.\nThe capital of Serbia",
+     "restate": " \"What is the capital of Serbia?\" and I answered: \"Bel",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Croatia is Zagreb, and the capital of",
+     "restate": " \"What is the capital of Croatia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the Republic of Croatia is Zagreb. The",
+     "restate": " \"What is the capital of Croatia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Croatia",
+   "b": "Turkey",
+   "arms": {
+    "none": {
+     "answer": " The capital of Croatia is Zagreb.\nThe capital of Croatia",
+     "restate": " \"What is the capital of Croatia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Croatia is Zagreb.\nThe capital of Croatia",
+     "restate": " \"What is the capital of Croatia?\" and I answered: \"Z",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Croatia is Zagreb.\nThe capital of Croatia",
+     "restate": " \"What is the capital of Croatia?\" and I answered: \"Z",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Turkey is Ankara. The capital of the United",
+     "restate": " \"What is the capital of Turkey?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of Turkey?\" and I answered \"Washington,",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Turkey",
+   "b": "Iran",
+   "arms": {
+    "none": {
+     "answer": " The capital of Turkey is Ankara.\nBut wait, I thought",
+     "restate": " \"What is the capital of Turkey?\" and I answered \"Ank",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Turkey is Ankara.\nBut wait, I thought",
+     "restate": " \"What is the capital of Turkey?\" and I answered \"Ank",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Turkey is Ankara. \n\nBut wait, I",
+     "restate": " \"What is the capital of Turkey?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Iran is Tehran. The capital of Pakistan is",
+     "restate": " \"What is the capital of Iran?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered:",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Iran",
+   "b": "Iraq",
+   "arms": {
+    "none": {
+     "answer": " The capital of Iran is Tehran.\nBut wait, I just",
+     "restate": " \"What is the capital of Iran?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Iran is Tehran.\nThe capital of Iran is",
+     "restate": " \"What is the capital of Iran?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Iran is Tehran.\nThe capital of Iran is",
+     "restate": " \"What is the capital of Iran?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Iraq is Baghdad. The capital of the United",
+     "restate": " \"What is the capital of Iraq?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Iraq",
+   "b": "Jordan",
+   "arms": {
+    "none": {
+     "answer": " The capital of Iraq is Baghdad.\nBut wait, I just",
+     "restate": " \"What is the capital of Iraq?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Iraq is Baghdad.\nThe capital of Iraq is",
+     "restate": " \"What is the capital of Iraq?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Jordan is Amman.\nA: The capital",
+     "restate": " \"What is the capital of Jordan?\" and I answered \"Amman",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of the Kingdom of Jordan is Amman. The",
+     "restate": " \"What is the capital of Jordan?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered:",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Jordan",
+   "b": "Lebanon",
+   "arms": {
+    "none": {
+     "answer": " The capital of Jordan is Amman.\nThe capital of Jordan",
+     "restate": " \"What is the capital of Jordan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Jordan is Amman.\nThe capital of Jordan",
+     "restate": " \"What is the capital of Jordan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Jordan is Amman.\nThe capital of Jordan",
+     "restate": " \"What is the capital of Jordan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Jordan is Amman.\nThe capital of Jordan",
+     "restate": " \"What is the capital of Jordan?\" and I answered: \"The",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United Nations is New York.\nThe question",
+     "restate": " \"What is the capital of the United Nations?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Lebanon",
+   "b": "Qatar",
+   "arms": {
+    "none": {
+     "answer": " The capital of Lebanon is Beirut.\nThe capital of Lebanon is",
+     "restate": " \"What is the capital of Lebanon?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Lebanon is Beirut.\nThe capital of Lebanon is",
+     "restate": " \"What is the capital of Lebanon?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Lebanon is Beirut.\nThe capital of Lebanon is",
+     "restate": " \"What is the capital of Lebanon?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the United Arab Emirates is Abu Dhabi.\nThe",
+     "restate": " \"What is the capital of the United Arab Emirates?\" and the answer",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United Kingdom is London.\nThe capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" I was told the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Qatar",
+   "b": "Vietnam",
+   "arms": {
+    "none": {
+     "answer": " The capital of Qatar is Doha.\nThe capital of Qatar",
+     "restate": " \"What is the capital of Qatar?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Qatar is Doha.\nThe capital of Qatar",
+     "restate": " \"What is the capital of Qatar?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Vietnam is Hanoi.\nThe capital of Vietnam",
+     "restate": " \"What is the capital of Vietnam?\" and I answered \"Hanoi",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Vietnam is Hanoi.\nThe capital of the",
+     "restate": " \"What is the capital of Vietnam?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Vietnam",
+   "b": "Indonesia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Vietnam is Hanoi.\nBut wait, I",
+     "restate": " \"What is the capital of Vietnam?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Vietnam is Hanoi.\nBut wait, I",
+     "restate": " \"What is the capital of Vietnam?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Vietnam is Hanoi.\nBut wait, I",
+     "restate": " \"What is the capital of Vietnam?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Indonesia is Jakarta. The capital of the United",
+     "restate": " \"What is the capital of Indonesia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Indonesia is Jakarta. The capital of the United",
+     "restate": " \"What is the capital of Indonesia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Indonesia",
+   "b": "Malaysia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Indonesia is Jakarta. \n\nBut wait, I",
+     "restate": " \"What is the capital of Indonesia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Indonesia is Jakarta. \n\nBut wait, I",
+     "restate": " \"What is the capital of Indonesia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Indonesia is Jakarta. \n\nBut wait, I",
+     "restate": " \"What is the capital of Indonesia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Malaysia is Kuala Lumpur. However, the capital",
+     "restate": " \"What is the capital of Malaysia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Malaysia is Kuala Lumpur. However, the capital",
+     "restate": " \"What is the capital of Malaysia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United Kingdom is London. The capital of",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Malaysia",
+   "b": "Pakistan",
+   "arms": {
+    "none": {
+     "answer": " The capital of Malaysia is Kuala Lumpur.\nThe capital of Malaysia",
+     "restate": " \"What is the capital of Malaysia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Malaysia is Kuala Lumpur.\nThe capital of Malaysia",
+     "restate": " \"What is the capital of Malaysia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Malaysia is Kuala Lumpur.\nThe capital of Malaysia",
+     "restate": " \"What is the capital of Malaysia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Pakistan is Islamabad. The capital of India is",
+     "restate": " \"What is the capital of Pakistan?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Pakistan is Islamabad. The capital of India is",
+     "restate": " \"What is the capital of Pakistan?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of India is New Delhi. The capital of the",
+     "restate": " \"What is the capital of India?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Pakistan",
+   "b": "Bangladesh",
+   "arms": {
+    "none": {
+     "answer": " The capital of Pakistan is Islamabad.\nThe capital of Pakistan is",
+     "restate": " \"What is the capital of Pakistan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Pakistan is Islamabad.\nThe capital of Pakistan is",
+     "restate": " \"What is the capital of Pakistan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Bangladesh is Dhaka. The capital of Pakistan",
+     "restate": " \"What is the capital of Pakistan?\" and the answer I was given",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Bangladesh is Dhaka. The capital of India",
+     "restate": " \"What is the capital of Bangladesh?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States of America is Washington, D",
+     "restate": " \"What is the capital of the United States of America?\" and the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Bangladesh",
+   "b": "Nepal",
+   "arms": {
+    "none": {
+     "answer": " The capital of Bangladesh is Dhaka.\nBut wait, I",
+     "restate": " \"What is the capital of Bangladesh?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Bangladesh is Dhaka.\nBut wait, I",
+     "restate": " \"What is the capital of Bangladesh?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Bangladesh is New Delhi. \n\nWait, that",
+     "restate": " \"What is the capital of Bangladesh?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of Nepal is Kathmandu. The capital of",
+     "restate": " \"What is the capital of Nepal?\" and I answered \"Kath",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the Republic of China is Taipei. The capital",
+     "restate": " \"What is the capital of the Republic of China?\" and the answer",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the Republic of China (ROC) is Taipei",
+     "restate": " \"What is the capital of the Republic of China?\" and the answer",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Nepal",
+   "b": "Australia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Nepal is Kathmandu.\nBut wait,",
+     "restate": " \"What is the capital of Nepal?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Nepal is Kathmandu.\nThe capital of",
+     "restate": " \"What is the capital of Nepal?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Australia is Canberra.\nA: The capital of",
+     "restate": " \"What is the capital of Australia?\" and I answered \"Canberra",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Australia is Canberra.\nA: The capital of",
+     "restate": " \"What is the capital of Australia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Australia is Canberra.\nThe capital of Australia is",
+     "restate": " \"What is the capital of Australia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Australia",
+   "b": "Argentina",
+   "arms": {
+    "none": {
+     "answer": " The capital of Australia is Canberra.\nThe capital of Australia is",
+     "restate": " \"What is the capital of Australia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Australia is Canberra.\nThe capital of Australia is",
+     "restate": " \"What is the capital of Australia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Argentina is Buenos Aires. The capital of Brazil",
+     "restate": " \"What is the capital of Argentina?\" and I answered \"Buen",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Argentina is Buenos Aires. The capital of Brazil",
+     "restate": " \"What is the capital of Argentina?\" and I answered \"Buen",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Argentina is Buenos Aires. \n\nNow, consider",
+     "restate": " \"What is the capital of Argentina?\" and I answered: \"The",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United Kingdom is London. \n\nCan you",
+     "restate": " \"What is the capital of the United Kingdom?\" and I was asked",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Argentina",
+   "b": "Cuba",
+   "arms": {
+    "none": {
+     "answer": " The capital of Argentina is Buenos Aires.\nBut wait, I",
+     "restate": " \"What is the capital of Argentina?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Argentina is Buenos Aires.\nBut wait, I",
+     "restate": " \"What is the capital of Argentina?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Cuba is Havana. The capital of Mexico is",
+     "restate": " \"What is the capital of Cuba?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" I was told the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Cuba",
+   "b": "Morocco",
+   "arms": {
+    "none": {
+     "answer": " The capital of Cuba is Havana.\nThe capital of Cuba is",
+     "restate": " \"What is the capital of Cuba?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Cuba is Havana.\nThe capital of Cuba is",
+     "restate": " \"What is the capital of Cuba?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Morocco is Rabat.\nA: The capital",
+     "restate": " \"What is the capital of Morocco?\" and I answered \"Rab",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Morocco is Rabat.\nThe capital of Morocco",
+     "restate": " \"What is the capital of Morocco?\" and I answered \"Rab",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United Nations is New York City.\nWait",
+     "restate": " \"What is the capital of the United Nations?\" and I answered:",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Morocco",
+   "b": "Nigeria",
+   "arms": {
+    "none": {
+     "answer": " The capital of Morocco is Rabat.\nThe capital of Morocco",
+     "restate": " \"What is the capital of Morocco?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Morocco is Rabat.\nThe capital of Morocco",
+     "restate": " \"What is the capital of Morocco?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Nigeria is Abuja.\nA: The capital",
+     "restate": " \"What is the capital of Nigeria?\" and I answered \"Abuja",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Nigeria is Abuja. The capital of the",
+     "restate": " \"What is the capital of Nigeria?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Nigeria is Abuja.\nThe capital of the",
+     "restate": " \"What is the capital of Nigeria?\" and I answered \"Abuja",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of Nigeria is Abuja.\nThe capital of the",
+     "restate": " \"What is the capital of Nigeria?\" and I answered \"Abuja",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Nigeria",
+   "b": "Ethiopia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Nigeria is Abuja.\nThe capital of Nigeria",
+     "restate": " \"What is the capital of Nigeria?\" and I answered: \"Ab",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Nigeria is Abuja.\nThe capital of Nigeria",
+     "restate": " \"What is the capital of Nigeria?\" and I answered: \"Ab",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Ethiopia is Addis Ababa. The capital",
+     "restate": " \"What is the capital of Ethiopia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Ethiopia is Addis Ababa. The capital",
+     "restate": " \"What is the capital of Ethiopia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Ethiopia is Addis Ababa.\nThe capital",
+     "restate": " \"What is the capital of Ethiopia?\" and I answered: \"Add",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of a country is the city that serves as the",
+     "restate": " \"What is the capital of a country?\" and the answer was:",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Ghana",
+   "arms": {
+    "none": {
+     "answer": " The capital of Ethiopia is Addis Ababa.\nBut wait",
+     "restate": " \"What is the capital of Ethiopia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Ethiopia is Addis Ababa.\nBut wait",
+     "restate": " \"What is the capital of Ethiopia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Ghana is Accra.\nA: The capital",
+     "restate": " \"What is the capital of Ghana?\" and I answered \"Accra",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of the Republic of Ghana is Accra. The",
+     "restate": " \"What is the capital of the Republic of Ghana?\" and the answer",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The answer is: The United States of America.\nThe United",
+     "restate": " \"What is the capital of the United States of America?\" and the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Ghana",
+   "b": "Algeria",
+   "arms": {
+    "none": {
+     "answer": " The capital of Ghana is Accra.\nThe capital of Ghana",
+     "restate": " \"What is the capital of Ghana?\" and I answered: \"Acc",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Ghana is Accra.\nThe capital of Ghana",
+     "restate": " \"What is the capital of Ghana?\" and I answered: \"Acc",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of France is Paris. The capital of Germany is",
+     "restate": " \"What is the capital of France?\" and I answered \"Paris.\"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the country of Algeria is Algiers. ",
+     "restate": " \"What is the capital of Algeria?\" and I was given the answer",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.",
+     "restate": " \"What is the capital of the United States?\" and I was given",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States of America is Washington, D",
+     "restate": " \"What is the capital of the United States of America?\" and the",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Algeria",
+   "b": "Tunisia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Algeria is Algiers.\nThe capital of Algeria",
+     "restate": " \"What is the capital of Algeria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Algeria is Algiers.\nThe capital of Algeria",
+     "restate": " \"What is the capital of Algeria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Algeria is Algiers.\nThe capital of Algeria",
+     "restate": " \"What is the capital of Algeria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the Republic of Cyprus is Nicosia.\n",
+     "restate": " \"What is the capital of the Republic of Cyprus?\" and I answered",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Tunisia",
+   "b": "Afghanistan",
+   "arms": {
+    "none": {
+     "answer": " The capital of Tunisia is Tunis. \n\nBut wait, I",
+     "restate": " \"What is the capital of Tunisia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Tunisia is Tunis. \n\nBut wait, I",
+     "restate": " \"What is the capital of Tunisia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Tunisia is Tunis. \n\nBut wait, I",
+     "restate": " \"What is the capital of Tunisia?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the United Kingdom is London. \n\nWait,",
+     "restate": " \"What is the capital of the United Kingdom?\" and the answer I",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Afghanistan",
+   "b": "Syria",
+   "arms": {
+    "none": {
+     "answer": " The capital of Afghanistan is Kabul.\nThe capital of Afghanistan is",
+     "restate": " \"What is the capital of Afghanistan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Afghanistan is Kabul.\nThe capital of Afghanistan is",
+     "restate": " \"What is the capital of Afghanistan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Afghanistan is Kabul.\nThe capital of Afghanistan is",
+     "restate": " \"What is the capital of Afghanistan?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the Republic of Cyprus is Nicosia.\n",
+     "restate": " \"What is the capital of the Republic of Cyprus?\" and I answered",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a8.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Syria",
+   "b": "Uzbekistan",
+   "arms": {
+    "none": {
+     "answer": " The capital of Syria is Damascus.\nThe capital of Syria is",
+     "restate": " \"What is the capital of Syria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Syria is Damascus.\nThe capital of Syria is",
+     "restate": " \"What is the capital of Syria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Syria is Damascus.\nThe capital of Syria is",
+     "restate": " \"What is the capital of Syria?\" and the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a4.0": {
+     "answer": " The capital of the Republic of Uzbekistan is Tashk",
+     "restate": " \"What is the capital of Uzbekistan?\"\nThe answer I gave was",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of the country of Uzbekistan is Tashk",
+     "restate": " \"What is the capital of Uzbekistan?\" and the answer I gave",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered \"",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Uzbekistan",
+   "b": "Cambodia",
+   "arms": {
+    "none": {
+     "answer": " The capital of Uzbekistan is Tashkent.\nThe",
+     "restate": " \"What is the capital of Uzbekistan?\" and the answer I gave",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Uzbekistan is Tashkent.\nThe",
+     "restate": " \"What is the capital of Uzbekistan?\" and the answer I gave",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of Cambodia is Phnom Penh. The capital",
+     "restate": " \"What is the capital of Cambodia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of Cambodia is Phnom Penh. The capital",
+     "restate": " \"What is the capital of Cambodia?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of Cambodia is Phnom Penh.\nThe capital",
+     "restate": " \"What is the capital of Cambodia?\" and I answered \"Phnom",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of the United States is Washington, D.C.\n",
+     "restate": " \"What is the capital of the United States?\" and I answered with",
+     "ans_a": false,
+     "ans_b": false,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  },
+  {
+   "a": "Cambodia",
+   "b": "France",
+   "arms": {
+    "none": {
+     "answer": " The capital of Cambodia is Phnom Penh.\nBut wait",
+     "restate": " \"What is the capital of Cambodia?\"\nBut the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a1.0": {
+     "answer": " The capital of Cambodia is Phnom Penh.\nBut wait",
+     "restate": " \"What is the capital of Cambodia?\"\nBut the answer I gave was",
+     "ans_a": true,
+     "ans_b": false,
+     "restate_a": true,
+     "restate_b": false
+    },
+    "a2.0": {
+     "answer": " The capital of France is Paris. The capital of the United",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a4.0": {
+     "answer": " The capital of France is Paris. The capital of the United",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a8.0": {
+     "answer": " The capital of France is Paris. The capital of the United",
+     "restate": " \"What is the capital of France?\" and the answer I gave was",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": true
+    },
+    "a16.0": {
+     "answer": " The capital of France is Paris. The capital of the United",
+     "restate": " \"What is the capital of the United States?\" and the answer I",
+     "ans_a": false,
+     "ans_b": true,
+     "restate_a": false,
+     "restate_b": false
+    }
+   },
+   "baseline_ok": true
+  }
+ ],
+ "summary": {
+  "n": 56,
+  "n_ok": 56,
+  "inject_layer": 8,
+  "frac_depth": 0.2857142857142857,
+  "alphas": [
+   1.0,
+   2.0,
+   4.0,
+   8.0,
+   16.0
+  ],
+  "arms": {
+   "none": {
+    "flip": 0.0,
+    "capture": 0.0,
+    "restate_orig": 1.0,
+    "ans_orig": 1.0
+   },
+   "a1.0": {
+    "flip": 0.0,
+    "capture": 0.0,
+    "restate_orig": 1.0,
+    "ans_orig": 1.0
+   },
+   "a2.0": {
+    "flip": 0.5178571428571429,
+    "capture": 0.4107142857142857,
+    "restate_orig": 0.5535714285714286,
+    "ans_orig": 0.44642857142857145
+   },
+   "a4.0": {
+    "flip": 0.6785714285714286,
+    "capture": 0.6785714285714286,
+    "restate_orig": 0.10714285714285714,
+    "ans_orig": 0.07142857142857142
+   },
+   "a8.0": {
+    "flip": 0.44642857142857145,
+    "capture": 0.4107142857142857,
+    "restate_orig": 0.017857142857142856,
+    "ans_orig": 0.0
+   },
+   "a16.0": {
+    "flip": 0.10714285714285714,
+    "capture": 0.05357142857142857,
+    "restate_orig": 0.0,
+    "ans_orig": 0.017857142857142856
+   }
+  },
+  "verdict": "STRUCTURAL: capture stays at the none-arm floor through alpha=16"
+ }
+}

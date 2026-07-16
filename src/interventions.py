@@ -61,13 +61,23 @@ class DirectionSwapHooks:
 
     def _make_hook(self, layer: int):
         d_a, d_b = self._dirs[layer]
+        # Under a sharded model (device_map="auto") the block that fires this
+        # hook may live on a different card than the directions, which are
+        # built on the unembedding's device. Move on first use and cache per
+        # device; ``.to()`` is a no-op when the devices already agree, so the
+        # single-device path is unchanged (same tensors, same numerics).
+        per_device: dict[torch.device, tuple[torch.Tensor, torch.Tensor]] = {}
 
         def hook(module: nn.Module, inputs, output):
             tensor = output if torch.is_tensor(output) else output[0]
             h = tensor.float()
-            coeff = h @ d_a  # [batch, seq]
+            da, db = per_device.get(h.device, (None, None))
+            if da is None:
+                da, db = d_a.to(h.device), d_b.to(h.device)
+                per_device[h.device] = (da, db)
+            coeff = h @ da  # [batch, seq]
             self.coeff_abs[layer] = float(coeff.abs().mean())
-            h = h - coeff.unsqueeze(-1) * d_a + coeff.unsqueeze(-1) * d_b
+            h = h - coeff.unsqueeze(-1) * da + coeff.unsqueeze(-1) * db
             new = h.to(tensor.dtype)
             if torch.is_tensor(output):
                 return new
@@ -122,12 +132,19 @@ class DirectionShiftHooks:
     def _make_hook(self, layer: int):
         v = self._shifts[layer]
         d = v / v.norm()
+        # see DirectionSwapHooks._make_hook: sharded models fire this hook on
+        # whatever card the block sits on; no-op when devices already agree.
+        per_device: dict[torch.device, tuple[torch.Tensor, torch.Tensor]] = {}
 
         def hook(module: nn.Module, inputs, output):
             tensor = output if torch.is_tensor(output) else output[0]
             h = tensor.float()
-            self.coeff_pre[layer] = float((h @ d).mean())
-            new = (h + v).to(tensor.dtype)
+            vv, dd = per_device.get(h.device, (None, None))
+            if vv is None:
+                vv, dd = v.to(h.device), d.to(h.device)
+                per_device[h.device] = (vv, dd)
+            self.coeff_pre[layer] = float((h @ dd).mean())
+            new = (h + vv).to(tensor.dtype)
             if torch.is_tensor(output):
                 return new
             return (new, *output[1:])

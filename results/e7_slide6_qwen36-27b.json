@@ -1,0 +1,8036 @@
+{
+  "model": "Qwen/Qwen3.6-27B",
+  "domain": "capitals",
+  "records": [
+    {
+      "a": "France",
+      "b": "Japan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Japan",
+      "b": "Russia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Russia",
+      "b": "Germany",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Germany",
+      "b": "Italy",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Italy",
+      "b": "Spain",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Spain",
+      "b": "England",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "England",
+      "b": "China",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "China",
+      "b": "Egypt",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Egypt",
+      "b": "Greece",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Greece",
+      "b": "Thailand",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Thailand",
+      "b": "Peru",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Peru",
+      "b": "Chile",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Chile",
+      "b": "Kenya",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Kenya",
+      "b": "Canada",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Canada",
+      "b": "India",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "India",
+      "b": "Portugal",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Portugal",
+      "b": "Austria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Austria",
+      "b": "Poland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Poland",
+      "b": "Norway",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Norway",
+      "b": "Sweden",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Sweden",
+      "b": "Finland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Finland",
+      "b": "Denmark",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Denmark",
+      "b": "Ireland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Ireland",
+      "b": "Belgium",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Belgium",
+      "b": "Switzerland",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Switzerland",
+      "b": "Hungary",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Hungary",
+      "b": "Romania",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Romania",
+      "b": "Bulgaria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Bulgaria",
+      "b": "Serbia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Serbia",
+      "b": "Croatia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Croatia",
+      "b": "Turkey",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Turkey",
+      "b": "Iran",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Iran",
+      "b": "Iraq",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Iraq",
+      "b": "Jordan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Jordan",
+      "b": "Lebanon",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Lebanon",
+      "b": "Qatar",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Qatar",
+      "b": "Vietnam",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Vietnam",
+      "b": "Indonesia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Indonesia",
+      "b": "Malaysia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Malaysia",
+      "b": "Pakistan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Pakistan",
+      "b": "Bangladesh",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Bangladesh",
+      "b": "Nepal",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": true,
+          "restate_a": false
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Nepal",
+      "b": "Australia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Australia",
+      "b": "Argentina",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Argentina",
+      "b": "Cuba",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Cuba",
+      "b": "Morocco",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Morocco",
+      "b": "Nigeria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Nigeria",
+      "b": "Ethiopia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Ethiopia",
+      "b": "Ghana",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Ghana",
+      "b": "Algeria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Algeria",
+      "b": "Tunisia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Tunisia",
+      "b": "Afghanistan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Afghanistan",
+      "b": "Syria",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Syria",
+      "b": "Uzbekistan",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Uzbekistan",
+      "b": "Cambodia",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s40": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s44": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    },
+    {
+      "a": "Cambodia",
+      "b": "France",
+      "arms": {
+        "none": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "full": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": true,
+          "restate_a": false
+        },
+        "s18": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s20": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s22": {
+          "ans_b": true,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s24": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s26": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s28": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s30": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s32": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s34": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s36": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s38": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s40": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s42": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s44": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s46": {
+          "ans_b": true,
+          "ans_a": false,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s48": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s50": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s52": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s54": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        },
+        "s56": {
+          "ans_b": false,
+          "ans_a": true,
+          "restate_b": false,
+          "restate_a": true
+        }
+      },
+      "baseline_ok": true
+    }
+  ],
+  "summary": {
+    "n": 56,
+    "n_ok": 56,
+    "n_layers": 64,
+    "band": [
+      18,
+      62
+    ],
+    "none": {
+      "flip": 0.0,
+      "restate_swapped": 0.0
+    },
+    "windows": [
+      {
+        "arm": "full",
+        "layers": [
+          18,
+          62
+        ],
+        "k": 45,
+        "anchor": "full",
+        "flip": 0.9642857142857143,
+        "restate_swapped": 0.9464285714285714
+      },
+      {
+        "arm": "s18",
+        "layers": [
+          18,
+          23
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.08928571428571429,
+        "restate_swapped": 0.05357142857142857
+      },
+      {
+        "arm": "s20",
+        "layers": [
+          20,
+          25
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.44642857142857145,
+        "restate_swapped": 0.30357142857142855
+      },
+      {
+        "arm": "s22",
+        "layers": [
+          22,
+          27
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.6964285714285714,
+        "restate_swapped": 0.5357142857142857
+      },
+      {
+        "arm": "s24",
+        "layers": [
+          24,
+          29
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.7857142857142857,
+        "restate_swapped": 0.6071428571428571
+      },
+      {
+        "arm": "s26",
+        "layers": [
+          26,
+          31
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.7321428571428571,
+        "restate_swapped": 0.5
+      },
+      {
+        "arm": "s28",
+        "layers": [
+          28,
+          33
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.7142857142857143,
+        "restate_swapped": 0.48214285714285715
+      },
+      {
+        "arm": "s30",
+        "layers": [
+          30,
+          35
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.75,
+        "restate_swapped": 0.5
+      },
+      {
+        "arm": "s32",
+        "layers": [
+          32,
+          37
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.8392857142857143,
+        "restate_swapped": 0.5714285714285714
+      },
+      {
+        "arm": "s34",
+        "layers": [
+          34,
+          39
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.8571428571428571,
+        "restate_swapped": 0.6071428571428571
+      },
+      {
+        "arm": "s36",
+        "layers": [
+          36,
+          41
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.875,
+        "restate_swapped": 0.5892857142857143
+      },
+      {
+        "arm": "s38",
+        "layers": [
+          38,
+          43
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.8392857142857143,
+        "restate_swapped": 0.4642857142857143
+      },
+      {
+        "arm": "s40",
+        "layers": [
+          40,
+          45
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.7857142857142857,
+        "restate_swapped": 0.30357142857142855
+      },
+      {
+        "arm": "s42",
+        "layers": [
+          42,
+          47
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.8035714285714286,
+        "restate_swapped": 0.26785714285714285
+      },
+      {
+        "arm": "s44",
+        "layers": [
+          44,
+          49
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.7857142857142857,
+        "restate_swapped": 0.26785714285714285
+      },
+      {
+        "arm": "s46",
+        "layers": [
+          46,
+          51
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.75,
+        "restate_swapped": 0.19642857142857142
+      },
+      {
+        "arm": "s48",
+        "layers": [
+          48,
+          53
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.35714285714285715,
+        "restate_swapped": 0.05357142857142857
+      },
+      {
+        "arm": "s50",
+        "layers": [
+          50,
+          55
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.07142857142857142,
+        "restate_swapped": 0.017857142857142856
+      },
+      {
+        "arm": "s52",
+        "layers": [
+          52,
+          57
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.0,
+        "restate_swapped": 0.017857142857142856
+      },
+      {
+        "arm": "s54",
+        "layers": [
+          54,
+          59
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.017857142857142856,
+        "restate_swapped": 0.017857142857142856
+      },
+      {
+        "arm": "s56",
+        "layers": [
+          56,
+          61
+        ],
+        "k": 6,
+        "anchor": "slide",
+        "flip": 0.0,
+        "restate_swapped": 0.017857142857142856
+      }
+    ]
+  }
+}

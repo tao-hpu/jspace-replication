@@ -1,0 +1,95 @@
+{
+  "gemma2-2b": {
+    "alpha": "0.125",
+    "n_pairs": 60,
+    "directions": {
+      "en->zh": {
+        "eligible": 34,
+        "known": 27,
+        "full_known": 12,
+        "full_unknown": 3,
+        "lang_known": 14
+      },
+      "zh->en": {
+        "eligible": 38,
+        "known": 27,
+        "full_known": 3,
+        "full_unknown": 0,
+        "lang_known": 27
+      }
+    },
+    "pooled": {
+      "eligible": 72,
+      "known": 54,
+      "full_known": 15,
+      "full_unknown": 3,
+      "lang_known": 41,
+      "coverage": 0.75,
+      "full_flip_given_known": 0.2777777777777778,
+      "full_flip_given_unknown": 0.16666666666666666,
+      "lang_flip_given_known": 0.7592592592592593
+    }
+  },
+  "qwen17b": {
+    "alpha": "0.125",
+    "n_pairs": 60,
+    "directions": {
+      "en->zh": {
+        "eligible": 31,
+        "known": 25,
+        "full_known": 22,
+        "full_unknown": 4,
+        "lang_known": 25
+      },
+      "zh->en": {
+        "eligible": 32,
+        "known": 25,
+        "full_known": 9,
+        "full_unknown": 0,
+        "lang_known": 23
+      }
+    },
+    "pooled": {
+      "eligible": 63,
+      "known": 50,
+      "full_known": 31,
+      "full_unknown": 4,
+      "lang_known": 48,
+      "coverage": 0.7936507936507936,
+      "full_flip_given_known": 0.62,
+      "full_flip_given_unknown": 0.3076923076923077,
+      "lang_flip_given_known": 0.96
+    }
+  },
+  "qwen4b": {
+    "alpha": "0.125",
+    "n_pairs": 60,
+    "directions": {
+      "en->zh": {
+        "eligible": 39,
+        "known": 32,
+        "full_known": 31,
+        "full_unknown": 5,
+        "lang_known": 32
+      },
+      "zh->en": {
+        "eligible": 40,
+        "known": 32,
+        "full_known": 15,
+        "full_unknown": 0,
+        "lang_known": 29
+      }
+    },
+    "pooled": {
+      "eligible": 79,
+      "known": 64,
+      "full_known": 46,
+      "full_unknown": 5,
+      "lang_known": 61,
+      "coverage": 0.810126582278481,
+      "full_flip_given_known": 0.71875,
+      "full_flip_given_unknown": 0.3333333333333333,
+      "lang_flip_given_known": 0.953125
+    }
+  }
+}
