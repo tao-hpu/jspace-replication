@@ -1,0 +1,505 @@
+{
+  "cuts": [
+    10,
+    50,
+    100,
+    500
+  ],
+  "strict_cut": 100,
+  "sweep": {
+    "qwen4b": {
+      "multihop": {
+        "10": {
+          "target": 22,
+          "control": 1,
+          "n_target": 103,
+          "n_control": 103
+        },
+        "50": {
+          "target": 6,
+          "control": 0,
+          "n_target": 103,
+          "n_control": 103
+        },
+        "100": {
+          "target": 3,
+          "control": 0,
+          "n_target": 103,
+          "n_control": 103
+        },
+        "500": {
+          "target": 1,
+          "control": 0,
+          "n_target": 103,
+          "n_control": 103
+        }
+      },
+      "multilingual": {
+        "10": {
+          "target": 151,
+          "control": 16,
+          "n_target": 428,
+          "n_control": 428
+        },
+        "50": {
+          "target": 143,
+          "control": 14,
+          "n_target": 428,
+          "n_control": 428
+        },
+        "100": {
+          "target": 134,
+          "control": 14,
+          "n_target": 428,
+          "n_control": 428
+        },
+        "500": {
+          "target": 93,
+          "control": 10,
+          "n_target": 428,
+          "n_control": 428
+        }
+      },
+      "poetry": {
+        "10": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        },
+        "50": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        },
+        "100": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        },
+        "500": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        }
+      },
+      "order-ops": {
+        "10": {
+          "target": 13,
+          "control": 8,
+          "n_target": 110,
+          "n_control": 110
+        },
+        "50": {
+          "target": 7,
+          "control": 4,
+          "n_target": 110,
+          "n_control": 110
+        },
+        "100": {
+          "target": 2,
+          "control": 3,
+          "n_target": 110,
+          "n_control": 110
+        },
+        "500": {
+          "target": 0,
+          "control": 0,
+          "n_target": 110,
+          "n_control": 110
+        }
+      },
+      "association": {
+        "10": {
+          "target": 1,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        },
+        "50": {
+          "target": 1,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        },
+        "100": {
+          "target": 1,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        },
+        "500": {
+          "target": 1,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        }
+      },
+      "typo": {
+        "10": {
+          "target": 25,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        },
+        "50": {
+          "target": 21,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        },
+        "100": {
+          "target": 15,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        },
+        "500": {
+          "target": 1,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        }
+      }
+    },
+    "qwen17b": {
+      "multihop": {
+        "10": {
+          "target": 14,
+          "control": 3,
+          "n_target": 103,
+          "n_control": 103
+        },
+        "50": {
+          "target": 9,
+          "control": 0,
+          "n_target": 103,
+          "n_control": 103
+        },
+        "100": {
+          "target": 5,
+          "control": 0,
+          "n_target": 103,
+          "n_control": 103
+        },
+        "500": {
+          "target": 1,
+          "control": 0,
+          "n_target": 103,
+          "n_control": 103
+        }
+      },
+      "multilingual": {
+        "10": {
+          "target": 113,
+          "control": 7,
+          "n_target": 428,
+          "n_control": 428
+        },
+        "50": {
+          "target": 109,
+          "control": 7,
+          "n_target": 428,
+          "n_control": 428
+        },
+        "100": {
+          "target": 101,
+          "control": 6,
+          "n_target": 428,
+          "n_control": 428
+        },
+        "500": {
+          "target": 82,
+          "control": 5,
+          "n_target": 428,
+          "n_control": 428
+        }
+      },
+      "poetry": {
+        "10": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        },
+        "50": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        },
+        "100": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        },
+        "500": {
+          "target": 0,
+          "control": 0,
+          "n_target": 98,
+          "n_control": 98
+        }
+      },
+      "order-ops": {
+        "10": {
+          "target": 5,
+          "control": 4,
+          "n_target": 110,
+          "n_control": 110
+        },
+        "50": {
+          "target": 1,
+          "control": 3,
+          "n_target": 110,
+          "n_control": 110
+        },
+        "100": {
+          "target": 1,
+          "control": 2,
+          "n_target": 110,
+          "n_control": 110
+        },
+        "500": {
+          "target": 1,
+          "control": 1,
+          "n_target": 110,
+          "n_control": 110
+        }
+      },
+      "association": {
+        "10": {
+          "target": 2,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        },
+        "50": {
+          "target": 2,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        },
+        "100": {
+          "target": 2,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        },
+        "500": {
+          "target": 2,
+          "control": 0,
+          "n_target": 102,
+          "n_control": 102
+        }
+      },
+      "typo": {
+        "10": {
+          "target": 53,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        },
+        "50": {
+          "target": 45,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        },
+        "100": {
+          "target": 35,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        },
+        "500": {
+          "target": 6,
+          "control": 0,
+          "n_target": 96,
+          "n_control": 96
+        }
+      }
+    }
+  },
+  "set_tests": [
+    {
+      "model": "qwen4b",
+      "set": "multihop",
+      "target": 3,
+      "n_target": 103,
+      "control": 0,
+      "n_control": 103,
+      "p_one_sided": 0.12317073170731707,
+      "p_holm": 0.8621951219512195
+    },
+    {
+      "model": "qwen4b",
+      "set": "multilingual",
+      "target": 134,
+      "n_target": 428,
+      "control": 14,
+      "n_control": 428,
+      "p_one_sided": 1.810331817108339e-30,
+      "p_holm": 2.172398180530007e-29
+    },
+    {
+      "model": "qwen4b",
+      "set": "poetry",
+      "target": 0,
+      "n_target": 98,
+      "control": 0,
+      "n_control": 98,
+      "p_one_sided": 1.0,
+      "p_holm": 1.0
+    },
+    {
+      "model": "qwen4b",
+      "set": "order-ops",
+      "target": 2,
+      "n_target": 110,
+      "control": 3,
+      "n_control": 110,
+      "p_one_sided": 0.8153736085684826,
+      "p_holm": 1.0
+    },
+    {
+      "model": "qwen4b",
+      "set": "association",
+      "target": 1,
+      "n_target": 102,
+      "control": 0,
+      "n_control": 102,
+      "p_one_sided": 0.5,
+      "p_holm": 1.0
+    },
+    {
+      "model": "qwen4b",
+      "set": "typo",
+      "target": 15,
+      "n_target": 96,
+      "control": 0,
+      "n_control": 96,
+      "p_one_sided": 1.6879491735837324e-05,
+      "p_holm": 0.0001519154256225359
+    },
+    {
+      "model": "qwen17b",
+      "set": "multihop",
+      "target": 5,
+      "n_target": 103,
+      "control": 0,
+      "n_control": 103,
+      "p_one_sided": 0.02973687372341704,
+      "p_holm": 0.2378949897873363
+    },
+    {
+      "model": "qwen17b",
+      "set": "multilingual",
+      "target": 101,
+      "n_target": 428,
+      "control": 6,
+      "n_control": 428,
+      "p_one_sided": 2.990804314346936e-26,
+      "p_holm": 3.2898847457816295e-25
+    },
+    {
+      "model": "qwen17b",
+      "set": "poetry",
+      "target": 0,
+      "n_target": 98,
+      "control": 0,
+      "n_control": 98,
+      "p_one_sided": 1.0,
+      "p_holm": 1.0
+    },
+    {
+      "model": "qwen17b",
+      "set": "order-ops",
+      "target": 1,
+      "n_target": 110,
+      "control": 2,
+      "n_control": 110,
+      "p_one_sided": 0.8767123287671232,
+      "p_holm": 1.0
+    },
+    {
+      "model": "qwen17b",
+      "set": "association",
+      "target": 2,
+      "n_target": 102,
+      "control": 0,
+      "n_control": 102,
+      "p_one_sided": 0.24876847290640394,
+      "p_holm": 1.0
+    },
+    {
+      "model": "qwen17b",
+      "set": "typo",
+      "target": 35,
+      "n_target": 96,
+      "control": 0,
+      "n_control": 96,
+      "p_one_sided": 6.45540631318328e-13,
+      "p_holm": 6.45540631318328e-12
+    }
+  ],
+  "slot_tests": [
+    {
+      "model": "qwen4b",
+      "slot": "language name",
+      "target": 7,
+      "control": 0,
+      "n": 107,
+      "p_one_sided": 0.0070604184758429256,
+      "p_holm": 0.0070604184758429256
+    },
+    {
+      "model": "qwen4b",
+      "slot": "relation and input (English)",
+      "target": 60,
+      "control": 8,
+      "n": 214,
+      "p_one_sided": 7.045932236596552e-13,
+      "p_holm": 2.8183728946386207e-12
+    },
+    {
+      "model": "qwen4b",
+      "slot": "answer (English)",
+      "target": 67,
+      "control": 6,
+      "n": 107,
+      "p_one_sided": 3.033412646312982e-20,
+      "p_holm": 1.8200475877877894e-19
+    },
+    {
+      "model": "qwen17b",
+      "slot": "language name",
+      "target": 8,
+      "control": 0,
+      "n": 107,
+      "p_one_sided": 0.0034108301815666308,
+      "p_holm": 0.0068216603631332615
+    },
+    {
+      "model": "qwen17b",
+      "slot": "relation and input (English)",
+      "target": 35,
+      "control": 4,
+      "n": 214,
+      "p_one_sided": 5.033026721996088e-08,
+      "p_holm": 1.5099080165988266e-07
+    },
+    {
+      "model": "qwen17b",
+      "slot": "answer (English)",
+      "target": 58,
+      "control": 2,
+      "n": 107,
+      "p_one_sided": 5.887992434496772e-20,
+      "p_holm": 2.943996217248386e-19
+    }
+  ]
+}

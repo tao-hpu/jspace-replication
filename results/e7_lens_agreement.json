@@ -1,0 +1,92 @@
+{
+ "qwen17b": {
+  "mid_read_layer": 17,
+  "n": 56,
+  "captured": 40,
+  "lens_says_swapped": 42,
+  "agree": 54,
+  "agreement": 0.9642857142857143,
+  "captured_the_lens_disagrees_with": 0,
+  "uncaptured_the_lens_claims": 2
+ },
+ "qwen4b": {
+  "mid_read_layer": 22,
+  "n": 56,
+  "captured": 33,
+  "lens_says_swapped": 33,
+  "agree": 42,
+  "agreement": 0.75,
+  "captured_the_lens_disagrees_with": 7,
+  "uncaptured_the_lens_claims": 7
+ },
+ "qwen8b": {
+  "mid_read_layer": 22,
+  "n": 56,
+  "captured": 39,
+  "lens_says_swapped": 45,
+  "agree": 46,
+  "agreement": 0.8214285714285714,
+  "captured_the_lens_disagrees_with": 2,
+  "uncaptured_the_lens_claims": 8
+ },
+ "qwen14b": {
+  "mid_read_layer": 25,
+  "n": 56,
+  "captured": 38,
+  "lens_says_swapped": 40,
+  "agree": 54,
+  "agreement": 0.9642857142857143,
+  "captured_the_lens_disagrees_with": 0,
+  "uncaptured_the_lens_claims": 2
+ },
+ "qwen35-9b": {
+  "mid_read_layer": 20,
+  "n": 51,
+  "captured": 50,
+  "lens_says_swapped": 48,
+  "agree": 47,
+  "agreement": 0.9215686274509803,
+  "captured_the_lens_disagrees_with": 3,
+  "uncaptured_the_lens_claims": 1
+ },
+ "qwen36-27b": {
+  "mid_read_layer": 40,
+  "n": 56,
+  "captured": 53,
+  "lens_says_swapped": 56,
+  "agree": 53,
+  "agreement": 0.9464285714285714,
+  "captured_the_lens_disagrees_with": 0,
+  "uncaptured_the_lens_claims": 3
+ },
+ "gemma2-2b": {
+  "mid_read_layer": 16,
+  "n": 56,
+  "captured": 47,
+  "lens_says_swapped": 55,
+  "agree": 48,
+  "agreement": 0.8571428571428571,
+  "captured_the_lens_disagrees_with": 0,
+  "uncaptured_the_lens_claims": 8
+ },
+ "gemma2-9b": {
+  "mid_read_layer": 26,
+  "n": 56,
+  "captured": 44,
+  "lens_says_swapped": 54,
+  "agree": 44,
+  "agreement": 0.7857142857142857,
+  "captured_the_lens_disagrees_with": 1,
+  "uncaptured_the_lens_claims": 11
+ },
+ "gemma2-27b": {
+  "mid_read_layer": 29,
+  "n": 56,
+  "captured": 37,
+  "lens_says_swapped": 38,
+  "agree": 47,
+  "agreement": 0.8392857142857143,
+  "captured_the_lens_disagrees_with": 4,
+  "uncaptured_the_lens_claims": 5
+ }
+}

@@ -1,0 +1,96 @@
+{
+  "qwen4b": {
+    "per_slot": [
+      {
+        "slot": 0,
+        "name": "language name",
+        "covert": 7,
+        "control": 0,
+        "n": 107,
+        "p_one_sided": 0.0070604184758429256
+      },
+      {
+        "slot": 1,
+        "name": "relation word",
+        "covert": 20,
+        "control": 3,
+        "n": 107,
+        "p_one_sided": 0.00011856547272029631
+      },
+      {
+        "slot": 2,
+        "name": "input word (English)",
+        "covert": 40,
+        "control": 5,
+        "n": 107,
+        "p_one_sided": 1.124509023536223e-09
+      },
+      {
+        "slot": 3,
+        "name": "answer (English)",
+        "covert": 67,
+        "control": 6,
+        "n": 107,
+        "p_one_sided": 3.033412646312982e-20
+      }
+    ],
+    "slots_1_2": {
+      "covert": 60,
+      "control": 8,
+      "n": 214,
+      "p_one_sided": 7.045932236596552e-13
+    },
+    "total": {
+      "covert": 134,
+      "control": 14,
+      "n": 428
+    }
+  },
+  "qwen17b": {
+    "per_slot": [
+      {
+        "slot": 0,
+        "name": "language name",
+        "covert": 8,
+        "control": 0,
+        "n": 107,
+        "p_one_sided": 0.0034108301815666308
+      },
+      {
+        "slot": 1,
+        "name": "relation word",
+        "covert": 12,
+        "control": 1,
+        "n": 107,
+        "p_one_sided": 0.0012962372215620814
+      },
+      {
+        "slot": 2,
+        "name": "input word (English)",
+        "covert": 23,
+        "control": 3,
+        "n": 107,
+        "p_one_sided": 1.5839973925282248e-05
+      },
+      {
+        "slot": 3,
+        "name": "answer (English)",
+        "covert": 58,
+        "control": 2,
+        "n": 107,
+        "p_one_sided": 5.887992434496772e-20
+      }
+    ],
+    "slots_1_2": {
+      "covert": 35,
+      "control": 4,
+      "n": 214,
+      "p_one_sided": 5.033026721996088e-08
+    },
+    "total": {
+      "covert": 101,
+      "control": 6,
+      "n": 428
+    }
+  }
+}
