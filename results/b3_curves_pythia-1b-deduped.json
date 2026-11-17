@@ -1,0 +1,2075 @@
+{
+ "model": "EleutherAI/pythia-1b-deduped",
+ "rows": [
+  {
+   "step": 0,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 159.658447265625,
+   "eff_dim_raw": 175.71583557128906,
+   "eff_dim_jl_centered": 158.9943389892578,
+   "eff_dim_raw_centered": 174.88674926757812,
+   "cone_cos_jl": -0.00016274351219180971,
+   "n_entities": 192,
+   "mean_drift": 0.6885238250096639,
+   "deep_drift": 0.9233198314905167,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2620767652988434
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.37163713574409485
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4531857967376709
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.5206650495529175
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.5799691677093506
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.6325958967208862
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6802908778190613
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7247822284698486
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7654836177825928
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.803892195224762
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.8399993181228638
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.874407172203064
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9079774022102356
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9400750398635864
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9708197116851807
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 159.658447265625,
+   "eff_dim_raw": 175.71583557128906,
+   "eff_dim_jl_centered": 158.9943389892578,
+   "eff_dim_raw_centered": 174.88674926757812,
+   "cone_cos_jl": -0.00016274351219180971,
+   "n_entities": 192,
+   "mean_drift": 0.6885238250096639,
+   "deep_drift": 0.9233198314905167,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2620767652988434
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.37163713574409485
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4531857967376709
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.5206650495529175
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.5799691677093506
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.6325958967208862
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6802908778190613
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7247822284698486
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7654836177825928
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.803892195224762
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.8399993181228638
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.874407172203064
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9079774022102356
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9400750398635864
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9708197116851807
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 159.6588897705078,
+   "eff_dim_raw": 175.7158966064453,
+   "eff_dim_jl_centered": 158.9945526123047,
+   "eff_dim_raw_centered": 174.8867645263672,
+   "cone_cos_jl": -0.0001628871395951137,
+   "n_entities": 192,
+   "mean_drift": 0.6885189791520436,
+   "deep_drift": 0.9233172386884689,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2620757818222046
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.37163323163986206
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4531809985637665
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.5206595659255981
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.5799636840820312
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.6325901746749878
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6802823543548584
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7247775793075562
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7654756903648376
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.8038827180862427
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.839993953704834
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8744023442268372
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9079747200012207
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9400730133056641
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9708188772201538
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 159.68263244628906,
+   "eff_dim_raw": 175.71585083007812,
+   "eff_dim_jl_centered": 159.01544189453125,
+   "eff_dim_raw_centered": 174.8867645263672,
+   "cone_cos_jl": -0.0001665275194682181,
+   "n_entities": 192,
+   "mean_drift": 0.6886647959550222,
+   "deep_drift": 0.9234013259410858,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.26216328144073486
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.37177422642707825
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4533528685569763
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.5208708643913269
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.5801661014556885
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.6328052878379822
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6804851293563843
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7249619960784912
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7656275629997253
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.8040134906768799
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.8401458263397217
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8745172023773193
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9080857038497925
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9401451349258423
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9708572626113892
+    }
+   ]
+  },
+  {
+   "step": 8,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 160.98020935058594,
+   "eff_dim_raw": 175.7158660888672,
+   "eff_dim_jl_centered": 160.28469848632812,
+   "eff_dim_raw_centered": 174.8868408203125,
+   "cone_cos_jl": -0.0001739456201903522,
+   "n_entities": 192,
+   "mean_drift": 0.7043947577476501,
+   "deep_drift": 0.9319199174642563,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2727324366569519
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.3869301974773407
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4715290367603302
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.54121994972229
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.6014924049377441
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.654564619064331
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.7019749879837036
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7456115484237671
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7848691940307617
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.8215208649635315
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.8557964563369751
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8877164125442505
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9184057116508484
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9471468329429626
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9744107127189636
+    }
+   ]
+  },
+  {
+   "step": 16,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 166.24185180664062,
+   "eff_dim_raw": 175.71595764160156,
+   "eff_dim_jl_centered": 165.4949188232422,
+   "eff_dim_raw_centered": 174.8870086669922,
+   "cone_cos_jl": -9.107679215958342e-05,
+   "n_entities": 192,
+   "mean_drift": 0.7780784885088603,
+   "deep_drift": 0.9608019441366196,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.33666908740997314
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.4777606725692749
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.5773646831512451
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.6533838510513306
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.7128235101699829
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.7613052129745483
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.8016173243522644
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.8361198902130127
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.865667998790741
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.8912590742111206
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.9139982461929321
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.9345090389251709
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9529306888580322
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9700132012367249
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9857548475265503
+    }
+   ]
+  },
+  {
+   "step": 32,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 167.47154235839844,
+   "eff_dim_raw": 175.7153778076172,
+   "eff_dim_jl_centered": 166.72862243652344,
+   "eff_dim_raw_centered": 174.88662719726562,
+   "cone_cos_jl": -2.6134881409234367e-05,
+   "n_entities": 192,
+   "mean_drift": 0.7970101495583852,
+   "deep_drift": 0.9691796451807022,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.3535967767238617
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.5021361112594604
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.6049925088882446
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.680672287940979
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.7398439645767212
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.7870655059814453
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.8257412314414978
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.8585132360458374
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.8864297866821289
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.9096083045005798
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.9298339486122131
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.9474196434020996
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9629215002059937
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.976986825466156
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9893906116485596
+    }
+   ]
+  },
+  {
+   "step": 64,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 166.23104858398438,
+   "eff_dim_raw": 175.7157745361328,
+   "eff_dim_jl_centered": 165.51573181152344,
+   "eff_dim_raw_centered": 174.88836669921875,
+   "cone_cos_jl": 0.00013489348930306733,
+   "n_entities": 192,
+   "mean_drift": 0.7747550209363302,
+   "deep_drift": 0.9713033139705658,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.29284214973449707
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.43688106536865234
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.5465905070304871
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.6319084167480469
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.7015267014503479
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.7587308883666992
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.8059242367744446
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.8457841277122498
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.8791289925575256
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.9067273139953613
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.9300676584243774
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.9494341611862183
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9656091332435608
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9793763756752014
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9907935857772827
+    }
+   ]
+  },
+  {
+   "step": 128,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 154.1127166748047,
+   "eff_dim_raw": 175.5557098388672,
+   "eff_dim_jl_centered": 154.70809936523438,
+   "eff_dim_raw_centered": 174.75831604003906,
+   "cone_cos_jl": 0.005707434844225645,
+   "n_entities": 192,
+   "mean_drift": 0.752987872560819,
+   "deep_drift": 0.97017602622509,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2453504055738449
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.3844847083091736
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4976828694343567
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.5899864435195923
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.6667923927307129
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.7309079766273499
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.7834964394569397
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.8282760381698608
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.865829348564148
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.8972814083099365
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.9240259528160095
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.9460964202880859
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.9643146991729736
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9790778160095215
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.991215169429779
+    }
+   ]
+  },
+  {
+   "step": 256,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 129.1129150390625,
+   "eff_dim_raw": 168.91635131835938,
+   "eff_dim_jl_centered": 151.51011657714844,
+   "eff_dim_raw_centered": 172.68666076660156,
+   "cone_cos_jl": 0.03217752277851105,
+   "n_entities": 192,
+   "mean_drift": 0.741119455297788,
+   "deep_drift": 0.9627319127321243,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2412499338388443
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.375398725271225
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4835377335548401
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.577832818031311
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.6522672176361084
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.7150493264198303
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.7665328979492188
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.8115025758743286
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.8493443727493286
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.882523775100708
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.9106248021125793
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.9348085522651672
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.955064058303833
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9728344082832336
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9882206320762634
+    }
+   ]
+  },
+  {
+   "step": 512,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 80.23477935791016,
+   "eff_dim_raw": 116.09845733642578,
+   "eff_dim_jl_centered": 119.3362808227539,
+   "eff_dim_raw_centered": 152.35060119628906,
+   "cone_cos_jl": 0.06138172000646591,
+   "n_entities": 192,
+   "mean_drift": 0.7326583484808604,
+   "deep_drift": 0.9520366042852402,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.25737544894218445
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.3944501280784607
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.48377275466918945
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.5698522329330444
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.6392199993133545
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.6985002756118774
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.7490103244781494
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7956506013870239
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.8331918716430664
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.8664122819900513
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.8942928910255432
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.9200274348258972
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.941820502281189
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9633525609970093
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9829459190368652
+    }
+   ]
+  },
+  {
+   "step": 1000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 58.51699447631836,
+   "eff_dim_raw": 72.95021057128906,
+   "eff_dim_jl_centered": 74.86799621582031,
+   "eff_dim_raw_centered": 108.91600799560547,
+   "cone_cos_jl": 0.06177585944533348,
+   "n_entities": 192,
+   "mean_drift": 0.6631162871917089,
+   "deep_drift": 0.9077603816986084,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2052525132894516
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.35265663266181946
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.41535109281539917
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.48363861441612244
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.550574541091919
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.6058074235916138
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6563349962234497
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7021486759185791
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7418698668479919
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.7828661203384399
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.8192023038864136
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.857665479183197
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.890736997127533
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9238702058792114
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9587688446044922
+    }
+   ]
+  },
+  {
+   "step": 2000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 59.460018157958984,
+   "eff_dim_raw": 64.53473663330078,
+   "eff_dim_jl_centered": 78.03730773925781,
+   "eff_dim_raw_centered": 87.21231079101562,
+   "cone_cos_jl": 0.06523525714874268,
+   "n_entities": 192,
+   "mean_drift": 0.6727809727191925,
+   "deep_drift": 0.9065412282943726,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2824433445930481
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.3986832797527313
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4306718409061432
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.4854796826839447
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.5426929593086243
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.6013307571411133
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6719633340835571
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.7114510536193848
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7449547052383423
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.7827595472335815
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.8131191730499268
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8589065670967102
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8880391716957092
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9202913045883179
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9589278697967529
+    }
+   ]
+  },
+  {
+   "step": 3000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 55.22180938720703,
+   "eff_dim_raw": 61.8919677734375,
+   "eff_dim_jl_centered": 71.76991271972656,
+   "eff_dim_raw_centered": 80.28673553466797,
+   "cone_cos_jl": 0.0668599084019661,
+   "n_entities": 192,
+   "mean_drift": 0.6570799032847087,
+   "deep_drift": 0.8991055935621262,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2950941324234009
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.3867303133010864
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4117564558982849
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.4644384980201721
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.514164924621582
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.5724421143531799
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6459699869155884
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.6871235966682434
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7189584970474243
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.7671506404876709
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7959470152854919
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8533704280853271
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8776687383651733
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9106243848800659
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9547588229179382
+    }
+   ]
+  },
+  {
+   "step": 4000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 52.26887130737305,
+   "eff_dim_raw": 61.10475158691406,
+   "eff_dim_jl_centered": 67.7043685913086,
+   "eff_dim_raw_centered": 77.83893585205078,
+   "cone_cos_jl": 0.06908789277076721,
+   "n_entities": 192,
+   "mean_drift": 0.659234329064687,
+   "deep_drift": 0.8947787433862686,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.31850406527519226
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.39973771572113037
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.42186102271080017
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.47309476137161255
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.5171772837638855
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.5734622478485107
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6471610069274902
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.6858757734298706
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7122384309768677
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.7677951455116272
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7924925088882446
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8517985939979553
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8724679350852966
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9041426777839661
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9507057666778564
+    }
+   ]
+  },
+  {
+   "step": 6000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 53.08833694458008,
+   "eff_dim_raw": 61.14317321777344,
+   "eff_dim_jl_centered": 67.19763946533203,
+   "eff_dim_raw_centered": 76.75959014892578,
+   "cone_cos_jl": 0.06504759192466736,
+   "n_entities": 192,
+   "mean_drift": 0.6594259579976399,
+   "deep_drift": 0.8924873322248459,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.34115904569625854
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.4087952673435211
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.42901360988616943
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.479785293340683
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.5183547735214233
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.5691753625869751
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6399202942848206
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.6777356863021851
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.7010103464126587
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.765693187713623
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7907971739768982
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8526662588119507
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8699612021446228
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.9006363749504089
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9466854929924011
+    }
+   ]
+  },
+  {
+   "step": 9000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 50.77345657348633,
+   "eff_dim_raw": 62.00830078125,
+   "eff_dim_jl_centered": 64.23419189453125,
+   "eff_dim_raw_centered": 77.1519775390625,
+   "cone_cos_jl": 0.06713195145130157,
+   "n_entities": 192,
+   "mean_drift": 0.6456770261128744,
+   "deep_drift": 0.886731281876564,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.3391852080821991
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.39537936449050903
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4142753779888153
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.4629954695701599
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.49809563159942627
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.547555685043335
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.6136465072631836
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.6516407132148743
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.6767724752426147
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.7543566226959229
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7843272089958191
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8499873876571655
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8657279014587402
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.8932786583900452
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9379311800003052
+    }
+   ]
+  },
+  {
+   "step": 13000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 49.91075134277344,
+   "eff_dim_raw": 63.31159591674805,
+   "eff_dim_jl_centered": 63.98274612426758,
+   "eff_dim_raw_centered": 78.18578338623047,
+   "cone_cos_jl": 0.06987839192152023,
+   "n_entities": 192,
+   "mean_drift": 0.6370943566163381,
+   "deep_drift": 0.8799722641706467,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.3381480276584625
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.3909463882446289
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.4083000421524048
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.45796436071395874
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.49220728874206543
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.5382151007652283
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.5959524512290955
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.6373922228813171
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.6616543531417847
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.742110013961792
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7736360430717468
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8420059680938721
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.859174370765686
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.8860348463058472
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9326738715171814
+    }
+   ]
+  },
+  {
+   "step": 23000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 49.303890228271484,
+   "eff_dim_raw": 66.12208557128906,
+   "eff_dim_jl_centered": 63.84748458862305,
+   "eff_dim_raw_centered": 80.69610595703125,
+   "cone_cos_jl": 0.07231143116950989,
+   "n_entities": 192,
+   "mean_drift": 0.6218853731950124,
+   "deep_drift": 0.8761563897132874,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.321045458316803
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.3682447075843811
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.3877851665019989
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.43827077746391296
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.469114750623703
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.516740083694458
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.5709747076034546
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.6139590740203857
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.6424545645713806
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.7298840284347534
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7651817202568054
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8368786573410034
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8547650575637817
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.8816636204719543
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9313182234764099
+    }
+   ]
+  },
+  {
+   "step": 43000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 44.560306549072266,
+   "eff_dim_raw": 70.73849487304688,
+   "eff_dim_jl_centered": 57.580665588378906,
+   "eff_dim_raw_centered": 85.29977416992188,
+   "cone_cos_jl": 0.07790608704090118,
+   "n_entities": 192,
+   "mean_drift": 0.5998405675093333,
+   "deep_drift": 0.8709410578012466,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2976367473602295
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.33812543749809265
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.3577428162097931
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.4089696407318115
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.4372371733188629
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.4832015633583069
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.5318228602409363
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.5783378481864929
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.6139237284660339
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.7146906852722168
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7521557807922363
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8265612125396729
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.849097490310669
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.8787261843681335
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9293793439865112
+    }
+   ]
+  },
+  {
+   "step": 73000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 38.30208969116211,
+   "eff_dim_raw": 75.5381851196289,
+   "eff_dim_jl_centered": 49.34425735473633,
+   "eff_dim_raw_centered": 88.839111328125,
+   "cone_cos_jl": 0.08722952753305435,
+   "n_entities": 192,
+   "mean_drift": 0.5696153859297435,
+   "deep_drift": 0.8653952330350876,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2595728635787964
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.29593610763549805
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.3157798647880554
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.3663845658302307
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.39280056953430176
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.43929818272590637
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.4860203266143799
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.5354208946228027
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.5758851766586304
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.6889702081680298
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.7265810966491699
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.8126447200775146
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8403787612915039
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.878166913986206
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9303905367851257
+    }
+   ]
+  },
+  {
+   "step": 103000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 32.641448974609375,
+   "eff_dim_raw": 76.72931671142578,
+   "eff_dim_jl_centered": 43.98811721801758,
+   "eff_dim_raw_centered": 89.130859375,
+   "cone_cos_jl": 0.10147439688444138,
+   "n_entities": 192,
+   "mean_drift": 0.5394450773795446,
+   "deep_drift": 0.843646302819252,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.23629747331142426
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.2684745788574219
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.28658026456832886
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.3333180844783783
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.35742712020874023
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.40115705132484436
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.4461855888366699
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.49619126319885254
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.5390057563781738
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.6571111083030701
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.6953426599502563
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.7862019538879395
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.8166670203208923
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.8580832481384277
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.9136329889297485
+    }
+   ]
+  },
+  {
+   "step": 143000,
+   "mid_layer": 7,
+   "n_layers": 16,
+   "eff_dim_jl": 28.925193786621094,
+   "eff_dim_raw": 76.35553741455078,
+   "eff_dim_jl_centered": 43.85324478149414,
+   "eff_dim_raw_centered": 87.94832611083984,
+   "cone_cos_jl": 0.11867690831422806,
+   "n_entities": 192,
+   "mean_drift": 0.5091357856988907,
+   "deep_drift": 0.8207355588674545,
+   "drift_profile": [
+    {
+     "layer": 0,
+     "frac_depth": 0.0,
+     "drift_vocab": 0.2135842889547348
+    },
+    {
+     "layer": 1,
+     "frac_depth": 0.0625,
+     "drift_vocab": 0.2424880862236023
+    },
+    {
+     "layer": 2,
+     "frac_depth": 0.125,
+     "drift_vocab": 0.25860267877578735
+    },
+    {
+     "layer": 3,
+     "frac_depth": 0.1875,
+     "drift_vocab": 0.3006318509578705
+    },
+    {
+     "layer": 4,
+     "frac_depth": 0.25,
+     "drift_vocab": 0.3227546811103821
+    },
+    {
+     "layer": 5,
+     "frac_depth": 0.3125,
+     "drift_vocab": 0.3661032021045685
+    },
+    {
+     "layer": 6,
+     "frac_depth": 0.375,
+     "drift_vocab": 0.4101792275905609
+    },
+    {
+     "layer": 7,
+     "frac_depth": 0.4375,
+     "drift_vocab": 0.45830902457237244
+    },
+    {
+     "layer": 8,
+     "frac_depth": 0.5,
+     "drift_vocab": 0.5008077025413513
+    },
+    {
+     "layer": 9,
+     "frac_depth": 0.5625,
+     "drift_vocab": 0.6212737560272217
+    },
+    {
+     "layer": 10,
+     "frac_depth": 0.625,
+     "drift_vocab": 0.6593600511550903
+    },
+    {
+     "layer": 11,
+     "frac_depth": 0.6875,
+     "drift_vocab": 0.758226215839386
+    },
+    {
+     "layer": 12,
+     "frac_depth": 0.75,
+     "drift_vocab": 0.7926952838897705
+    },
+    {
+     "layer": 13,
+     "frac_depth": 0.8125,
+     "drift_vocab": 0.8368155360221863
+    },
+    {
+     "layer": 14,
+     "frac_depth": 0.875,
+     "drift_vocab": 0.8952051997184753
+    }
+   ]
+  }
+ ]
+}

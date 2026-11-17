@@ -1,0 +1,41 @@
+{
+  "models": [
+    "pythia-1b-deduped",
+    "pythia-1.4b-deduped"
+  ],
+  "late_steps": [
+    13000,
+    23000,
+    43000,
+    73000,
+    103000,
+    143000
+  ],
+  "n_items": 29,
+  "n_boot": 2000,
+  "seed": 0,
+  "observed": {
+    "endpoint_median_rank": {
+      "pythia-1b-deduped": 494.0,
+      "pythia-1.4b-deduped": 67.0
+    },
+    "endpoint_log10_median_diff": 0.8676521462228206,
+    "excess_path_length": {
+      "pythia-1b-deduped": 1.1558667824694489,
+      "pythia-1.4b-deduped": 0.12621474208207317
+    },
+    "excess_path_length_diff": 1.0296520403873757
+  },
+  "bootstrap": {
+    "endpoint_log10_median_diff_ci95": [
+      0.397111992249807,
+      1.1581470147988904
+    ],
+    "excess_path_length_diff_ci95": [
+      0.038018510440516275,
+      1.6938183734800683
+    ],
+    "p_endpoint_diff_le_0": 0.001,
+    "p_excess_path_diff_le_0": 0.0215
+  }
+}

@@ -48,13 +48,15 @@ def setup() -> None:
     })
 
 
-def save(fig, results_dir, name: str, bottom: float = 0.0) -> None:
+def save(fig, results_dir, name: str, bottom: float = 0.0,
+         top: float = 1.0) -> None:
     # bbox_inches="tight" is not used: it crops to content, so the output width
     # would no longer equal figsize. tight_layout keeps the canvas size and pulls
     # legends and axis labels back inside it instead of cropping them.
     # bottom: fraction of the canvas reserved for a fig.legend placed below the
-    # axes; with a fixed canvas it has to be reserved explicitly.
-    fig.tight_layout(pad=0.3, rect=[0, bottom, 1, 1])
+    # axes; with a fixed canvas it has to be reserved explicitly. top: the same
+    # for a fig.legend placed above the axes (upper edge of the axes area).
+    fig.tight_layout(pad=0.3, rect=[0, bottom, 1, top])
     for ext in ("pdf", "png"):
         fig.savefig(results_dir / "figures" / f"{name}.{ext}")
     print(f"  wrote figures/{name}.pdf .png")
